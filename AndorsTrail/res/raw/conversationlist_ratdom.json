@@ -1,0 +1,814 @@
+[
+    {
+        "id":"ratdom_check",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_quest",
+                        "value":999,
+						"negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"lodar2",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":115
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_colonel",
+                        "value":190,
+	"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_check_2"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_1",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Inactive",
+                "mapName":"home"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Active",
+                "mapName":"home"
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_2"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_2",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_2_mara",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_mara",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_check_3"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_2_mara",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Mara",
+                "mapName":"crossglen_hall"
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_3"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_3",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_3_gruil",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_gruil",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_check_4"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_3_gruil",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Gruil",
+                "mapName":"crossglen_hall"
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_4"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_4",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_4_tharal",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_tharal",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_check_5"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_4_tharal",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Tharal",
+                "mapName":"crossglen_hall"
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_5"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_5"
+    },
+    {
+        "id":"ratdom_mikhail",
+        "message":"Good. You are awake at last.",
+        "replies":[
+            {
+                "text":"A rat? Here?",
+                "nextPhraseID":"ratdom_mikhail_1"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_1",
+        "message":"Did you find your brother Andor already? He hasn't been back for too long now.",
+        "replies":[
+            {
+                "text":"Eh, what? No, I am still looking after Andor.",
+                "nextPhraseID":"ratdom_mikhail_2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_quest",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_2",
+        "message":"I should have thought so. Anyway.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ratdom_mikhail_3"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_3",
+        "message":"In the meanwhile try to be useful. Go to the town hall and buy me some more bread.",
+        "replies":[
+            {
+                "text":"OK.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Forget it.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Here I have some bread for you.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"bread",
+                        "value":1
+                    }
+                ],
+                "nextPhraseID":"ratdom_mikhail_4"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_4",
+        "message":"Was about time."
+    },
+    {
+        "id":"ratdom_rat",
+        "message":"This is my bed - go away!"
+    },
+    {
+        "id":"ratdom_maze_light1",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light1_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":1
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light1_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light1b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light1"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light1_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":1 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light1_on",
+		"rewards":[	{ "rewardType":"questProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light2",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light2_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":2
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light2_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":2,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light2b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light2"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light2_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light2_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light3",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light3_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":3
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light3_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":3,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light3b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light3"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light3_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light3_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light4",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light4_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":4
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light4_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":4,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light4b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light4"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light4_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light4_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light5",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light5_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":5
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light5_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":5,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light5b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light5"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light5_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light5_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light6",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light6_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":6
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light6_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":6,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light6b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light6"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light6_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light6_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light7",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light7_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":7
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light7_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":7,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light7b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light7"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light7_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light7_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light8",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light8_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":8
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light8_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":8,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light8b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light8"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light8_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light8_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light9",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light9_off",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":9
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_maze_light9_on",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_maze",
+                        "value":9,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ratdom_torch",
+                        "value":1
+					}
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light9b",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_maze_light9"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light9_off",
+        "rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    },
+    {
+        "id":"ratdom_maze_light9_on",
+		"rewards":[	{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze",	"value":1 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":2 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":3 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":4 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":5 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":6 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":7 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":8 },
+					{ "rewardType":"questProgress", "rewardID":"ratdom_maze", "value":9 },
+					{ "rewardType":"removeQuestProgress", "rewardID":"ratdom_maze", "value":10 }
+        ]
+    }
+]

@@ -55,6 +55,7 @@
         <item>@raw/itemlist_trader_teksin</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/itemlist_stoutford_combined</item>
+        <item>@raw/itemlist_ratdom</item>
     </array>
 
     <array name="loadresource_droplists">
@@ -84,6 +85,8 @@
         <item>@raw/droplists_trader_teksin</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/droplists_stoutford_combined</item>
+        <item>@raw/droplists_ideas</item>
+        <item>@raw/droplists_ratdom</item>
     </array>
 
     <array name="loadresource_quests">
@@ -108,6 +111,8 @@
         <item>@raw/questlist_guynmart</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/questlist_stoutford_combined</item>
+        <item>@raw/questlist_ideas</item>
+        <item>@raw/questlist_ratdom</item>
     </array>
 
     <array name="loadresource_conversationlists">
@@ -278,6 +283,8 @@
         <item>@raw/conversationlist_trader_teksin</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/conversationlist_stoutford_combined</item>
+        <item>@raw/conversationlist_ideas</item>
+        <item>@raw/conversationlist_ratdom</item>
     </array>
 
     <array name="loadresource_monsters">
@@ -315,6 +322,8 @@
         <item>@raw/monsterlist_trader_teksin</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/monsterlist_stoutford_combined</item>
+        <item>@raw/monsterlist_ideas</item>
+        <item>@raw/monsterlist_ratdom</item>
     </array>
 
     <array name="loadresource_maps">
@@ -826,6 +835,12 @@
         <item>@xml/wild21a</item>
         <item>@xml/wild22</item>
         <item>@xml/wild23</item>
+        <item>@xml/ideas1</item>
+        <item>@xml/ratdom_home</item>
+        <item>@xml/ratdom_crossglen</item>
+        <item>@xml/ratdom_crossglen_cave</item>
+        <item>@xml/ratdom_maze1</item>
+        <item>@xml/ratdom_maze2</item>
     </array>
 
     </resources>

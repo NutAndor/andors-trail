@@ -326,5 +326,19 @@
     {
         "id":"other",
         "name":"Other"
+    },
+    {
+        "id":"torch",
+        "name":"Torch",
+        "actionType":"equip",
+        "size":"std",
+        "inventorySlot":"weapon"
+    },
+    {
+        "id":"bigtorch",
+        "name":"Big torch",
+        "actionType":"equip",
+        "size":"large",
+        "inventorySlot":"weapon"
     }
 ]

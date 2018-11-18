@@ -1,0 +1,13 @@
+[
+    {
+        "id":"ni_",
+        "name":"Nuts ideas",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"..."
+            }
+        ]
+    }
+]

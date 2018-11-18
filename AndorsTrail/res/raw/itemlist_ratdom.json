@@ -1,0 +1,18 @@
+[
+    {
+        "id":"ratdom_torch",
+        "iconID":"items_misc:19",
+        "name":"Ratcave Torch",
+        "displaytype":"quest",
+        "category":"bigtorch",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":9
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":0,
+            "increaseBlockChance":1
+        }
+    }
+]

@@ -1,0 +1,55 @@
+[
+	{	"id":"ratdom_startitems2",
+		"items":[	
+			{ "itemID":"bone",		
+			  "chance":"100", 
+			  "quantity":{ "min":1, "max":10 } 
+			}]
+	},
+    {
+        "id":"drop_ratdom_mara",
+        "items":[
+            {
+                "itemID":"bread",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"drop_ratdom_gruil",
+        "items":[
+            {
+                "itemID":"gem1",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"drop_ratdom_tharal",
+        "items":[
+            {
+                "itemID":"health_minor2",
+                "chance":"50",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+	{	"id":"ratdom_drop_torch",
+		"items":[	
+			{ "itemID":"ratdom_torch",		
+			  "chance":"100", 
+			  "quantity":{ "min":1, "max":1 } 
+			}]
+	}
+]

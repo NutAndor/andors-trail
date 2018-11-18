@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,61 +180,46 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="10" height="10">
+ <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzj42Jg4CMS75bCj2HqTkvhxzB1JznxY0rU1XEzMNRDcQM3bnV9QLl+KJ6ApA7kH0LqdkP9g6xuHlBuPhQvgKoDqXnJicAnOVH5yBgA38ZAiQ==
+   eJztlTEOwCAMA1n5/0vYkPhcFyaUBpPgEqQO3trcESRTckolSGrPaQ+2b+uR5s2+8cTKvc03alrm+WpzrVzkP+t5GL4IZ8fc0U/y/WIv6J6Yvh7uW3/e9g5Y79TTb8iOGFwtjDtDXKvBdQcX6UZttsd51hMnuIz972JJPYRytR5b6dXV83i4Ue426tvzR84Dh5uUeQ==
   </data>
  </layer>
- <layer name="Objects" width="10" height="10">
+ <layer name="Objects" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAB8DMwLJRBcGFsAX5MpRuBcjdYGRj2s0LYj4BqHgIxowBCjTrIDBYGhhdANeeBuAKIP/EjMAyYE+m8razEqTvKCsEXxRgY3IH2FwLpYigbGdih8RuBapqxqItD4oPkJgLVTBaD8KuIdBMMAADVKhYu
+   eJxjYBg40CQwgJYTANjcNtTcS0315ABq2jHU3EtLM2lp31Bz7ygYBbQEgyV90ipfU8N/gyWMaAVI8R+54UztMByKcTJa94yCUUAZYGSiTD8A1l0NtA==
   </data>
  </layer>
- <layer name="Above" width="10" height="10">
+ <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeXBYjTt1hJHX49CCru0SkOkL2bmUlTh0y2MhPvL0nsajFpu4LDjMJAQBSIQv/
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="10" height="10" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGQY0KAWLW4zMXFRzePGupg4rj8CgDlrTZr
+   eJztVcsVgDAIcwr3X8ENvfa1FBMC4sGcLK+QVH7H0YfrXM+zrQuWjiy9O7/RxsZG7o4xZy6PN6pXzWVUr8KXDUtrFY+XJ5SX1av2gKoX5dmdlZhjbWbxeH4I79t6Fd6n/H8BFTWI2Oc7kd3jzc/MuWrFykLFrmR52V2JfFv9F9HH1pX6ryp7s3JXonPTm42WPzNX2fcovBF07IBO3h8rbrLkmF0=
   </data>
  </layer>
- <objectgroup name="mapevents">
-  <object id="1" name="entrance" type="mapchange" x="96" y="288" width="32" height="32">
+ <objectgroup name="Mapevents">
+  <object id="1" name="home" type="mapchange" x="448" y="928" width="32" height="32">
    <properties>
-    <property name="map" value="crossglen"/>
-    <property name="place" value="home"/>
-   </properties>
-  </object>
-  <object id="3" name="startitems2" type="container" x="256" y="256" width="32" height="32"/>
-  <object id="8" name="ratdom_check" type="script" x="64" y="256" width="96" height="32"/>
- </objectgroup>
- <objectgroup name="keys">
-  <object id="5" name="andor:1" type="key" x="0" y="288" width="320" height="32">
-   <properties>
-    <property name="phrase" value="keyarea_andor1"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="map" value="home"/>
+    <property name="place" value="ideas1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="spawn" visible="0">
-  <object id="6" name="mikhail" type="spawn" x="224" y="128" width="32" height="32"/>
- </objectgroup>
- <objectgroup name="Inactive">
-  <properties>
-   <property name="active" value="false"/>
-  </properties>
-  <object id="7" name="ratdom_start" type="mapchange" x="32" y="128" width="32" height="32">
+ <objectgroup name="Spawn">
+  <object id="3" name="ni_adventurer" type="spawn" x="288" y="896" width="64" height="64">
    <properties>
-    <property name="map" value="ratdom_home"/>
-    <property name="place" value="start"/>
+    <property name="spawngroup" value="ni_adventurer"/>
+   </properties>
+  </object>
+  <object id="5" name="ni_beggarchildren" type="spawn" x="32" y="32" width="896" height="896">
+   <properties>
+    <property name="quantity" value="25"/>
+    <property name="spawngroup" value="ni_beggarchildren"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Active">
-  <object id="2" name="rest" type="rest" x="32" y="128" width="32" height="32"/>
- </objectgroup>
+ <objectgroup name="Keys"/>
 </map>

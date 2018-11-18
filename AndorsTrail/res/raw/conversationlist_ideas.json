@@ -1,0 +1,48 @@
+[
+    {
+        "id":"ni_adventurer",
+        "message":"Hello, young one.",
+        "replies":[
+            {
+                "text":"Hello. Why are you limping?",
+                "nextPhraseID":"ni_adventurer_2"
+            }
+        ]
+    },
+    {
+        "id":"ni_adventurer_2",
+        "message":"I used to be an adventurer like you, then I took an arrow in the knee."
+    },
+    {
+        "id":"ni_beggarchildren",
+        "message":"Penny!",
+        "replies":[
+            {
+                "text":"Shove off, you scump!",
+                "nextPhraseID":"ni_beggarchildren"
+            },
+            {
+                "text":"Here you have 2 coins.",
+                "nextPhraseID":"ni_beggarchildren",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":2
+                    }
+                ]
+            },
+            {
+                "text":"Here you have 10 coins.",
+                "nextPhraseID":"R",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    }
+]

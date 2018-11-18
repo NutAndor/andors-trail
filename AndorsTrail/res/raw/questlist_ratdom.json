@@ -1,0 +1,28 @@
+[
+    {
+        "id":"ratdom_maze",
+        "name":"Ratdom_maze",
+        "showInLog":1,
+        "stages":[	
+			{ "progress":1, "logText":"Light-1"  },
+			{ "progress":2, "logText":"Light-2"  },
+			{ "progress":3, "logText":"Light-3"  },
+			{ "progress":4, "logText":"Light-4"  },
+			{ "progress":5, "logText":"Light-5"  },
+			{ "progress":6, "logText":"Light-6"  },
+			{ "progress":7, "logText":"Light-7"  },
+			{ "progress":8, "logText":"Light-8"  },
+			{ "progress":9, "logText":"Light-9"  },
+			{ "progress":10, "logText":"Light off"  }
+        ]
+    },
+    {
+        "id":"ratdom_quest",
+        "name":"More rats!",
+        "showInLog":1,
+        "stages":[	
+			{ "progress":10, "logText":"Light-9"  },
+			{ "progress":999, "logText":"End"  }
+        ]
+    }
+]

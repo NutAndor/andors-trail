@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -195,6 +195,11 @@
    eJxjYCAeXBYjTt1hJHX49CCru0SkOkL2bmUlTh0y2MhPvL0nsajFpu4LDjMJAQBSIQv/
   </data>
  </layer>
+ <layer name="Top" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAeXBYjTt1hJHX49CCru0SkOkL2bmUlTh0y2MhPvL0nsajFpu4LDjMJAQBSIQv/
+  </data>
+ </layer>
  <layer name="Walkable" width="10" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHGQY0KAWLW4zMXFRzePGupg4rj8CgDlrTZr
@@ -203,12 +208,13 @@
  <objectgroup name="mapevents">
   <object id="1" name="entrance" type="mapchange" x="96" y="288" width="32" height="32">
    <properties>
-    <property name="map" value="crossglen"/>
+    <property name="map" value="ratdom_crossglen"/>
     <property name="place" value="home"/>
    </properties>
   </object>
-  <object id="3" name="startitems2" type="container" x="256" y="256" width="32" height="32"/>
-  <object id="8" name="ratdom_check" type="script" x="64" y="256" width="96" height="32"/>
+  <object id="2" name="rest" type="rest" x="32" y="128" width="32" height="32"/>
+  <object id="3" name="ratdom_startitems2" type="container" x="256" y="256" width="32" height="32"/>
+  <object id="7" name="start" type="mapchange" x="64" y="128" width="32" height="32"/>
  </objectgroup>
  <objectgroup name="keys">
   <object id="5" name="andor:1" type="key" x="0" y="288" width="320" height="32">
@@ -220,21 +226,12 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="spawn" visible="0">
-  <object id="6" name="mikhail" type="spawn" x="224" y="128" width="32" height="32"/>
- </objectgroup>
- <objectgroup name="Inactive">
-  <properties>
-   <property name="active" value="false"/>
-  </properties>
-  <object id="7" name="ratdom_start" type="mapchange" x="32" y="128" width="32" height="32">
+ <objectgroup name="spawn">
+  <object id="6" name="ratdom_mikhail" type="spawn" x="224" y="128" width="32" height="32"/>
+  <object name="ratdom_rat" type="spawn" x="32" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="ratdom_home"/>
-    <property name="place" value="start"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
- </objectgroup>
- <objectgroup name="Active">
-  <object id="2" name="rest" type="rest" x="32" y="128" width="32" height="32"/>
  </objectgroup>
 </map>

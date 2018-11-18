@@ -5040,7 +5040,15 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"ring_shadow0",
-                "value":1
+,
+    {
+        "id":"ratdom_check_2",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_3"
+            }
+        ]
+    }                "value":1
             },
             {
                 "rewardType":"removeQuestProgress",

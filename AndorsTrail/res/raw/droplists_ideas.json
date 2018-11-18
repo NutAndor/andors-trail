@@ -1,0 +1,9 @@
+[
+	{	"id":"ni_beggarchildren",
+		"items":[	
+			{ "itemID":"gold",		
+			  "chance":"20", 
+			  "quantity":{ "min":1, "max":10 } 
+			}]
+	}
+]

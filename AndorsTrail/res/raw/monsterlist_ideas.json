@@ -1,0 +1,31 @@
+[
+    {
+        "id":"ni_adventurer",
+        "name":"Limping villager",
+        "iconID":"monsters_ld1:83",
+        "unique":1,
+        "phraseID":"ni_adventurer"
+    },
+    {
+        "id":"ni_beggarchildren",
+        "name":"Beggars",
+        "iconID":"monsters_tometik6:13",
+        "maxHP":120,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":0,
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":1,
+            "max":4
+        },
+        "droplistID":"ni_beggarchildren",
+        "attackCost":4,
+        "attackChance":40,
+        "blockChance":120,
+        "damageResistance":5,
+        "phraseID":"ni_beggarchildren",
+        "moveCost":1
+    }
+]

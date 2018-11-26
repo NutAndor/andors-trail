@@ -243,7 +243,7 @@
    eJzbLMbAsJlOGBnQy85Re0ftHS72YgOj9g4Pe3GBUXtH7R21d+jaCwA5BoyR
   </data>
  </layer>
- <layer name="Light8" width="30" height="20">
+ <layer name="Light8" width="30" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbLMbAsJkAJgcQMoeQneTai81setmLbv6ovcMnfokxl9r2UsNOUuylln2jeBSP4lE8ihkYAB+6agU=
   </data>
@@ -313,10 +313,10 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" visible="0">
+ <objectgroup name="Spawn">
   <object id="7" name="crossglen_caverat" type="spawn" x="64" y="96" width="128" height="416">
    <properties>
-    <property name="quantity" value="4"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="crossglen_caverat"/>
    </properties>
   </object>

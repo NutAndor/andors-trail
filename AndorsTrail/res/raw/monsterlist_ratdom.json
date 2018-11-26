@@ -8,7 +8,7 @@
     },
     {
         "id":"ratdom_rat",
-        "name":"Rat",
+        "name":"Clavred",
         "iconID":"monsters_rats:1",
         "unique":1,
         "phraseID":"ratdom_rat"

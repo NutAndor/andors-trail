@@ -28,9 +28,6 @@
 	"negate":true
                     }
                 ]
-            },
-            {
-                "nextPhraseID":"ratdom_check_2"
             }
         ]
     },
@@ -47,134 +44,12 @@
                 "rewardID":"Active",
                 "mapName":"home"
             }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_2"
-            }
         ]
     },
     {
-        "id":"ratdom_check_2",
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_2_mara",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"ratdom_mara",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ratdom_check_3"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_check_2_mara",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"Mara",
-                "mapName":"crossglen_hall"
-            }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_3"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_check_3",
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_3_gruil",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"ratdom_gruil",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ratdom_check_4"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_check_3_gruil",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"Gruil",
-                "mapName":"crossglen_hall"
-            }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_4"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_check_4",
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_4_tharal",
-                "requires":[
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"ratdom_tharal",
-                        "value":1
-                    }
-                ]
-            },
-            {
-                "nextPhraseID":"ratdom_check_5"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_check_4_tharal",
-        "rewards":[
-            {
-                "rewardType":"removeSpawnArea",
-                "rewardID":"Tharal",
-                "mapName":"crossglen_hall"
-            }
-        ],
-        "replies":[
-            {
-                "nextPhraseID":"ratdom_check_5"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_check_5"
-    },
-    {
-        "id":"ratdom_mikhail",
-        "message":"Good. You are awake at last.",
-        "replies":[
-            {
-                "text":"A rat? Here?",
-                "nextPhraseID":"ratdom_mikhail_1"
-            }
-        ]
-    },
-    {
-        "id":"ratdom_mikhail_1",
-        "message":"Did you find your brother Andor already? He hasn't been back for too long now.",
-        "replies":[
-            {
-                "text":"Eh, what? No, I am still looking after Andor.",
-                "nextPhraseID":"ratdom_mikhail_2"
-            }
-        ],
+        "id":"ratdom_wakeup",
+        "switchToNPC":"none",
+        "message":"You woke up as you hit the ground with a hard punch. Apparently you had a nightmare - there were rats everywhere! Anyway, you were not a bit recovered.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -184,18 +59,104 @@
         ]
     },
     {
-        "id":"ratdom_mikhail_2",
-        "message":"I should have thought so. Anyway.",
+        "id":"ratdom_mikhail",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"ratdom_mikhail_3"
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_mikhail",
+                        "value":90
+                    }
+                ],
+                "nextPhraseID":"F"
+            },
+            {
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_mikhail",
+                        "value":20
+                    }
+                ],
+                "nextPhraseID":"ratdom_mikhail_50"
+            },
+            {
+                "nextPhraseID":"ratdom_mikhail_10"
             }
         ]
     },
     {
-        "id":"ratdom_mikhail_3",
-        "message":"In the meanwhile try to be useful. Go to the town hall and buy me some more bread.",
+        "id":"ratdom_mikhail_10",
+        "message":"Good. You are awake at last.",
+        "replies":[
+            {
+                "text":"A rat? Here?",
+                "nextPhraseID":"ratdom_mikhail_12"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_12",
+        "message":"As you see. Did you find your brother Andor already? He hasn't been back for too long now.",
+        "replies":[
+            {
+                "text":"Eh, what? No, I am still looking after Andor.",
+                "nextPhraseID":"ratdom_mikhail_20"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_20",
+        "message":"I should have thought so. Anyway.",
+        "replies":[
+            {
+                "text":"What do you do in my house? Where is Mikhail?",
+                "nextPhraseID":"ratdom_mikhail_30"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_30",
+        "message":"We drove all the people out of this village.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"ratdom_mikhail_40"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_40",
+        "message":"However, two people are running around in the garden again. You should kill them.",
+        "replies":[
+            {
+                "text":"I'll have a look.",
+				"nextPhraseID":"ratdom_mikhail_42"
+            },
+            {
+                "text":"I would never do that!",
+				"nextPhraseID":"ratdom_mikhail_42"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_42",
+        "message":"Then try to be useful. Go to the town hall and buy me some more bread.",
         "replies":[
             {
                 "text":"OK.",
@@ -214,13 +175,176 @@
                         "value":1
                     }
                 ],
-                "nextPhraseID":"ratdom_mikhail_4"
+                "nextPhraseID":"ratdom_mikhail_44"
             }
         ]
     },
     {
-        "id":"ratdom_mikhail_4",
-        "message":"Was about time."
+        "id":"ratdom_mikhail_44",
+        "message":"Was about time.",
+        "replies":[
+            {
+                "text":"What - no thanks? Rats.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_50",
+        "message":"Is my garden clean of filthy humans again?",
+        "replies":[
+            {
+                "text":"I killed Mara and Tharal in the garden for you.",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_mara",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_tharal",
+                        "value":1
+                    }
+                ],
+                "nextPhraseID":"ratdom_mikhail_kills_52"
+            },
+            {
+                "text":"(lie) I killed Mara and Tharal in the garden for you.",
+                "nextPhraseID":"ratdom_mikhail_kills_54"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_kills_52",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":52
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_mikhail_kills_60"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_kills_54",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":54
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_mikhail_kills_60"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail_kills_60",
+        "message":"Good! Now I don't need you anymore!",
+        "replies":[
+            {
+                "text":"I will go then.",
+				"nextPhraseID":"X"
+            },
+            {
+                "text":"I have enough. Attack!",
+				"nextPhraseID":"F"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_kills",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_kills_mara",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_mara",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_mikhail",
+                        "value":30,
+						"negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"ratdom_check_kills_2"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_kills_mara",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Mara",
+                "mapName":"crossglen_hall"
+            }
+        ],
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_kills_2"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_kills_2",
+        "replies":[
+            {
+                "nextPhraseID":"ratdom_check_kills_tharal",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"ratdom_tharal",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"ratdom_mikhail",
+                        "value":32,
+						"negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"ratdom_check_kills_tharal",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"ratdom_mikhail",
+                "value":32
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"Tharal",
+                "mapName":"crossglen_hall"
+            }
+        ]
     },
     {
         "id":"ratdom_rat",

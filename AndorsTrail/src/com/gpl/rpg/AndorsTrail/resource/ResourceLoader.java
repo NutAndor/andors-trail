@@ -411,7 +411,8 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_window_1, "map_window_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_window_2, "map_window_2", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_guynmart, "map_guynmart", mapTileSize, sz1x1, mTileSize);
-		/*INSERT_MAP_TILESETS_HERE*/
+		loader.prepareTileset(R.drawable.map_ratdom, "map_ratdom", new Size(18, 6), sz1x1, mTileSize);
+				/*INSERT_MAP_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.effect_blood4, "effect_blood4", new Size(7, 2), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.effect_heal2, "effect_heal2", new Size(8, 2), sz1x1, mTileSize);

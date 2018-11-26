@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="17">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="23">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -203,12 +203,17 @@
    eJxjYKAciEswMEgAsaQEZWpIBepAszSAWBOPmcSoIQbQwv3EAGq5HwaGiz9wgcHsv8HmtsHmnlEwMICcdECNtENOOhgtRwYejIbNKBgF+MFoHqEMDMXwG4puRgcA4osSYQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFlNERwCAIQ52i+6/ghv3teTUJCbbc+dMKDwI4rzHmzweZ4qsyVN8urloDur9qcZKLesDioZ6hGCoX8Zluqu1yZuxUf5a38s+t2TGnLlUzheXmzOKle1Lh7u5+UW/Xu4C4rlVnAb0RLMYpbtf8n+A6Gin5d+37s7a3b8k87+Kq9SLtTuySa6znipYJM425ap4wE+3dea+y05lms9nNXLWpGvPt7GNH/7tny62/sr/uuQFP8nz2
+   eJzFVEEOgDAI2yv8/xf2Q08mhgAthSnJEuOgBVrd11r7h/PE+9kLBofl83hVTDbH42Xy7TvU8wRvpkEFw+ZnGCxvxu/NqATyC+sDVFPVgrlTZ1ZCmYvdGcOl9ozwFG1U3ij3i3k7XmR51ah6IftHIIxTvFP+P8Fra5kdMf2z86JdR/ddP2e47LzebiKciW9JjUjzioYdzi5mxSeTvBF+hUvhVrEzPU9y2t1UA9VO6jih/7S3mPlRPdtf9dyoKW4x
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <objectgroup name="Mapevents">
+  <object name="ratdom_check_kills" type="script" x="576" y="32" width="32" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
   <object id="1" name="cave" type="mapchange" x="576" y="32" width="32" height="32">
    <properties>
     <property name="map" value="ratdom_crossglen_cave"/>
@@ -239,6 +244,30 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object id="19" name="west1" type="mapchange" x="0" y="32" width="32" height="160">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east1"/>
+   </properties>
+  </object>
+  <object id="20" name="west2" type="mapchange" x="0" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="21" name="west3" type="mapchange" x="0" y="576" width="32" height="64">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
+  <object id="22" name="west4" type="mapchange" x="0" y="928" width="32" height="32">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east4"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="8" name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
@@ -246,8 +275,8 @@
     <property name="quantity" value="3"/>
    </properties>
   </object>
-  <object name="ratdom_mara" type="spawn" x="352" y="96" width="192" height="128"/>
-  <object name="ratdom_tharal" type="spawn" x="352" y="96" width="192" height="128"/>
+  <object id="17" name="ratdom_mara" type="spawn" x="352" y="96" width="192" height="128"/>
+  <object id="18" name="ratdom_tharal" type="spawn" x="352" y="96" width="192" height="128"/>
   <object id="10" name="crossglen_farmer1" type="spawn" x="192" y="320" width="256" height="128"/>
   <object id="11" name="crossglen_farmer2" type="spawn" x="64" y="416" width="96" height="192"/>
   <object id="12" name="crossglen_beetle" type="spawn" x="32" y="320" width="384" height="224"/>

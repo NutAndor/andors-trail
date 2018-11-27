@@ -196,7 +196,7 @@
  </layer>
  <layer name="Objects" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGLgAABwgAAQ==
+   eJxjYKAuMJfDFFPDIjYKRsEoGAWjgPrAAqm8xVYejwJMAADPNAFF
   </data>
  </layer>
  <layer name="Above" width="15" height="30" visible="0">
@@ -236,7 +236,7 @@
  </layer>
  <layer name="Light4" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKBrFo3gUj2IojidTXwIQg0AcmfrQwSkC+mxw6IMBcuwkZDchfbjMIORWfPrJ0QsCo3qJBwDAgbji
+   eJwrkmNgKBrFo3gUj2IojidTXwIQg0Ac1AxizYHpQwenCOizwaEPBrTIsBPZbmzuJ6QPl/sJuRWffnL0gsCoXuIBAJm6uGE=
   </data>
  </layer>
  <layer name="Light5" width="15" height="30" visible="0">
@@ -321,21 +321,15 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="44" name="crossglen_caverat_2" type="spawn" x="224" y="320" width="96" height="64">
+  <object id="44" name="crossglen_caverat_2" type="spawn" x="160" y="288" width="192" height="416">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="crossglen_caverat2"/>
    </properties>
   </object>
-  <object id="45" name="crossglen_caverat" type="spawn" x="32" y="96" width="352" height="128">
+  <object id="45" name="crossglen_caverat" type="spawn" x="288" y="64" width="128" height="160">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="crossglen_caverat"/>
-   </properties>
-  </object>
-  <object id="46" name="crossglen_caverat_3" type="spawn" x="96" y="576" width="320" height="256">
-   <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="crossglen_caverat"/>
    </properties>
   </object>

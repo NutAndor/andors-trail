@@ -236,12 +236,12 @@
  </layer>
  <layer name="Light4" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKBrFo3gUj2IojidTXwIQg0AcmfpgII5IN9ig6UM3gxQ7idVPSB8u/fjcSkg/qXqR9ZOjFwRGml4AkDq6Vw==
+   eJwrkmNgKBrFo3gUj2IojidTXwIQg0Ac1AxizYHpQwenCOizwaEPBsixE9lubO4npA+X+wm5FZ9+cvSCwKhe4gEANim4qQ==
   </data>
  </layer>
  <layer name="Light5" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKBrFo3gUj2IojidTXwIQg0AcmfrQwSkC+mxw6IMBcuwkZDchfbjMIORWfPrJ0QsCo3qJBwDAgbji
+   eJxjYBg5wEeOgcFPjjx9RUiYWDPQ9RGrH5c+ELbBoxefPkJ2xxGhF5/dxOjH528tCuwmpDeBTL349OHTi8+tlOolN20Q8iut0hWhuMGlnxg7kbEvEiZF3ygexSAMAI9Fmfg=
   </data>
  </layer>
  <layer name="Light6" width="15" height="30" visible="0">
@@ -280,7 +280,7 @@
   </object>
   <object id="33" name="north1" type="mapchange" x="0" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="ratdom_maze_418"/>
+    <property name="map" value="ratdom_maze_448"/>
     <property name="place" value="south2"/>
    </properties>
   </object>
@@ -321,21 +321,15 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
-  <object id="44" name="crossglen_caverat_2" type="spawn" x="224" y="320" width="96" height="64">
+  <object id="44" name="crossglen_caverat_2" type="spawn" x="160" y="288" width="192" height="416">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="crossglen_caverat2"/>
    </properties>
   </object>
-  <object id="45" name="crossglen_caverat" type="spawn" x="32" y="96" width="352" height="128">
+  <object id="46" name="crossglen_caverat_3" type="spawn" x="64" y="704" width="128" height="192">
    <properties>
-    <property name="quantity" value="2"/>
-    <property name="spawngroup" value="crossglen_caverat"/>
-   </properties>
-  </object>
-  <object id="46" name="crossglen_caverat_3" type="spawn" x="96" y="576" width="320" height="256">
-   <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="crossglen_caverat"/>
    </properties>
   </object>

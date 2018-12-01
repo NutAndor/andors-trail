@@ -842,6 +842,8 @@
         <item>@xml/ratdom_maze1</item>
         <item>@xml/ratdom_maze2</item>
         <item>@xml/ratdom_maze3</item>
+        <item>@xml/ratdom_maze_418</item>
+        <item>@xml/ratdom_maze_427</item>
         <item>@xml/ratdom_maze_428</item>
         <item>@xml/ratdom_maze_438</item>
         <item>@xml/ratdom_maze_447</item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="50">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="51">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -186,12 +186,9 @@
  <tileset firstgid="7705" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
   <image source="../drawable/map_ratdom.png" width="576" height="192"/>
  </tileset>
- <tileset firstgid="7813" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
-  <image source="../drawable/map_ratdom.png" width="576" height="192"/>
- </tileset>
  <layer name="Ground" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJytldENwyAMRDNJl2g7AmUEygg0EyCa3WskI1kn09goH/eR4Icxvjj1tm2V1EiFlEhv1kuoP2fShxWYq8CP9QTMTvqyOvtU+LFegDlEXODzII/7HPD+DvXMeFTnHsBaeMxn5c+4rrjIzXInB4u5i5OXuYdnwmLu5mCzcmcWtnP7AhuZQx9aWY1b9Ya11qt9Ze2N1h+Pp7A/Vk9l5Z6bIffME/J7wPkpOa23OEOTg8PZN+q3clr9/7gxE7UZFhRuxOMcxT3wn3LmvQhxXs/K8/wAIPzUUw==
+   eJytleERwiAMhTuFPzl2UEdARqCMgB0Bu6QTSU5y4rtIA2fv3o8WPkLIa7BmWWxRLkpFoWitoudm3qL3WHSvcpWzwPN4AGYrelQRexV4Hk/A7M08V/eDPK6zw/ez+eTS41HEXYDV8BhPyx9xJD/JsZ6nbzYMsBg7DfJtbPaMm4ydB9gonJmGJW6bYH3l0IdaVuJmvaHN9d++0tZGqs+Ip7A+Wk9F4ZyzIvYvT7T/w9rhpNpiDw0DHPY+zl/LSfn3OO6JUg9zAsfzsY/iGninHHnPw7xRz7b7eQFXu6W0
   </data>
  </layer>
  <layer name="Objects" width="15" height="30">
@@ -199,9 +196,9 @@
    eJxjYBgFo2AUjIJRMApGLgAABwgAAQ==
   </data>
  </layer>
- <layer name="Above" width="15" height="30" visible="0">
+ <layer name="Above" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYICAy2IMRAFs6i4R0AvTg66OGDtxmU3IzuEOiI0vbMBUbmTafZhMvSA7yUlv5OoDAXLdOpB6KY1bcgElaYLc+CHXTnqnJXrrc5UjP0xdyUg/5MaDG5pdAOe2Hvg=
+   eJxjYMAN3OTwSI6CAQWXxcjXa0phvA5Vuw9ToPcSGXoHyq0DpXeg4hakj5z4AQFy9Y2CwQEoyWPIAADh3g3Z
   </data>
  </layer>
  <layer name="Top" width="15" height="30" visible="0">
@@ -211,7 +208,7 @@
  </layer>
  <layer name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYICAjWKkY2RAa/3Y1GEDpJhPDCDW/aToI9b9pOilZ9xRohdXXNLb3aTqHwi91NJHDzsHOl0NhF5qhjOxevEBcvXhM4OQGlxypPgLWR0p+mDqsZlDKgYAGv3yiQ==
+   eJxjYICAjWKYGJc4sjwDHv2EMCn6sanDBkgxnxhArPtJ0Ues+0nRS8uwp1W80zrNUDPMBkIvtfTRw86BTlcDoZea4UysXnyAXH34zCCkBpccKf5CVkeKPph6bOaQigG5RfHC
   </data>
  </layer>
  <layer name="Light10" width="15" height="30" visible="0">
@@ -221,37 +218,37 @@
  </layer>
  <layer name="Light1" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdaMkxMBTJkaFxEOj1I0M/TG8RiWb4oOkjVj8ufSBsg0cvsr7NYqTZrUWEXlxhjx4+uDC63fj8iQv7QjGp+kbxKB7FoxgXBgDmZ8If
+   eJxjYCAdaMkxMBTJkaFxEOj1I0M/TK8VEPuSYIYPUJ01VG8RkhmE9GPTB8M2ePQi69sshqkXn91aSOqw6cVntxYOtxKyG58/sen3RcLE6BnFo3gUj2JiMABT37+r
   </data>
  </layer>
  <layer name="Light2" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKAJiGyAmFRRRQW8CmXrJsdOHTPfC9MGwH5H60fURqx+XPkJux6cPn93E6MNmN7H60O0mVR8M+5KpbxSP4lE8ivFhABudx9Y=
+   eJwrkmNgKAJiGyAmFRRRQW8CmXrJsdOHTPeC9FlD9VoBsR+R+pH1FZGgH5s+YsIanz58dhPSh8tumD5i9CLb7UOEemz6fYm0axSP4lE8iknBALDQxQY=
   </data>
  </layer>
  <layer name="Light3" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKBrFo3gUj2IkHA/FpOpJAGIYiCNSH7IeZEBIvw0OfTCgRYadhOwmpA+XfmL1obudVH3IeskBI1UvABEdt1Y=
+   eJwrkmNgKBrFo3gUj2IkbAPFpOiJB+IEIIaBOCL1IetBBoT02+DQBwNaZNhJyG5C+nDpJ1YfuttJ1YeslxwwUvUCAEP6txA=
   </data>
  </layer>
  <layer name="Light4" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKBrFo3gUj2IojidTXwIQg0Ac1AxizYHpQwenCOizwaEPBsixE9lubO4npA+X+wm5FZ9+cvSCwKhe4gEANim4qQ==
+   eJwrkmNgKBrFo3gUj2IojidDjwYQJwAxCMRBzSDGHGR96ABkjiYevTY49MGAFhl2Itsdj2Y/MfpwuZ+QW3HpJ1cvCIzqJR4AABZ5tK4=
   </data>
  </layer>
  <layer name="Light5" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBg5wEeOgcFPjjx9RUiYWDPQ9RGrH5c+ELbBoxefPkJ2xxGhF5/dxOjH528tCuwmpDeBTL349OHTi8+tlOolN20Q8iut0hWhuMGlnxg7kbEvEiZF3ygexSAMAI9Fmfg=
+   eJxjYBg5wEeOgcFPjjx91kBsBcS+JJgB01eEhK2I0I9NHwzb4NGLTx8hu+Pw6EPWjwsQ0k/I31oE9OPzNyG9CWTqxacPn158bqVUL7lpg5BfaZWuCMUNLv2E7ETX74uEidEzikcxMgYAxLOWyA==
   </data>
  </layer>
  <layer name="Light6" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgKBrFZOF4PBifPhsgxge0yNTrQ4Sb/XDojyNCLz67idGPy25CfiZkNyG9CWTqxacPn15C8UuJXnxxPBjTFaG4wRfOhNIUJf4lFLcgu7HlY0L6cLmfFH3I+snRNwpIBwAR6n8H
+   eJwrkmNgKBrFZOF4PBifPhsgxge0yNTrA5SzJmC3Hw79cUT4F5/dxOjHZTchPxOym5DeBDL14tOHTy+h+KVEL744HozpilDc4AtnUJrSpFE+IhS3ILvjsdhPSB8u95OiD1k/OfpGAekAAOmzfYc=
   </data>
  </layer>
  <layer name="Light7" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwrkmNgsAFiYoEWUG0REh4ovSDsR6R+bHqJsdsHiz5i9WKzk1h349OLz25c7iXG7jgi9OKzmxj9+PyNz8+E7CakN4FMvfj04dNLSfogpBdfHBPSOxDpilDc4AtnQmmKVv4diXrxhTWhfIDLbmLL98GgFwA+X3Vv
+   eJwrkmNgsAFiYoEWUG0REh4ovSDsR6R+bHqJsdsHiz5i9WKzk1h349OLz26Qe63x6LXCY3ccHn3E2E1IPz67CfmZkN2E9CaQqRefPnx6KUkfhPTii2NCemmVrvClaUJxgy+cCaUpWvl3JOrFF9aE8gEuu4kt3weDXgCowHRa
   </data>
  </layer>
  <layer name="Light8" width="15" height="30" visible="0">
@@ -280,7 +277,7 @@
   </object>
   <object id="33" name="north1" type="mapchange" x="0" y="0" width="64" height="32">
    <properties>
-    <property name="map" value="ratdom_maze_448"/>
+    <property name="map" value="ratdom_maze_418"/>
     <property name="place" value="south2"/>
    </properties>
   </object>
@@ -321,6 +318,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
+  <object id="50" name="ratdom_rat" type="spawn" x="224" y="0" width="32" height="32"/>
   <object id="44" name="crossglen_caverat_2" type="spawn" x="160" y="288" width="192" height="416">
    <properties>
     <property name="quantity" value="2"/>

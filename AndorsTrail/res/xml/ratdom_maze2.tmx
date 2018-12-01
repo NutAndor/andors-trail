@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="8" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="48">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="8" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="49">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,19 +183,22 @@
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7705" name="map_ratdom" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_ratdom.png" width="576" height="192"/>
+ </tileset>
  <layer name="Ground" width="8" height="30">
   <data encoding="base64" compression="zlib">
-   eJyFk8sNgCAQRA03LcwqbUG4eAdKQFvQPsS4JJPJiIeXKG+z7Cd4NwzeSIQHcmUnIrijchKlEsxtoyZ0nPKr3bkYXx5BH4XHHMXpGMyhYriOJ4Zr4d7+al0h9zy9/3hP89l8tG/0OP9Cu+B8qr6eV32jY992puamZo7+ay9/u1N74RiunXe3WMwz49ZH84niMG8Sb4bhN8Nn19jnBuvcsHo=
+   eJyVk80NgkAQhTd7wyL24tGj2oKtaGIFauiEFsCLd5YSkBawD2fCTvYxDhpJXsLO95idn9B455qkqMSPsI50DM49fVYL7ETsQhp9Vk+6k84Uv5IexVy3MPES2Jbe13Bmjt/U6c4qaYmj9pCvNTjm6L3tkRxcs+XBHOLRtWAd7PlVaw25D6vpjPcI5/lvwlRTpzj7B597GwxeQm9l+OR6b7In3bdmyDkmO7PmZs0c+dJehP+zF+3Re9G7q5KHZ8x97KC/qHyYN/r5/2JpVNKxV/Fdb+Pap3k=
   </data>
  </layer>
  <layer name="Objects" width="8" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPeMqEKfaYCVOuE8iei0UtJYAa5sHMeEyEWbjUILuDGDX0Ak+R/IYtnrCB2XjUYZPDp54agF7xQmt/kAoA6LkSHQ==
+   eJxjYBgFo2AUDFUAAAPAAAE=
   </data>
  </layer>
  <layer name="Above" width="8" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUEAOCJAfaBZgAAEGDAGw=
+   eJxjYMAN3OTwSJIALovhlz9MY3liACE30ssMYszGZg9yGKCHB0j9JSSxS2jytA7/wS4/lAEA9k8SsA==
   </data>
  </layer>
  <layer name="Top" width="8" height="30" visible="0">
@@ -210,12 +213,12 @@
  </layer>
  <layer name="Light1" width="8" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbLMbAsBmIcQF8cgMFNoshMKXy5JqBro5SeXLdii6PrgabPLIaWsmPYvpgACkqcqM=
+   eJzTkGNgSABiXACfHK2BDw67tYDivkBchEe+CI98HJK8HxXU2OAJI5C8FR4zYHbgUlOE5A5s9iDLYzMDWR6bGejy6P7FJo+sBpd8EVIcjWLaYQDXfVEB
   </data>
  </layer>
  <layer name="Light2" width="8" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbLMbAsHkUD1sMAwMtj0sNKfLY1GADhOSR1RCSR1YTJEmcO+gZvwCCNZsZ
+   eJzbLMbAsHkUD1kcJ4dfHgTwqYEBLRxqiJXHZQcywGYGMsBmBjpAV4MNIKvBBWBuISTvJ4cQC5LE7hdkNSDgg8UfvnIITM34BwAm6JTb
   </data>
  </layer>
  <layer name="Light3" width="8" height="30" visible="0">
@@ -250,7 +253,7 @@
  </layer>
  <layer name="Walkable" width="8" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFOGB1gk8PGx6UHm7mE7CZXHqaGGP/RQg2usKGHPDZAbLwSG260lqeWGnzyA4EB9OaP0A==
+   eJzbKMbAsBEHBgFccuRgdIBNDhsflx5s5hKym1x5YsKDWDPIUYMrbOghjw0QG6/Ehhut5amlBp/8QGAAIGKPCQ==
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -304,6 +307,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
+  <object id="48" name="ratdom_rat" type="spawn" x="224" y="0" width="32" height="32"/>
   <object id="44" name="crossglen_caverat_2" type="spawn" x="96" y="320" width="64" height="32">
    <properties>
     <property name="quantity" value="2"/>

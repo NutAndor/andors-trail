@@ -221,6 +221,7 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
+  <object name="ratdom_rat" type="spawn" x="224" y="0" width="32" height="32"/>
   <object id="3" name="crossglen_caverat" type="spawn" x="128" y="352" width="384" height="160">
    <properties>
     <property name="quantity" value="4"/>

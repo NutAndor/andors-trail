@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="2017.05.26" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" nextobjectid="17">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="25">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,6 +183,9 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
+ </tileset>
  <layer name="Ground" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztlkEOgjAQRRtdGNmyJHoDObFXEOIJkCMgl0AvAO4ssQ3Dd6ZUpbpx8aIW6Wsn9A/ZQqlcU2vODirNQZMZToTS/KeAcUtmHMf1ADcmUYDHUpO1cWsuzD1Ob8xgrlXgsdD5pFrVE94yfgbn9anNFOhtEqUuhGsyj4fz0tq32rNcKdUlD26BvDlT+2/g+yz/vWG8m8hNKO9Wz51G40/6PZQXXfh7Li/WcBe5mcvL1pDLashNcXziOvViDbmsxrwejTNI92XgpfvFrGbzWnCwawFvv+eU8bbJkNM2szGvqQPX2OPab+9995lpSB06hkaoE/ajV7H9S+pbrdDXyh/1o1842TM2dR5nxOechsDrnAbA55z++Yw+N/YCob0SId+97knhh3c=
@@ -200,10 +203,30 @@
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzFlNERwCAIQ52i+6/ghv3teTUJCbbc+dMKDwI4rzHmzweZ4qsyVN8urloDur9qcZKLesDioZ6hGCoX8Zluqu1yZuxUf5a38s+t2TGnLlUzheXmzOKle1Lh7u5+UW/Xu4C4rlVnAb0RLMYpbtf8n+A6Gin5d+37s7a3b8k87+Kq9SLtTuySa6znipYJM425ap4wE+3dea+y05lms9nNXLWpGvPt7GNH/7tny62/sr/uuQFP8nz2
+   eJzFlF0OgDAIg3cK73+F3dAnE0P4aQtTkiXGsX6Dovtaa/+wnng/e4HooDyPq2qiOR4XybfvqjtPcDMPGA2bn2mg3Izv1ahENS/oHFRnWC+QPbVmJZS60J4hLPXOlZ7ijcqNcr+otzOLKFcNdhayf0SlcYo7Nf8nuPYs0iPk/mi9Va+j/e48Z7povV5vIp2Jb0mNyHPGww6zq8nMySQ30mdYClvVzvw8ybS9YaM6O+njhP/Ts6XWz3y/6roB81lzog==
   </data>
  </layer>
- <objectgroup name="Mapevents" visible="0">
+ <layer name="Top" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <layer name="ratdom_Top" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztVUEKwCAM6y/mXrDt/x9cL4IMVlMbGY4GPBljU6OKxLEVkaJjLzYP4Xg0D507dVwdTYTT00Q9soF6RLGqD0/dTH+eunu86iFS38j5VQ/P+jxazByyM52IYSSXjHfkLZfImtnZQfzNeEsRf1/fn1X/kAQP7AxYeu0cOwOWXmSvvCMxePvH6re3fy3/D2d+A2m5HOU=
+  </data>
+ </layer>
+ <layer name="Top0" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwQEBAAAAgiD/r25IQAEAAPBoDhAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="Mapevents">
+  <object id="17" name="ratdom_check_kills" type="script" x="576" y="32" width="32" height="32">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
   <object id="1" name="cave" type="mapchange" x="576" y="32" width="32" height="32">
    <properties>
     <property name="map" value="crossglen_cave"/>
@@ -246,6 +269,24 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object id="18" name="west1" type="mapchange" x="0" y="32" width="32" height="160">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east1"/>
+   </properties>
+  </object>
+  <object id="19" name="west2" type="mapchange" x="0" y="544" width="32" height="32">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east2"/>
+   </properties>
+  </object>
+  <object id="20" name="west3" type="mapchange" x="0" y="576" width="32" height="64">
+   <properties>
+    <property name="map" value="ratdom_bwm1"/>
+    <property name="place" value="east3"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="8" name="crossglen_wasp" type="spawn" x="736" y="160" width="192" height="160">
@@ -269,6 +310,35 @@
   <object id="14" name="odair" type="spawn" x="896" y="32" width="32" height="32"/>
   <object id="15" name="oromir" type="spawn" x="896" y="864" width="32" height="32"/>
   <object id="16" name="halvor" type="spawn" x="736" y="608" width="32" height="32"/>
+  <object id="21" name="ratdom_mara" type="spawn" x="352" y="96" width="192" height="128">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
+  <object id="22" name="ratdom_tharal" type="spawn" x="352" y="96" width="192" height="128">
+   <properties>
+    <property name="active" value="false"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
+ <objectgroup name="Replace" visible="0">
+  <object id="23" name="ratdom_nondisplay_1" type="replace" x="0" y="0" width="960" height="960">
+   <properties>
+    <property name="Top" value="ratdom_Top"/>
+    <property name="requireId" value="ratdom_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="24" name="ratdom_nondisplay_not_1" type="replace" x="0" y="0" width="960" height="960">
+   <properties>
+    <property name="Top" value="Top0"/>
+    <property name="requireId" value="ratdom_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

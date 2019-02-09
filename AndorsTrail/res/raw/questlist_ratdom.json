@@ -1,0 +1,230 @@
+[
+    {
+        "id":"ratdom_quest",
+        "name":"Yellow is it",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"You woke up when you felt that something had bitten you in your toe. Apparently you had a nightmare - there were rats everywhere! Anyway, you were not a bit recovered."
+            },
+            {
+                "progress":50,
+                "logText":"A small, naughty rat claimed that it could help you get out of here. In return, it required you to help to find a yellow, round artefact."
+            },
+            {
+                "progress":60,
+                "logText":"In the deep of the cave you found a new statue, that resembles to your brother Andor."
+            },
+            {
+                "progress":70,
+                "logText":"The rats had build up the statue of Andor in memory that he never killed them. You should begin your search behind this statue."
+            },
+            {
+                "progress":80,
+                "logText":"You would need a pickaxe to tear down the statue."
+            },
+            {
+                "progress":82,
+                "logText":"Audir, the smith of Crossglen, gave you an old, sturdy pickaxe."
+            },
+            {
+                "progress":90,
+                "logText":"You tore down the statue of Andor. Behind it in the wall you found a hole in the shape of a bone."
+            },
+            {
+                "progress":100,
+                "logText":"You put a bone into the hole, and a door opened."
+            },
+            {
+                "progress":110,
+                "logText":"A torch helped you to see in the dark. Unfortunately, the torch is so heavy that you have to lift it with both hands."
+            },
+            {
+                "progress":120,
+                "logText":"You found a platform from which you have a good view over Crossglen. Andor seemed to have been here many times."
+            },
+            {
+                "progress":900,
+                "logText":"You had finally found the yellow artefact. It was a big smelly cheese, almost everlasting food. Clevred was overjoyed!"
+            },
+            {
+                "progress":950,
+                "logText":"You fought your way through the roundlings. But Clevred was seriously wounded. He was just able to give you his beloved artefact. With a last breath he thanked for your company and died in your arms."
+            },
+            {
+                "progress":952,
+                "logText":"You persuaded Clevred to leave the artefact behind. He left you disappointedly then."
+            },
+            {
+                "progress":999,
+                "logText":"End"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_nondisplay",
+        "name":"ratdom_nondisplay",
+        "showInLog":0,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"1=Ratdom active"
+            },
+            {
+                "progress":2,
+                "logText":"2=Rat statue built"
+            },
+            {
+                "progress":3,
+                "logText":"3=Maze entry open"
+            },
+            {
+                "progress":5,
+                "logText":"5"
+            },
+            {
+                "progress":6,
+                "logText":"6"
+            },
+            {
+                "progress":7,
+                "logText":"7"
+            },
+            {
+                "progress":8,
+                "logText":"8"
+            },
+            {
+                "progress":9,
+                "logText":"9"
+            },
+            {
+                "progress":10,
+                "logText":"10=Clevred company"
+            },
+            {
+                "progress":11,
+                "logText":"11=Clevred got artefact"
+            },
+            {
+                "progress":12,
+                "logText":"12=Artefact brought back"
+            },
+            {
+                "progress":13,
+                "logText":"13=Clevred dead/gone"
+            },
+            {
+                "progress":21,
+                "logText":"21=Rat final_1"
+            },
+            {
+                "progress":22,
+                "logText":"22=Rat final_2"
+            },
+            {
+                "progress":23,
+                "logText":"23=Rat final_3"
+            }
+        ]
+    },
+    {
+        "id":"ratdom_mikhail",
+        "name":"More rats!",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"A huge rat called Gruiik told you, that they drove all the people out of this village."
+            },
+            {
+                "progress":20,
+                "logText":"Some two-legs were running around in the garden again. You should kill them."
+            },
+            {
+                "progress":30,
+                "logText":"You killed Mara."
+            },
+            {
+                "progress":32,
+                "logText":"You killed Tharal."
+            },
+            {
+                "progress":52,
+                "logText":"You told Gruiik, that you killed Mara and Tharal.",
+                "rewardExperience":500
+            },
+            {
+                "progress":54,
+                "logText":"You lied to Gruiik, that you killed Mara and Tharal.",
+                "rewardExperience":500
+            },
+            {
+                "progress":70,
+                "logText":"Gruiik was hungry and asked to bring him bread."
+            },
+            {
+                "progress":72,
+                "logText":"You found a bread in a bag hanging at the door of the Crossglen town hall."
+            },
+            {
+                "progress":74,
+                "logText":"You gave a bread to Gruiik.",
+                "rewardExperience":200
+            },
+            {
+                "progress":90,
+                "logText":"The huge rat ignored you furthermore.",
+                "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"ratdom_maze",
+        "name":"Ratdom_maze",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"Light-1"
+            },
+            {
+                "progress":2,
+                "logText":"Light-2"
+            },
+            {
+                "progress":3,
+                "logText":"Light-3"
+            },
+            {
+                "progress":4,
+                "logText":"Light-4"
+            },
+            {
+                "progress":5,
+                "logText":"Light-5"
+            },
+            {
+                "progress":6,
+                "logText":"Light-6"
+            },
+            {
+                "progress":7,
+                "logText":"Light-7"
+            },
+            {
+                "progress":8,
+                "logText":"Light-8"
+            },
+            {
+                "progress":9,
+                "logText":"Light-9"
+            },
+            {
+                "progress":10,
+                "logText":"Light off"
+            }
+        ]
+    }
+]

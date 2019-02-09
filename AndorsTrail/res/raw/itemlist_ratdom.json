@@ -1,0 +1,54 @@
+[
+    {
+        "id":"ratdom_artefact",
+        "iconID":"items_consumables:23",
+        "name":"Rat's artefact",
+        "displaytype":"extraordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":3000,
+        "category":"food",
+        "description":"A hard, dry cheese wheel that seems to last almost for ever.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":2,
+                    "duration":400,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"ratdom_pickaxe",
+        "iconID":"items_misc_5:24",
+        "name":"Pickaxe",
+        "displaytype":"quest",
+        "category":"axe",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":2
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":-1,
+            "increaseBlockChance":1
+        }
+    },
+    {
+        "id":"ratdom_torch",
+        "iconID":"items_misc:19",
+        "name":"Ratcave Torch",
+        "displaytype":"quest",
+        "category":"bigtorch",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":9
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":0,
+            "increaseBlockChance":1
+        }
+    }
+]

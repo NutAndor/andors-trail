@@ -3,16 +3,6 @@
         "id":"mikhail_start_select",
         "replies":[
             {
-                "nextPhraseID":"ratdom_mikhail",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"ratdom_nondisplay",
-                        "value":2
-                    }
-                ]
-            },
-            {
                 "nextPhraseID":"mikhail_start_select2",
                 "requires":[
                     {

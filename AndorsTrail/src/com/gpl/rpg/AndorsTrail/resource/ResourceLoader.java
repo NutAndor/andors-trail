@@ -273,6 +273,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.actorconditions_1, "actorconditions_1", new Size(14, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.actorconditions_2, "actorconditions_2", sz3x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.actorconditions_japozero, "actorconditions_japozero", new Size(16, 4), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.actorconditions_omi1, "actorconditions_omi1", sz1x1, sz1x1, mTileSize);
 		/*INSERT_ACTORCONDITIONS_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.items_armours, "items_armours", new Size(14, 3), sz1x1, mTileSize);
@@ -298,6 +299,8 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.items_rings_1, "items_rings_1", new Size(10, 3), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_japozero, "items_japozero", new Size(16, 37), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.items_rijackson_1, "items_rijackson_1", new Size(5, 4), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_g03_package_omi1, "items_g03_package_omi1", sz1x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.items_consumables_omi1, "items_consumables_omi1", sz1x1, sz1x1, mTileSize);
 		/*INSERT_ITEMS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.monsters_armor1, "monsters_armor1", sz1x1, sz1x1, mTileSize);
@@ -347,7 +350,10 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_zombie1, "monsters_zombie1", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_zombie2, "monsters_zombie2", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_guynmart, "monsters_guynmart", new Size(8, 2), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_maksiu1, "monsters_maksiu1", new Size(4, 4), sz1x1, mTileSize);		
+		loader.prepareTileset(R.drawable.monsters_maksiu1, "monsters_maksiu1", new Size(4, 4), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_omi1, "monsters_omi1", sz2x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_omi1_b, "monsters_omi1_b", sz1x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_unknown, "monsters_unknown", sz1x1, sz1x1, mTileSize);
 		/*INSERT_NPCS_TILESETS_HERE*/
 		
 		loader.prepareTileset(R.drawable.map_bed_1, "map_bed_1", mapTileSize, sz1x1, mTileSize);

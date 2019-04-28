@@ -273,7 +273,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.actorconditions_1, "actorconditions_1", new Size(14, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.actorconditions_2, "actorconditions_2", sz3x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.actorconditions_japozero, "actorconditions_japozero", new Size(16, 4), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.actorconditions_omi1, "actorconditions_omi1", sz1x1, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.actorconditions_omi1, "actorconditions_omi1", sz2x1, sz1x1, mTileSize);
 		/*INSERT_ACTORCONDITIONS_TILESETS_HERE*/
 
 		loader.prepareTileset(R.drawable.items_armours, "items_armours", new Size(14, 3), sz1x1, mTileSize);

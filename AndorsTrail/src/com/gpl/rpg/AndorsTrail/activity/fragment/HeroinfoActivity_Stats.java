@@ -67,10 +67,14 @@ public final class HeroinfoActivity_Stats extends Fragment {
 		View v = inflater.inflate(R.layout.heroinfo_stats, container, false);
 		view = v;
 
+		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this.getActivity());
+		if (!app.isInitialized()) return v;
+		
 		TextView tv = (TextView) v.findViewById(R.id.heroinfo_title);
-		tv.setText(player.getName());
-		tv.setCompoundDrawablesWithIntrinsicBounds(HeroCollection.getHeroLargeSprite(player.iconID), 0, 0, 0);
-
+		if (tv != null) {
+			tv.setText(player.getName());
+			tv.setCompoundDrawablesWithIntrinsicBounds(HeroCollection.getHeroLargeSprite(player.iconID), 0, 0, 0);
+		}
 		heroinfo_container = (ViewGroup) v.findViewById(R.id.heroinfo_container);
 		heroinfo_reequip_cost = (TextView) v.findViewById(R.id.heroinfo_reequip_cost);
 		heroinfo_useitem_cost = (TextView) v.findViewById(R.id.heroinfo_useitem_cost);

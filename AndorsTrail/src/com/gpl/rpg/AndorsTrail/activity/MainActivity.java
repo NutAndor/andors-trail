@@ -308,7 +308,7 @@ public final class MainActivity
 
 
 	@Override
-	public void onPlayerMoved(Coord newPosition, Coord previousPosition) { }
+	public void onPlayerMoved(PredefinedMap map, Coord newPosition, Coord previousPosition) { }
 
 	@Override
 	public void onPlayerEnteredNewMap(PredefinedMap map, Coord p) { }

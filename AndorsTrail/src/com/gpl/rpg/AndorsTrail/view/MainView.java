@@ -665,7 +665,8 @@ public final class MainView extends SurfaceView
 	
 	
 	@Override
-	public void onPlayerMoved(Coord newPosition, Coord previousPosition) {
+	public void onPlayerMoved(PredefinedMap map, Coord newPosition, Coord previousPosition) {
+		if (map != currentMap) return;
 		recalculateMapTopLeft(newPosition, preferences.enableUiAnimations);
 		redrawAll(RedrawAllDebugReason.PlayerMoved);
 	}

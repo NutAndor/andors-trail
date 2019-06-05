@@ -48,7 +48,10 @@ public final class HeroinfoActivity_Skills extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.heroinfo_skill_list, container, false);
-
+		
+		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this.getActivity());
+		if (!app.isInitialized()) return v;
+		
 		final Activity ctx = getActivity();
 
 		new SpinnerEmulator(v,R.id.skillList_category_filters_button, R.array.skill_category_filters, R.string.heroinfo_skill_categories) {

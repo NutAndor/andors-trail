@@ -3,9 +3,13 @@ package com.gpl.rpg.AndorsTrail.activity;
 import java.util.Collections;
 import java.util.List;
 
+import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -13,6 +17,7 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.gpl.rpg.AndorsTrail.AndorsTrailApplication;
 import com.gpl.rpg.AndorsTrail.AndorsTrailPreferences;
@@ -67,6 +72,8 @@ public final class LoadSaveActivity extends Activity implements OnClickListener 
 
 		addSavegameSlotButtons(slotList, params, Savegames.getUsedSavegameSlots());
 
+		checkAndRequestPermissions();
+		
 		if (!isLoading) {
 			createNewSlot.setTag(SLOT_NUMBER_CREATE_NEW_SLOT);
 			createNewSlot.setOnClickListener(this);
@@ -76,6 +83,30 @@ public final class LoadSaveActivity extends Activity implements OnClickListener 
 		}
 	}
 
+	private static final int READ_EXTERNAL_STORAGE_REQUEST=1;
+	private static final int WRITE_EXTERNAL_STORAGE_REQUEST=2;
+	
+	@TargetApi(23)
+	private void checkAndRequestPermissions() {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (getApplicationContext().checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+				this.requestPermissions(new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, READ_EXTERNAL_STORAGE_REQUEST);
+			}
+			if (getApplicationContext().checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+				this.requestPermissions(new String[] {Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_EXTERNAL_STORAGE_REQUEST);
+			} 
+		}
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+		if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+			Toast.makeText(this, R.string.storage_permissions_mandatory, Toast.LENGTH_LONG).show();
+			((AndorsTrailApplication)getApplication()).discardWorld();
+			finish();
+		}
+	}
+	
 	private void addSavegameSlotButtons(ViewGroup parent, LayoutParams params, List<Integer> usedSavegameSlots) {
 		for (int slot : usedSavegameSlots) {
 			final FileHeader header = Savegames.quickload(this, slot);

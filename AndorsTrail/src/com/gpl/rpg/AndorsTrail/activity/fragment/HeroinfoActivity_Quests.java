@@ -51,7 +51,10 @@ public final class HeroinfoActivity_Quests extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.questlog, container, false);
-
+		
+		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this.getActivity());
+		if (!app.isInitialized()) return v;
+		
 		Context ctx = getActivity();
 
 		

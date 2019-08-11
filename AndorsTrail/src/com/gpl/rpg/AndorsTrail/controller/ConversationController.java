@@ -295,6 +295,9 @@ public final class ConversationController {
 			case spentGold:
 				result =  stats.getSpentGold() >= requirement.value;
 				break;
+			case random:
+				result = Constants.rollResult(requirement.chance);
+				break;
 			case consumedBonemeals:
 				result =  stats.getNumberOfUsedBonemealPotions() >= requirement.value;
 				break;

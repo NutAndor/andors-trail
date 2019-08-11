@@ -22,11 +22,14 @@ public final class ConversationListParser extends JsonCollectionParserFor<Phrase
 	private final JsonArrayParserFor<Requirement> requirementParser = new JsonArrayParserFor<Requirement>(Requirement.class) {
 		@Override
 		protected Requirement parseObject(JSONObject o) throws JSONException {
+			Requirement.RequirementType type = Requirement.RequirementType.valueOf(o.getString(JsonFieldNames.ReplyRequires.requireType));
+			String requireID = o.getString(JsonFieldNames.ReplyRequires.requireID);
 			return new Requirement(
-					Requirement.RequirementType.valueOf(o.getString(JsonFieldNames.ReplyRequires.requireType))
-					,o.getString(JsonFieldNames.ReplyRequires.requireID)
+					type
+					,type == Requirement.RequirementType.random ? null : requireID
 					,o.optInt(JsonFieldNames.ReplyRequires.value, 0)
 					,o.optBoolean(JsonFieldNames.ReplyRequires.negate, false)
+					,type == Requirement.RequirementType.random ? ResourceParserUtils.parseChance(requireID) : null
 			);
 		}
 	};

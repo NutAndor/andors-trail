@@ -27,7 +27,9 @@ import com.gpl.rpg.AndorsTrail.model.map.TMXMapFileParser.TMXProperty;
 import com.gpl.rpg.AndorsTrail.model.map.TMXMapFileParser.TMXTileSet;
 import com.gpl.rpg.AndorsTrail.model.quest.QuestProgress;
 import com.gpl.rpg.AndorsTrail.model.script.Requirement;
+import com.gpl.rpg.AndorsTrail.resource.parsers.ResourceParserUtils;
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileCache;
+import com.gpl.rpg.AndorsTrail.util.ConstRange;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 import com.gpl.rpg.AndorsTrail.util.CoordRect;
 import com.gpl.rpg.AndorsTrail.util.L;
@@ -227,6 +229,7 @@ public final class TMXMapTranslator {
 		String requireId = null;
 		int requireValue = 0;
 		boolean requireNegation = false;
+		ConstRange requireChance = null;
 		for (TMXProperty p : object.properties) {
 			if (p.name.equalsIgnoreCase("requireType")) {
 				try {
@@ -246,7 +249,13 @@ public final class TMXMapTranslator {
 			}
 		}
 		if (requireType == null) return null;
-		return new Requirement(requireType, requireId, requireValue, requireNegation);
+		if (requireType == Requirement.RequirementType.random)
+		{
+			requireChance = ResourceParserUtils.parseChance(requireId);
+			requireId = null;
+		}
+
+		return new Requirement(requireType, requireId, requireValue, requireNegation, requireChance);
 	}
 
 	private static CoordRect getTMXObjectPosition(TMXObject object, TMXMap m) {
@@ -313,7 +322,7 @@ public final class TMXMapTranslator {
 						else if (prop.name.equalsIgnoreCase(LAYERNAME_TOP)) layerNames.topLayersName = prop.value;
 						else if (prop.name.equalsIgnoreCase(LAYERNAME_WALKABLE)) layerNames.walkableLayersName = prop.value;
 						else if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
-							if (!requirementPropertiesNames.contains(prop.name))
+							if (!requirementPropertiesNames.contains(prop.name.toLowerCase()))
 								L.log("OPTIMIZE: Map " + map.name + " contains replace area with unknown property \"" + prop.name + "\".");
 						}
 					}

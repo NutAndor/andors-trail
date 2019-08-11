@@ -1,6 +1,7 @@
 package com.gpl.rpg.AndorsTrail.model.script;
 
 import com.gpl.rpg.AndorsTrail.model.quest.QuestProgress;
+import com.gpl.rpg.AndorsTrail.util.ConstRange;
 
 public final class Requirement {
 	public static enum RequirementType {
@@ -17,30 +18,35 @@ public final class Requirement {
 		,consumedBonemeals
 		,hasActorCondition
 		,factionScore
+		,random
 	}
 
 	public final RequirementType requireType;
 	public final String requireID;
 	public final int value;
 	public final boolean negate;
+	public final ConstRange chance;
 
 	public Requirement(
 			RequirementType requireType
 			, String requireID
 			, int value
 			, boolean negate
+			, ConstRange chance
 	) {
 		this.requireType = requireType;
 		this.requireID = requireID;
 		this.value = value;
 		this.negate = negate;
+		this.chance = chance;
 	}
-	
+
 	public Requirement(QuestProgress qp) {
 		this.requireType = RequirementType.questProgress;
 		this.requireID = qp.questID;
 		this.value = qp.progress;
 		this.negate = false;
+		this.chance = null;
 	}
 
 	public String toString() {
@@ -52,32 +58,34 @@ public final class Requirement {
 		buf.append(value);
 		return buf.toString();
 	}
-	
+
 	public boolean isValid() {
 		switch (this.requireType) {
-		case consumedBonemeals:
-			return value >= 0;
-		case hasActorCondition:
-			return requireID != null;
-		case inventoryKeep:
-		case inventoryRemove:
-		case usedItem:
-			return requireID != null && value >= 0;
-		case killedMonster:
-			return requireID != null && value >= 0;
-		case questLatestProgress:
-		case questProgress:
-			return requireID != null && value >= 0;
-		case skillLevel:
-			return requireID != null && value >= 0;
-		case spentGold:
-			return value >= 0;
-		case timerElapsed:
-			return requireID != null && value >= 0;
-		case wear:
-			return requireID != null;
-		default:
-			return false;
+			case consumedBonemeals:
+				return value >= 0;
+			case hasActorCondition:
+				return requireID != null;
+			case inventoryKeep:
+			case inventoryRemove:
+			case usedItem:
+				return requireID != null && value >= 0;
+			case killedMonster:
+				return requireID != null && value >= 0;
+			case questLatestProgress:
+			case questProgress:
+				return requireID != null && value >= 0;
+			case skillLevel:
+				return requireID != null && value >= 0;
+			case spentGold:
+				return value >= 0;
+			case random:
+				return chance != null;
+			case timerElapsed:
+				return requireID != null && value >= 0;
+			case wear:
+				return requireID != null;
+			default:
+				return false;
 		}
 	}
 }

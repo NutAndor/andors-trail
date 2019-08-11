@@ -79,6 +79,9 @@ public final class HeroinfoActivity_Inventory extends Fragment implements Custom
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		final View v = inflater.inflate(R.layout.heroinfo_inventory, container, false);
 
+		AndorsTrailApplication app = AndorsTrailApplication.getApplicationFromActivity(this.getActivity());
+		if (!app.isInitialized()) return v;
+		
 		inventoryList = (ListView) v.findViewById(R.id.inventorylist_root);
 		ImageView heroicon = (ImageView) v.findViewById(R.id.heroinfo_inventory_heroicon);
 		heroinfo_stats_gold = (TextView) v.findViewById(R.id.heroinfo_stats_gold);

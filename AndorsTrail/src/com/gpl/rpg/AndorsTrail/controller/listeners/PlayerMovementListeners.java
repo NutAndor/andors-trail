@@ -6,8 +6,8 @@ import com.gpl.rpg.AndorsTrail.util.ListOfListeners;
 
 public final class PlayerMovementListeners extends ListOfListeners<PlayerMovementListener> implements PlayerMovementListener {
 
-	private final Function2<PlayerMovementListener, Coord, Coord> onPlayerMoved = new Function2<PlayerMovementListener, Coord, Coord>() {
-		@Override public void call(PlayerMovementListener listener, Coord newPosition, Coord previousPosition) { listener.onPlayerMoved(newPosition, previousPosition); }
+	private final Function3<PlayerMovementListener, PredefinedMap, Coord, Coord> onPlayerMoved = new Function3<PlayerMovementListener, PredefinedMap, Coord, Coord>() {
+		@Override public void call(PlayerMovementListener listener, PredefinedMap map, Coord newPosition, Coord previousPosition) { listener.onPlayerMoved(map, newPosition, previousPosition); }
 	};
 
 	private final Function2<PlayerMovementListener, PredefinedMap, Coord> onPlayerEnteredNewMap = new Function2<PlayerMovementListener, PredefinedMap, Coord>() {
@@ -15,8 +15,8 @@ public final class PlayerMovementListeners extends ListOfListeners<PlayerMovemen
 	};
 
 	@Override
-	public void onPlayerMoved(Coord newPosition, Coord previousPosition) {
-		callAllListeners(this.onPlayerMoved, newPosition, previousPosition);
+	public void onPlayerMoved(PredefinedMap map, Coord newPosition, Coord previousPosition) {
+		callAllListeners(this.onPlayerMoved, map, newPosition, previousPosition);
 	}
 
 	@Override

@@ -2,10 +2,10 @@
 <resources>
     <string name="localize_resources_from_mo_filename">ko.mo</string>
     <string name="exit_to_menu">메뉴로 나가기</string>
-    <string name="menu_settings">설정</string>
+    <string name="menu_settings">환경 설정</string>
     <string name="menu_save">저장</string>
     <string name="loadsave_title_save">게임 저장</string>
-    <string name="loadsave_title_load">게임 불러오기</string>
+    <string name="loadsave_title_load">저장된 게임 불러오기</string>
     <string name="loadsave_selectslot">저장 위치를 선택합니다</string>
     <string name="dialog_loading_failed_title">불러오기 실패</string>
     <string name="dialog_monsterencounter_message">공격하시겠습니까\?
@@ -15,21 +15,21 @@
     <string name="heroinfo_char">개요</string>
     <string name="heroinfo_inv">아이템</string>
     <string name="heroinfo_skill">스킬</string>
-    <string name="heroinfo_skill_categories">범주</string>
+    <string name="heroinfo_skill_categories">목록</string>
     <string name="heroinfo_levelup">레벨 업</string>
     <string name="heroinfo_level">레벨</string>
     <string name="heroinfo_totalexperience">경험치 합계</string>
-    <string name="heroinfo_inventory_categories">범주</string>
+    <string name="heroinfo_inventory_categories">유형</string>
     <string name="heroinfo_gold">금: %1$d</string>
     <string name="heroinfo_healthpoints">체력 (HP):</string>
     <string name="heroinfo_experiencepoints">경험치 (XP):</string>
     <string name="heroinfo_quests">퀘스트</string>
     <string name="dialog_loading_message">리소스 불러오는 중…</string>
-    <string name="dialog_loading_failed_incorrectversion">"앤더의 흔적이  게임 저장 파일을 불러올 수 없습니다. 이 파일은 현 버전보다 최신 버전에서 저장된 파일입니다."</string>
-    <string name="dialog_recenter">최근 작업자</string>
-    <string name="app_name">앤더의 흔적</string>
+    <string name="dialog_loading_failed_incorrectversion">앤더의 흔적이 게임 저장 파일을 불러올 수 없습니다. 이 파일은 현재 버전보다 최신 버전에서 저장된 파일입니다.</string>
+    <string name="dialog_recenter">현재 위치</string>
+    <string name="app_name">안도르의 흔적</string>
     <string name="app_description">퀘스트 중심의 판타지 RPG</string>
-    <string name="menu_save_gamesaved">%1$d번 위치에 게임이 저장되었습니다</string>
+    <string name="menu_save_gamesaved">%1$d번 슬롯에 게임이 저장되었습니다</string>
     <string name="menu_save_failed">게임 저장에 실패했습니다! SD 카드가 장착되어 있고 쓰기가 가능합니까\?</string>
     <string name="savegame_currenthero_displayinfo">레벨 %1$d, 경험치 %2$d, %3$d금</string>
     <string name="dialog_loading_failed_message">앤더의 흔적에서 저장된 게임 파일을 불러올 수 없습니다.
@@ -38,16 +38,16 @@
 \n
 \n파일이 손상되었거나 불완전합니다.</string>
     <string name="dialog_close">닫기</string>
-    <string name="dialog_more">좀 더</string>
+    <string name="dialog_more">더 보기</string>
     <string name="dialog_monsterencounter_title">적과의 조우</string>
     <string name="dialog_monsterencounter_info">정보</string>
     <string name="dialog_monsterencounter_conditions">상태</string>
-    <string name="status_ap">AP:</string>
+    <string name="status_ap">행동력:</string>
     <string name="heroinfo_skill_sort">정렬</string>
-    <string name="heroinfo_wornequipment">낡은 장비</string>
-    <string name="heroinfo_inventory">물품 목록</string>
+    <string name="heroinfo_wornequipment">착용중인 장비</string>
+    <string name="heroinfo_inventory">인벤토리</string>
     <string name="heroinfo_inventory_sort">정렬</string>
-    <string name="heroinfo_actionpoints">행동 점수(AP):</string>
+    <string name="heroinfo_actionpoints">행동력(AP):</string>
     <string name="combat_attack">공격 (%1$d AP)</string>
     <string name="combat_move">이동 (%1$d AP)</string>
     <string name="combat_use">물품 사용</string>
@@ -56,7 +56,7 @@
     <string name="combat_begin_flee">이동하려는 방향을 클릭하여 전투에서 벗어날 수 있습니다.</string>
     <string name="combat_flee_failed">도주 실패!</string>
     <string name="combat_status_ap">AP: %1$d</string>
-    <string name="combat_monsterhealth">HP:</string>
+    <string name="combat_monsterhealth">체력:</string>
     <string name="combat_monsteraction">%1$s 이(가) 공격합니다.</string>
     <string name="combat_result_monstermiss">%1$s 의 공격이 빗나갔다!</string>
     <string name="combat_result_monsterhit">%1$s 이(가) 당신에게 %2$d hp의 피해를 입혔다!</string>
@@ -76,10 +76,10 @@
     <string name="combat_condition_monster_clear">%1$s은(는) %2$s이(가) 제거됐습니다.</string>
     <string name="combat_condition_monster_immune">이제 %1$s은(는) %2$s에 면역됩니다.</string>
     <string name="inventory_info">정보</string>
-    <string name="inventory_equip">장비하기</string>
+    <string name="inventory_equip">장비착용</string>
     <string name="inventory_unequip">장비해제</string>
     <string name="inventory_use">사용</string>
-    <string name="inventory_drop">버림</string>
+    <string name="inventory_drop">버리기</string>
     <string name="inventory_item_used">%1$s을(를) 사용했습니다.</string>
     <string name="inventory_item_dropped">%1$s을(를) 바닥에 버렸습니다.</string>
     <string name="inventory_item_equipped">%1$s을(를) 장비했습니다.</string>
@@ -115,7 +115,7 @@
     <string name="traitsinfo_defense_damageresist">피해 저항:</string>
     <string name="iteminfo_category">범주:</string>
     <string name="iteminfo_action_use">사용</string>
-    <string name="iteminfo_action_equip">장비하기</string>
+    <string name="iteminfo_action_equip">장비착용</string>
     <string name="iteminfo_action_unequip">장비해제</string>
     <string name="conversation_rewardgold">[%1$d금을 획득했습니다.]</string>
     <string name="iteminfo_action_use_ap">사용 (%1$d AP)</string>
@@ -126,8 +126,8 @@
     <string name="startscreen_newgame_start">게임 시작</string>
     <string name="startscreen_newgame_confirm">현재 게임과 캐릭터를 잃게 됩니다. 그래도 새 게임을 시작하겠습니까\?</string>
     <string name="startscreen_about">소개/도움말</string>
-    <string name="startscreen_selectherosprite">당신의 영웅을 선택합니다</string>
-    <string name="startscreen_enterheroname">영웅의 이름을 입력합니다</string>
+    <string name="startscreen_selectherosprite">당신의 영웅을 선택하세요</string>
+    <string name="startscreen_enterheroname">영웅의 이름을 입력하세요</string>
     <string name="startscreen_load">불러오기</string>
     <string name="conversation_rewardexp">[%1$d의 경험을 얻었습니다.]</string>
     <string name="conversation_lostgold">[%1$d금을 분실했습니다.]</string>
@@ -157,7 +157,7 @@
     <string name="levelup_add_blockchance_description">기본 방어 기회를 %1$d 올립니다.</string>
     <string name="dialog_rest_title">휴식</string>
     <string name="dialog_rest_confirm_message">여기서 쉬겠습니까\?</string>
-    <string name="dialog_rest_message">푹 쉬고 체력이 최대로 회복됐다.</string>
+    <string name="dialog_rest_message">푹 쉬어 체력이 최대로 회복됐다.</string>
     <string name="about_button1">도움말</string>
     <string name="about_button2">제작진</string>
     <string name="about_button3">저작권</string>
@@ -171,11 +171,11 @@
 \n 다른 플레이어들과 게임을 논의하거나 게임을 더 좋게 만들도록 돕고 싶으시다면 프로젝트 포럼을 방문해 주시길 바랍니다.
 \n 
 \n모든 피드백에 감사드립니다!</string>
-    <string name="questlog_includecompleted_prompt">임무 정리</string>
-    <string name="questlog_includecompleted_hidecompleted">완료한 임무는 숨기기</string>
-    <string name="questlog_includecompleted_includecompleted">모든 임무 표시</string>
-    <string name="questlog_includecompleted_onlycompleted">완료한 임무만</string>
-    <string name="questlog_queststatus">상태: %1$s</string>
+    <string name="questlog_includecompleted_prompt">퀘스트 표시방식을 선택하세요</string>
+    <string name="questlog_includecompleted_hidecompleted">완료된 퀘스트 숨기기</string>
+    <string name="questlog_includecompleted_includecompleted">모든 퀘스트 보기</string>
+    <string name="questlog_includecompleted_onlycompleted">왼료된 퀘스트만 보기</string>
+    <string name="questlog_queststatus">진행도: %1$s</string>
     <string name="questlog_queststatus_inprogress">진행 중</string>
     <string name="questlog_queststatus_completed">완료</string>
     <string name="preferences_display_category">화면</string>

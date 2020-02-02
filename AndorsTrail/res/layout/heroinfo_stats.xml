@@ -30,7 +30,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="?attr/ui_theme_stdframe_bitmap" >
+                <TableRow>
 
+                    <TextView
+                        style="@style/traitsinfo_label"
+                        android:text="@string/heroinfo_mode" />
+
+                    <TextView
+                        android:id="@+id/heroinfo_mode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@android:string/unknownName" />
+
+                </TableRow>
                 <TableRow>
 
                     <TextView

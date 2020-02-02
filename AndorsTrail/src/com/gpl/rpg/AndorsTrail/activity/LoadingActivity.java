@@ -22,7 +22,7 @@ import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView;
 import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
 
-public final class LoadingActivity extends Activity implements OnResourcesLoadedListener, OnSceneLoadedListener {
+public final class LoadingActivity extends AndorsTrailBaseActivity implements OnResourcesLoadedListener, OnSceneLoadedListener {
 
 	private WorldSetup setup;
 	private Dialog progressDialog;
@@ -158,6 +158,8 @@ public final class LoadingActivity extends Activity implements OnResourcesLoaded
 		}
 		if (loadResult == Savegames.LoadSavegameResult.savegameIsFromAFutureVersion) {
 			showLoadingFailedDialog(R.string.dialog_loading_failed_incorrectversion);
+		} else if (loadResult == Savegames.LoadSavegameResult.cheatingDetected) {
+			showLoadingFailedDialog(R.string.dialog_loading_failed_cheat);
 		} else {
 			showLoadingFailedDialog(R.string.dialog_loading_failed_message);
 		}

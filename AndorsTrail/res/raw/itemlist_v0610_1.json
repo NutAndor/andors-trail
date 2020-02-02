@@ -417,7 +417,7 @@
     {
         "id":"armour_crude_leather",
         "iconID":"items_armours:16",
-        "name":"Crude leather armour",
+        "name":"Crude leather armor",
         "hasManualPrice":0,
         "baseMarketCost":514,
         "category":"bdy_lthr",
@@ -429,7 +429,7 @@
     {
         "id":"armour_firm_leather",
         "iconID":"items_armours:16",
-        "name":"Firm leather armour",
+        "name":"Firm leather armor",
         "hasManualPrice":0,
         "baseMarketCost":417,
         "category":"bdy_lthr",
@@ -441,7 +441,7 @@
     {
         "id":"armour_rigid_leather",
         "iconID":"items_armours:16",
-        "name":"Rigid leather armour",
+        "name":"Rigid leather armor",
         "hasManualPrice":0,
         "baseMarketCost":625,
         "category":"bdy_lthr",
@@ -493,7 +493,7 @@
     {
         "id":"armour_leather_villain",
         "iconID":"items_armours:16",
-        "name":"Villain's leather armour",
+        "name":"Villain's leather armor",
         "hasManualPrice":0,
         "baseMarketCost":3700,
         "category":"bdy_lthr",

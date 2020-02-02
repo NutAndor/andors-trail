@@ -186,8 +186,9 @@
         "name":"Fanamor",
         "iconID":"monsters_men:7",
         "monsterClass":"humanoid",
+        "movementAggressionType":"none",
         "spawnGroup":"fanamor",
-        "phraseID":"fanamor"
+        "phraseID":"fanamor_selector"
     },
     {
         "id":"feygard_bridgeguard",

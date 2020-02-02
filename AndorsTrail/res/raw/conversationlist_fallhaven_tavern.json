@@ -29,6 +29,23 @@
                 ]
             },
             {
+                "text":"I really need to rest but I don't have 10 gold. I will wash the dishes. [Wash the dishes]",
+                "nextPhraseID":"bela_room_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gold",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"No thanks.",
                 "nextPhraseID":"bela"
             }

@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="arulircave" x="2" y="29">
+    <map id="arulircave1" x="2" y="45"/>
+    <map id="arulircave2" x="15" y="29"/>
+    <map id="arulircave3" x="28" y="45"/>
+    <map id="arulircave4" x="32" y="61"/>
+    <map id="arulircave5" x="29" y="72"/>
+    <map id="arulircave6" x="34" y="83"/>
+  </segment>
+  <segment id="lostmine1" x="47" y="0">
+    <map id="lostmine1" x="71" y="62"/>
+    <map id="lostmine1a" x="47" y="57"/>
+    <map id="lostmine2" x="94" y="31"/>
+    <map id="lostmine2a" x="125" y="43"/>
+    <map id="lostmine3" x="107" y="0"/>
+  </segment>
+  <segment id="lostmine2" x="7" y="8">
+    <map id="lostmine4" x="7" y="8"/>
+    <map id="lostmine5" x="7" y="26"/>
+    <map id="lostmine6" x="9" y="56"/>
+  </segment>
+  <segment id="lostmine3" x="16" y="8">
+    <map id="lostmine7" x="16" y="8"/>
+    <map id="lostmine8" x="25" y="39"/>
+  </segment>
+  <segment id="lostmine4" x="22" y="0">
+    <map id="lostmine9" x="22" y="42"/>
+    <map id="lostmine10" x="42" y="21"/>
+    <map id="lostmine11" x="45" y="0"/>
+  </segment>
+  <segment id="crackshot_hideout" x="-19" y="-30">
+    <map id="crackshot_hideout1" x="-19" y="-10"/>
+    <map id="crackshot_hideout2" x="9" y="-28"/>
+    <map id="crackshot_hideout3" x="-19" y="-30"/>
+  </segment>
   <segment id="lakecave" x="349" y="407">
     <map id="lakecave0" x="349" y="438"/>
     <map id="lakecave1" x="349" y="407"/>
@@ -17,6 +51,7 @@
     <map id="blackwater_mountain6" x="66" y="389"/>
     <map id="blackwater_mountain5" x="35" y="387"/>
     <map id="blackwater_mountain9" x="53" y="361"/>
+    <map id="blackwater_mountain5a" x="14" y="401"/>
   </segment>
   <segment id="bwentry2" x="46" y="368">
     <map id="blackwater_mountain7" x="47" y="368"/>
@@ -111,6 +146,8 @@
     <map id="blackwater_mountain30" x="114" y="407"/>
     <map id="blackwater_mountain32" x="83" y="409"/>
     <map id="blackwater_mountain40" x="71" y="389"/>
+    <map id="blackwater_mountain53" x="86" y="327"/>
+    <map id="blackwater_mountain54" x="117" y="321"/>
     <map area="crossglen" id="crossglen" x="148" y="355"/>
     <map area="crossroads" id="crossroads" x="179" y="300"/>
     <map area="fallhaven" id="fallhaven_ne" x="241" y="382"/>
@@ -319,6 +356,8 @@
     <map id="guynmart_wood_13" x="70" y="222"/>
     <map id="guynmart_wood_14" x="54" y="222"/>
     <map id="waytolake12" x="678" y="174"/>
+    <map id="arulirmountain1" x="817" y="94"/>
+    <map id="arulirmountain2" x="848" y="96"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

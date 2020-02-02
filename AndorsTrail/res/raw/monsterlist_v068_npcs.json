@@ -30,7 +30,7 @@
         "iconID":"monsters_men:8",
         "monsterClass":"humanoid",
         "spawnGroup":"troublemaker",
-        "phraseID":"thievesguild_troublemaker_1",
+        "phraseID":"troublemaker_selector",
         "droplistID":"shop_troublemaker"
     },
     {
@@ -198,7 +198,7 @@
         "iconID":"monsters_men:6",
         "monsterClass":"humanoid",
         "spawnGroup":"ambelie",
-        "phraseID":"ambelie_1"
+        "phraseID":"ambelie_selector"
     },
     {
         "id":"feygard_patrol",

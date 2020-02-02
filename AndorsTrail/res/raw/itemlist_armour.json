@@ -44,7 +44,7 @@
     {
         "id":"armor2",
         "iconID":"items_armours:15",
-        "name":"Superior leather armour",
+        "name":"Superior leather armor",
         "baseMarketCost":624,
         "category":"bdy_lthr",
         "equipEffect":{
@@ -54,7 +54,7 @@
     {
         "id":"armor3",
         "iconID":"items_armours:16",
-        "name":"Hard leather armour",
+        "name":"Hard leather armor",
         "baseMarketCost":2407,
         "category":"bdy_lthr",
         "equipEffect":{
@@ -64,7 +64,7 @@
     {
         "id":"armor4",
         "iconID":"items_armours:16",
-        "name":"Superior hard leather armour",
+        "name":"Superior hard leather armor",
         "baseMarketCost":3866,
         "category":"bdy_lthr",
         "equipEffect":{

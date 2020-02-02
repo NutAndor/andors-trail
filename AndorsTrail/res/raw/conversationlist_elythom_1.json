@@ -327,7 +327,7 @@
                 "nextPhraseID":"elythom_knight1_2"
             },
             {
-                "text":"That's a very nice suit of armour you have there.",
+                "text":"That's a very nice suit of armor you have there.",
                 "nextPhraseID":"elythom_knight1_3"
             }
         ]
@@ -338,7 +338,7 @@
     },
     {
         "id":"elythom_knight1_3",
-        "message":"Thank you, it's our standard set of armour that we use in the order. It takes a lot of scrubbing and polishing to make it this clean though."
+        "message":"Thank you, it's our standard set of armor that we use in the order. It takes a lot of scrubbing and polishing to make it this clean though."
     },
     {
         "id":"elythom_knight2",
@@ -349,7 +349,7 @@
                 "nextPhraseID":"elythom_knight1_2"
             },
             {
-                "text":"That's a very nice suit of armour you have there.",
+                "text":"That's a very nice suit of armor you have there.",
                 "nextPhraseID":"elythom_knight1_3"
             }
         ]

@@ -3,6 +3,22 @@
         "id":"benbyr",
         "replies":[
             {
+                "nextPhraseID":"benbyr_guild03_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":11,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"benbyr_declined",
                 "requires":[
                     {

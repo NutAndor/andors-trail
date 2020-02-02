@@ -1,49 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE map  SYSTEM 'http://mapeditor.org/dtd/1.0/map.dtd'><map height="30" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30">
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  <tileset firstgid="1" name="map_bed_1" tileheight="32" tilewidth="32">
   <image height="256" source="../drawable/map_bed_1.png" width="512"/>
  </tileset><tileset firstgid="129" name="map_border_1" tileheight="32" tilewidth="32">
@@ -265,6 +220,11 @@
   <object height="32" name="blackwater_entranceguard" type="spawn" width="32" x="704" y="736">
    <properties>
     <property name="spawngroup" value="blackwater_entranceguard"/>
+   </properties>
+  </object>
+  <object name="burhczyd6" type="spawn" x="480" y="128" width="32" height="64">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
  </objectgroup>

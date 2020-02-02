@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="24">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="25">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -192,7 +192,7 @@
  </layer>
  <layer name="Above" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJzFljtLA0EQx8eDvGyiUQIpxa9go6WFoFiIiJVYqL0osbbwAQYbiRJF8AMI1j7aVNoZK1+FdoIW2tg6w2W4yTq7t5cI/mE4srd7v53/7uwGoFV3RVD1ktHbpV6VPsfxw5zf+eyAW84l4wbZZNyvNvMd7AufxSCMuvCcfKY2Xy7nXresG2s3H3LvSwAPpZDREGO6svaxLOmPlrtLzNWk5Utty4o/gcc8bdL2iRT5Q7x1hevy9yDBepE4X366uLxG7dQRe2V6L/0uCG5DyTFpHcn5vzWZzz32/md5vd2Wr6s2zPl/OLgknzPtLzSM8xgRc/GpNU2Pvcn6jyNzwvBgIw2wmY5+++yrmuK5rKX3GJ9JVWTuN7mXBYCrggcYft9HceecS9fIvPHkmnJxaymAw5R7vPTZdV7UgtY9rtUka7QfYAhjrF9/T2e+tr42vu3uZ5UxxzWMaeTNYMxauCTf84qYCzm/8JlrHHegeffK9cx0A3znotA0n24dd2vwffOl8SsiJ8nltlVlDjQu7p5xiffRDkYFYyoTRcUxzvSddGpplzrHOrsQtXbE30MfFzGWMCY7yEeTtld4vSR3LojWS/bX9ptt/5mqGM8TjC2Du630pTDXlc4A27s4kc9Vo20v2SfaEvn831z+P21yNQ+1Nr7n+J1275lceVYT96nQWZ3GKc5n31xt+gGDcIGh
+   eJzFljtLA0EQx8eDvGyiUQIpxa9go6WFoFiIiJVYqL0osbbwAQYbiRJF8AMI1mqdytJY+Sq0E7TQxtYZLkMm6+zjEsE/DEf2du+389+d3QC0664Iql4yervUq9Ln1D/M+Z3PLrjlXDJulE3G/eow3+GB+FmM4qgLz8lnagvlcu51y7qx9vMx974E8FCKGQ0xpidrH8uS/mi5u8RcTVq+1Laq+BMFzNMmbZ9IkT/E21S4Ln+PEqwXifPlp4vLa9RJHbFXpvfS74LgNpQck9aRnP9bk/ncZ+9/kdfbbfm6asOc/4eDSwo50/5CoziPMTGXkFrT9NifrP8kMqcMD7bSANvp1u+QfVVTPJe19O7xmVRF5qHgXhcCwPD7PvKdcz7dBHJNubi1FMBxyj1e+uw6L2pR+x7XapI1PggwgjExqL+nM19bXxvfdvezypjjBsYs8uYw5i1cUuh5RcylXFiEzNXHHWrevXI9M70A37lWaFpMt4+7Nfih+dL4NZGT5HLbujIHGue7Z1zifbSHUcGYybSi4hhn+k46t7RLXWKdXYlaO+HvoY/LGCsY013ko0nbK7xekrsQtdZL9tf2m23/maoYzzOMHYO7q/SlMNeVzgDbO5/I56rRdpDsEx2JfP5vLv+fNrmah1ob33P8Trv3TK48q4n7VOiuTn3y+Ryaq00/T6h/+Q==
   </data>
  </layer>
  <layer name="Top" width="30" height="30">
@@ -202,7 +202,7 @@
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk2EKwCAIhTvF7n+FbrhfQdgznxq1QYKMNvXzaatPKXXivc3itJyW56mB8iNsL7fF908vVzt7+97BjTIzXGQn9F7u+E7GRrlaLjLmTmh9WiyLPdOj9bHKmLlF9Kzieu4WOltzXMHdqVdqQRymF5aLampzZngM16ojuey/neUyOWg/mfsc9a9xmflldMg4pi76bpm2c5nvnXPEMnva5af6vdx/c19J1tfp
+   eJztk2EKwCAIhTvF7n+FbrhfQdgznxq1QYKMNvXzaatPKXXivc3itJyW56mB8iNsL7fF908vVzt7+97BjTIzXGQn9F7u+E7GRrlaLjLmTmh9WiyLPdOj9bHKmLlF9Kzieu4WOltzXMH16s1wpRbEYXphuaimNmeGx3CtOpLL/ttZLpOD9pO5z1H/GpeZX0aHjGPqou+WaTuX+d45Ryyzp11+qt/L/Tf3BbyW1yI=
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -232,8 +232,8 @@
   </object>
   <object id="6" name="entrance4" type="mapchange" x="736" y="416" width="32" height="32">
    <properties>
-    <property name="map" value=""/>
-    <property name="place" value="south"/>
+    <property name="map" value="stoutford_castle_shed"/>
+    <property name="place" value="exit"/>
    </properties>
   </object>
   <object id="7" name="entrance1" type="mapchange" x="32" y="320" width="64" height="32">

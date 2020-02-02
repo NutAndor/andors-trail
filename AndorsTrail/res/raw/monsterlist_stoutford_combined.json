@@ -1220,5 +1220,37 @@
         "id":"none",
         "name":"none",
         "iconID":"monsters_eye1:0"
+    },
+    {
+        "id":"erwyn_skel_lute",
+        "name":"Lutenist",
+        "iconID":"monsters_fatboy73:41",
+        "monsterClass":"undead",
+        "spawnGroup":"erwyn_skel_lute",
+        "phraseID":"erwyn_skel_band"
+    },
+    {
+        "id":"erwyn_skel_hornet",
+        "name":"Horn player",
+        "iconID":"monsters_fatboy73:43",
+        "monsterClass":"undead",
+        "spawnGroup":"erwyn_skel_hornet",
+        "phraseID":"erwyn_skel_band"
+    },
+    {
+        "id":"erwyn_skel_drum",
+        "name":"Drummer",
+        "iconID":"monsters_fatboy73:45",
+        "monsterClass":"undead",
+        "spawnGroup":"erwyn_skel_drum",
+        "phraseID":"erwyn_skel_band"
+    },
+    {
+        "id":"erwyn_skel_cymbal",
+        "name":"Cymbalist",
+        "iconID":"monsters_fatboy73:47",
+        "monsterClass":"undead",
+        "spawnGroup":"erwyn_skel_cymbal",
+        "phraseID":"erwyn_skel_band"
     }
 ]

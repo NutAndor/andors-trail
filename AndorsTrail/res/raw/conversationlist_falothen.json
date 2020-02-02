@@ -354,7 +354,7 @@
     },
     {
         "id":"falothen1_7_a1",
-        "message":"I can teach you how to get better at fighting with all types of axes, from the small hatchet up to the larger two-handed greataxes. That way, you can be very versatile in your choice of weapons.",
+        "message":"I can teach you how to get better at fighting with all types of axes, from the small hatchet up to the larger two-handed greataxes. Even a scythe, although not designed for combat, can do a lot of damage if you know how to use it. That way, you can be very versatile in your choice of weapons.",
         "replies":[
             {
                 "text":"Sounds good. Teach me how to fight with axes.",
@@ -390,7 +390,7 @@
     },
     {
         "id":"falothen1_7_b",
-        "message":"Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves. The technique for using them well is mostly the same.",
+        "message":"Now, blunt weapons is my way of categorizing everything from the simple club, to maces up to quarterstaves, and even whips. The technique for using them well is mostly the same, although whips are obviously somewhat different.",
         "replies":[
             {
                 "text":"N",

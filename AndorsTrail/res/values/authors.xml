@@ -6,80 +6,122 @@
 	<string name="about_copyright">Copyright © 2010–2013 Oskar Wiksten&lt;br /&gt;
 	    Copyright © 2013–2018 The Andor\'s Trail development team&lt;br /&gt;
 	    &lt;br /&gt;</string>
-	<string name="about_authors">
-		Created &amp; originally programmed by Oskar Wiksten&lt;br /&gt;
-		&lt;a href="http://andorstrail.com/"&gt;Web site provided by Scott Devaney&lt;/a&gt;&lt;br /&gt;
-		Programming &amp; tools by &lt;a href="https://github.com/Zukero"&gt;Kevin Pochat&lt;/a&gt;&lt;br /&gt;
-		Additional maps done by Michael Schmid&lt;br /&gt;
-		Additional maps done by Pete Wheeler&lt;br /&gt;
-		Additional maps done by Ian Haase&lt;br /&gt;
-		Additional programming by Samuel Plentz&lt;br /&gt;
-		Additional programming by Uwe Jugel&lt;br /&gt;
-		Additional programming by Olivier Samyn&lt;br /&gt;
-		Additional programming by Ethan Wessel&lt;br /&gt;
-		Additional programming by Scott Lund&lt;br /&gt;
-		Additional programming by Lucas Delvallet&lt;br /&gt;
-		Additional programming by Florian Doublet&lt;br /&gt;
-		Additional programming by M.H. Alkotob&lt;br /&gt;
-		Additional programming by Olivier Dragon&lt;br /&gt;
-		Additional graphics by Karvis&lt;br /&gt;
-		Russian translation by Dreamer..., e.solodookhin, shell.andor, konstmih, istasman, Aleksey Kabanov, Alexander Zubok, Paul Sulemenkov and dromoz&lt;br /&gt;
-		Italian translation by k6blue, liogiu, Joker and Andrea Luciano Damico&lt;br /&gt;
-		French translation by LeSanglier, Misty Soul, zorun.42, Marwane K. and olivier&lt;br /&gt;
-		German translation by Bomber, Samuel Plentz, cngunners14, Phoenixor, Tutar, Mütze, Moerit, Mayweed, Christian Berlage and Firefly84&lt;br /&gt;
-		English proofreading by taws34 and Elyon&lt;br /&gt;
-		English proofreading and testing by Stephen Stalnaker and &lt;a href="https://urbalazs.hu"&gt;Balázs Úr&lt;/a&gt;&lt;br /&gt;
-		Hungarian translation by &lt;a href="https://urbalazs.hu"&gt;Balázs Úr&lt;/a&gt;&lt;br /&gt;
-		Hebrew translation by eitanbm&lt;br /&gt;
-		Portuguese(PT) translation by mira&lt;br /&gt;
-		Portuguese(BR) translation by Mauro Carvalho Chehab, Rafael Mendes (fifa1988)&lt;br /&gt;
-		Japanese translation by surgecurrent&lt;br /&gt;
-		Polish translation by tobik9090siemens, DanielS and Piotr Wieczorek&lt;br /&gt;
-		Forum moderated by Tim Davis&lt;br /&gt;
-		Forum moderated by Josh Kloos&lt;br /&gt;
-		Forum moderated by Travis Miller&lt;br /&gt;
-		Forum moderated by Matthew B. White (Nyktos)&lt;br /&gt;
-		Forum moderated by Brent May&lt;br /&gt;
-		Additional ideas by Nicholas Franks (Taledus)&lt;br /&gt;
-		Additional content and ideas by Tom Jobes&lt;br /&gt;
-		Additional content and ideas by Stan &quot;Meirerion&quot;&lt;br /&gt;
-		Additional content by Richard Jackson (rijackson741)&lt;br /&gt;
-		Additional content by &lt;a href="http://gulisanolaw.com"&gt;Mike Gulisano&lt;/a&gt;&lt;br /&gt;
-		Additional content by Christian Berlage&lt;br /&gt;
-		&lt;br /&gt;
-		&lt;a href="http://pixeljoint.com/p/101133.htm"&gt;Original hero sprites by Maksiu&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://redknight91.deviantart.com/art/Arena-Game-Sprites-154661559"&gt;Hero graphics by RedKnight91&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="https://opengameart.org/content/ui-pack-0"&gt;UI based on graphics by Shadow3097&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://www.mansgreback.com"&gt;Typography by Måns Grebäck&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://telles0808.deviantart.com/art/RPG-Maker-VX-RTP-Tileset-159218223"&gt;Map tilesets graphics by telles0808&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://ails.deviantart.com/art/420-Pixel-Art-Icons-for-RPG-129892453"&gt;Item tilesets graphics by Ails&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://nacred.deviantart.com/art/Sprite-Sheet-171751308"&gt;Additional monster graphics by nacred&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/whispers-of-avalon-item-icons"&gt;Additional graphics by Meway, Len Pabin, Auran, Silviyius&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/10-basic-rpg-enemies"&gt;Additional graphics by Stephen Challener (Redshrike)&lt;/a&gt; &lt;a href="http://opengameart.org/content/more-rpg-enemies"&gt;(more)&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/skull"&gt;Additional graphics by Jorge.Avila&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/dark-fantasy-item-sprites"&gt;Additional graphics by Gwes&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://pousse.rapiere.free.fr/tome/"&gt;Additional graphics by David Gervais&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://forums.wesnoth.org/viewtopic.php?f=19&amp;t=12207&amp;start=75"&gt;Additional graphics by turin&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/zombies-skeletons"&gt;Additional graphics by artisticdude&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://pixelhack.blogspot.com/"&gt;Additional graphics by Mindflayer / Necroleachate&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/items-set"&gt;Additional graphics by Artur Reterski&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/farming-tilesets-magic-animations-and-ui-elements"&gt;Additional graphics by Daniel Eddeland&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://opengameart.org/content/liberated-pixel-cup-base-assets-sprites-map-tiles"&gt;Additional graphics by Lanea Zimmerman (AKA Sharm)&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://art.gnome.org/themes/icon"&gt;Additional graphics by Gnome icon artists&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://forums.rpgmakerweb.com/index.php?/topic/5434-its-a-mad-mad-mad-mad-world-maddies-edits-and-clumping/"&gt;Additional graphics by Paladin-Cleric of Awesome&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://ayene-chan.deviantart.com/gallery/32324562"&gt;Additional graphics by Ayene-chan&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://vxresource.wordpress.com/2010/03/17/the-real-macks-tileset/"&gt;Additional graphics by Mack&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://forums.rpgmakerweb.com/index.php?/topic/9178-amazing-avys-awesome-arrrpg-maker-stuff/ "&gt;Additional graphics by Avery, Gits&lt;/a&gt;&lt;br /&gt;
-		&lt;a href="http://vxresource.wordpress.com/category/resources/tilesets/"&gt;Additional graphics by vxresource.wordpress.com&lt;/a&gt;&lt;br /&gt;
-		This website shares tiles with the general public for free with the agreement of their original creators.&lt;br /&gt;
-		&lt;br /&gt;
-		Additional graphics by DeBray Bailey&lt;br /&gt;
-		&lt;a href="http://rltiles.sourceforge.net"&gt;Monster tileset graphics by rltiles.sourceforge.net&lt;/a&gt;&lt;br /&gt;
-		Part of (or All) the graphic tiles used in this program is the public domain roguelike tileset "RLTiles".
+	<string name="about_authors"><![CDATA[
+		<h4>Created &amp; originally programmed by Oskar Wiksten</h4>
+		<b>Development team</b><br/>
+		• Oskar Wiksten<br/>
+		• Scott Devaney <b>*</b><br/>
+		• <a href="https://github.com/Zukero">Kevin Pochat</a> <b>*</b><br/>
+		• Ian Haase<br/>
+		• <a href="https://github.com/Rijackson">Richard Jackson (rijackson741)</a> <b>*</b><br/>
+		• Christian Berlage <b>*</b><br/>
+		• <a href="http://gulisanolaw.com">Mike Gulisano</a><br/>
+		• Christian Zink <b>*</b><br/>
+		<b>*</b> Currently active on team<br/>
+		<br/>
+		<b>Development tools (Andor\'s Trail Content Studio) by</b><br/>
+		• <a href="https://github.com/Zukero">Kevin Pochat</a><br/>
+		<br/>
+		<b>Additional programming by</b><br/>
+		• Samuel Plentz<br/>
+		• Uwe Jugel<br/>
+		• Olivier Samyn<br/>
+		• Ethan Wessel<br/>
+		• Scott Lund<br/>
+		• Lucas Delvallet<br/>
+		• Florian Doublet<br/>
+		• M.H. Alkotob<br/>
+		• Olivier Dragon<br/>
+		• Christian Zink<br/>
+		• Antison<br/>
+		<br/>
+		<b>Additional content created by</b><br/>
+		• Tom Jobes<br/>
+		• Stan &quot;Meirerion&quot<br/>
+		• Pete Wheeler<br/>
+		• Michael Schmid<br/>
+		• <a href="https://github.com/Rijackson">Richard Jackson (rijackson741)</a><br/>
+		• Ian Haase<br/>
+		• <a href="http://gulisanolaw.com">Mike Gulisano</a><br/>
+		• Christian Berlage<br/>
+		• Daniel-Ømicrón Rodríguez García (Omicronrg9)<br/>
+		• Moritz Arendt-Roth (Moerit)<br/>
+		<br/>
+		<b>Translations</b><br/>
+		• Russian translation by Dreamer..., e.solodookhin, shell.andor, konstmih, istasman, Aleksey Kabanov, Alexander Zubok, Paul Sulemenkov and dromoz<br/>
+		• Italian translation by k6blue, liogiu, Joker and Andrea Luciano Damico<br/>
+		• French translation by LeSanglier, Misty Soul, zorun.42, Marwane K. and Olivier<br/>
+		• German translation by Bomber, Samuel Plentz, cngunners14, Phoenixor, Tutar, Mütze, Moerit, Mayweed, Christian Berlage and Firefly84<br/>
+		• Hungarian translation by <a href="https://urbalazs.hu">Balázs Úr</a><br/>
+		• Hebrew translation by eitanbm<br/>
+		• Portuguese(PT) translation by mira<br/>
+		• Portuguese(BR) translation by Mauro Carvalho Chehab, Rafael Mendes (fifa1988)<br/>
+		• Japanese translation by surgecurrent<br/>
+		• Polish translation by tobik9090siemens, DanielS and Piotr Wieczorek<br/>
+		• Spanish translation by pahsito<br/>
+		<br/>
+		<b>Graphics</b><br/>
+		• <a href="http://pixeljoint.com/p/101133.htm">Original hero sprites by Maksiu</a><br/>
+		• <a href="http://redknight91.deviantart.com/art/Arena-Game-Sprites-154661559">Hero graphics by RedKnight91</a><br/>
+		• <a href="https://opengameart.org/content/ui-pack-0">UI based on graphics by Shadow3097</a><br/>
+		• <a href="http://www.mansgreback.com">Typography by Måns Grebäck</a><br>
+		• <a href="http://telles0808.deviantart.com/art/RPG-Maker-VX-RTP-Tileset-159218223">Map tilesets graphics by telles0808</a><br/>
+		• <a href="http://ails.deviantart.com/art/420-Pixel-Art-Icons-for-RPG-129892453">Item tilesets graphics by Ails</a><br/>
+		• <a href="http://nacred.deviantart.com/art/Sprite-Sheet-171751308">Additional monster graphics by nacred</a><br/>
+		• <a href="http://opengameart.org/content/whispers-of-avalon-item-icons">Additional graphics by Meway, Len Pabin, Auran, Silviyius</a><br/>
+		• <a href="http://opengameart.org/content/10-basic-rpg-enemies">Additional graphics by Stephen Challener (Redshrike)</a> <a href="http://opengameart.org/content/more-rpg-enemies">(more)</a><br/>
+		• <a href="http://opengameart.org/content/skull">Additional graphics by Jorge.Avila</a><br/>
+		• <a href="http://opengameart.org/content/dark-fantasy-item-sprites">Additional graphics by Gwes</a><br/>
+		• <a href="http://pousse.rapiere.free.fr/tome/">Additional graphics by David Gervais</a><br/>
+		• <a href="http://forums.wesnoth.org/viewtopic.php?f=19&amp;t=12207&amp;start=75">Additional graphics by turin</a><br/>
+		• <a href="http://opengameart.org/content/zombies-skeletons">Additional graphics by artisticdude</a><br/>
+		• <a href="http://pixelhack.blogspot.com/">Additional graphics by Mindflayer / Necroleachate</a><br/>
+		• <a href="http://opengameart.org/content/items-set">Additional graphics by Artur Reterski</a><br/>
+		• <a href="http://opengameart.org/content/farming-tilesets-magic-animations-and-ui-elements">Additional graphics by Daniel Eddeland</a><br/>
+		• <a href="http://opengameart.org/content/liberated-pixel-cup-base-assets-sprites-map-tiles">Additional graphics by Lanea Zimmerman (AKA Sharm)</a><br/>
+		• <a href="http://art.gnome.org/themes/icon">Additional graphics by Gnome icon artists</a><br/>
+		• <a href="http://forums.rpgmakerweb.com/index.php?/topic/5434-its-a-mad-mad-mad-mad-world-maddies-edits-and-clumping/">Additional graphics by Paladin-Cleric of Awesome</a><br/>
+		• <a href="http://ayene-chan.deviantart.com/gallery/32324562">Additional graphics by Ayene-chan</a><br/>
+		• <a href="http://vxresource.wordpress.com/2010/03/17/the-real-macks-tileset/">Additional graphics by Mack</a><br/>
+		• <a href="http://forums.rpgmakerweb.com/index.php?/topic/9178-amazing-avys-awesome-arrrpg-maker-stuff/ ">Additional graphics by Avery, Gits</a><br/>
+		• <a href="http://vxresource.wordpress.com/category/resources/tilesets/">Additional graphics by vxresource.wordpress.com</a>. This website shares tiles with the general public for free with the agreement of their original creators.<br/>
+		• <a href="http://fatboy73.deviantart.com">;Additional graphics by Chris Hall (Fatboy73)</a><br/>
+		• Additional graphics by DeBray Bailey<br/>
+		• Additional graphics by Karvis<br/>
+		• <a href="http://rltiles.sourceforge.net">Monster tileset graphics by rltiles.sourceforge.net</a><br/>
+		Part (or All) of the graphic tiles used in this program is the public domain roguelike tileset "RLTiles".
 		Some of the tiles have been modified by Oskar Wiksten.
-		You can find the original tileset at &lt;a href="http://rltiles.sf.net"&gt;http://rltiles.sf.net&lt;/a&gt;&lt;br /&gt;
-		&lt;br /&gt;
-		Some of the graphic data in this software are free game resources distributed by REFMAP (&lt;a href="http://www.tekepon.net/fsm"&gt;http://www.tekepon.net/fsm&lt;/a&gt;).
-		You must not use the graphic data which is in this software, for the purpose except playing this game. When you want to get these resources, go to the website above.&lt;br /&gt;
+		You can find the original tileset at <a href="http://rltiles.sf.net">http://rltiles.sf.net</a><br/>
+		<br/>
+		• Some of the graphic data in this software are free game resources distributed by REFMAP (<a href="http://www.tekepon.net/fsm">http://www.tekepon.net/fsm</a>).
+		You must not use the graphic data which is in this software for any purpose except playing this game. When you want to get these resources, go to the website above.<br/>
+		<br/>
+		<b>English proof reading and correction by</b><br/>
+		• taws34<br/>
+		• Elyon<br/>
+		• Stephen Stalnaker<br/>
+		• <a href="https://github.com/Rijackson">Richard Jackson (rijackson741)</a><br/>
+		• Antison<br/>
+		• <a href="https://urbalazs.hu">Balázs Úr</a><br/>
+		<br/>
+		<b>Testing, feedback, &amp ideas by</b><br/>
+		• Stephen Stalnaker<br/>
+		• Antison<br/>
+		• <a href="https://urbalazs.hu">Balázs Úr</a><br/>
+		• Nicholas Franks (Taledus)<br/>
+		<br/>
+		<b><a href="http://andorstrail.com/">Website</a>, <a href="https://discord.gg/FgwXdy6">Discord</a>, and developer Slack channels maintained by</b><br/>
+		• Scott Devaney<br/>
+		<br/>
+		<b>Forum administrators and moderators</b><br/>
+		• Tim Davis<br/>
+		• Josh Kloos<br/>
+		• Travis Miller<br/>
+		• Matthew B. White (Nyktos)<br/>
+		• Brent May<br/>
+		<br/>
+		<b><a href="https://andorstrail.com/viewtopic.php?f=6&t=4560">Want to see yourself on this page? Visit our contribution guide!</a></b><br/>
+		<br/>
+		]]>
 	</string>
 </resources>

@@ -61,11 +61,40 @@
     },
     {
         "id":"fanamor_6",
-        "message":"This is my hiding spot! Now leave me."
+        "message":"This is my hiding spot! Now leave me.",
+        "replies":[
+            {
+                "text":"Umar sent me with the words \"You are no one.No one knows you.No one has seen you.\" Now give me the journal please.",
+                "nextPhraseID":"fanamor_guild_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":30
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"crossroads_guard",
         "replies":[
+            {
+                "nextPhraseID":"crossroads_guild03_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "nextPhraseID":"crossroads_guard_r_1",
                 "requires":[
@@ -107,7 +136,7 @@
     },
     {
         "id":"crossroads_guard_1",
-        "message":"Aren't you a bit young to be travelling around here all by yourself?",
+        "message":"Aren't you a bit young to be traveling around here all by yourself?",
         "replies":[
             {
                 "text":"N",

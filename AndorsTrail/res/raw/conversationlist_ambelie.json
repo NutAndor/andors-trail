@@ -66,6 +66,7 @@
     {
         "id":"ambelie_6",
         "message":"An excursion to see if Nor City really is all that I have heard about it. If it really can compare itself to the glamour of the great city of Feygard.",
+        "switchToNPC":"ambelie",
         "replies":[
             {
                 "text":"Nor City, where is that?",
@@ -74,6 +75,23 @@
             {
                 "text":"If you like it so much in Feygard, why would you even leave?",
                 "nextPhraseID":"ambelie_9"
+            },
+            {
+                "text":"Ehh ... I'm here to ... escort you safely to Nor City.",
+                "nextPhraseID":"ambelie_guild02_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },

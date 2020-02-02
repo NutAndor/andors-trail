@@ -8,6 +8,16 @@
 		<item>@string/questlog_includecompleted_onlycompleted</item>
 	</string-array>
 
+	<!-- Order is hardcoded within StartScreenActivity_NewGame-->
+	<string-array name="startscreen_mode_selector">
+		<item>@string/startscreen_mode_unlimited_saves_and_lives</item>
+        <item>@string/startscreen_mode_unlimited_lives</item>
+        <item>@string/startscreen_mode_50_lives</item>
+        <item>@string/startscreen_mode_10_lives</item>
+        <item>@string/startscreen_mode_3_lives</item>
+        <item>@string/startscreen_mode_1_life</item>
+	</string-array>
+
 	<!-- Order is hardcoded within HeroInfoActivity_inventory-->
 	<string-array name="inventorylist_category_filters">
 		<item>@string/inventory_category_all</item>
@@ -119,6 +129,33 @@
 		<item>1.0f</item>
 		<item>1.5f</item>
 		<item>2.0f</item>
+	</string-array>
+
+	<string-array name="preferences_language">
+		<item>@string/preferences_language_default</item>
+		<item>English</item>
+		<item>Deutsch (93%)</item>
+		<item>Español (90%)</item>
+		<item>Française (57%)</item>
+		<item>Italiano (90%)</item>
+		<item>Magyar (43%)</item>
+		<item>Polski (90%)</item>
+		<item>Português (78%)</item>
+		<item>Português Brasil (82%)</item>
+		<item>Русский язык (96%)</item>
+	</string-array>
+	<string-array name="preferences_language_values">
+		<item>default</item>
+		<item>en</item>
+		<item>de</item>
+		<item>es</item>
+		<item>fr</item>
+		<item>it</item>
+		<item>hu</item>
+		<item>pl</item>
+		<item>pt</item>
+		<item>pt-BR</item>
+		<item>ru</item>
 	</string-array>
 
 	<string-array name="preferences_movement_dpad_positions">

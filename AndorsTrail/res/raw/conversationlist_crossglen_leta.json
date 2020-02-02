@@ -2,14 +2,44 @@
     {
         "id":"leta1",
         "message":"Hey, this is my house, get out of here!",
+        "switchToNPC":"leta",
         "replies":[
             {
-                "text":"But I was just...",
+                "text":"But I was just ...",
                 "nextPhraseID":"leta2"
             },
             {
                 "text":"What about your husband Oromir?",
                 "nextPhraseID":"leta_oromir_select"
+            },
+            {
+                "text":"Umar sent me.",
+                "nextPhraseID":"leta_guild_1a",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Umar sent me.",
+                "nextPhraseID":"leta_guild_1b",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":25,
+                        "negate":false
+                    }
+                ]
             }
         ]
     },

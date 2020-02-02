@@ -575,7 +575,7 @@
         "message":"You should probably leave before you tip something over that might ... ahem ... break. He he.",
         "replies":[
             {
-                "text":"I am sent by Jhaeld to end whatever it is you do to the people of Remgard.",
+                "text":"I was sent by Jhaeld to end whatever it is you are doing to the people of Remgard.",
                 "nextPhraseID":"algangror_fight_1",
                 "requires":[
                     {

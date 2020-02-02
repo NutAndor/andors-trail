@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" nextobjectid="14">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="15">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -190,7 +190,7 @@
  </layer>
  <layer name="Objects" width="15" height="30">
   <data encoding="base64" compression="zlib">
-   eJx9VbFOwzAQtbwxobjCUlbm/jHiC+hYEaWMZaB0K1IhgikVCKROHRAsCD/Fp5xfnDzJqmPfuzuf77nGpKi9Mc9FunZ03e+e1sfW4OPNpd+Hsv/W/rEH/Cl7oIk2J7W+9ikPo1G+XuJ8WQw5O/KvYy/pDK0b2uSwCnu3cdzRmZHXlvze2H5eKb92JIbUSfznuI64ElPOjfyrEW5FXNzlnOoEG8m7UrVkLtDQeTc+Pxcu22t8BJtPNb58zz1RjtyDa8rtIfYJ5yw9wffEXIl7XwxjXZz3+gBefcq1s3ytAOSEfcF3sPuJ4zcMR9yDTfluZiZR+byOFrY7+5Xt7vvapnvo6y1pg98E4KlMeYDcs9RJ62fn8760jfiUtWNGt9Dngmoheeqekvl7aSbBd3pGvuEHGkBMttXahU1JXEYdcl/FM4l29XsjWsNbMqc724Tvx7h2mekpfqskZyD35uJXx2hVzHbivQSktqIduTf0Fez2ah+27I/rmOtT9KWOWUc91dRj2lfu/0gAveg6aN3/AwQ4isI=
+   eJx9VcFKAzEQDbl5km5pYK+e+8fiF9hjcdl6rAdrbxWqi562Kgo9eRAFEfPYDDt5O+2D0Gwyb2YymZc6l6MOzj2M3AD7wrmtsW6twcdzkX/vyv5b+8ce8KfsgSbZvMT130k3X4ach9EoX49pPldrwtmQfx17Tmdoi6GNhUXcu0rjms6MvNbk99L380r59QdiSJ3Ev8UtiCsx5dzIvzrArYiLu5xSnWAjeVeqlswFGjrvKthz4bK9xlu0eVfjI/TcT8qRe3BJud2mPuGcpSf4npgrcW9Gw1iT004bgqeQc/3YrhWAnLAv+Ip232n8xFEQd+dzfjF2R1EpfeiazXx39nPf3feFz/fQ12vShvUm3Jc5D5B7ljpp/WyC7UvbiE9Z2xu6hT5nVAvJU/eUzF9LdxR8pyfkG36gAcRkW61d2JTEZdQx90U6k2hXvzeiNbwlU7qzVfy+S2tnRk/xWyU5A9abi18do1Ux2yPvJSC1Fe3IvaGvYLdV+7Blf1xHq0/RlzpmnfRUU49pX9b/kQB60XXQuv8Hd3mLxQ==
   </data>
  </layer>
  <layer name="Above" width="15" height="30">
@@ -198,9 +198,9 @@
    eJytlMsNhDAMRCNuHAMSBdD2imq2AzggGqAOFkXRGuPPGDEXQJlnD7GSlIq+Q3l+muSqejXxGhP55izSbxmudZq+cBPAck/X62sIL+WypHnqPlh7qa1JbCvs+Zrv+Sk7Gr1rbpofyaz5IuyW/779l38O9pVmhrKn+MwiLPdG2DnAnhm5H1nz6lqcxlrngJ5vPhcrp3QvtMY9EpH3j56e9vbmYgnhkLuU+lB/tP6boj3rO3JvR3UAkPk+vw==
   </data>
  </layer>
- <layer name="Walkable" width="15" height="30">
+ <layer name="Walkable" width="15" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9k9EJACEMQ53i9l/BDe+rcJSmTVo9QVDxJbHY/ay1L00b7L3vsHPFB+l0Wc9He9Y300K62R6xrFeUN8qfrT2L7iBfpFWxlZ7qk/0JpVaKb/UXu2xVv0k/dftYYaY5J+9j+ai3pmwnP8ueqpHyLp9Rrc3f8wXDhd/h
+   eJy9k9EJACEMQ53i9l/BDe/rfiRpkvZQEFR8SVp0P2ttc36je5+xaKBz5cN0nIwOj/aub6XFdJ0+dr1QXpS/Wp8su8N8mZZilV7qU72JpFeJr3qLXVb1L/m3qO6US5lpzkl9Lo/+1pTt5HfZv3qU1HVmTHtze74Q49s3
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -217,8 +217,14 @@
     <property name="place" value="east2"/>
    </properties>
   </object>
+  <object id="14" name="north" type="mapchange" x="352" y="0" width="64" height="32">
+   <properties>
+    <property name="map" value="blackwater_mountain53"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="4" name="gornaud_1" type="spawn" x="192" y="672" width="96" height="32">
    <properties>
     <property name="quantity" value="2"/>
@@ -275,5 +281,5 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys" visible="0"/>
 </map>

@@ -1,31 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="localize_resources_from_mo_filename">zh_CN.mo</string>
-<string name="app_description">任务驱动型的幻想RPG</string>
-
-	<string name="exit_to_menu">返回菜单</string>
-	<string name="menu_settings">设定</string>
-	<string name="menu_save">保存</string>
-	<string name="menu_save_gamesaved">游戏已经保存至 存档 %1$d</string>
-	<string name="menu_save_failed">游戏保存失败！确认存储卡正确安装并且可以写入？</string>
-
-	<string name="loadsave_title_save">保存游戏</string>
-	<string name="loadsave_title_load">载入游戏</string>
-	<string name="loadsave_selectslot">选择存档</string>
-	<string name="savegame_currenthero_displayinfo">等级 %1$d，%2$d 经验值，%3$d 金币</string>
-
-	<string name="dialog_loading_message">正在载入资源…</string>
-	<string name="dialog_loading_failed_title">载入失败</string>
-	<string name="dialog_loading_failed_message">Andor\'s Trail 无法载入游戏存档。 
+    <string name="app_description">任务驱动型的幻想RPG</string>
+    <string name="exit_to_menu">返回菜单</string>
+    <string name="menu_settings">设定</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_save_gamesaved">游戏已经保存至 存档 %1$d</string>
+    <string name="menu_save_failed">游戏保存失败！确认存储卡正确安装并且可以写入？</string>
+    <string name="loadsave_title_save">保存游戏</string>
+    <string name="loadsave_title_load">载入游戏</string>
+    <string name="loadsave_selectslot">选择存档</string>
+    <string name="savegame_currenthero_displayinfo">等级 %1$d，%2$d 经验值，%3$d 金币</string>
+    <string name="dialog_loading_message">正在载入资源…</string>
+    <string name="dialog_loading_failed_title">载入失败</string>
+    <string name="dialog_loading_failed_message">Andor\'s Trail 无法载入游戏存档。 
 \n 
 \n:( 
 \n 
 \n存档可能出现损坏或者不完整情况。</string>
-	<string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 无法载入游戏存档。 
+    <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 无法载入游戏存档。 
 \n游戏存档由一个比现运行新的版本创建。</string>
-
-	<string name="dialog_recenter">回到中心</string>
-	<string name="dialog_close">关闭</string>
-	<string name="dialog_more">更多</string>
+    <string name="dialog_recenter">回到中心</string>
+    <string name="dialog_close">关闭</string>
+    <string name="dialog_more">更多</string>
     <string name="app_name">密令追踪</string>
+    <string name="status_hp">生命(HP):</string>
+    <string name="heroinfo_char">总览</string>
+    <string name="heroinfo_skill">技能</string>
+    <string name="heroinfo_levelup">升级</string>
+    <string name="heroinfo_level">等级</string>
+    <string name="heroinfo_totalexperience">总经验</string>
+    <string name="dialog_monsterencounter_title">遭遇</string>
+    <string name="dialog_monsterencounter_message">你想攻击吗？
+\n难度:%1$s</string>
+    <string name="dialog_monsterencounter_info">信息</string>
+    <string name="dialog_monsterencounter_conditions">状态</string>
+    <string name="status_ap">行动点数：</string>
+    <string name="status_exp">经验值：</string>
+    <string name="heroinfo_inv">物品</string>
+    <string name="heroinfo_skill_categories">分类</string>
+    <string name="heroinfo_skill_sort">排序</string>
+    <string name="heroinfo_wornequipment">已穿戴装备</string>
+    <string name="heroinfo_inventory">库存</string>
+    <string name="heroinfo_inventory_categories">类别</string>
+    <string name="heroinfo_inventory_sort">排序方式</string>
+    <string name="heroinfo_gold">金币： %1$d</string>
+    <string name="heroinfo_healthpoints">血量（HP）：</string>
+    <string name="heroinfo_experiencepoints">经验值（XP）：</string>
+    <string name="heroinfo_actionpoints">行动点（AP）：</string>
+    <string name="heroinfo_quests">任务</string>
+    <string name="combat_attack">攻击(%1$d AP）</string>
+    <string name="combat_move">移动 (%1$d AP)</string>
+    <string name="combat_use">使用物品</string>
+    <string name="combat_endturn">回合结束</string>
+    <string name="combat_flee">逃跑</string>
+    <string name="combat_begin_flee">你现在可以点击你想要移动的方向来逃离战斗。</string>
+    <string name="combat_flee_failed">逃跑失败！</string>
+    <string name="combat_status_ap">行动点: %1$d</string>
+    <string name="combat_monsterhealth">血量：</string>
+    <string name="combat_monsteraction">%1$s 正在攻击。</string>
+    <string name="combat_result_monstermiss">%1$s 没有打到！</string>
+    <string name="combat_result_monsterhit">%1$s 命中了你，你损失 %1$s 点血！</string>
+    <string name="combat_result_monsterhitcritical">%1$s 暴击！你损失了 %2$d 点血！</string>
+    <string name="combat_result_heromiss">没有打到。</string>
+    <string name="combat_result_herohit">中了！%1$s 失去 %2$d 点血。</string>
+    <string name="combat_result_herohitcritical">暴击！%1$s 失去 %2$d 点血！</string>
+    <string name="combat_result_herokillsmonster">%1$s 死了！</string>
+    <string name="combat_not_enough_ap">这回合没有足够的行动点。</string>
+    <string name="combat_hero_dies">你失去知觉，但幸运地醒了过来，不知所措，失去 %1$d 点经验值。</string>
+    <string name="combat_miss_animation_message">闪避率</string>
+    <string name="combat_taunt_monster">你嘲讽了 %1$s!</string>
+    <string name="combat_condition_player_apply">你受到了%1$s!的影响。</string>
+    <string name="combat_condition_player_clear">你摆脱了 %1$s 的影响。</string>
+    <string name="combat_condition_player_immune">你现在对 %1$s 免疫。</string>
+    <string name="combat_condition_monster_apply">%1$s 受到了 %2$s 的影响。</string>
+    <string name="combat_condition_monster_clear">%1$s 摆脱了 %2$s 的影响。</string>
+    <string name="shop_buy">买</string>
+    <string name="shop_sell">卖</string>
+    <string name="about_button1">帮助</string>
+    <string name="dialog_newversion_title">欢迎</string>
+    <string name="questlog_queststatus_completed">做完了</string>
+    <string name="menu_button_worldmap">地图</string>
+    <string name="display_worldmap_title">地图</string>
+    <string name="combat_condition_monster_immune">%1$s现在对 %2$s 免疫。</string>
+    <string name="inventory_info">信息</string>
+    <string name="dialog_groundloot_title">物品</string>
+    <string name="conversation_leave">离开</string>
+    <string name="shop_infoitem">信息</string>
+    <string name="shop_item_sort">排序</string>
+    <string name="dialog_rest_title">休息</string>
+    <string name="dialog_rest_confirm_message">你想这里休息吗？</string>
+    <string name="inventory_item_equipped">你用了%1$s。</string>
+    <string name="levelup_title">升级</string>
+    <string name="levelup_buttontext">升级</string>
+    <string name="skill_title_regeneration">急速自愈</string>
+    <string name="skillinfo_action_levelup">升级</string>
+    <string name="skill_title_crit1">内出血</string>
+    <string name="skill_title_crit2">骨折</string>
+    <string name="skill_title_concussion">脑震荡</string>
+    <string name="heroinfo_gamestats_name_and_qty">%1$s（%2$d）</string>
+    <string name="inventory_equip">装备武器</string>
+    <string name="inventory_unequip">卸下武器</string>
+    <string name="inventory_use">使用</string>
+    <string name="inventory_item_used">你使用了 %1$s.</string>
 </resources>

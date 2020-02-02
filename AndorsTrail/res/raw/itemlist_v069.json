@@ -233,7 +233,7 @@
     {
         "id":"bwm_leather_armour",
         "iconID":"items_armours:15",
-        "name":"Blackwater leather armour",
+        "name":"Blackwater leather armor",
         "displaytype":"rare",
         "hasManualPrice":1,
         "baseMarketCost":2551,

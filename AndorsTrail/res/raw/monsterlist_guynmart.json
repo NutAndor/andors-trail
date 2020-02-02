@@ -665,7 +665,7 @@
     },
     {
         "id":"guynmart_reward3",
-        "name":"Armour",
+        "name":"Armor",
         "iconID":"items_armours:12",
         "unique":1,
         "phraseID":"guynmart_reward3_10"

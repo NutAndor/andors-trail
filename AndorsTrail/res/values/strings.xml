@@ -19,10 +19,15 @@
 	<string name="dialog_loading_failed_title">Load Failed</string>
 	<string name="dialog_loading_failed_message">Andor\'s Trail was unable to load the savegame file.\n\n:(\n\nThe file may be damaged or incomplete.</string>
 	<string name="dialog_loading_failed_incorrectversion">Andor\'s Trail was unable to load the savegame file. This savegame file is created with a newer version than what is currently running.</string>
+	<string name="dialog_loading_failed_cheat">Andor\'s Trail was unable to load the savegame file. This savegame file has already been continued.</string>
 
 	<string name="dialog_recenter">Recenter</string>
 	<string name="dialog_close">Close</string>
 	<string name="dialog_more">More</string>
+
+    <string name="dialog_game_over_title">Game over</string>
+    <string name="dialog_game_over_text">You take your last breath and die.</string>
+    <string name="rip_startscreen">(RIP)</string>
 
 	<string name="dialog_monsterencounter_title">Encounter</string>
 	<string name="dialog_monsterencounter_message">Do you want to attack?\nDifficulty: %1$s</string>
@@ -40,7 +45,8 @@
 	<string name="heroinfo_skill_sort">Sort</string>
 	<string name="heroinfo_levelup">Level up</string>
 	<string name="heroinfo_level">Level</string>
-	<string name="heroinfo_totalexperience">Total experience</string>
+    <string name="heroinfo_mode">Mode</string>
+    <string name="heroinfo_totalexperience">Total experience</string>
 	<string name="heroinfo_wornequipment">Worn equipment</string>
 	<string name="heroinfo_inventory">Inventory</string>
 	<string name="heroinfo_inventory_categories">Category</string>
@@ -50,6 +56,11 @@
 	<string name="heroinfo_experiencepoints">Experience points (XP):</string>
 	<string name="heroinfo_actionpoints">Action points (AP):</string>
 	<string name="heroinfo_quests">Quests</string>
+
+    <string name="heroinfo_unlimited_lives_and_saves">Standard\n(Unlimited lives and saves)</string>
+    <string name="heroinfo_unlimited_lives">Unlimited lives, 1 save</string>
+    <string name="heroinfo_limited_lives">Limited lives (%1$d/%2$d left)</string>
+    <string name="heroinfo_one_life">Permadeath (1 life)</string>
 
 	<string name="combat_attack">Attack (%1$d AP)</string>
 	<string name="combat_move">Move (%1$d AP)</string>
@@ -143,6 +154,19 @@
 	<string name="startscreen_selectherosprite">Choose your hero</string>
 	<string name="startscreen_enterheroname">Enter hero name</string>
 	<string name="startscreen_load">Load</string>
+	<string name="startscreen_game_mode">Mode</string>
+	<string name="startscreen_load_game">Load game</string>
+	<string name="startscreen_load_game_confirm">The current game is unsaved and you will lose your character.</string>
+	<string name="startscreen_error_loading_game">Error loading game</string>
+	<string name="startscreen_error_loading_empty_slot">Can\'t load from an empty slot.</string>
+	<string name="startscreen_attention_slot_gets_delete_on_load">Attention</string>
+	<string name="startscreen_attention_message_slot_gets_delete_on_load">Loading this game deletes its save slot. You will have to save again before switching to another game.</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Standard (Unlimited lives and saves)</string>
+    <string name="startscreen_mode_unlimited_lives">Medium (Unlimited lives, 1 save)</string>
+     <string name="startscreen_mode_50_lives">Hard (50 lives, 1 save)</string>
+    <string name="startscreen_mode_10_lives">Very hard (10 lives, 1 save)</string>
+    <string name="startscreen_mode_3_lives">Extreme (3 lives, 1 save)</string>
+    <string name="startscreen_mode_1_life">Permadeath (1 life, 1 save)</string>
 
 	<!-- <string name="conversation_title">%1$s says</string> -->
 	<string name="conversation_rewardexp"> [You gained %1$d experience]</string>
@@ -187,7 +211,7 @@
 		&lt;br /&gt;
 		&lt;a href="http://andorstrail.com/"&gt;Game forums on andorstrail.com for questions and gameplay discussions.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
-		&lt;a href="http://andorstrail.com/wiki"&gt;Game wiki for info about the Andor\'s Trail world, among other things.&lt;/a&gt;&lt;br /&gt;
+		&lt;a href="http://docs.andorstrail.com/"&gt;Game wiki for info about the Andor\'s Trail world, among other things.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
 		&lt;a href="https://github.com/Zukero/andors-trail/"&gt;Project source code on github.com for developers.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
@@ -345,6 +369,10 @@
 	<string name="preferences_display_scaling_factor_50_percent_larger">1.5x size</string>
 	<string name="preferences_display_scaling_factor_double">Double size</string>
 
+	<string name="preferences_language_default">System language</string>
+	<string name="preferences_language">Language</string>
+	<string name="preferences_language_description">Select the language. English is used if the system language is not available or content has not ben translated. (Requires restart)</string>
+
 	<string name="inventory_assign">Assign quick slot</string>
 	<string name="inventory_selectitem">Select item to assign</string>
 	<string name="inventory_assign_slot1">Slot 1</string>
@@ -471,6 +499,8 @@
 	<string name="traitsinfo_base_max_hp">Max HP:</string>
 	<string name="traitsinfo_base_max_ap">Max AP:</string>
 	<string name="menu_save_saving_not_allowed_in_combat">Cannot save the game while in combat.</string>
+	<string name="menu_save_switch_character_title">Switch character</string>
+	<string name="menu_save_switch_character">Saving allows you to switch to another character and later continue the current game. Do you want to save and exit the current game?</string>
 
 	<string name="preferences_optimized_drawing_title">Optimized drawing</string>
 	<string name="preferences_optimized_drawing">Disable this if you see graphical artifacts. Enabling this option will make the game only redraw changed parts of the screen every frame.</string>
@@ -548,6 +578,8 @@
 
 	<string name="loadsave_save_overwrite_confirmation_all">Are you sure you want to overwrite this savegame?</string>
 	<string name="loadsave_save_overwrite_confirmation_slot">(slot %1$d)</string>
+	<string name="loadsave_empty_slot">%1$d.&lt;empty&gt;</string>
+
 	<string name="preferences_display_overwrite_savegame_entries_always_confirm">Always show confirmation dialog box</string>
 	<string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Only show when overwriting a different playername</string>
 	<string name="preferences_display_overwrite_savegame_entries_never_confirm">Never display confirmation dialog box</string>
@@ -582,6 +614,7 @@
 	<string name="skill_title_specialization_dualwield">Specialization: Dual wield</string>
 	<string name="skill_title_specialization_2hand">Specialization: Two-handed weapon</string>
 	<string name="skill_title_specialization_weapon_shield">Specialization: Weapon and shield</string>
+	<string name="skill_title_weapon_prof_pole">Pole weapon proficiency</string>
 
 	<string name="skill_shortdescription_weapon_prof_dagger">Better at fighting with daggers</string>
 	<string name="skill_shortdescription_weapon_prof_1hsword">Better at fighting with one-handed swords</string>
@@ -599,6 +632,7 @@
 	<string name="skill_shortdescription_specialization_dualwield">Expert at dual wielding</string>
 	<string name="skill_shortdescription_specialization_2hand">Expert at two-handed weapons</string>
 	<string name="skill_shortdescription_specialization_weapon_shield">Expert at fighting with weapon and shield</string>
+	<string name="skill_shortdescription_weapon_prof_pole">Better at fighting with pole weapons</string>
 
 	<string name="skill_longdescription_weapon_prof_dagger">For each skill level, increases attack chance when using daggers and shortswords by %1$d %% of the item\'s base attack chance, increases block chance by %2$d %% of the item\'s base block chance, and increases critical skill by %3$d %% of the item\'s base critical skill.</string>
 	<string name="skill_longdescription_weapon_prof_1hsword">For each skill level, increases attack chance of rapiers, longswords and broadswords by %1$d %% of the item\'s base attack chance, increases block chance by %2$d %% of the item\'s base block chance, and increases critical skill by %3$d %% of the item\'s base critical skill.</string>
@@ -626,6 +660,7 @@ Every skill level increases the attack chance of weapons with %1$d %% of their o
 	<string name="skill_longdescription_specialization_dualwield">Increases the attack chance of both wielded weapons by an additional %1$d %% of their original attack chances, in addition to the benefits given by the weapon style skill. The block chances of both wielded weapons are also increased by %2$d %% of their original block chances.</string>
 	<string name="skill_longdescription_specialization_2hand">Increases damage potential of two-handed weapons by an additional %1$d %% of the original damage potential, in addition to the benefits given by the weapon style skill. The attack chances of two-handed weapons are also increased by %2$d %% of their original attack chances.</string>
 	<string name="skill_longdescription_specialization_weapon_shield">Increases both attack chances and damage potential of weapons. The attack chance is increased by %1$d %% of the original attack chance, and the damage potential is increased by %2$d %% of the original damage potential.</string>
+	<string name="skill_longdescription_weapon_prof_pole">For each skill level, increases attack chance when using pole weapons by %1$d %% of the item\'s base attack chance, increases block chance by %2$d %% of the item\'s base block chance, and increases critical skill by %3$d %% of the item\'s base critical skill.</string>
 
 	<string name="preferences_quickslots_placement">Quickslot position</string>
 	<string name="preferences_quickslots_placement_summary">Where to place the quickslots</string>

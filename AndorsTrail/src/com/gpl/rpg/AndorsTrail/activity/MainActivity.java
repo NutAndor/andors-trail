@@ -54,7 +54,7 @@ import com.gpl.rpg.AndorsTrail.view.ToolboxView;
 import com.gpl.rpg.AndorsTrail.view.VirtualDpadView;
 
 public final class MainActivity
-		extends Activity
+		extends AndorsTrailBaseActivity
 		implements
 		PlayerMovementListener
 		, CombatActionListener
@@ -149,6 +149,9 @@ public final class MainActivity
 			final int slot = data.getIntExtra("slot", 1);
 			if (save(slot)) {
 				Toast.makeText(this, getResources().getString(R.string.menu_save_gamesaved, slot), Toast.LENGTH_SHORT).show();
+				if (!world.model.statistics.hasUnlimitedSaves()) {
+					finish();
+				}
 			} else {
 				Toast.makeText(this, R.string.menu_save_failed, Toast.LENGTH_LONG).show();
 			}
@@ -157,8 +160,7 @@ public final class MainActivity
 	}
 
 	private boolean save(int slot) {
-		final Player player = world.model.player;
-		return Savegames.saveWorld(world, this, slot, getString(R.string.savegame_currenthero_displayinfo, player.getLevel(), player.getTotalExperience(), player.getGold()));
+		return Savegames.saveWorld(world, this, slot);
 	}
 
 	@Override
@@ -188,9 +190,11 @@ public final class MainActivity
 		super.onResume();
 		if (!AndorsTrailApplication.getApplicationFromActivity(this).getWorldSetup().isSceneReady) return;
 
-		controllers.gameRoundController.resume();
-
-		updateStatus();
+		if (world.model.statistics.isDead()) this.finish();
+		else {
+			controllers.gameRoundController.resume();
+			updateStatus();
+		}
 	}
 
 	private void unsubscribeFromModel() {
@@ -452,7 +456,11 @@ public final class MainActivity
 
 	@Override
 	public void onPlayerDied(int lostExp) {
-		message(getString(R.string.combat_hero_dies, lostExp));
+		if (!world.model.statistics.isDead()) {
+			message(getString(R.string.combat_hero_dies, lostExp));
+		} else {
+			Dialogs.showHeroDied(this, controllers);
+		}
 	}
 
 	@Override

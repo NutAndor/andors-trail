@@ -59,7 +59,7 @@
     },
     {
         "id":"farrik_6",
-        "message":"The Fallhaven guard has started to get really annoyed at us lately. Probably because we have been very successful in our recent missions.",
+        "message":"The Fallhaven guard has started to get really annoyed with us lately. Probably because we have been very successful in our recent missions.",
         "replies":[
             {
                 "text":"N",
@@ -133,16 +133,24 @@
         "message":"Yeah, I guess so. But for the guild's sake, we would rather have our friend freed than imprisoned.",
         "replies":[
             {
-                "text":"Maybe I should tell the guards that you are planning to get him out?",
-                "nextPhraseID":"farrik_15"
-            },
-            {
                 "text":"Don't worry, your secret plan to free him is safe with me.",
                 "nextPhraseID":"farrik_14"
             },
             {
                 "text":"[Lie] Don't worry, your secret plan to free him is safe with me.",
                 "nextPhraseID":"farrik_14"
+            },
+            {
+                "text":"Maybe I should tell the guards that you are planning to get him out?",
+                "nextPhraseID":"farrik_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -199,7 +207,15 @@
             },
             {
                 "text":"Maybe I should tell the guards that you are planning to get him out?",
-                "nextPhraseID":"farrik_15"
+                "nextPhraseID":"farrik_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -258,16 +274,32 @@
         "message":"How does that sound to you? Do you think you are up to it?",
         "replies":[
             {
+                "text":"No, this is really starting to sound like a bad idea.",
+                "nextPhraseID":"farrik_17"
+            },
+            {
                 "text":"Sure, sounds easy!",
-                "nextPhraseID":"farrik_23"
+                "nextPhraseID":"farrik_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Sounds a bit dangerous, but I guess I'll try.",
-                "nextPhraseID":"farrik_23"
-            },
-            {
-                "text":"No, this is really starting to sound like a bad idea.",
-                "nextPhraseID":"farrik_17"
+                "nextPhraseID":"farrik_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -295,17 +327,6 @@
             {
                 "text":"I am not done yet, but I am working on it.",
                 "nextPhraseID":"farrik_23"
-            },
-            {
-                "text":"[Lie] It is done. He should be no problem during the night.",
-                "nextPhraseID":"farrik_26",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"farrik",
-                        "value":50
-                    }
-                ]
             },
             {
                 "text":"It is done. He should be no problem during the night.",
@@ -358,6 +379,28 @@
                         "requireType":"questProgress",
                         "requireID":"farrik",
                         "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"farrik_return_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20,
+                        "negate":true
                     }
                 ]
             },
@@ -414,12 +457,33 @@
     },
     {
         "id":"farrik_26",
-        "message":"Oh you did? Well done. You have my thanks, friend.",
+        "message":"That's very useful information. Well done. You have my thanks, friend.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"farrik",
                 "value":80
+            }
+        ]
+    },
+    {
+        "id":"farrik_return_3",
+        "message":"So did you tell the Warden about our plan then?",
+        "replies":[
+            {
+                "text":"No, I haven't talked to him.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Lie]. No. I went there, but I overheard the Warden saying there was no real threat, so they will lower security. So maybe you can carry out your mission without me being involved.",
+                "nextPhraseID":"farrik_26",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":50
+                    }
+                ]
             }
         ]
     }

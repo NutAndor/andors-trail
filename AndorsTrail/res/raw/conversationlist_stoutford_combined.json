@@ -3274,7 +3274,7 @@
     },
     {
         "id":"script_lakecave0_1",
-        "message":"You see large shapes moving in the shadows to the East. It looks dangerous that way!",
+        "message":"You see large shapes moving in the shadows to the east. It looks dangerous that way!",
         "replies":[
             {
                 "text":"N",
@@ -4771,7 +4771,7 @@
     },
     {
         "id":"stoutford_castle_3b",
-        "message":"Gain? I am the the one who gains!",
+        "message":"Gain? I am the one who gains!",
         "replies":[
             {
                 "text":"No, that's not acceptable. Do you have anything better to offer?",
@@ -11742,5 +11742,9 @@
                 "value":48
             }
         ]
+    },
+    {
+        "id":"erwyn_skel_band",
+        "message":"Please don't disturb. We have to practice."
     }
 ]

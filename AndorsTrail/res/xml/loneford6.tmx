@@ -1,44 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE map  SYSTEM 'http://mapeditor.org/dtd/1.0/map.dtd'><map height="10" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="13">
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  <tileset firstgid="1" name="map_bed_1" tileheight="32" tilewidth="32">
   <image height="256" source="../drawable/map_bed_1.png" width="512"/>
  </tileset><tileset firstgid="129" name="map_border_1" tileheight="32" tilewidth="32">
@@ -191,6 +151,11 @@
   <object height="128" name="drunk" type="spawn" width="288" x="64" y="160">
    <properties>
     <property name="quantity" value="2"/>
+   </properties>
+  </object>
+  <object name="burhczyd3" type="spawn" x="192" y="224" width="96" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
  </objectgroup>

@@ -6,7 +6,7 @@
         <!--Added by ATCS v0.6.14 for project ratdom-->
         <item>@raw/itemcategories_ratdom</item>
     </array>
-
+        
     <array name="loadresource_actorconditions">
         <item>@raw/actorconditions_v069</item>
         <item>@raw/actorconditions_v069_bwm</item>
@@ -23,8 +23,12 @@
         <item>@raw/actorconditions_trader_teksin</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/actorconditions_stoutford_combined</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/actorconditions_omicronrg9</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@raw/actorconditions_arulir_mountain</item>
     </array>
-
+        
     <array name="loadresource_items">
         <item>@raw/itemlist_money</item>
         <item>@raw/itemlist_weapons</item>
@@ -59,10 +63,13 @@
         <item>@raw/itemlist_stoutford_combined</item>
         <!--Added by ATCS v0.6.14 for project bugfix_0_7_4-->
         <item>@raw/itemlist_bugfix_0_7_4</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@raw/itemlist_ratdom</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/itemlist_omicronrg9</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@raw/itemlist_arulir_mountain</item>
+        <item>@raw/itemlist_burhczyd</item>
     </array>
-
+        
     <array name="loadresource_droplists">
         <item>@raw/droplists_crossglen</item>
         <item>@raw/droplists_crossglen_outside</item>
@@ -92,10 +99,12 @@
         <item>@raw/droplists_stoutford_combined</item>
         <!--Added by ATCS v0.6.14 for project bugfix_0_7_4-->
         <item>@raw/droplists_bugfix_0_7_4</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@raw/droplists_ratdom</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/droplists_omicronrg9</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@raw/droplists_arulir_mountain</item>
     </array>
-
+        
     <array name="loadresource_quests">
         <item>@raw/questlist</item>
         <item>@raw/questlist_nondisplayed</item>
@@ -112,16 +121,22 @@
         <item>@raw/questlist_shortcut_lodar</item>
         <item>@raw/questlist_pathway_fallhaven</item>
         <item>@raw/questlist_halvor_surprise</item>
--		<item>@raw/questlist_stoutford</item>
+                        -		
+        
+        
+        <item>@raw/questlist_stoutford</item>
         <!--Added by ATCS v0.6.11 for project graveyard1-->
         <item>@raw/questlist_graveyard1</item>
         <item>@raw/questlist_guynmart</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/questlist_stoutford_combined</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@raw/questlist_ratdom</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/questlist_omicronrg9</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@raw/questlist_arulir_mountain</item>
+        <item>@raw/questlist_burhczyd</item>
     </array>
-
+        
     <array name="loadresource_conversationlists">
         <item>@raw/conversationlist_mikhail</item>
         <item>@raw/conversationlist_mikhail_foodpoison</item>
@@ -292,11 +307,13 @@
         <item>@raw/conversationlist_stoutford_combined</item>
         <!--Added by ATCS v0.6.14 for project bugfix_0_7_4-->
         <item>@raw/conversationlist_bugfix_0_7_4</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@raw/conversationlist_ratdom</item>
-        <item>@raw/conversationlist_ratdom_npc</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/conversationlist_omicronrg9</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@raw/conversationlist_arulir_mountain</item>
+        <item>@raw/conversationlist_burhczyd</item>
     </array>
-
+        
     <array name="loadresource_monsters">
         <item>@raw/monsterlist_crossglen_animals</item>
         <item>@raw/monsterlist_crossglen_npcs</item>
@@ -332,10 +349,13 @@
         <item>@raw/monsterlist_trader_teksin</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/monsterlist_stoutford_combined</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@raw/monsterlist_ratdom</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/monsterlist_omicronrg9</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@raw/monsterlist_arulir_mountain</item>
+        <item>@raw/monsterlist_burhczyd</item>
     </array>
-
+        
     <array name="loadresource_maps">
         <item>@xml/home</item>
         <item>@xml/crossglen</item>
@@ -848,19 +868,24 @@
         <item>@xml/lookout_lower</item>
         <item>@xml/lookout_upper</item>
         <item>@xml/waytolake12</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@xml/ratdom_bwm1</item>
-        <item>@xml/ratdom_crossglen</item>
-        <item>@xml/ratdom_maze1</item>
-        <item>@xml/ratdom_maze2</item>
-        <item>@xml/ratdom_maze3</item>
-        <item>@xml/ratdom_maze_418</item>
-        <item>@xml/ratdom_maze_427</item>
-        <item>@xml/ratdom_maze_428</item>
-        <item>@xml/ratdom_maze_438</item>
-        <item>@xml/ratdom_maze_447</item>
-        <item>@xml/ratdom_maze_448</item>
-        <item>@xml/ratdom_maze_458</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@xml/crackshot_hideout1</item>
+        <item>@xml/crackshot_hideout2</item>
+        <item>@xml/crackshot_hideout3</item>
+        <item>@xml/guildbrig1</item>
+        <item>@xml/guildbrig2</item>
+        <!--Added by ATCS v0.6.15 for project v078-->
+        <item>@xml/arulircave1</item>
+        <item>@xml/arulircave2</item>
+        <item>@xml/arulircave3</item>
+        <item>@xml/arulircave4</item>
+        <item>@xml/arulircave5</item>
+        <item>@xml/arulircave6</item>
+        <item>@xml/arulirmountain1</item>
+        <item>@xml/arulirmountain2</item>
+        <item>@xml/blackwater_mountain53</item>
+        <item>@xml/blackwater_mountain54</item>
+        <item>@xml/stoutford_castle_shed</item>
     </array>
-
-    </resources>
+        
+</resources>

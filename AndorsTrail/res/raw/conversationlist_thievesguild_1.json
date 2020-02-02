@@ -286,6 +286,17 @@
             {
                 "text":"Can I take a look at what supplies you have available?",
                 "nextPhraseID":"S"
+            },
+            {
+                "text":"Umar sent me to talk about my first job here.",
+                "nextPhraseID":"troublemaker_guild_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves01",
+                        "value":10
+                    }
+                ]
             }
         ]
     },

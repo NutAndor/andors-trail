@@ -191,6 +191,38 @@
                         "requireType":"inventoryRemove",
                         "requireID":"gold",
                         "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"antifoodp",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have those ingredients for you.",
+                "nextPhraseID":"fallhaven_pot_antifp_q3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gland",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"hair",
+                        "value":2
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"antifoodp",
+                        "value":35
                     }
                 ]
             },

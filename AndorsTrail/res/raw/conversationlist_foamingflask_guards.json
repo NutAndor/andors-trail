@@ -85,6 +85,7 @@
     {
         "id":"ff_captain_1",
         "message":"Are you lost, son? This is no place for a kid like you.",
+        "switchToNPC":"feygard_patrol_captain",
         "replies":[
             {
                 "text":"I have a shipment of iron swords from Gandoren for you.",
@@ -130,6 +131,23 @@
                         "requireType":"questProgress",
                         "requireID":"wrye",
                         "value":41
+                    }
+                ]
+            },
+            {
+                "text":"Hi! I have been sent by Herg ... Hertzsen Laumwill, patriarch of the Laumwill family, to bring back his daughter!",
+                "nextPhraseID":"ff_captain_guild02_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":15,
+                        "negate":true
                     }
                 ]
             }

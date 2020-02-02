@@ -19,6 +19,7 @@ public final class Requirement {
 		,hasActorCondition
 		,factionScore
 		,random
+		,factionScoreEquals
 	}
 
 	public final RequirementType requireType;
@@ -83,6 +84,8 @@ public final class Requirement {
 			case timerElapsed:
 				return requireID != null && value >= 0;
 			case wear:
+			case factionScore:
+			case factionScoreEquals:
 				return requireID != null;
 			default:
 				return false;

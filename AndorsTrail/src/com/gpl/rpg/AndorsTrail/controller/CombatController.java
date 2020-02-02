@@ -57,6 +57,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		setCombatSelection(null, null);
 		world.model.uiSelections.isInCombat = false;
 		combatTurnListeners.onCombatEnded();
+		controllers.actorStatsController.setActorMaxAP(world.model.player);
 		world.model.uiSelections.selectedPosition = null;
 		world.model.uiSelections.selectedMonster = null;
 		if (world.model.player.isDead()) {

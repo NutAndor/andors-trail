@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="exit_to_menu">الخروج للقائمة</string>
-	<string name="menu_settings">التفضيلات</string>
-	<string name="menu_save">حفظ</string>
-	<string name="loadsave_title_save">حفظ اللعبة</string>
-	<string name="loadsave_selectslot">اختر خانة</string>
-	<string name="dialog_loading_failed_title">فشل التحميل</string>
-	<string name="dialog_close">إغلاق</string>
-	<string name="dialog_more">المزيد</string>
-
-	<string name="dialog_monsterencounter_info">معلومات</string>
-	<string name="heroinfo_inventory_sort">ترتيب حسب</string>
-	<string name="combat_flee">هروب</string>
-	<string name="combat_flee_failed">لقد فشلت في الهرب!</string>
-	<string name="inventory_use">استخدام</string>
-	<string name="dialog_loot_pickall">التقاط الكل</string>
-	<string name="monster_difficulty_veryeasy">سهل جداً</string>
-	<string name="monster_difficulty_easy">سهل</string>
-	<string name="monster_difficulty_normal">عادي</string>
-	<string name="monster_difficulty_hard">صعب</string>
-	<string name="monster_difficulty_veryhard">صعب جداً</string>
-	<string name="monster_difficulty_impossible">مستحيل</string>
-
-	<string name="actorinfo_difficulty">الصعوبة:</string>
-	<string name="iteminfo_action_use">استخدام</string>
-	<string name="startscreen_continue">متابعة اللعبة الحالية</string>
-	<string name="startscreen_newgame">لعبة جديدة</string>
-	<string name="startscreen_newgame_start">بدء اللعبة</string>
-	<string name="startscreen_about">حول/المساعدة</string>
-	<string name="startscreen_selectherosprite">اختر بطلك</string>
-	<string name="startscreen_enterheroname">أدخل اسم البطل</string>
-	<string name="startscreen_load">تحميل</string>
-
-	<string name="conversation_next">التالي</string>
-	<string name="conversation_leave">مغادرة</string>
-
-	<string name="shop_buy">شراء</string>
-	<string name="shop_sell">بيع</string>
-	<string name="shop_infoitem">معلومات</string>
-	<string name="dialog_rest_confirm_message">هل تريد الراحة هنا؟</string>
-	<string name="dialog_newversion_title">مرحباً</string>
+<resources>
+    <string name="exit_to_menu">الخروج للقائمة</string>
+    <string name="menu_settings">التفضيلات</string>
+    <string name="menu_save">حفظ</string>
+    <string name="loadsave_title_save">حفظ اللعبة</string>
+    <string name="loadsave_selectslot">اختر خانة</string>
+    <string name="dialog_loading_failed_title">فشل التحميل</string>
+    <string name="dialog_close">إغلاق</string>
+    <string name="dialog_more">المزيد</string>
+    <string name="dialog_monsterencounter_info">معلومات</string>
+    <string name="heroinfo_inventory_sort">ترتيب حسب</string>
+    <string name="combat_flee">هروب</string>
+    <string name="combat_flee_failed">لقد فشلت في الهرب!</string>
+    <string name="inventory_use">استخدام</string>
+    <string name="dialog_loot_pickall">التقاط الكل</string>
+    <string name="monster_difficulty_veryeasy">سهل جداً</string>
+    <string name="monster_difficulty_easy">سهل</string>
+    <string name="monster_difficulty_normal">عادي</string>
+    <string name="monster_difficulty_hard">صعب</string>
+    <string name="monster_difficulty_veryhard">صعب جداً</string>
+    <string name="monster_difficulty_impossible">مستحيل</string>
+    <string name="actorinfo_difficulty">الصعوبة:</string>
+    <string name="iteminfo_action_use">استخدام</string>
+    <string name="startscreen_continue">متابعة اللعبة الحالية</string>
+    <string name="startscreen_newgame">لعبة جديدة</string>
+    <string name="startscreen_newgame_start">بدء اللعبة</string>
+    <string name="startscreen_about">حول/المساعدة</string>
+    <string name="startscreen_selectherosprite">اختر بطلك</string>
+    <string name="startscreen_enterheroname">أدخل اسم البطل</string>
+    <string name="startscreen_load">تحميل</string>
+    <string name="conversation_next">التالي</string>
+    <string name="conversation_leave">مغادرة</string>
+    <string name="shop_buy">شراء</string>
+    <string name="shop_sell">بيع</string>
+    <string name="shop_infoitem">معلومات</string>
+    <string name="dialog_rest_confirm_message">هل تريد الراحة هنا؟</string>
+    <string name="dialog_newversion_title">مرحباً</string>
     <string name="localize_resources_from_mo_filename">ar.mo</string>
+    <string name="app_name">على خطى اندور</string>
+    <string name="app_description">لعبة أدوار تحركها مهام</string>
+    <string name="menu_save_gamesaved">حفظ الملف للخانة %1$d</string>
+    <string name="menu_save_failed">فشل حفظ اللعبة! هل ركبت بطاقة ذاكرة قابلة للكتابة؟</string>
+    <string name="loadsave_title_load">فتح ملف الحفظ</string>
+    <string name="savegame_currenthero_displayinfo">"مستوى %1$d،  %2$d خبرة ، %3$d ذهب"</string>
+    <string name="dialog_loading_message">جار التحميل…</string>
+    <string name="dialog_loading_failed_message">عجزت اللعبة عن فتح ملف الحفظ.
+\n
+\n:(
+\n
+\nالملف تالف أو منقوص.</string>
+    <string name="dialog_loading_failed_incorrectversion">عجزت اللعبة عن فتح ملف الحفظ. ملف الحفظ صنع في نسخة لعبة أجد من النسخة الحالية.</string>
+    <string name="dialog_recenter">توسيط الشاشة</string>
+    <string name="dialog_monsterencounter_title">لقاء</string>
+    <string name="dialog_monsterencounter_message">أتريد أن تهاجم؟
+\nصعوبة: %1$s</string>
+    <string name="dialog_monsterencounter_conditions">حالات</string>
+    <string name="status_hp">صحة:</string>
+    <string name="status_ap">فعل:</string>
+    <string name="status_exp">خبرة:</string>
 </resources>

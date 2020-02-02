@@ -1,4 +1,13 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="localize_resources_from_mo_filename">fi.mo</string>
+    <string name="app_name">Andor\'s Trail</string>
+    <string name="menu_settings">Asetukset</string>
+    <string name="menu_save">Tallenna</string>
+    <string name="menu_save_gamesaved">Peli tallennettiin paikkaan %1$d</string>
+    <string name="loadsave_title_save">Tallenna peli</string>
+    <string name="loadsave_title_load">Lataa tallennettu peli</string>
+    <string name="loadsave_selectslot">Valitse paikka</string>
+    <string name="dialog_loading_message">Ladataan resursseja…</string>
+    <string name="dialog_loading_failed_title">Lataaminen epäonnistui</string>
 </resources>

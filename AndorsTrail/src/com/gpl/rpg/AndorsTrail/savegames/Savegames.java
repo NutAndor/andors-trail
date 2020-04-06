@@ -233,7 +233,7 @@ public final class Savegames {
 	private static void onWorldLoaded(Resources res, WorldContext world, ControllerContext controllers) {
 		controllers.actorStatsController.recalculatePlayerStats(world.model.player);
 		controllers.mapController.resetMapsNotRecentlyVisited();
-		controllers.movementController.prepareMapAsCurrentMap(world.model.currentMap, res, false);
+		controllers.movementController.prepareMapAsCurrentMap(world.model.currentMaps.map, res, false);
 		controllers.gameRoundController.resetRoundTimers();
 	}
 

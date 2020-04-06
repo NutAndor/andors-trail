@@ -113,17 +113,30 @@
         ]
     },
     {
-        "id":"gold20",
+        "id":"gold100",
         "items":[
             {
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":20,
-                    "max":20
+                    "min":100,
+                    "max":100
                 }
             }
         ]
+    },
+    {
+      "id":"gold20",
+      "items":[
+        {
+          "itemID":"gold",
+          "chance":"100",
+          "quantity":{
+            "min":20,
+            "max":20
+          }
+        }
+      ]
     },
     {
         "id":"canine",
@@ -216,12 +229,20 @@
                 "itemID":"gold",
                 "chance":"100",
                 "quantity":{
-                    "min":10,
-                    "max":10
+                    "min":100,
+                    "max":100
                 }
             },
             {
                 "itemID":"tail_caverat",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"ironsword2",
                 "chance":"100",
                 "quantity":{
                     "min":1,

@@ -7,6 +7,7 @@ import com.gpl.rpg.AndorsTrail.AndorsTrailPreferences;
 import com.gpl.rpg.AndorsTrail.context.ControllerContext;
 import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.controller.listeners.PlayerMovementListeners;
+import com.gpl.rpg.AndorsTrail.model.MapBundle;
 import com.gpl.rpg.AndorsTrail.model.ModelContainer;
 import com.gpl.rpg.AndorsTrail.model.actor.Monster;
 import com.gpl.rpg.AndorsTrail.model.actor.Player;
@@ -56,7 +57,7 @@ public final class MovementController implements TimedMessageTask.Callback {
 			protected void onPostExecute(Void result) {
 				super.onPostExecute(result);
 				stopMovement();
-				playerMovementListeners.onPlayerEnteredNewMap(world.model.currentMap, world.model.player.position);
+				playerMovementListeners.onPlayerEnteredNewMap(world.model.currentMaps.map, world.model.player.position);
 				controllers.gameRoundController.resume();
 			}
 
@@ -83,7 +84,7 @@ public final class MovementController implements TimedMessageTask.Callback {
 		}
 		final ModelContainer model = world.model;
 
-		if (model.currentMap != null) model.currentMap.updateLastVisitTime();
+		if (model.currentMaps.map != null) model.currentMaps.map.updateLastVisitTime();
 		model.player.position.set(place.position.topLeft);
 		model.player.position.x += Math.min(offset_x, place.position.size.width-1);
 		model.player.position.y += Math.min(offset_y, place.position.size.height-1);
@@ -103,19 +104,28 @@ public final class MovementController implements TimedMessageTask.Callback {
 
 	public void prepareMapAsCurrentMap(PredefinedMap newMap, Resources res, boolean spawnMonsters) {
 		final ModelContainer model = world.model;
-		model.currentMap = newMap;
-		cacheCurrentMapData(res, newMap);
+		MapBundle newMaps = new MapBundle();
+		newMaps.map = newMap;
+
+		LayeredTileMap mapTiles = TMXMapTranslator.readLayeredTileMap(res, world.tileManager.tileCache, newMaps.map);
+		mapTiles.changeColorFilter(newMaps.map.currentColorFilter);
+		TileCollection cachedTiles = world.tileManager.loadTilesFor(newMaps.map, mapTiles, world, res);
+		newMaps.tileMap = mapTiles;
+		newMaps.tiles = cachedTiles;
+		world.tileManager.cacheAdjacentMaps(res, world, newMaps.map);
+		world.model.currentMaps = newMaps;
+
 		//Apply replacements before spawning, so that MonsterSpawnArea's isActive variable is up to date.
 		controllers.mapController.applyCurrentMapReplacements(res, false);
 		if (spawnMonsters) {
 			if (!newMap.isRecentlyVisited()) {
-				controllers.monsterSpawnController.spawnAll(newMap, model.currentTileMap);
+				controllers.monsterSpawnController.spawnAll(newMap, model.currentMaps.tileMap);
 			}
 		}
 		controllers.mapController.prepareScriptsOnCurrentMap();
 		newMap.visited = true;
 		newMap.updateLastVisitTime();
-		moveBlockedActors(newMap, model.currentTileMap);
+		moveBlockedActors(newMap, model.currentMaps.tileMap);
 		refreshMonsterAggressiveness(newMap, model.player);
 		controllers.effectController.updateSplatters(newMap);
 		WorldMapController.updateWorldMap(world, res);
@@ -131,7 +141,7 @@ public final class MovementController implements TimedMessageTask.Callback {
 
 		if (!findWalkablePosition(dx, dy)) return;
 
-		Monster m = world.model.currentMap.getMonsterAt(world.model.player.nextPosition);
+		Monster m = world.model.currentMaps.map.getMonsterAt(world.model.player.nextPosition);
 		if (m != null) {
 			controllers.mapController.steppedOnMonster(m, world.model.player.nextPosition);
 			return;
@@ -196,14 +206,14 @@ public final class MovementController implements TimedMessageTask.Callback {
 				,player.position.y + dy
 			);
 
-		if (!world.model.currentTileMap.isWalkable(player.nextPosition)) return false;
+		if (!world.model.currentMaps.tileMap.isWalkable(player.nextPosition)) return false;
 
 		// allow player to enter every field when he is NORMAL
 		// prevent player from entering "non-monster-fields" when he is AGGRESSIVE
 		// prevent player from entering "monster-fields" when he is DEFENSIVE
 		if (aggressiveness == AndorsTrailPreferences.MOVEMENTAGGRESSIVENESS_NORMAL) return true;
 
-		Monster m = world.model.currentMap.getMonsterAt(player.nextPosition);
+		Monster m = world.model.currentMaps.map.getMonsterAt(player.nextPosition);
 		if (m != null && !m.isAgressive(player)) return true; // avoid MOVEMENTAGGRESSIVENESS settings for NPCs
 
 		if (aggressiveness == AndorsTrailPreferences.MOVEMENTAGGRESSIVENESS_AGGRESSIVE && m == null) return false;
@@ -225,7 +235,7 @@ public final class MovementController implements TimedMessageTask.Callback {
 
 	public void moveToNextIfPossible() {
 		final Player player = world.model.player;
-		final PredefinedMap currentMap = world.model.currentMap;
+		final PredefinedMap currentMap = world.model.currentMaps.map;
 		final Coord newPosition = player.nextPosition;
 
 		for (MapObject o : currentMap.eventObjects) {
@@ -251,7 +261,7 @@ public final class MovementController implements TimedMessageTask.Callback {
 
 				if (!world.model.uiSelections.isInCombat) {
 					//currentMap can be outdated due to mapchange events processed above.
-					Loot loot = world.model.currentMap.getBagAt(newPosition);
+					Loot loot = world.model.currentMaps.map.getBagAt(newPosition);
 					if (loot != null) controllers.itemController.playerSteppedOnLootBag(loot);
 				}
 			}
@@ -262,7 +272,7 @@ public final class MovementController implements TimedMessageTask.Callback {
 
 	public void respawnPlayer(Resources res) {
 		placePlayerAt(res, MapObject.MapObjectType.rest, world.model.player.getSpawnMap(), world.model.player.getSpawnPlace(), 0, 0);
-		playerMovementListeners.onPlayerEnteredNewMap(world.model.currentMap, world.model.player.position);
+		playerMovementListeners.onPlayerEnteredNewMap(world.model.currentMaps.map, world.model.player.position);
 	}
 	public void respawnPlayerAsync() {
 		placePlayerAsyncAt(MapObject.MapObjectType.rest, world.model.player.getSpawnMap(), world.model.player.getSpawnPlace(), 0, 0);
@@ -310,16 +320,6 @@ public final class MovementController implements TimedMessageTask.Callback {
 		}
 		return null;
 	}
-
-	private void cacheCurrentMapData(final Resources res, final PredefinedMap nextMap) {
-		LayeredTileMap mapTiles = TMXMapTranslator.readLayeredTileMap(res, world.tileManager.tileCache, nextMap);
-		mapTiles.changeColorFilter(nextMap.currentColorFilter);
-		TileCollection cachedTiles = world.tileManager.loadTilesFor(nextMap, mapTiles, world, res);
-		world.model.currentTileMap = mapTiles;
-		world.tileManager.currentMapTiles = cachedTiles;
-		world.tileManager.cacheAdjacentMaps(res, world, nextMap);
-	}
-
 
 	private int movementDx;
 	private int movementDy;

@@ -6,6 +6,7 @@ import java.util.Collection;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -304,6 +305,9 @@ public final class MainActivity
 			t = Toast.makeText(this, msg, duration);
 			lastToast = new WeakReference<Toast>(t);
 		} else {
+			if (Build.VERSION.SDK_INT  >= Build.VERSION_CODES.P && t.getView().isShown()) {
+				t.cancel();
+			}
 			t.setText(msg);
 			t.setDuration(duration);
 		}

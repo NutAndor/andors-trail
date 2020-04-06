@@ -194,6 +194,11 @@
     <property name="quantity" value="2"/>
    </properties>
   </object>
+  <object name="burhczyd8" type="spawn" x="224" y="96" width="32" height="32">
+   <properties>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>

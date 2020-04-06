@@ -141,10 +141,10 @@
 		&lt;br /&gt;&lt;br /&gt;
 		&lt;a href=http://andorstrail.com/&gt;Foros de juego en andorstrail.com para preguntas y discusiones de juego.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
-		&lt;a href=http://andorstrail.com/wiki&gt;Wiki Juego para información sobre el mundo de Trail del Andor, entre otras cosas.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/Zukero/andors-trail/&gt;Código fuente del proyecto en github.com para los desarrolladores.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Por favor visite los foros para discutir el juego con otros jugadores.&lt;br /&gt;
+		&lt;a href=http://andorstrail.com/wiki&gt;Wiki Juego para información sobre el mundo de Trail del Andor, entre otras cosas.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Código fuente del proyecto en github.com para los desarrolladores.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Por favor visite los foros para discutir el juego con otros jugadores.&lt;br /&gt;
 	</string>
     <string name="about_contents3">
-		Este programa es software libre; puedes redistribuirlo y / o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Fundación para el Software Libre; . ya sea la versión 2 de la Licencia, o (a su elección) cualquier versión posterior &lt;br /&gt; &lt;br /&gt; Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General GNU para más detalles &lt;br /&gt; &lt;br /&gt; Usted debería haber recibido una copia de la Licencia Pública General de GNU junto con este programa.; si no, ver &lt;a href=http://www.gnu.org/licenses&gt; http://www.gnu.org/licenses &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Para las solicitudes de código fuente y de la característica, por favor visite la página del proyecto en &lt;a href=https://github.com/Zukero/andors-trail/&gt; https://github.com/Zukero/andors-trail/ &lt;/a&gt; &lt;br /&gt;
+		Este programa es software libre; puedes redistribuirlo y / o modificarlo bajo los términos de la Licencia Pública General GNU publicada por la Fundación para el Software Libre; . ya sea la versión 2 de la Licencia, o (a su elección) cualquier versión posterior &lt;br /&gt; &lt;br /&gt; Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA GARANTÍA; ni siquiera la garantía implícita de COMERCIALIZACIÓN o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General GNU para más detalles &lt;br /&gt; &lt;br /&gt; Usted debería haber recibido una copia de la Licencia Pública General de GNU junto con este programa.; si no, ver &lt;a href=http://www.gnu.org/licenses&gt; http://www.gnu.org/licenses &lt;/a&gt; &lt;br /&gt; &lt;br /&gt; Para las solicitudes de código fuente y de la característica, por favor visite la página del proyecto en &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; https://github.com/AndorsTrailRelease/andors-trail/ &lt;/a&gt; &lt;br /&gt;
 	</string>
     <string name="dialog_newversion_title">Bienvenido</string>
     <string name="dialog_newversion_message">
@@ -564,4 +564,20 @@
     <string name="inventory_category_usable">Consumible</string>
     <string name="skill_category_offense">Ataque</string>
     <string name="skill_category_proficiency">Dominio</string>
+    <string name="dialog_game_over_title">Fin del juego</string>
+    <string name="dialog_game_over_text">Toma tu último aliento y mueres.</string>
+    <string name="rip_startscreen">(E.P.D)</string>
+    <string name="heroinfo_mode">Modo</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Estandar
+\n(Guardados y vidas ilimitadas)</string>
+    <string name="heroinfo_unlimited_lives">Vidas ilimitadas, solo 1 guardado</string>
+    <string name="heroinfo_limited_lives">Vidas limitadas (%1$d/%2$d faltantes)</string>
+    <string name="heroinfo_one_life">Permamuerte (1 vida)</string>
+    <string name="startscreen_game_mode">Modo</string>
+    <string name="startscreen_load_game">Cargar juego</string>
+    <string name="startscreen_load_game_confirm">El juego actual no está guardado y perderás tu personaje.</string>
+    <string name="startscreen_error_loading_game">Hubo un error al cargar la partida</string>
+    <string name="startscreen_error_loading_empty_slot">No se puede cargar desde una ranura vacía.</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Atención</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Cargar este juego elimina su ranura de guardado. Tendrás que guardar de nuevo antes de cambiar a otro juego.</string>
 </resources>

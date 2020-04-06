@@ -18,7 +18,7 @@
         "message":"That chest is something of a local legend. Been there for generations. They say it is sealed with magic and can only be opened with a special key, which hangs on the neck of one of the undead that roam in a cemetery directly south of here.",
         "replies":[
             {
-                "text":"Killing the undead is my speciality.",
+                "text":"Killing the undead is my specialty.",
                 "nextPhraseID":"graveyardtraveler_30"
             },
             {
@@ -249,7 +249,8 @@
                 "requires":[
                     {
                         "requireType":"wear",
-                        "requireID":"lifetaker"
+                        "requireID":"lifetaker",
+                        "value":1
                     }
                 ]
             },
@@ -266,6 +267,7 @@
                     {
                         "requireType":"wear",
                         "requireID":"lifetaker",
+                        "value":1,
                         "negate":true
                     }
                 ]
@@ -540,7 +542,7 @@
     },
     {
         "id":"algore_99a",
-        "message":"Lets go.",
+        "message":"Let's go.",
         "replies":[
             {
                 "text":"I'm sorry it has come to this.",

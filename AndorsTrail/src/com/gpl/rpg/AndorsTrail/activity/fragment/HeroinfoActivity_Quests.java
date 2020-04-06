@@ -116,43 +116,43 @@ public final class HeroinfoActivity_Quests extends Fragment {
 		groupList.clear();
 		childList.clear();
 
-		for (Quest q : world.quests.getAllQuests()) {
+		for (String questProgressID : player.getAllQuestProgressIDs()) {
+			Quest q = world.quests.getQuest(questProgressID);
+			if (q == null) continue; // This should not happen
 			if (!q.showInLog) continue; // Do not show
-			if (player.hasAnyQuestProgress(q.questID)) {
-				boolean isCompleted = q.isCompleted(player);
+			boolean isCompleted = q.isCompleted(player);
 
-				int v = world.model.uiSelections.selectedQuestFilter;
-				if (v == 0) { // Hide completed quests
-					if (isCompleted) continue;
-				} else if (v == 1) { // Include completed quests
-					// Always show.
-				} else if (v == 2) { // Only completed quests
-					if (!isCompleted) continue;
-				}
-
-				int statusResId;
-				if (isCompleted) {
-					statusResId = R.string.questlog_queststatus_completed;
-				} else {
-					statusResId = R.string.questlog_queststatus_inprogress;
-				}
-
-				Map<String, Object> item = new HashMap<String, Object>();
-				item.put(mn_questName, q.name);
-				item.put(mn_questStatus, getString(R.string.questlog_queststatus, getString(statusResId)));
-				groupList.add(item);
-
-				List<Map<String, ?>> logItemList = new ArrayList<Map<String, ?>>();
-				for (QuestLogEntry e : q.stages) {
-					if (e.logtext.length() <= 0) continue; // Do not show if displaytext is empty.
-					if (player.hasExactQuestProgress(q.questID, e.progress)) {
-						item = new HashMap<String, Object>();
-						item.put(mn_logText, e.logtext);
-						logItemList.add(item);
-					}
-				}
-				childList.add(logItemList);
+			int v = world.model.uiSelections.selectedQuestFilter;
+			if (v == 0) { // Active quests
+				if (isCompleted) continue;
+			} else if (v == 1) { // All quests
+				// Always show.
+			} else if (v == 2) { // Completed quests
+				if (!isCompleted) continue;
 			}
+
+			int statusResId;
+			if (isCompleted) {
+				statusResId = R.string.questlog_queststatus_completed;
+			} else {
+				statusResId = R.string.questlog_queststatus_inprogress;
+			}
+
+			Map<String, Object> item = new HashMap<String, Object>();
+			item.put(mn_questName, q.name);
+			item.put(mn_questStatus, getString(R.string.questlog_queststatus, getString(statusResId)));
+			groupList.add(item);
+
+			List<Map<String, ?>> logItemList = new ArrayList<Map<String, ?>>();
+			for (QuestLogEntry e : q.stages) {
+				if (e.logtext.length() <= 0) continue; // Do not show if displaytext is empty.
+				if (player.hasExactQuestProgress(q.questID, e.progress)) {
+					item = new HashMap<String, Object>();
+					item.put(mn_logText, e.logtext);
+					logItemList.add(item);
+				}
+			}
+			childList.add(logItemList);
 		}
 		questlog_contents_adapter.notifyDataSetChanged();
 	}

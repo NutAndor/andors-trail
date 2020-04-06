@@ -41,7 +41,7 @@ public final class WorldMapController {
 	public static final int WORLDMAP_DISPLAY_TILESIZE = WORLDMAP_SCREENSHOT_TILESIZE;
 
 	public static void updateWorldMap(final WorldContext world, final Resources res) {
-		updateWorldMap(world, world.model.currentMap, world.model.currentTileMap, world.tileManager.currentMapTiles, res);
+		updateWorldMap(world, world.model.currentMaps.map, world.model.currentMaps.tileMap, world.model.currentMaps.tiles, res);
 	}
 
 	private static void updateWorldMap(
@@ -303,7 +303,7 @@ public final class WorldMapController {
 	}
 
 	public static boolean displayWorldMap(Context context, WorldContext world) {
-		String worldMapSegmentName = world.maps.getWorldMapSegmentNameForMap(world.model.currentMap.name);
+		String worldMapSegmentName = world.maps.getWorldMapSegmentNameForMap(world.model.currentMaps.map.name);
 		if (worldMapSegmentName == null) {
 			Toast.makeText(context, context.getResources().getString(R.string.display_worldmap_not_available), Toast.LENGTH_LONG).show();
 			return false;

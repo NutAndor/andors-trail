@@ -98,7 +98,6 @@ public final class TileManager {
 
 	public final TileCache tileCache = new TileCache();
 	public TileCollection preloadedTiles;// = new TileCollection(116);
-	public TileCollection currentMapTiles;
 	public TileCollection adjacentMapTiles;
 	private final HashSet<Integer> preloadedTileIDs = new HashSet<Integer>();
 
@@ -177,9 +176,9 @@ public final class TileManager {
 
 
 
-	public void setImageViewTile(Resources res, TextView textView, Monster monster) { setImageViewTileForMonster(res, textView, monster.iconID); }
+	public void setImageViewTile(Resources res, TextView textView, Monster monster, TileCollection tiles) { setImageViewTileForMonster(res, textView, monster.iconID, tiles); }
 	public void setImageViewTile(Resources res, TextView textView, Player player) { setImageViewTileForPlayer(res, textView, player.iconID); }
-	public void setImageViewTileForMonster(Resources res, TextView textView, int iconID) { setImageViewTile(res, textView, currentMapTiles.getBitmap(iconID)); }
+	public void setImageViewTileForMonster(Resources res, TextView textView, int iconID, TileCollection tiles) { setImageViewTile(res, textView, tiles.getBitmap(iconID)); }
 	public void setImageViewTileForPlayer(Resources res, TextView textView, int iconID) { setImageViewTile(res, textView, preloadedTiles.getBitmap(iconID)); }
 	public void setImageViewTile(Resources res, TextView textView, ActorConditionType conditionType) { setImageViewTile(res, textView, preloadedTiles.getBitmap(conditionType.iconID)); }
 	public void setImageViewTile(Resources res, TextView textView, ActorConditionType conditionType, boolean immunityOverlay) { setImageViewTile(res, textView, preloadedTiles.getBitmap(conditionType.iconID), immunityOverlay); }
@@ -249,9 +248,9 @@ public final class TileManager {
 		}
 	}
 
-	public void setImageViewTile(Resources res, ImageView imageView, Monster monster) { setImageViewTileForMonster(res, imageView, monster.iconID); }
+	public void setImageViewTile(Resources res, ImageView imageView, Monster monster, TileCollection tiles) { setImageViewTileForMonster(res, imageView, monster.iconID, tiles); }
 	public void setImageViewTile(Resources res, ImageView imageView, Player player) { setImageViewTileForPlayer(res, imageView, player.iconID); }
-	public void setImageViewTileForMonster(Resources res, ImageView imageView, int iconID) {  setImageViewTile(res, imageView, currentMapTiles.getBitmap(iconID)); }
+	public void setImageViewTileForMonster(Resources res, ImageView imageView, int iconID, TileCollection tiles) {  setImageViewTile(res, imageView, tiles.getBitmap(iconID)); }
 	public void setImageViewTileForPlayer(Resources res, ImageView imageView, int iconID) {  setImageViewTile(res, imageView, preloadedTiles.getBitmap(iconID)); }
 //	public void setImageViewTile(Resources res, ImageView imageView, ActorConditionType conditionType) {  setImageViewTile(res, imageView, preloadedTiles.getBitmap(conditionType.iconID)); }
 	public void setImageViewTile(Context ctx, ImageView imageView, ActorConditionType conditionType, boolean immunityOverlay) {  setImageViewTile(ctx, imageView, preloadedTiles.getBitmap(conditionType.iconID), immunityOverlay); }

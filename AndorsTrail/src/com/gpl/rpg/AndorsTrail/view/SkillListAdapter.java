@@ -155,6 +155,7 @@ public final class SkillListAdapter extends ArrayAdapter<SkillInfo> {
 		case fightstyleDualWield: return R.string.skill_shortdescription_fightstyle_dualwield;
 		case fightstyle2hand: return R.string.skill_shortdescription_fightstyle_2hand;
 		case fightstyleWeaponShield: return R.string.skill_shortdescription_fightstyle_weapon_shield;
+		case fightstyleUnarmedUnarmored: return R.string.skill_shortdescription_fightstyle_unarmed_unarmored;
 		case specializationDualWield: return R.string.skill_shortdescription_specialization_dualwield;
 		case specialization2hand: return R.string.skill_shortdescription_specialization_2hand;
 		case specializationWeaponShield: return R.string.skill_shortdescription_specialization_weapon_shield;

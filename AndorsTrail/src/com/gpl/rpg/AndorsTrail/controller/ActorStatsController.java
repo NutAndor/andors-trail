@@ -272,27 +272,39 @@ public final class ActorStatsController {
 		actor.damagePotential.addToMax(effects.increaseMaxDamage * multiplier);
 		actor.blockChance += effects.increaseBlockChance * multiplier;
 		actor.damageResistance += effects.increaseDamageResistance * multiplier;
-
-		if (actor.attackChance < 0) actor.attackChance = 0;
-		if (actor.damagePotential.max < 0) actor.damagePotential.set(0, 0);
 	}
 
 	public void recalculatePlayerStats(Player player) {
+		player.weaponDamage.set(0,0);
 		player.resetStatsToBaseTraits();
 		player.recalculateLevelExperience();
 		controllers.itemController.applyInventoryEffects(player);
 		controllers.skillController.applySkillEffects(player);
 		applyEffectsFromCurrentConditions(player);
 		ItemController.recalculateHitEffectsFromWornItems(player);
+		ItemController.applyDamageModifier(player);
 		capActorHealthAtMax(player);
 		capActorAPAtMax(player);
+		lowCapActorAttackChance(player);
+		lowCapActorDamagePotential(player);
 	}
 	public void recalculateMonsterCombatTraits(Monster monster) {
 		monster.resetStatsToBaseTraits();
 		applyEffectsFromCurrentConditions(monster);
 		capActorHealthAtMax(monster);
 		capActorAPAtMax(monster);
+		lowCapActorAttackChance(monster);
+		lowCapActorDamagePotential(monster);
 	}
+
+	private void lowCapActorAttackChance(Actor actor) {
+		if (actor.attackChance < 0) actor.attackChance = 0;
+	}
+
+	private void lowCapActorDamagePotential(Actor actor) {
+		if (actor.damagePotential.max < 0) actor.damagePotential.set(0, 0);
+	}
+
 	private void recalculateActorCombatTraits(Actor actor) {
 		if (actor.isPlayer) recalculatePlayerStats((Player) actor);
 		else recalculateMonsterCombatTraits((Monster) actor);
@@ -543,6 +555,11 @@ public final class ActorStatsController {
 				addActorHealth(player, level * SkillCollection.PER_SKILLPOINT_INCREASE_REGENERATION);
 			}
 		}
+	}
+
+	public void addPlayerWeaponDamage(Player player, int increaseMinDamage, int increaseMaxDamage) {
+		player.weaponDamage.add(increaseMinDamage, true);
+		player.weaponDamage.addToMax(increaseMaxDamage);
 	}
 
 	public static enum LevelUpSelection {

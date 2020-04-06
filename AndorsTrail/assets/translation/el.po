@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-18 14:55+0200\n"
-"PO-Revision-Date: 2019-08-20 01:23+0000\n"
-"Last-Translator: Katerina Katapodi <katerinakatapodi@gmail.com>\n"
+"PO-Revision-Date: 2020-03-06 22:06+0000\n"
+"Last-Translator: NELOK <fotoglou@uom.edu.gr>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/el/>\n"
 "Language: el\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.8\n"
+"X-Generator: Weblate 4.0-dev\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -20,7 +20,7 @@ msgstr "Ευλογία"
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "Μη Ισχυρό Δηλητήριο"
+msgstr "Αδύναμο Δηλητήριο"
 
 #: actorconditions_v069.json:str
 msgid "Strength"
@@ -28,7 +28,7 @@ msgstr "Δύναμη"
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr "Αναπαραγωγή Σκιάς"
+msgstr "Αναγέννηση Σκιάς"
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
@@ -48,11 +48,11 @@ msgstr "Τραύμα που αιμορραγεί"
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr ""
+msgstr "Μικρή οργή του μαινόμενου"
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
-msgstr "Μιζέρια φτώχειας"
+msgstr "Μιζέρια του Blackwater"
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
@@ -64,7 +64,7 @@ msgstr "Αναίσθητος"
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
-msgstr "Ισχυρότατο γράπωμα"
+msgstr "Χαοτικό γράπωμα"
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
@@ -96,15 +96,15 @@ msgstr "Δηλητήριο Irdegh"
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
-msgstr ""
+msgstr "Σκουλίκια Kazaul"
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr "Ευλογημένη δύναμη Σκιάς"
+msgstr "Ευλογία της δύναμης της Σκιάς"
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr "Ευλογία αναπαραγωγής σκιάς"
+msgstr "Ευλογία αναγέννησης της Σκιάς"
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
@@ -112,7 +112,7 @@ msgstr "Ευλογία ακριβούς σκιάς"
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
-msgstr "Διαφύλαξη ευλογίας σκιάς"
+msgstr "Ευλογία του φύλακα της Σκιάς"
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
@@ -124,23 +124,23 @@ msgstr "Κάταγμα"
 
 #: actorconditions_v0611_2.json:concussion
 msgid "Concussion"
-msgstr "Κοιλότητα"
+msgstr "Διάσειση"
 
 #: actorconditions_v0612_2.json:food
 msgid "Sustenance"
-msgstr "Αντοχή"
+msgstr "Διατήρηση"
 
 #: actorconditions_v0612_2.json:foodp
 msgid "Food-poisoning"
-msgstr "Δηλητηρίαση φαγητού"
+msgstr "Τροφική δηλητηρίαση"
 
 #: actorconditions_v070.json:slime
 msgid "Corrosive slime"
-msgstr "Ρωγμή διάβρωσης"
+msgstr "Διαβρωτική γλίτσα"
 
 #: actorconditions_v070.json:sense_1
 msgid "Heightened senses"
-msgstr "Υπέρταση"
+msgstr "Αισθήσεις σε εγρήγορση"
 
 #: actorconditions_v070.json:courage
 msgid "Courage"
@@ -152,43 +152,43 @@ msgstr "Φόβος"
 
 #: actorconditions_v070.json:def
 msgid "Fortified defense"
-msgstr "Οχύρωση άμυνας"
+msgstr "Οχυρωμένη άμυνα"
 
 #: actorconditions_v070.json:crit_aware
 msgid "Vulnerability awareness"
-msgstr "Επίγνωση ευαισθησίας"
+msgstr "Επίγνωση αδυναμίας"
 
 #: actorconditions_v070.json:regen2
 msgid "Regeneration"
-msgstr "Αναπαραγωγή"
+msgstr "Αναγέννηση"
 
 #: actorconditions_v070.json:barkskin
 msgid "Bark skin"
-msgstr ""
+msgstr "Δέρμα από Κορμό"
 
 #: actorconditions_v070.json:shadow_acc
 msgid "Shadow's accuracy"
-msgstr "Ακρίβεια σκιάς"
+msgstr "Ακρίβεια της Σκιάς"
 
 #: actorconditions_v070.json:shadow_prot
 msgid "Shadow's protection"
-msgstr "Προστασία σκιάς"
+msgstr "Προστασία της Σκιάς"
 
 #: actorconditions_v070.json:shadow_dmg
 msgid "Shadow's strength"
-msgstr "Δύναμη σκιάς"
+msgstr "Δύναμη της Σκιάς"
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
-msgstr "Απέχθεια"
+msgstr "Βιασύνη"
 
 #: actorconditions_v070.json:fire
 msgid "Ablaze"
-msgstr ""
+msgstr "Διάπυρος"
 
 #: actorconditions_v070.json:sting_minor
 msgid "Minor sting"
-msgstr "Απαλό κέντρισμα"
+msgstr "Ασήμαντο τσίμπημα"
 
 #: actorconditions_stoutford.json:confusion
 msgid "Confusion"
@@ -200,11 +200,11 @@ msgstr "Αδεξιότητα"
 
 #: actorconditions_stoutford.json:curse_undead
 msgid "Curse of the Undead"
-msgstr "Κατάρα ζωντανών"
+msgstr "Κατάρα των νεκροζωντανών"
 
 #: actorconditions_graveyard1.json:contagion2
 msgid "Spore contagion"
-msgstr ""
+msgstr "Μόλυνση από σπόρους"
 
 #: actorconditions_graveyard1.json:petrification
 msgid "Petrification"
@@ -216,11 +216,11 @@ msgstr "Ευαισθησία"
 
 #: actorconditions_graveyard1.json:flesh_rot
 msgid "Flesh rot"
-msgstr ""
+msgstr "Σάπισμα της σάρκας"
 
 #: actorconditions_graveyard1.json:putrefaction
 msgid "Putrefaction"
-msgstr "Κονίαση"
+msgstr "Σάπισμα"
 
 #: actorconditions_guynmart.json:regenNeg
 msgid "Shadow Degeneration"
@@ -232,15 +232,15 @@ msgstr "Κάταγμα οστού"
 
 #: actorconditions_guynmart.json:shadow_awareness
 msgid "Shadow awareness"
-msgstr "Επίγνωση σκιάς"
+msgstr "Επίγνωση Σκιάς"
 
 #: actorconditions_trader_teksin.json:poison_irdegh_weak
 msgid "Weak irdegh poison"
-msgstr "Μη ισχυρό δηλητήριο"
+msgstr "Αδύναμο δηλητήριο irdegh"
 
 #: actorconditions_trader_teksin.json:light_attack
 msgid "Lightning attack"
-msgstr "Έναρξη επίθεσης"
+msgstr "Αστραπιαία επίθεση"
 
 #: actorconditions_stoutford_combined.json:nausea
 msgid "Nausea"
@@ -256,7 +256,7 @@ msgstr "Φθορά"
 
 #: actorconditions_stoutford_combined.json:tight_grip
 msgid "Tight grip"
-msgstr "Άρπαγμα"
+msgstr "Σφιχτή λαβή"
 
 #: actorconditions_stoutford_combined.json:clairvoyance
 msgid "Clairvoyance"
@@ -268,15 +268,15 @@ msgstr "Θολούρα μυαλού"
 
 #: actorconditions_omicronrg9.json:guild03_restingAC
 msgid "Resting"
-msgstr ""
+msgstr "Ξεκούραση"
 
 #: actorconditions_omicronrg9.json:g03_concentration
 msgid "Concentration"
-msgstr ""
+msgstr "Συγκέντρωση"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr ""
+msgstr "Κόμπο"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
@@ -284,31 +284,33 @@ msgstr ""
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
-msgstr ""
+msgstr "Συντετριμμένος"
 
 #: actorconditions_arulir_mountain.json:head_wound
 msgid "Head wound"
-msgstr ""
+msgstr "Πληγή κεφαλιού"
 
 #: actorconditions_arulir_mountain.json:mermaid_scale
 msgid "Mermaid curse"
-msgstr ""
+msgstr "Κατάρα της γοργόνας"
 
 #: actorconditions_arulir_mountain.json:increased_defense
 msgid "Increased defense"
-msgstr ""
+msgstr "Αυξημένη άμυνα"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
-msgstr "Ω καλά, είσαι ξύπνιος."
+msgstr "Α ωραία, είσαι ξύπνιος."
 
 #: conversationlist_mikhail.json:mikhail_visited
 msgid "I can't seem to find your brother Andor anywhere. He hasn't been back since he left yesterday."
-msgstr "Δεν μπορώ να βρω τον αδελφό σου Andor πουθενά. Δεν έχει επιστρέψει από χθες."
+msgstr ""
+"Δεν μπορώ να βρω τον αδελφό σου Andor πουθενά. Δεν έχει επιστρέψει από χθές "
+"που έφυγε."
 
 #: conversationlist_mikhail.json:mikhail3
 msgid "Never mind, he will probably be back soon."
-msgstr "Δεν πειράζει, πιθανόν να επιστρέψει σύντομα."
+msgstr "Δεν πειράζει, μάλλον θα επιστρέψει σύντομα."
 
 #: conversationlist_mikhail.json:mikhail_default
 #: conversationlist_crossglen_leonid.json:leonid_continue
@@ -320,69 +322,80 @@ msgstr "Υπάρχει κάτι άλλο που μπορώ να σε βοηθή�
 #: conversationlist_mikhail.json:mikhail_default:1
 #: conversationlist_mikhail.json:mikhail_default:2
 msgid "Do you have any more tasks for me?"
-msgstr "Υπάρχουν περισσότερες εργασίες για μένα?"
+msgstr "Υπάρχουν περισσότερες δουλειές για μένα?"
 
 #: conversationlist_mikhail.json:mikhail_default:3
 #: conversationlist_umar.json:umar_return_1:0
 msgid "Do you have any tasks for me?"
-msgstr ""
+msgstr "Έχεις καθόλου δουλειές για μένα;"
 
 #: conversationlist_mikhail.json:mikhail_default:4
 msgid "Is there anything else you can tell me about Andor?"
-msgstr ""
+msgstr "Υπάρχει κάτι άλλο που μπορείς να μου πείς για τον Andor;"
 
 #: conversationlist_mikhail.json:mikhail_tasks
 msgid "Oh yes, there were some things I need help with, bread and rats. Which one would you like to talk about?"
 msgstr ""
+"Α ναι, υπάρχουν κάποια πράγματα που χρειάζομαι βοήθεια, για το ψωμί και τους "
+"αρουραίους. Για ποιό θα ήθελες να μιλήσουμε;"
 
 #: conversationlist_mikhail.json:mikhail_tasks:0
 #: conversationlist_mikhail.json:mikhail_rats_done:0
 msgid "What about the bread?"
-msgstr ""
+msgstr "Πες μου για το ψωμί;"
 
 #: conversationlist_mikhail.json:mikhail_tasks:1
 #: conversationlist_mikhail.json:mikhail_bread_done:0
 msgid "What about the rats?"
-msgstr ""
+msgstr "Πες μου για τους αρουραίους;"
 
 #: conversationlist_mikhail.json:mikhail_tasks:2
 #: conversationlist_mikhail.json:mikhail_bread_done:1
 #: conversationlist_mikhail.json:mikhail_rats_done:1
 #: conversationlist_mikhail.json:mikhail_all_tasks_done:0
 msgid "Never mind, let's talk about the other things."
-msgstr ""
+msgstr "Δεν πειράζει, ας μιλήσουμε για κάτι άλλο."
 
 #: conversationlist_mikhail.json:mikhail_bread_done
 msgid "Thanks for getting me the bread. There are still the rats."
-msgstr ""
+msgstr "Ευχαριστώ που μου έφερες ψωμί. Υπάρχουν ακόμα οι αρουραίοι."
 
 #: conversationlist_mikhail.json:mikhail_rats_done
 msgid "Thanks for taking care of the rats. I'd still love some bread."
-msgstr ""
+msgstr "Ευχαριστώ που φρόντισες για τους αρουραίους. Θέλω ακόμα λίγο ψωμί."
 
 #: conversationlist_mikhail.json:mikhail_all_tasks_done
 msgid "Not for now. Thanks for taking care of the bread and rats."
 msgstr ""
+"Όχι για την ώρα. Ευχαριστώ που φρόντισες για το ψωμί και τους αρουραίους."
 
 #: conversationlist_mikhail.json:mikhail_andor1
 msgid "As I said, Andor went out and hasn't been back since. I worry about him. Please go look for your brother. He said he would only be out for a short while."
 msgstr ""
+"Όπως είπα, ο Andor βγήκε έξω και δεν έχει επιστρέψει απο τότε. Ανησυχώ για "
+"αυτόν. Σε παρακαλώ πήγαινε να ψάξεις τον αδερφό σου. Είπε οτι θα έλλειπε "
+"μόνο για λίγο."
 
 #: conversationlist_mikhail.json:mikhail_andor2
 msgid "Maybe he went into that supply cave again and got stuck. Or maybe he's in Leta's basement training with that wooden sword again. Please go look for him in town."
 msgstr ""
+"Ίσως πήγε ξανά σε εκείνη τη σπηλιά που κρατάμε τις προμήθειες και κόλλησε. Ή "
+"ίσως είναι στο υπόγειο του Leta και εξασκείται ξανά με το ξύλινο σπαθί. Σε "
+"παρακαλώ πήγαινε να τον ψάξεις στην πόλη."
 
 #: conversationlist_mikhail.json:mikhail_bread_start
 msgid "Oh, I almost forgot. If you have time, please go see Mara at the town hall and buy me some more bread."
 msgstr ""
+"Α, παραλίγο να το ξεχάσω. Αν έχεις χρόνο σε παρακαλώ πήγαινε να δεις τη Mara "
+"στο δημαρχείο και αγόρασέ μου λίγο ακόμα ψωμί."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue
 msgid "Did you get my bread from Mara at the town hall yet?"
-msgstr ""
+msgstr "Πήγες να πάρεις το ψωμί μου από τη Mara στο δημαρχείο;"
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:0
 msgid "Yes, here you go."
-msgstr ""
+msgstr "Ναι, ορίστε."
 
 #: conversationlist_mikhail.json:mikhail_bread_continue:1
 #: conversationlist_mikhail.json:mikhail_rats_continue:1
@@ -405,15 +418,17 @@ msgstr ""
 #: conversationlist_stoutford_combined.json:stoutford_widow_thorns20_0:0
 #: conversationlist_stoutford_combined.json:blornvale_shop1_2:1
 msgid "No, not yet."
-msgstr ""
+msgstr "Όχι, όχι ακόμα."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete
 msgid "Thanks a lot, now I can make my breakfast. Here, take these coins for your help."
 msgstr ""
+"Σε ευχαριστώ πολύ, τώρα μπορώ να φτιάξω το πρωινό μου. Ορίστε, πάρε αυτά τα "
+"νομίσματα για τη βοήθειά σου."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2
 msgid "Thanks for the bread earlier."
-msgstr ""
+msgstr "Ευχαριστώ για το ψωμί προηγουμένως."
 
 #: conversationlist_mikhail.json:mikhail_bread_complete2:0
 #: conversationlist_charwood1.json:khorailla1:2
@@ -422,39 +437,47 @@ msgstr ""
 #: conversationlist_guynmart2_npc.json:guynmart_child_90:0
 #: conversationlist_stoutford_combined.json:stoutford_widow_roots30_2:0
 msgid "You're welcome."
-msgstr ""
+msgstr "Παρακαλώ."
 
 #: conversationlist_mikhail.json:mikhail_rats_start
 msgid "I saw some rats out back in our garden earlier. Could you please go kill any rats that you see out there."
 msgstr ""
+"Είδα κάτι αρουραίους πίσω στον κήπο μας λίγο πριν. Μπορείς σε παρακαλώ να "
+"πας να σκοτώσεις ότι αρουραίους δείς εκεί έξω."
 
 #: conversationlist_mikhail.json:mikhail_rats_start:0
 msgid "I have already dealt with the rats."
-msgstr ""
+msgstr "Έχω ήδη τελειώσει με τους αρουραίους."
 
 #: conversationlist_mikhail.json:mikhail_rats_start:1
 msgid "OK, I'll go check out in our garden."
-msgstr ""
+msgstr "ΟΚ, θα πάω να κοιτάξω ξανά στον κήπο μας."
 
 #: conversationlist_mikhail.json:mikhail_rats_start2
 msgid "If you get hurt by the rats, come back here and rest in your bed. That way you can regain your strength."
 msgstr ""
+"Αν πληγωθείς από τους αρουραίους, γύρισε πίσω να ξεκουραστείς στο κρεβάτι "
+"σου. Έτσι μπορείς να ανακτήσεις τις δυνάμεις σου."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3
 msgid "Also, don't forget to check your inventory. You probably still have that old ring I gave you. Make sure you wear it."
 msgstr ""
+"Επίσης, μην ξεχάσεις να ελέγξεις την τσάντα σου. Μάλλον έχεις ακόμα αυτό το "
+"παλιό δαχτυλίδι που σου είχα δώσει. Βεβαιώσου οτι το φοράς."
 
 #: conversationlist_mikhail.json:mikhail_rats_start3:0
 msgid "OK, I understand. I can rest here if I get hurt, and I should check my inventory for useful items."
 msgstr ""
+"ΟΚ, καταλαβαίνω. Μπορώ να ξεκουραστώ εδώ αν πληγωθώ και πρέπει να ελέγξω την "
+"τσάντα μου για χρήσιμα αντικείμενα."
 
 #: conversationlist_mikhail.json:mikhail_rats_continue
 msgid "Did you kill those two rats in our garden?"
-msgstr ""
+msgstr "Σκότωσες τους δύο αρουραίους που ήταν στον κήπο μας;"
 
 #: conversationlist_mikhail.json:mikhail_rats_continue:0
 msgid "Yes, I have dealt with the rats now."
-msgstr ""
+msgstr "Ναι, έχω κανονίσει τους αρουραίους."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete
 msgid ""
@@ -462,6 +485,10 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"Ω το έκανες; Ουάου, ευχαριστώ πολύ για τη βοήθειά σου!\n"
+"\n"
+"Αν έχεις πληγωθεί χρησιμοποίησε το κρεβάτι σου εκεί πέρα για να ξεκουραστείς "
+"και να ανακτήσεις τις δυνάμεις σου."
 
 #: conversationlist_mikhail.json:mikhail_rats_complete2
 msgid ""
@@ -469,18 +496,28 @@ msgid ""
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
 msgstr ""
+"Ευχαριστώ για τη βοήθεια με τους αρουραίους πριν.\n"
+"\n"
+"Αν έχεις πληγωθεί χρησιμοποίησε το κρεβάτι εκεί πέρα για να ξεκουραστείς και "
+"να ανακτήσεις τις δυνάμεις σου."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
 msgid "Another way to regain your strength is to eat some food. You can buy some for yourself from Mara at the town hall. But watch out - I hear that raw meat can sometimes give you food poisoning."
 msgstr ""
+"Ένας άλλος τρόπος για να ανακτήσεις τις δυνάμεις σου είναι να φας λίγο "
+"φαγητό. Μπορείς να αγοράσεις μόνος σου από τη Mara στο δημαρχείο. Αλλά "
+"πρόσεξε - έχω ακούσει οτι το ωμό κρέας μπορεί κάποιες φορές να σου "
+"προκαλέσει τροφική δηλητηρίαση."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2b
 msgid "If that happens, perhaps the town priest can do something to help you.  Otherwise, just rest until you feel better."
 msgstr ""
+"Αν συμβεί αυτό, ίσως ο ιερέας της πόλης μπορεί να κάνει κάτι για να σε "
+"βοηθήσει.  Αλλιώς απλά ξεκουράσου μέχρι να νιώσεις καλύτερα."
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2c
 msgid "Me, I can't really afford the meat, so I just stick to my bread!"
-msgstr ""
+msgstr "Εγώ, δυσκολεύομαι οικονομικά με το κρέας, οπότε μένω στο ψωμί!"
 
 #: conversationlist_crossglen.json:audir1
 msgid ""
@@ -488,10 +525,13 @@ msgid ""
 "\n"
 "Please browse my selection of fine wares."
 msgstr ""
+"Καλωσήρθες στο κατάστημά μου!\n"
+"\n"
+"Παρακαλώ δες την ποικιλία από τα εκλεκτά μου πράγματα."
 
 #: conversationlist_crossglen.json:audir1:0
 msgid "Please show me your wares."
-msgstr ""
+msgstr "Παρακαλώ δείξε μου τι έχεις για πούλημα."
 
 #: conversationlist_crossglen.json:arambold1
 msgid ""
@@ -499,6 +539,10 @@ msgid ""
 "\n"
 "Someone should do something about them."
 msgstr ""
+"Πω πω, θα μπορέσω να κοιμηθώ καθόλου με αυτούς τους μεθύστακες να τραγουδούν "
+"έτσι;\n"
+"\n"
+"Κάποιος θα πρέπει να κάνει κάτι γι αυτό."
 
 #: conversationlist_crossglen.json:arambold1:0
 #: conversationlist_lodar.json:lodar_d1:9
@@ -506,7 +550,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_h2:0
 #: conversationlist_maevalia.json:maevalia_d1:0
 msgid "Can I rest here?"
-msgstr ""
+msgstr "Μπορώ να ξεκουραστώ εδώ;"
 
 #: conversationlist_crossglen.json:arambold1:1
 #: conversationlist_crossglen.json:mara_default:0
@@ -537,7 +581,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:dunla_guild_2a:1
 #: conversationlist_omicronrg9.json:dunla_guild_2b:0
 msgid "Do you have anything to trade?"
-msgstr ""
+msgstr "Έχεις τίποτα για πούλημα;"
 
 #: conversationlist_crossglen.json:arambold2
 msgid ""
@@ -545,6 +589,9 @@ msgid ""
 "\n"
 "Pick any bed you want."
 msgstr ""
+"Σίγουρα μικρέ, μπορείς να ξεκουραστείς εδώ.\n"
+"\n"
+"Διάλεξε όποιο κρεβάτι θέλεις."
 
 #: conversationlist_crossglen.json:arambold2:0
 #: conversationlist_crossglen_gruil.json:gruil_andor3:0
@@ -555,7 +602,7 @@ msgstr ""
 #: conversationlist_flagstone.json:flagstone_sentry_42:0
 #: conversationlist_vilegard_villagers.json:vilegard_villager_friend_1:0
 msgid "Thanks, bye."
-msgstr ""
+msgstr "Ευχαριστώ, γειά."
 
 #: conversationlist_crossglen.json:drunk1
 msgid ""
@@ -564,6 +611,10 @@ msgid ""
 "\n"
 "Hey kid, wanna join us in our drinking game?"
 msgstr ""
+"Πιώμα, πιώμα και πίνουμε κι άλλο.\n"
+"Πιώμα, πιώμα, πιώμα μέχρι να πέσουμε κάτω.\n"
+"\n"
+"Ε μικρέ, θες να πιείς και εσύ;"
 
 #: conversationlist_crossglen.json:drunk1:0
 #: conversationlist_crossglen_odair.json:odair4:2
@@ -572,12 +623,12 @@ msgstr ""
 #: conversationlist_guynmart2.json:guynmart_s_rob6b_10:1
 #: conversationlist_guynmart2_npc.json:guynmart_rob6_10:1
 msgid "No thanks."
-msgstr ""
+msgstr "Όχι ευχαριστώ."
 
 #: conversationlist_crossglen.json:drunk1:1
 #: conversationlist_rothses.json:rothses_c2:2
 msgid "Maybe some other time."
-msgstr ""
+msgstr "Ίσως κάποια άλλη φορά."
 
 #: conversationlist_crossglen.json:mara_default
 msgid ""
@@ -585,18 +636,24 @@ msgid ""
 "\n"
 "Want something to eat?"
 msgstr ""
+"Μην ασχολείσαι με αυτούς τους μεθυσμένους τύπους, όλο προβλήματα δημιουργούν."
+"\n"
+"\n"
+"Θέλεις να φας κάτι;"
 
 #: conversationlist_crossglen.json:mara_thanks
 msgid "I heard you helped Odair clean out that old supply cave. Thanks a lot, we'll start using it soon."
 msgstr ""
+"Άκουσα οτι βοήθησες τον Odair να καθαρίσει αυτή την παλιά σπηλιά που είχαμε "
+"για αποθήκη. Σε ευχαριστούμε, θα αρχίσουμε να τη χρησιμοποιούμε σύντομα."
 
 #: conversationlist_crossglen.json:mara_thanks:0
 msgid "It was my pleasure."
-msgstr ""
+msgstr "Η ευχαρίστηση είναι δική μου."
 
 #: conversationlist_crossglen.json:farm1
 msgid "Please do not disturb me, I have work to do."
-msgstr ""
+msgstr "Παρακαλώ μην με ενοχλείς, έχω να κάνω δουλειά."
 
 #: conversationlist_crossglen.json:farm1:0
 #: conversationlist_crossglen.json:farm2:0
@@ -612,15 +669,16 @@ msgstr ""
 #: conversationlist_stoutford.json:stoutford_gateguard_0:2
 #: conversationlist_stoutford.json:kayla_1:1
 msgid "Have you seen my brother Andor?"
-msgstr ""
+msgstr "Έχεις δει τον αδερφό μου τον Andor;"
 
 #: conversationlist_crossglen.json:farm2
 msgid "What?! Can't you see I'm busy? Go bother someone else."
 msgstr ""
+"Τι;! Δεν μπορείς να δείς οτι έχω δουλειά; Τράβα να ενοχλήσεις κάποιον άλλο."
 
 #: conversationlist_crossglen.json:farm_andor
 msgid "Andor? No, I haven't seen him around lately."
-msgstr ""
+msgstr "Τον Andor; Όχι δεν τον έχω δεί τριγύρω τελευταία."
 
 #: conversationlist_crossglen.json:snakemaster
 msgid ""
@@ -628,33 +686,37 @@ msgid ""
 "\n"
 "Now prepare to die, puny creature."
 msgstr ""
+"Χμμμ τι έχουμε εδω; Ένας επισκέπτης, τι ωραία. Έχω εντυπωσιαστεί που "
+"κατάφερες να περάσεις από τους υπηρέτες μου.\n"
+"\n"
+"Τώρα ετοιμάσου να πεθάνεις, ποταπό πλάσμα."
 
 #: conversationlist_crossglen.json:snakemaster:0
 msgid "Great, I have been waiting for a fight!"
-msgstr ""
+msgstr "Ωραία, είχα όρεξη για καυγά!"
 
 #: conversationlist_crossglen.json:snakemaster:1
 msgid "Let's see who dies here."
-msgstr ""
+msgstr "Θα δούμε ποιός θα πεθάνει εδώ."
 
 #: conversationlist_crossglen.json:snakemaster:2
 #: conversationlist_maelveon.json:maelveon_5:2
 #: conversationlist_loneford_2.json:landa_6
 #: conversationlist_lodarfg4.json:lodar_fg4_7:1
 msgid "Please don't hurt me!"
-msgstr ""
+msgstr "Σε παρακαλώ μην με πληγώσεις!"
 
 #: conversationlist_crossglen.json:haunt
 msgid "Oh mortal, free me from this cursed world!"
-msgstr ""
+msgstr "Ω θνητέ, ελευθέρωσέ με από αυτό τον καταραμένο κόσμο!"
 
 #: conversationlist_crossglen.json:haunt:0
 msgid "Oh, I'll free you from it alright."
-msgstr ""
+msgstr "Θα σε ελευθερώσω για τα καλά."
 
 #: conversationlist_crossglen.json:haunt:1
 msgid "You mean, by killing you?"
-msgstr ""
+msgstr "Εννοείς, με το να σε σκοτώσω;"
 
 #: conversationlist_crossglen_gruil.json:gruil1
 msgid ""
@@ -662,6 +724,9 @@ msgid ""
 "\n"
 "Wanna trade?"
 msgstr ""
+"Ψιτ, ε.\n"
+"\n"
+"Θέλεις να αγοράσεις κάτι;"
 
 #: conversationlist_crossglen_gruil.json:gruil1:0
 msgid "Sure, let's trade."
@@ -669,39 +734,48 @@ msgstr ""
 
 #: conversationlist_crossglen_gruil.json:gruil1:1
 msgid "I heard that you talked to my brother a while ago."
-msgstr ""
+msgstr "Άκουσα οτι είχες μιλήσει με τον αδερφό μου λίγο καιρό πριν."
 
 #: conversationlist_crossglen_gruil.json:gruil2
 msgid "Your brother? Oh you mean Andor? I might know something, but that information will cost you. Bring me a poison gland from one of those poisonous snakes and maybe I'll tell you."
 msgstr ""
+"Τον αδερφό σου; Α εννοείς τον Andor; Ίσως ξέρω κάτι αλλά η πληροφορία θα σου "
+"κοστίσει. Φέρε μου ένα δηλητηριώδη αδένα από ένα από αυτά τα δηλητηριώδη "
+"φίδια και ίσως σου πω."
 
 #: conversationlist_crossglen_gruil.json:gruil2:0
 msgid "Here, I have a poison gland for you."
-msgstr ""
+msgstr "Ορίστε, σου έφερα έναν δηλητηριώδη αδένα."
 
 #: conversationlist_crossglen_gruil.json:gruil2:1
 msgid "OK, I'll bring one."
-msgstr ""
+msgstr "ΟΚ, θα σου φέρω έναν."
 
 #: conversationlist_crossglen_gruil.json:gruil_complete
 msgid "Thanks a lot kid. This will do just fine."
-msgstr ""
+msgstr "Ευχαριστώ μικρέ. Αυτό μου κάνει."
 
 #: conversationlist_crossglen_gruil.json:gruil_return
 msgid "Look kid, I already told you."
-msgstr ""
+msgstr "Κοίτα μικρέ, σου είπα ήδη."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor1
 msgid "I talked to him yesterday. He asked if I knew someone called Umar or something like that. I have no idea who he was talking about."
 msgstr ""
+"Του μίλησα χθές. Ρώτησε αν ήξερα κάποιον που τον λένε Umar ή κάτι τέτοιο. "
+"Δεν έχω ιδέα για ποιόν έλεγε."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor2
 msgid "He seemed really upset about something and left in a hurry. Something about the Thieves' Guild in Fallhaven."
 msgstr ""
+"Φαινόταν πολύ αναστατωμένος για κάτι και έφυγε βιαστικά. Κάτι σχετικά με τη "
+"Συντεχνία των Κλεφτών στο Fallhaven."
 
 #: conversationlist_crossglen_gruil.json:gruil_andor3
 msgid "That's all I know. Maybe you should ask around in Fallhaven. Look for my friend Gaela, he probably knows more."
 msgstr ""
+"Μόνο αυτά ξέρω. Ίσως θα ήταν καλή ιδέα να ρωτήσεις στο Fallhaven. Ψάξε για "
+"τον φίλο μου τον Gaela, λογικά θα ξέρει περισσότερα."
 
 #: conversationlist_crossglen_leonid.json:leonid1
 msgid ""
@@ -709,36 +783,48 @@ msgid ""
 "\n"
 "I'm Leonid, steward of Crossglen village."
 msgstr ""
+"Γειά σου μικρέ. Είσαι το παιδί του Mikhail, έτσι δεν είναι? Αχ αυτός ο "
+"αδερφός σου.\n"
+"\n"
+"Είμαι ο Leonid, φροντιστής του χωριού Crossglen."
 
 #: conversationlist_crossglen_leonid.json:leonid1:1
 #: conversationlist_crossglen_leonid.json:leonid_continue:1
 msgid "What can you tell me about Crossglen?"
-msgstr ""
+msgstr "Τι μπορείς να μου πείς για το Crossglen?"
 
 #: conversationlist_crossglen_leonid.json:leonid1:2
 #: conversationlist_crossglen_leonid.json:leonid_continue:2
 msgid "Never mind, see you later."
-msgstr ""
+msgstr "Τίποτα, τα λέμε αργότερα."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor
 msgid "Your brother? No, I haven't seen him here today. I think I saw him in here yesterday talking to Gruil. Maybe he knows more?"
 msgstr ""
+"Τον αδερφό σου; Όχι δεν τον είδα σήμερα εδώ. Νομίζω οτι τον είδα χθές να "
+"μιλάει στον Gruil. Ίσως αυτός ξέρει κάτι;"
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:0
 msgid "Thanks, I'll go talk to Gruil. There was something more I wanted to talk about."
 msgstr ""
+"Ευχαριστώ, θα πάω να μιλήσω στον Gruil. Υπάρχει και κάτι ακόμα που θέλω."
 
 #: conversationlist_crossglen_leonid.json:leonid_andor:1
 msgid "Thanks, I'll go talk to Gruil."
-msgstr ""
+msgstr "Ευχαριστώ, θα πάω να μιλήσω στον Gruil."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen
 msgid "As you know, this is Crossglen village. Mostly a farming community."
 msgstr ""
+"Όπως ξέρεις αυτό είναι το χωριό Crossglen. Είναι κυρίως μια αγροτική "
+"κοινότητα."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen1
 msgid "We have Audir with his smithy to the southwest, Leta and her husband's cabin to the west, this town hall here and your father's cabin to the northwest."
 msgstr ""
+"Έχουμε τον Audir με το σιδηρουργείο του στα νοτιοδυτικά, το σπίτι της Leta "
+"και του άνδρα της στα δυτικά, το δημαρχείο εδώ και το σπίτι του πατέρα σου "
+"στα βορειοδυτικά."
 
 #: conversationlist_crossglen_leonid.json:leonid_crossglen2
 msgid "That's pretty much it. We try to live a peaceful life."
@@ -21976,6 +22062,7 @@ msgid "I have dealt with Erwyn's army."
 msgstr ""
 
 #: conversationlist_stoutford.json:yolgen_initial_0:5
+#: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:1
 msgid "I cleared Flagstone of an evil demon."
 msgstr ""
 
@@ -22543,7 +22630,7 @@ msgid "That chest is something of a local legend. Been there for generations. Th
 msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20:0
-msgid "Killing the undead is my speciality."
+msgid "Killing the undead is my specialty."
 msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20:1
@@ -22685,7 +22772,7 @@ msgid "I've come for the key."
 msgstr ""
 
 #: conversationlist_graveyard1.json:algore_99a
-msgid "Lets go."
+msgid "Let's go."
 msgstr ""
 
 #: conversationlist_graveyard1.json:algore_99a:0
@@ -25627,7 +25714,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_100
 msgid ""
 "Then you must open the gate! Go to the gatehouse and open it, so that my men can get in. Be quick.\n"
-"After that go to the farm south of here. I expect a feroucious battle."
+"After that go to the farm south of here. I expect a ferocious battle."
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_110
@@ -25897,7 +25984,7 @@ msgid "Guynmart Castle? I have never heard of it. Please tell me more."
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_40
-msgid "Our land belongs to Guynmart Castle, but old Guynmart is a friendly and rightious man. He never takes too much from us."
+msgid "Our land belongs to Guynmart Castle, but old Guynmart is a friendly and righteous man. He never takes too much from us."
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_50
@@ -26849,7 +26936,7 @@ msgid "Yes, Aryfora told me. She asked me to bring her some damerilias for Norae
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4
-msgid "I still have some. Here, take these to her, and send her my condolances."
+msgid "I still have some. Here, take these to her, and send her my condolences."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4:0
@@ -27049,7 +27136,7 @@ msgid "You got hold of the shelves and tore them down!"
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:lakecave2_script_keycheck3a
-msgid "Hey, this looks like Caedas lost key."
+msgid "Hey, this looks like Caeda's lost key."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:caeda_20
@@ -28206,10 +28293,6 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:0
 msgid "OK. I will go to the prison."
-msgstr ""
-
-#: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:1
-msgid "I cleared flagstone of an evil demon."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:yolgen_task_0_2_2
@@ -29884,7 +29967,7 @@ msgid "No, not really. I'm not interested in being a smug thief."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild_2a
-msgid "Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligable to be a member of our guild."
+msgid "Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligible to be a member of our guild."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild_2a:0
@@ -30658,7 +30741,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:Feygard_BG_guild02_1
 msgid ""
 "Halt! The road to Fallhaven is closed due to recent information about a dangerous criminal who has been seen not far from here.\n"
-"That criminal commited a murder only hours ago."
+"That criminal committed a murder only hours ago."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild02_1:0
@@ -30868,7 +30951,8 @@ msgid "Argh. OK. What a tedious job!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:troublemaker_guild02_8:1
-msgid "Understoood."
+#: conversationlist_omicronrg9.json:umar_guild02_21:1
+msgid "Understood."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_7b
@@ -30993,10 +31077,6 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_21:0
 msgid "OK, thanks."
-msgstr ""
-
-#: conversationlist_omicronrg9.json:umar_guild02_21:1
-msgid "Understood."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_22
@@ -31233,7 +31313,7 @@ msgid "Honestly, I don't know for certain."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_11b
-msgid "Appearently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit."
+msgid "Apparently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_11b:0
@@ -31419,7 +31499,7 @@ msgid "Sorry, have you heard anything about a murder?"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:crossroads_guild03_2
-msgid "Yeah, Feygard authorities have sent more patrols to the south. Appearently there is a group of criminals hiding in the forest"
+msgid "Yeah, Feygard authorities have sent more patrols to the south. Apparently there is a group of criminals hiding in the forest"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:crossroads_guild03_3
@@ -31427,7 +31507,7 @@ msgid "Now go away kid, I'm working!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:benbyr_guild03_1
-msgid "(This man seems to be inmersed in his thoughts)"
+msgid "(This man seems to be immersed in his thoughts)"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:benbyr_guild03_1:0
@@ -31483,7 +31563,7 @@ msgid "[Lie]I will!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_0
-msgid "Halt! The road to Fallhaven is closed due to a murder commited three days ago."
+msgid "Halt! The road to Fallhaven is closed due to a murder committed three days ago."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_0:0
@@ -31725,7 +31805,7 @@ msgid "Hmm .... This is not the place where I would choose to live."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild03_crackshot_1:1
-msgid "You are under arrest for the crimes you've commited against Feygard!"
+msgid "You are under arrest for the crimes you've committed against Feygard!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild03_crackshot_2a
@@ -32081,7 +32161,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_30
 msgid ""
-"I expect more of you.That was your first mission inside the guild and you failed it!\n"
+"I expect more of you. That was your first mission inside the guild and you failed it!\n"
 ""
 msgstr ""
 
@@ -32095,7 +32175,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_31
 msgid ""
-"What we have here? (Umar's face gets a smile while he admires the neckace)\n"
+"What we have here? (Umar's face gets a smile while he admires the necklace)\n"
 ""
 msgstr ""
 
@@ -32333,7 +32413,7 @@ msgid "The ground is very slippery. You can't get back onto the solid rock!"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulircave_trap10:0
-msgid "Oh no..."
+msgid "Oh no... I can't swim!"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulircave_trap10_msg
@@ -32614,6 +32694,18 @@ msgstr ""
 
 #: conversationlist_arulir_mountain.json:blackwater_mountain5a_01
 msgid "You have found a small, shiny, metal bar. "
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_10
+msgid "You feel that you can no longer hold on. You will have to slide into the cold water ..."
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_20
+msgid "You think of Mikhail, and of Andor ... your strength is slowly leaving you. ..."
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_30
+msgid "Maybe the current will wash you ashore somewhere?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_1a
@@ -33186,7 +33278,7 @@ msgid "This is your father's ring, I think."
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_6_83a:0
-msgid "Mikhails ring!"
+msgid "Mikhail's ring!"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_6_84a
@@ -33226,7 +33318,7 @@ msgid "I don't suppose you are a member of the Thieves guild? I never heard of y
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8a
-msgid "You talk of Unmar and his little gang? Are you also no one and nobody has seen you?"
+msgid "You talk of Umar and his little gang? Are you also no one and nobody has seen you?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8a:1
@@ -38502,7 +38594,7 @@ msgid "Cave scorpion"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:cave_scorpion_1
-msgid "Agressive cave scorpion"
+msgid "Aggressive cave scorpion"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:cave_scorpion_2
@@ -42076,4 +42168,3 @@ msgstr ""
 #: worldmap.xml:world1:guynmart_area
 msgid "Guynmart Castle"
 msgstr ""
-

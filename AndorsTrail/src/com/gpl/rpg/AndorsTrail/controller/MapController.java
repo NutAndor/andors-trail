@@ -146,20 +146,20 @@ public final class MapController {
 		for (PredefinedMap m : world.maps.getAllMaps()) {
 			m.resetTemporaryData();
 		}
-		controllers.monsterSpawnController.spawnAll(world.model.currentMap, world.model.currentTileMap);
+		controllers.monsterSpawnController.spawnAll(world.model.currentMaps.map, world.model.currentMaps.tileMap);
 		world.model.worldData.tickWorldTime(20);
 		controllers.gameRoundController.resetRoundTimers();
 	}
 
 	public void rest(MapObject area) {
 		lotsOfTimePassed();
-		world.model.player.setSpawnPlace(world.model.currentMap.name, area.id);
+		world.model.player.setSpawnPlace(world.model.currentMaps.map.name, area.id);
 		worldEventListeners.onPlayerRested();
 	}
 
 	public boolean canEnterKeyArea(MapObject area) {
 		if (ConversationController.canFulfillRequirement(world, area.enteringRequirement)) {
-			ConversationController.requirementFulfilled(world, area.enteringRequirement);
+			ConversationController.requirementFulfilled(world, area.enteringRequirement, controllers);
 			return true;
 		}
 		worldEventListeners.onPlayerSteppedOnKeyArea(area);
@@ -168,7 +168,7 @@ public final class MapController {
 
 	public void resetMapsNotRecentlyVisited() {
 		for (PredefinedMap m : world.maps.getAllMaps()) {
-			if (m == world.model.currentMap) continue;
+			if (m == world.model.currentMaps.map) continue;
 			if (m.isRecentlyVisited()) continue;
 			if (m.hasResetTemporaryData()) continue;
 			m.resetTemporaryData();
@@ -176,12 +176,12 @@ public final class MapController {
 	}
 
 	public void applyCurrentMapReplacements(final Resources res, boolean updateWorldmap) {
-		if (!applyReplacements(world.model.currentMap, world.model.currentTileMap)) return;
+		if (!applyReplacements(world.model.currentMaps.map, world.model.currentMaps.tileMap)) return;
 		world.maps.worldMapRequiresUpdate = true;
 
 		if (!updateWorldmap) return;
 		WorldMapController.updateWorldMap(world, res);
-		mapLayoutListeners.onMapTilesChanged(world.model.currentMap, world.model.currentTileMap);
+		mapLayoutListeners.onMapTilesChanged(world.model.currentMaps.map, world.model.currentMaps.tileMap);
 	}
 
 	private boolean applyReplacements(PredefinedMap map, LayeredTileMap tileMap) {
@@ -190,7 +190,7 @@ public final class MapController {
 			for(ReplaceableMapSection replacement : tileMap.replacements) {
 				if (replacement.isApplied) continue;
 				if (!satisfiesCondition(replacement)) continue;
-				else ConversationController.requirementFulfilled(world, replacement.requirement);
+				else ConversationController.requirementFulfilled(world, replacement.requirement, controllers);
 				tileMap.applyReplacement(replacement);
 				for (ReplaceableMapSection impactedReplacement : tileMap.replacements) {
 					if (impactedReplacement.isApplied && impactedReplacement.replacementArea.intersects(replacement.replacementArea)) {

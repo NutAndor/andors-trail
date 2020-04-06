@@ -64,6 +64,16 @@ public final class PredefinedMap {
 		assert(size.height > 0);
 		this.isOutdoors = isOutdoors;
 		this.initialColorFilter = colorFilter;
+
+		if (AndorsTrailApplication.DEVELOPMENT_VALIDATEDATA) {
+			for (int i = 0; i < spawnAreas.length; i++) {
+				for (int j = i + 1; j < spawnAreas.length; j++) {
+					if (spawnAreas[i].areaID.equals(spawnAreas[j].areaID)) {
+						L.log("WARNING: duplicate areaID " + spawnAreas[i].areaID + " in map " + this.name);
+					}
+				}
+			}
+		}
 	}
 
 	public final boolean isOutside(final Coord p) { return isOutside(p.x, p.y); }
@@ -351,7 +361,7 @@ public final class PredefinedMap {
 
 	public boolean shouldSaveMapData(WorldContext world) {
 		if (!hasResetTemporaryData()) return true;
-		if (this == world.model.currentMap) return true;
+		if (this == world.model.currentMaps.map) return true;
 		if (!groundBags.isEmpty()) return true;
 		for (MonsterSpawnArea a : spawnAreas) {
 			if (this.visited && a.isUnique) return true;

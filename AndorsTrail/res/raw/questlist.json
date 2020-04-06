@@ -89,6 +89,7 @@
             {
                 "progress":100,
                 "logText":"I have brought the bread to Mikhail.",
+                "rewardExperience":30,
                 "finishesQuest":1
             },
             {
@@ -106,7 +107,7 @@
             {
                 "progress":100,
                 "logText":"I have killed the two rats in our garden.",
-                "rewardExperience":20,
+                "rewardExperience":30,
                 "finishesQuest":1
             },
             {
@@ -134,7 +135,7 @@
             {
                 "progress":100,
                 "logText":"I have told Leta that Oromir is hiding in Crossglen village.",
-                "rewardExperience":50,
+                "rewardExperience":80,
                 "finishesQuest":1
             }
         ]
@@ -152,7 +153,7 @@
             {
                 "progress":100,
                 "logText":"I have helped Odair clear out the rats in the supply cave in Crossglen village.",
-                "rewardExperience":300,
+                "rewardExperience":400,
                 "finishesQuest":1
             }
         ]

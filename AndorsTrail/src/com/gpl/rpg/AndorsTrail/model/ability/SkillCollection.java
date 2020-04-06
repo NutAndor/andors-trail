@@ -55,6 +55,7 @@ public final class SkillCollection {
 		,specialization2hand
 		,specializationWeaponShield
 		,weaponProficiencyPole
+		,fightstyleUnarmedUnarmored
 	}
 
 	// should be in the same number &U order as in arrays.xml
@@ -117,6 +118,11 @@ public final class SkillCollection {
 	public static final int PER_SKILLPOINT_INCREASE_SPECIALIZATION_2HAND_AC_PERCENT = 20;
 	public static final int PER_SKILLPOINT_INCREASE_FIGHTSTYLE_WEAPON_AC_PERCENT = 25;
 	public static final int PER_SKILLPOINT_INCREASE_FIGHTSTYLE_SHIELD_BC_PERCENT = 25;
+	public static final int PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_BC = 5;
+	public static final int PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_DR = 1;
+	public static final int PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_AC = 12;
+	public static final int PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_DMG_MAX = 4;
+	public static final int PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_CM_PERCENT = 25;
 	public static final int PER_SKILLPOINT_INCREASE_SPECIALIZATION_WEAPON_AC_PERCENT = 50;
 	public static final int PER_SKILLPOINT_INCREASE_SPECIALIZATION_WEAPON_DMG_PERCENT = 20;
 	public static final int DUALWIELD_EFFICIENCY_LEVEL2 = 100;
@@ -223,6 +229,9 @@ public final class SkillCollection {
 		initializeSkill(new SkillInfo(SkillID.fightstyleWeaponShield, 2, SkillInfo.LevelUpType.alwaysShown, SkillCategory.specialty, new SkillLevelRequirement[] {
 				SkillLevelRequirement.requireExperienceLevels(15, 0)
 			}, position++));
+		initializeSkill(new SkillInfo(SkillID.fightstyleUnarmedUnarmored, 3, SkillInfo.LevelUpType.alwaysShown, SkillCategory.specialty, new SkillLevelRequirement[] {
+				SkillLevelRequirement.requireExperienceLevels(15, 0)
+		}, position++));
 		initializeSkill(new SkillInfo(SkillID.specializationDualWield, 1, SkillInfo.LevelUpType.alwaysShown, SkillCategory.specialty, new SkillLevelRequirement[] {
 				SkillLevelRequirement.requireExperienceLevels(45, 0)
 				,SkillLevelRequirement.requireOtherSkill(SkillID.fightstyleDualWield, 2)

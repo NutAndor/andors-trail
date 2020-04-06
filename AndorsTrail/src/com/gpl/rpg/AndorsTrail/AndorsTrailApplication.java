@@ -24,14 +24,14 @@ public final class AndorsTrailApplication extends Application {
 	public static final boolean DEVELOPMENT_DEBUGRESOURCES = false;
 	public static final boolean DEVELOPMENT_FORCE_STARTNEWGAME = false;
 	public static final boolean DEVELOPMENT_FORCE_CONTINUEGAME = false;
-	public static final boolean DEVELOPMENT_DEBUGBUTTONS = true;
+	public static final boolean DEVELOPMENT_DEBUGBUTTONS = false;
 	public static final boolean DEVELOPMENT_FASTSPEED = false;
 	public static final boolean DEVELOPMENT_VALIDATEDATA = false;
-	public static final boolean DEVELOPMENT_DEBUGMESSAGES = false;
+	public static final boolean DEVELOPMENT_DEBUGMESSAGES = true;
 	public static final boolean DEVELOPMENT_INCOMPATIBLE_SAVEGAMES = DEVELOPMENT_DEBUGRESOURCES || DEVELOPMENT_DEBUGBUTTONS || DEVELOPMENT_FASTSPEED;
 	public static final int DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION = 999;
-	public static final int CURRENT_VERSION = DEVELOPMENT_INCOMPATIBLE_SAVEGAMES ? DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION : 49;
-	public static final String CURRENT_VERSION_DISPLAY = "0.7.8";
+	public static final int CURRENT_VERSION = DEVELOPMENT_INCOMPATIBLE_SAVEGAMES ? DEVELOPMENT_INCOMPATIBLE_SAVEGAME_VERSION : 52;
+	public static final String CURRENT_VERSION_DISPLAY = "0.7.10beta";
 	public static final boolean IS_RELEASE_VERSION = !CURRENT_VERSION_DISPLAY.matches(".*[a-d].*");
 
 	private final AndorsTrailPreferences preferences = new AndorsTrailPreferences();
@@ -70,7 +70,6 @@ public final class AndorsTrailApplication extends Application {
 
 	private Pair<String, Locale> lastLocale = null;
 
-	@SuppressLint("NewApi")
 	public boolean setLocale(Activity context) {
 		Resources res = context.getResources();
 		Configuration conf = res.getConfiguration();
@@ -80,11 +79,7 @@ public final class AndorsTrailApplication extends Application {
 		if (lastLocale != null && lastLocale.first == preferences.language) {
 			targetLocale = lastLocale.second;
 		} else {
-			if (preferences.language.equalsIgnoreCase("default")) {
-				targetLocale = defaultLocale;
-			} else {
-				targetLocale = Locale.forLanguageTag(preferences.language);
-			}
+			targetLocale = localeForLanguageTag(preferences.language);
 			lastLocale = new Pair<String, Locale>(preferences.language, targetLocale);
 		}
 
@@ -98,7 +93,23 @@ public final class AndorsTrailApplication extends Application {
 		
 		return true;
 	}
-	
+
+	// Supports language or language_COUNTRY in short form e.g. "en" or "en_US"
+	private Locale localeForLanguageTag(String languageTag) {
+		Locale locale = null;
+		if (languageTag != null && !languageTag.equalsIgnoreCase("default")) {
+			final int pos = languageTag.indexOf('-');
+			if (pos == -1) {
+				locale = new Locale(languageTag);
+			}
+			else locale = new Locale(languageTag.substring(0, pos), languageTag.substring(pos+1));
+		}
+		if (locale == null) {
+			locale = defaultLocale;
+		}
+		return locale;
+	}
+
 	/**
 	 * Logging to text file system as found on https://stackoverflow.com/questions/19565685/saving-logcat-to-a-text-file-in-android-device
 	 */

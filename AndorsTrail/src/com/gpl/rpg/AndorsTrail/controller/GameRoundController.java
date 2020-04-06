@@ -74,7 +74,7 @@ public final class GameRoundController implements TimedMessageTask.Callback {
 
 	public void onNewFullRound() {
 		controllers.mapController.resetMapsNotRecentlyVisited();
-		controllers.actorStatsController.applyConditionsToMonsters(world.model.currentMap, true);
+		controllers.actorStatsController.applyConditionsToMonsters(world.model.currentMaps.map, true);
 		controllers.actorStatsController.applyConditionsToPlayer(world.model.player, true);
 		gameRoundListeners.onNewFullRound();
 	}
@@ -87,19 +87,19 @@ public final class GameRoundController implements TimedMessageTask.Callback {
 	public void onNewPlayerRound() {
 		world.model.worldData.tickWorldTime();
 		controllers.actorStatsController.applyConditionsToPlayer(world.model.player, false);
-		controllers.actorStatsController.applySkillEffectsForNewRound(world.model.player, world.model.currentMap);
-		controllers.mapController.handleMapEvents(world.model.currentMap, world.model.player.position, MapObject.MapObjectEvaluationType.afterEveryRound);
+		controllers.actorStatsController.applySkillEffectsForNewRound(world.model.player, world.model.currentMaps.map);
+		controllers.mapController.handleMapEvents(world.model.currentMaps.map, world.model.player.position, MapObject.MapObjectEvaluationType.afterEveryRound);
 	}
 	public void onNewMonsterRound() {
-		controllers.actorStatsController.applyConditionsToMonsters(world.model.currentMap, false);
+		controllers.actorStatsController.applyConditionsToMonsters(world.model.currentMaps.map, false);
 	}
 
 	private void onNewTick() {
 		controllers.monsterMovementController.moveMonsters();
-		controllers.monsterSpawnController.maybeSpawn(world.model.currentMap, world.model.currentTileMap);
+		controllers.monsterSpawnController.maybeSpawn(world.model.currentMaps.map, world.model.currentMaps.tileMap);
 		controllers.monsterMovementController.attackWithAgressiveMonsters();
-		controllers.effectController.updateSplatters(world.model.currentMap);
-		controllers.mapController.handleMapEvents(world.model.currentMap, world.model.player.position, MapObject.MapObjectEvaluationType.continuously);
+		controllers.effectController.updateSplatters(world.model.currentMaps.map);
+		controllers.mapController.handleMapEvents(world.model.currentMaps.map, world.model.player.position, MapObject.MapObjectEvaluationType.continuously);
 		gameRoundListeners.onNewTick();
 	}
 }

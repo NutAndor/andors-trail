@@ -58,6 +58,7 @@
                 "max":5
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":115,
             "increaseAttackChance":10
         }
     },
@@ -71,6 +72,7 @@
         "category":"lsword",
         "equipEffect":{
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":128,
             "increaseAttackChance":-50
         }
     },
@@ -97,6 +99,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":102,
             "increaseAttackChance":-30
         },
         "hitEffect":{
@@ -160,6 +163,7 @@
             },
             "increaseMaxHP":-20,
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":96,
             "increaseAttackChance":40
         },
         "hitEffect":{

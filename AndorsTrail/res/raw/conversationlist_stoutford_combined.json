@@ -611,7 +611,7 @@
     },
     {
         "id":"caeda_root10_4",
-        "message":"I still have some. Here, take these to her, and send her my condolances.",
+        "message":"I still have some. Here, take these to her, and send her my condolences.",
         "replies":[
             {
                 "text":"Thanks. I'll make sure she gets them.",
@@ -1035,7 +1035,7 @@
     },
     {
         "id":"lakecave2_script_keycheck3a",
-        "message":"Hey, this looks like Caedas lost key.",
+        "message":"Hey, this looks like Caeda's lost key.",
         "rewards":[
             {
                 "rewardType":"giveItem",
@@ -4377,7 +4377,7 @@
                 ]
             },
             {
-                "text":"I cleared flagstone of an evil demon.",
+                "text":"I cleared Flagstone of an evil demon.",
                 "nextPhraseID":"yolgen_flagstone_10",
                 "requires":[
                     {

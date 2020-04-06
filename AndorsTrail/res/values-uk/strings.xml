@@ -286,7 +286,7 @@
     <string name="skillinfo_action_levelup">Новий рівень</string>
     <string name="skill_current_level">Поточний рівень: %1$d</string>
     <string name="skill_current_level_with_maximum">Поточний рівень: %1$d / %2$d</string>
-    <string name="skill_prerequisite_other_skill">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d рівень навику %2$d.</string>
+    <string name="skill_prerequisite_other_skill">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d рівень навику %2$s.</string>
     <string name="skill_prerequisite_level">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d рівень досвіду.</string>
     <string name="skill_prerequisite_stat">Щоб підвищити рівень цього навику, ви повинні мати хоча б %1$d %2$s (базова характеристика).</string>
     <string name="skill_number_of_increases_one">Ви можете обрати один навик для покращення.</string>
@@ -436,8 +436,8 @@
     <string name="combat_log_noentries">Поки немає записів.</string>
     <string name="preferences_high_quality_filters_title">Фільтри високої якості</string>
     <string name="preferences_high_quality_filters">Вимкніть це, якщо виникли проблеми зі швидкодією на фільтрованих мапах (наприклад, темні печери). Увімкнення цієї опції змусить гру використовувати покращені фільтри кольорів замість суцільного накладання кольорів.</string>
-    <string name="about_contents1">Ласкаво просимо до Andor\'s Trail, рогалик-RPG для Android з відкритим початковим кодом.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Ігрові форуми на andorstrail.com для питань та обговорень геймплею.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;Вікі з інформацією про світ Andor\'s Trail.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/Zukero/andors-trail/&gt; Початковий код проекту на github.com для розробників.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Будь ласка, відвідуйте форуми та обговорюйте гру з іншими гравцями.&lt;br /&gt;</string>
-    <string name="about_contents3"></string>
+    <string name="about_contents1">Ласкаво просимо до Andor\'s Trail, рогалик-RPG для Android з відкритим початковим кодом.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Ігрові форуми на andorstrail.com для питань та обговорень геймплею.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;Вікі з інформацією про світ Andor\'s Trail.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Початковий код проекту на github.com для розробників.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;Будь ласка, відвідуйте форуми та обговорюйте гру з іншими гравцями.&lt;br /&gt;</string>
+    <string name="about_contents3"/>
     <string name="dialog_newversion_message">Дякуємо за завантаження Andor\'s Trail!
 \n
 \nБудь ласка, зверніть увагу, що розробка Andor\'s Trail ЩЕ ТРИВАЄ, що означає, що ще не всі мапи завершено.
@@ -542,4 +542,9 @@
     <string name="preferences_display_theme_charcoal">Обсидіан</string>
     <string name="change_theme_requires_restart">Зміна теми інтерфейсу потребує перезапуску. Andor\'s Trail було закрито.</string>
     <string name="storage_permissions_mandatory">Доступ до пам’яті є обов\'язковим, щоб Andor\'s Trail обробляла збережені ігри та мапу світу. Закриття Andor\'s Trail.</string>
+    <string name="dialog_loading_failed_cheat">Стежка Андора не вдалося завантажити файл збереження гри. Цей файл збереження гри вже продовжено.</string>
+    <string name="dialog_game_over_title">Гру програно</string>
+    <string name="dialog_game_over_text">Ви робите останній подих і помираєте.</string>
+    <string name="rip_startscreen">(Спочинь з миром)</string>
+    <string name="heroinfo_mode">Режим</string>
 </resources>

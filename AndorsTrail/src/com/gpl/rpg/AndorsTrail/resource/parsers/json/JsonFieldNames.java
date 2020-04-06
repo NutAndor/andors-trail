@@ -30,6 +30,7 @@ public final class JsonFieldNames {
 		public static final String increaseCriticalSkill = "increaseCriticalSkill";
 		public static final String setCriticalMultiplier = "setCriticalMultiplier";
 		public static final String increaseAttackDamage = "increaseAttackDamage";
+		public static final String setNonWeaponDamageModifier = "setNonWeaponDamageModifier";
 		public static final String increaseBlockChance = "increaseBlockChance";
 		public static final String increaseDamageResistance = "increaseDamageResistance";
 	}

@@ -183,6 +183,14 @@
                     "duration":3,
                     "chance":"25"
                 }
+            ],
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"25"
+                }
             ]
         }
     },
@@ -234,7 +242,7 @@
     },
     {
         "id":"cave_scorpion_1",
-        "name":"Agressive cave scorpion",
+        "name":"Aggressive cave scorpion",
         "iconID":"monsters_tometik3:72",
         "maxHP":35,
         "maxAP":10,

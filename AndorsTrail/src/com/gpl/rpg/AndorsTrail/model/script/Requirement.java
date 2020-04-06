@@ -20,6 +20,7 @@ public final class Requirement {
 		,factionScore
 		,random
 		,factionScoreEquals
+		,wearRemove
 	}
 
 	public final RequirementType requireType;
@@ -68,6 +69,8 @@ public final class Requirement {
 				return requireID != null;
 			case inventoryKeep:
 			case inventoryRemove:
+			case wear:
+			case wearRemove:
 			case usedItem:
 				return requireID != null && value >= 0;
 			case killedMonster:
@@ -83,10 +86,8 @@ public final class Requirement {
 				return chance != null;
 			case timerElapsed:
 				return requireID != null && value >= 0;
-			case wear:
 			case factionScore:
 			case factionScoreEquals:
-				return requireID != null;
 			default:
 				return false;
 		}

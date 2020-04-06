@@ -12,6 +12,7 @@ public final class AbilityModifierTraits {
 	public final int increaseBlockChance;
 	public final int increaseMinDamage;
 	public final int increaseMaxDamage;
+	public final int setNonWeaponDamageModifier;
 	public final int increaseCriticalSkill;
 	public final float setCriticalMultiplier;
 	public final int increaseDamageResistance;
@@ -27,6 +28,7 @@ public final class AbilityModifierTraits {
 			, int increaseBlockChance
 			, int increaseMinDamage
 			, int increaseMaxDamage
+			, int setNonWeaponDamageModifier
 			, int increaseCriticalSkill
 			, float setCriticalMultiplier
 			, int increaseDamageResistance
@@ -41,6 +43,7 @@ public final class AbilityModifierTraits {
 		this.increaseBlockChance = increaseBlockChance;
 		this.increaseMinDamage = increaseMinDamage;
 		this.increaseMaxDamage = increaseMaxDamage;
+		this.setNonWeaponDamageModifier = setNonWeaponDamageModifier;
 		this.increaseCriticalSkill = increaseCriticalSkill;
 		this.setCriticalMultiplier = setCriticalMultiplier;
 		this.increaseDamageResistance = increaseDamageResistance;

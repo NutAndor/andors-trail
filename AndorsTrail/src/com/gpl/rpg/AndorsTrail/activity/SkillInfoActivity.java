@@ -148,6 +148,7 @@ public final class SkillInfoActivity extends AndorsTrailBaseActivity {
 		case fightstyleDualWield: return R.string.skill_title_fightstyle_dualwield;
 		case fightstyle2hand: return R.string.skill_title_fightstyle_2hand;
 		case fightstyleWeaponShield: return R.string.skill_title_fightstyle_weapon_shield;
+		case fightstyleUnarmedUnarmored: return R.string.skill_title_fightstyle_unarmed_unarmored;
 		case specializationDualWield: return R.string.skill_title_specialization_dualwield;
 		case specialization2hand: return R.string.skill_title_specialization_2hand;
 		case specializationWeaponShield: return R.string.skill_title_specialization_weapon_shield;
@@ -198,6 +199,12 @@ public final class SkillInfoActivity extends AndorsTrailBaseActivity {
 		case fightstyleDualWield: return res.getString(R.string.skill_longdescription_fightstyle_dualwield, SkillCollection.DUALWIELD_EFFICIENCY_LEVEL0, SkillCollection.DUALWIELD_EFFICIENCY_LEVEL1, SkillCollection.DUALWIELD_LEVEL1_OFFHAND_AP_COST_PERCENT, SkillCollection.DUALWIELD_EFFICIENCY_LEVEL2);
 		case fightstyle2hand: return res.getString(R.string.skill_longdescription_fightstyle_2hand, SkillCollection.PER_SKILLPOINT_INCREASE_FIGHTSTYLE_2HAND_DMG_PERCENT);
 		case fightstyleWeaponShield: return res.getString(R.string.skill_longdescription_fightstyle_weapon_shield, SkillCollection.PER_SKILLPOINT_INCREASE_FIGHTSTYLE_WEAPON_AC_PERCENT, SkillCollection.PER_SKILLPOINT_INCREASE_FIGHTSTYLE_SHIELD_BC_PERCENT);
+		case fightstyleUnarmedUnarmored: return res.getString(R.string.skill_longdescription_fightstyle_unarmed_unarmored,
+				SkillCollection.PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_AC,
+				SkillCollection.PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_BC,
+				SkillCollection.PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_DR,
+				SkillCollection.PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_DMG_MAX,
+				SkillCollection.PER_SKILLPOINT_INCREASE_UNARMED_UNARMORED_CM_PERCENT);
 		case specializationDualWield: return res.getString(R.string.skill_longdescription_specialization_dualwield, SkillCollection.PER_SKILLPOINT_INCREASE_SPECIALIZATION_DUALWIELD_AC_PERCENT, SkillCollection.PER_SKILLPOINT_INCREASE_SPECIALIZATION_DUALWIELD_BC_PERCENT);
 		case specialization2hand: return res.getString(R.string.skill_longdescription_specialization_2hand, SkillCollection.PER_SKILLPOINT_INCREASE_SPECIALIZATION_2HAND_DMG_PERCENT, SkillCollection.PER_SKILLPOINT_INCREASE_SPECIALIZATION_2HAND_AC_PERCENT);
 		case specializationWeaponShield: return res.getString(R.string.skill_longdescription_specialization_weapon_shield, SkillCollection.PER_SKILLPOINT_INCREASE_SPECIALIZATION_WEAPON_AC_PERCENT, SkillCollection.PER_SKILLPOINT_INCREASE_SPECIALIZATION_WEAPON_DMG_PERCENT);

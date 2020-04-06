@@ -11,6 +11,7 @@
                 "max":1
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":134,
             "increaseAttackChance":10
         }
     },
@@ -26,6 +27,7 @@
                 "max":7
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":179,
             "increaseAttackChance":5
         }
     },
@@ -41,6 +43,7 @@
                 "max":1
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":121,
             "increaseAttackChance":10
         }
     },
@@ -56,6 +59,7 @@
                 "max":1
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":118,
             "increaseAttackChance":10
         }
     },
@@ -71,6 +75,7 @@
                 "max":7
             },
             "increaseAttackCost":10,
+            "setNonWeaponDamageModifier":215,
             "increaseAttackChance":5
         }
     },
@@ -86,6 +91,7 @@
                 "max":1
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":116,
             "increaseAttackChance":10
         }
     },
@@ -101,6 +107,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":100,
             "increaseAttackChance":20
         }
     },
@@ -116,6 +123,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":101,
             "increaseAttackChance":25
         }
     },
@@ -131,6 +139,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":96,
             "increaseAttackChance":15
         }
     },
@@ -146,6 +155,7 @@
                 "max":3
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":114,
             "increaseAttackChance":10
         }
     },
@@ -161,6 +171,7 @@
                 "max":4
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":125,
             "increaseAttackChance":10
         }
     },
@@ -176,6 +187,7 @@
                 "max":10
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":171,
             "increaseAttackChance":2
         }
     },
@@ -191,6 +203,7 @@
                 "max":10
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":165,
             "increaseAttackChance":15
         }
     },
@@ -206,22 +219,24 @@
                 "max":7
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":105,
             "increaseAttackChance":24
         }
     },
     {
         "id":"axe1",
         "iconID":"items_weapons:56",
-        "name":"Woodcutter axe",
+        "name":"Woodcutter's axe",
         "baseMarketCost":24,
         "category":"axe",
         "equipEffect":{
             "increaseAttackDamage":{
-                "min":1,
-                "max":3
+                "min":6,
+                "max":12
             },
-            "increaseAttackCost":5,
-            "increaseAttackChance":5
+            "increaseAttackCost":7,
+            "increaseAttackChance":5,
+            "setNonWeaponDamageModifier":187
         }
     },
     {
@@ -236,6 +251,7 @@
                 "max":5
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":168,
             "increaseAttackChance":5
         }
     },
@@ -248,6 +264,7 @@
         "category":"dagger",
         "equipEffect":{
             "increaseAttackCost":3,
+            "setNonWeaponDamageModifier":75,
             "increaseAttackChance":20,
             "increaseBlockChance":-20
         }

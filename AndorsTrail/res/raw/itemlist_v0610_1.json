@@ -13,6 +13,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":101,
             "increaseAttackChance":20,
             "increaseCriticalSkill":20,
             "setCriticalMultiplier":3.0
@@ -31,6 +32,7 @@
                 "max":4
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":115,
             "increaseAttackChance":15
         }
     },
@@ -47,6 +49,7 @@
                 "max":7
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":129,
             "increaseAttackChance":12
         }
     },
@@ -63,6 +66,7 @@
                 "max":6
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":175,
             "increaseAttackChance":9
         }
     },
@@ -79,6 +83,7 @@
                 "max":6
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":119,
             "increaseAttackChance":14
         }
     },
@@ -95,6 +100,7 @@
                 "max":10
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":184,
             "increaseAttackChance":5
         }
     },
@@ -111,6 +117,7 @@
                 "max":4
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":100,
             "increaseAttackChance":24
         }
     },
@@ -127,6 +134,7 @@
                 "max":7
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":97,
             "increaseAttackChance":32
         }
     },
@@ -143,6 +151,7 @@
                 "max":11
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":188,
             "increaseAttackChance":20
         }
     },
@@ -159,6 +168,7 @@
                 "max":7
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":123,
             "increaseAttackChance":26,
             "increaseBlockChance":3
         }
@@ -176,6 +186,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":96,
             "increaseAttackChance":20,
             "increaseCriticalSkill":5,
             "setCriticalMultiplier":3.0
@@ -194,6 +205,7 @@
                 "max":6
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":120,
             "increaseAttackChance":20
         }
     },
@@ -210,6 +222,7 @@
                 "max":5
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":93,
             "increaseAttackChance":14,
             "increaseBlockChance":5
         }
@@ -227,6 +240,7 @@
                 "max":21
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":161,
             "increaseAttackChance":20,
             "increaseCriticalSkill":5,
             "setCriticalMultiplier":3.0
@@ -245,6 +259,7 @@
                 "max":17
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":175,
             "increaseAttackChance":21
         }
     },
@@ -261,6 +276,7 @@
                 "max":26
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":187,
             "increaseAttackChance":20,
             "increaseCriticalSkill":5,
             "setCriticalMultiplier":3.0

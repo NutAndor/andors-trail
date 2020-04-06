@@ -6,23 +6,6 @@
             {
                 "text":"Please show me your wares.",
                 "nextPhraseID":"S"
-            },
-            {
-                "text":"Do you have a pickaxe by chance?.",
-                "nextPhraseID":"ratdom_audir",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"ratdom_quest",
-                        "value":80
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"ratdom_quest",
-                        "value":82,
-                        "negate":true
-                    }
-                ]
             }
         ]
     },

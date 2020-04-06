@@ -25,6 +25,8 @@ import com.gpl.rpg.AndorsTrail.model.map.MonsterSpawnArea;
 import com.gpl.rpg.AndorsTrail.resource.VisualEffectCollection;
 import com.gpl.rpg.AndorsTrail.util.Coord;
 
+import static java.lang.Math.max;
+
 public final class CombatController implements VisualEffectCompletedCallback {
 	private final ControllerContext controllers;
 	private final WorldContext world;
@@ -109,10 +111,10 @@ public final class CombatController implements VisualEffectCompletedCallback {
 	}
 
 	public void setCombatSelection(Coord p) {
-		Monster m = world.model.currentMap.getMonsterAt(p);
+		Monster m = world.model.currentMaps.map.getMonsterAt(p);
 		if (m != null) {
 			setCombatSelection(m, p);
-		} else if (world.model.currentTileMap.isWalkable(p)) {
+		} else if (world.model.currentMaps.tileMap.isWalkable(p)) {
 			setCombatSelection(null, p);
 		}
 	}
@@ -128,7 +130,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 
 	public boolean canExitCombat() { return getAdjacentAggressiveMonster() == null; }
 	private Monster getAdjacentAggressiveMonster() {
-		return MovementController.getAdjacentAggressiveMonster(world.model.currentMap, world.model.player);
+		return MovementController.getAdjacentAggressiveMonster(world.model.currentMaps.map, world.model.player);
 	}
 
 	public void executeMoveAttack(int dx, int dy) {
@@ -155,7 +157,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 	private void executeFlee(int dx, int dy) {
 		// avoid monster fields when fleeing
 		if (!controllers.movementController.findWalkablePosition(dx, dy, AndorsTrailPreferences.MOVEMENTAGGRESSIVENESS_DEFENSIVE)) return;
-		Monster m = world.model.currentMap.getMonsterAt(world.model.player.nextPosition);
+		Monster m = world.model.currentMaps.map.getMonsterAt(world.model.player.nextPosition);
 		if (m != null) return;
 		executeCombatMove(world.model.player.nextPosition);
 	}
@@ -198,11 +200,11 @@ public final class CombatController implements VisualEffectCompletedCallback {
 	public void playerKilledMonster(Monster killedMonster) {
 		final Player player = world.model.player;
 
-		Loot loot = world.model.currentMap.getBagOrCreateAt(killedMonster.position);
+		Loot loot = world.model.currentMaps.map.getBagOrCreateAt(killedMonster.position);
 		killedMonster.createLoot(loot, player);
 
-		controllers.monsterSpawnController.remove(world.model.currentMap, killedMonster);
-		controllers.effectController.addSplatter(world.model.currentMap, killedMonster);
+		controllers.monsterSpawnController.remove(world.model.currentMaps.map, killedMonster);
+		controllers.effectController.addSplatter(world.model.currentMaps.map, killedMonster);
 
 		controllers.actorStatsController.addActorAP(player, player.getSkillLevel(SkillCollection.SkillID.cleave) * SkillCollection.PER_SKILLPOINT_INCREASE_CLEAVE_AP);
 		controllers.actorStatsController.addActorHealth(player, player.getSkillLevel(SkillCollection.SkillID.eater) * SkillCollection.PER_SKILLPOINT_INCREASE_EATER_HEALTH);
@@ -216,7 +218,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		controllers.actorStatsController.applyOnDeathEffectsToPlayer(player, killedMonster);
 
 		if (!loot.hasItemsOrGold()) {
-			world.model.currentMap.removeGroundLoot(loot);
+			world.model.currentMaps.map.removeGroundLoot(loot);
 		} else if (world.model.uiSelections.isInCombat) {
 			killedMonsterBags.add(loot);
 		}
@@ -305,7 +307,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 	private void beginMonsterTurn(boolean isFirstRound) {
 		controllers.actorStatsController.setActorMinAP(world.model.player);
 		world.model.uiSelections.isPlayersCombatTurn = false;
-		for (MonsterSpawnArea a : world.model.currentMap.spawnAreas) {
+		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
 			for (Monster m : a.monsters) {
 				controllers.actorStatsController.setActorMaxAP(m);
 			}
@@ -323,7 +325,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 			if (shouldAttackWithMonsterInCombat(currentActiveMonster, playerPosition)) return MonsterAction.attack;
 		}
 
-		for (MonsterSpawnArea a : world.model.currentMap.spawnAreas) {
+		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
 			for (Monster m : a.monsters) {
 				if (!m.isAgressive(world.model.player)) continue;
 
@@ -387,7 +389,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		}
 		
 		final Monster movingMonster = currentActiveMonster;
-		controllers.monsterMovementController.moveMonsterToNextPositionDuringCombat(currentActiveMonster, world.model.currentMap, new VisualEffectController.VisualEffectCompletedCallback(){
+		controllers.monsterMovementController.moveMonsterToNextPositionDuringCombat(currentActiveMonster, world.model.currentMaps.map, new VisualEffectController.VisualEffectCompletedCallback(){
 			@Override
 			public void onVisualEffectCompleted(int callbackValue) {
 				combatActionListeners.onMonsterMovedDuringCombat(movingMonster);
@@ -484,13 +486,29 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		if (target.isImmuneToCriticalHits()) return false;
 		return true;
 	}
-	private static float getAverageDamagePerHit(Actor attacker, Actor target) {
-		float result = (float) (getAttackHitChance(attacker, target)) * attacker.getDamagePotential().average() / 100;
-		if (hasCriticalAttack(attacker, target)) {
-			result += (float) attacker.getEffectiveCriticalChance() * result * attacker.getCriticalMultiplier() / 100;
+
+	// see this post for explenations about the calculation: https://andorstrail.com/viewtopic.php?f=3&t=6661
+	// if you change code here make sure to run the tests in CombatControllerTest.java
+	public static float getAverageDamagePerHit(final Actor attacker, final Actor target) {
+		final int numPossibleOutcomes =  attacker.getDamagePotential().max - attacker.getDamagePotential().current + 1;
+		float avgNonCriticalDamage = 0;
+		for (int n = 0; n < numPossibleOutcomes; n++) {
+			avgNonCriticalDamage += max(0, (float) n + attacker.getDamagePotential().current - target.getDamageResistance()) / numPossibleOutcomes;
 		}
-		result -= target.getDamageResistance();
-		return result;
+
+		float avgCriticalDamage = 0;
+		float effectiveCriticalChance = 0;
+		if (hasCriticalAttack(attacker, target)) {
+			effectiveCriticalChance = attacker.getEffectiveCriticalChance();
+		}
+		if (effectiveCriticalChance > 0) {
+			for (int n = 0; n < numPossibleOutcomes; n++) {
+				avgCriticalDamage += max(0, Math.floor((n + attacker.getDamagePotential().current) * attacker.getCriticalMultiplier()) - target.getDamageResistance()) / numPossibleOutcomes;
+			}
+		}
+
+		float avgDamagePerSuccessfulStrike = (1 - effectiveCriticalChance / 100) * avgNonCriticalDamage + effectiveCriticalChance * avgCriticalDamage / 100;
+		return (float)getAttackHitChance(attacker, target) * avgDamagePerSuccessfulStrike / 100;
 	}
 	private static float getAverageDamagePerTurn(Actor attacker, Actor target) {
 		return getAverageDamagePerHit(attacker, target) * attacker.getAttacksPerTurn();
@@ -577,7 +595,7 @@ public final class CombatController implements VisualEffectCompletedCallback {
 		world.model.worldData.tickWorldTime();
 		controllers.gameRoundController.resetRoundTimers();
 		controllers.actorStatsController.applyConditionsToPlayer(world.model.player, false);
-		controllers.actorStatsController.applyConditionsToMonsters(world.model.currentMap, true);
+		controllers.actorStatsController.applyConditionsToMonsters(world.model.currentMaps.map, true);
 	}
 
 	public void monsterSteppedOnPlayer(Monster m) {

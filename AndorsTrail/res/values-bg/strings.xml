@@ -1,24 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Cледа́та на Андор</string>
-	<string name="dialog_loading_failed_message">Cледа́та на Андор не успя да зареди файла за запазване на играта.
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cледа́та на Андор</string>
+    <string name="dialog_loading_failed_message">Cледа́та на Андор не успя да зареди файла за запазване на играта.
 \n
 \n:(
 \n
 \nФайлът може да е повреден или непълен.</string>
-	<string name="dialog_loading_failed_incorrectversion">Cледа́та на Андор не успя да зареди файла за играта. Този файл на играта е създаден с по-нова версия от това, което се изпълнява в момента.</string>
-
-	<string name="about_contents1">"
-\n Добре дошли в Cледа́та на Андор, ролеви игри с Android с отворен код. &lt;br /&gt;
-\n  &lt;br /&gt;
-\n  &lt;a href=http://andorstrail.com/&gt; Форуми на andorstrail.com за въпроси и дискусии за играта. &lt;/a&gt; &lt;br /&gt;
-\n  &lt;br /&gt;
-\n  &lt;a href=http://andorstrail.com/wiki&gt; Уики за игри, освен всичко останало, за информация за света на Cледа́та на Андор. &lt;/a&gt; &lt;br /&gt;
-\n  &lt;br /&gt;
-\n  &lt;a href=https://github.com/Zukero/andors-trail/&gt; Изходен код на проекта на github.com за разработчици. &lt;/a&gt; &lt;br /&gt;
-\n  &lt;br /&gt;
-\n  Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;
-\n "</string>
-
-
-	<string name="localize_resources_from_mo_filename">bg.mo</string>
-	</resources>
+    <string name="dialog_loading_failed_incorrectversion">Cледа́та на Андор не успя да зареди файла за играта. Този файл на играта е създаден с по-нова версия от това, което се изпълнява в момента.</string>
+    <string name="about_contents1">Добре дошли в Cледа́та на Андор, ролеви игри с Android с отворен код. &lt;br /&gt; 
+\n &lt;br /&gt; 
+\n &lt;a href=http://andorstrail.com/&gt; Форуми на andorstrail.com за въпроси и дискусии за играта. &lt;/a&gt; &lt;br /&gt; 
+\n &lt;br /&gt; 
+\n &lt;a href=http://andorstrail.com/wiki&gt; Уики за игри, освен всичко останало, за информация за света на Cледа́та на Андор. &lt;/a&gt; &lt;br /&gt; 
+\n &lt;br /&gt; 
+\n &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt; Изходен код на проекта на github.com за разработчици. &lt;/a&gt; &lt;br /&gt; 
+\n &lt;br /&gt; 
+\n Моля, посетете форумите, за да обсъдите играта с други играчи. &lt;br /&gt;</string>
+    <string name="localize_resources_from_mo_filename">bg.mo</string>
+</resources>

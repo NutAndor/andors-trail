@@ -45,7 +45,7 @@
     <string name="combat_monsterhealth">PŻ:</string>
     <string name="combat_monsteraction">%1$s atakuje.</string>
     <!-- <string name="combat_cannotexitcombat">You cannot exit combat since there are adjacent monsters. You first have to move by long-clicking a place with no adjacent monster, before you may end the combat.</string> -->
-    <string name="combat_result_monstermiss">%1$s chybił!</string>
+    <string name="combat_result_monstermiss">%1$s pudłuje!</string>
     <string name="combat_result_monsterhit">%1$s trafia Cię - tracisz %2$d PŻ!</string>
     <string name="combat_result_monsterhitcritical">%1$s zadaje Ci cios krytyczny - tracisz  %2$d PŻ!</string>
     <string name="combat_result_heromiss">Twój cios chybił.</string>
@@ -139,23 +139,14 @@
     <string name="about_button1">Pomoc</string>
     <string name="about_button2">Autorzy</string>
     <string name="about_button3">Licencja</string>
-    <string name="about_contents1">Witaj w Andors Trail – otwartej grze roguelike RPG na Androida.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Forum gry na andorstrail.com – pytania i dyskusje o grze .&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;Strona wiki z informacjami o Andors Trail.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/Zukero/andors-trail/&gt;Kod źródłowy gry dla deweloperów na github.com.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Zachęcamy do odwiedzenia forum gry i dyskusji z innymi graczami.&lt;br /&gt;</string>
+    <string name="about_contents1">Witaj w Andor\'s Trail – otwartej grze roguelike RPG na Androida.&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;Forum gry na andorstrail.com – pytania i dyskusje o grze .&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://docs.andorstrail.com/&gt;Strona wiki z informacjami o Andors Trail.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Kod źródłowy gry dla deweloperów na github.com.&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Zachęcamy do odwiedzenia forum gry i dyskusji z innymi graczami.&lt;br /&gt;</string>
     <!--
 		This is the GNU GPL v2 text, originally from
 			http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 		For translation of this text, you might be able to find a version in your language here:
 			http://www.gnu.org/licenses/old-licenses/gpl-2.0-translations.html
 	-->
-    <string name="about_contents3">"
- Niniejszy program jest wolnym oprogramowaniem; możesz go rozprowadzać dalej i/lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej przez Fundację Wolnego Oprogramowania - według wersji 2-giej tej Licencji lub którejś z późniejszych wersji.&lt;br /&gt;
- &lt;br /&gt; 
-Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania bliższych informacji -patrz Powszechna Licencja Publiczna GNU&lt;br /&gt;
- &lt;br /&gt;
- Z pewnością wraz z niniejszym programem otrzymałeś też egzemplarz Powszechnej Licencji Publicznej GNU (GNU General Public License);jeśli nie to patrz &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;
-&lt;br /&gt;
- &lt;br /&gt; 
-W celu pobrania kodu źródłowego i opisu gry odwiedź stronę projektu: &lt;a href=https://github.com/Zukero/andors-trail/&gt;https://github.com/Zukero/andors-trail/&lt;/a&gt;&lt;br /&gt;
- "</string>
+    <string name="about_contents3">Niniejszy program jest wolnym oprogramowaniem; możesz go rozprowadzać dalej i/lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej przez Fundację Wolnego Oprogramowania - według wersji 2-giej tej Licencji lub którejś z późniejszych wersji.&lt;br /&gt; &lt;br /&gt; Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania bliższych informacji -patrz Powszechna Licencja Publiczna GNU&lt;br /&gt; &lt;br /&gt; Z pewnością wraz z niniejszym programem otrzymałeś też egzemplarz Powszechnej Licencji Publicznej GNU (GNU General Public License);jeśli nie to patrz &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt; &lt;br /&gt; &lt;br /&gt; W celu pobrania kodu źródłowego i opisu gry odwiedź stronę projektu: &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
     <string name="about_interface">&lt;div&gt;&lt;b&gt;Opcje Gry&lt;/b&gt; uzyskasz, gdy wciśniesz klawisz menu.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Ikony interfejsu&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Skrzynia&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Slot ekwipunku [Przytrzymaj dłużej palec na slocie, aby przypisać mu przedmiot]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Bohater&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Przegląd, Zadania, Umiejętności oraz Inwentarz *]&lt;/p&gt; &lt;p&gt;* (Gdy jesteś w inwentarzu kliknij przedmiot, żeby otrzymać informacje lub przytrzymaj dłużej palec na przedmiocie aby uzyskać więcej opcji)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Przeciwnik&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informacja [Wyświetlana podczas walki]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Walka&lt;/h1&gt; &lt;p&gt;Akcje wykonane podczas walki kosztują Punkty Akcji (PA)...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Atak&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Ekwipunek oraz użycie przedmiotów może wpłynąć na ilość PA i(lub) koszt użycia)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Użycie Przedmiotu&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Ucieczka&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Zaawansowana Walka&lt;/h1&gt; &lt;div&gt;Podczas walki przytrzymaj dłużej palec na polu sąsiadującym z Bohaterem...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Aby uciec&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(Wybrana podświetlona ikona zamienia koszt ataku na koszt ruchu)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[Tryb ucieczki aktywowany - Przytrzymaj dłużej palec na wrogu by powrócić do trybu walki]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Aby zmienić cel&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(przełącz czerwone podświetlenie celu między poszczególnymi przeciwnikami)&lt;/p&gt; &lt;p&gt;[Cel został zmieniony]&lt;/p&gt;</string>
     <string name="dialog_newversion_title">Witaj</string>
     <string name="dialog_newversion_message">"Dziękujemy za instalację Andor\'s Trail!
@@ -224,10 +215,10 @@ W celu pobrania kodu źródłowego i opisu gry odwiedź stronę projektu: &lt;a 
     <string name="iteminfo_effect_increase_movecost">Podnosi koszt ruchu o %1$d AP</string>
     <string name="iteminfo_effect_decrease_movecost">Obniża koszt ruchu o %1$d AP</string>
     <string name="preferences_display_scaling_factor_title">Współczynnik powiększenia</string>
-    <string name="preferences_display_scaling_factor">Umożliwia wyświetlenie obiektów gry na ekranie jako większych.</string>
+    <string name="preferences_display_scaling_factor">Umożliwia wyświetlenie obiektów gry na ekranie jako większych lub mniejszych.</string>
     <string name="preferences_display_scaling_factor_normal">Normalny rozmiar</string>
     <string name="preferences_display_scaling_factor_50_percent_larger">Powiększenie 1.5x</string>
-    <string name="preferences_display_scaling_factor_double">Dwukrotne powiększenie</string>
+    <string name="preferences_display_scaling_factor_double">Powiększenie 2x</string>
     <string name="inventory_assign">Przydziel slot</string>
     <string name="inventory_assign_slot1">Slot 1</string>
     <string name="inventory_assign_slot2">Slot 2</string>
@@ -492,7 +483,7 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <string name="heroinfo_gamestats_fav_item">Najczęściej używany przedmiot:</string>
     <string name="heroinfo_gamestats_num_killed_monsters">Zabici przeciwnicy:</string>
     <string name="heroinfo_gamestats_top_boss">Najsilniejszy zabity przeciwnik:</string>
-    <string name="heroinfo_gamestats_fav_monsters">Najczęściej zabijany potwór:</string>
+    <string name="heroinfo_gamestats_fav_monsters">Najczęściej zabijany przeciwnik:</string>
     <string name="heroinfo_gamestats_name_and_qty">%1$s (%2$d)</string>
     <!-- =========================================== -->
     <!-- Added in v0.7.1 -->
@@ -525,7 +516,7 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <string name="iteminfo_effect_works_when_killed_by_attacker">Kiedy zabity przez atakującego</string>
     <string name="inventory_selectitem">Wybierz przedmiot do przydzielenia</string>
     <string name="combat_log_noentries">Nie ma jeszcze wpisów.</string>
-    <string name="inventory_category_all">Dodane w 0.7.2</string>
+    <string name="inventory_category_all">Wszystko</string>
     <string name="inventory_category_favorites">Ulubione</string>
     <string name="inventory_category_weapons">Broń</string>
     <string name="inventory_category_armor">Zbroja</string>
@@ -547,7 +538,7 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <string name="skill_category_all">Wszystkie</string>
     <string name="skill_category_offense">Ofensywa</string>
     <string name="skill_category_defense">Defensywa</string>
-    <string name="skill_category_criticals">Krytyki</string>
+    <string name="skill_category_criticals">Trafienia krytyczne</string>
     <string name="skill_category_immunity">Odporność</string>
     <string name="skill_category_utility">Użyteczność</string>
     <string name="skill_category_speciality">Specjalizacja</string>
@@ -566,4 +557,38 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <string name="preferences_high_quality_filters_title">Filtry wysokiej jakości</string>
     <string name="preferences_high_quality_filters">Wyłącz to, jeśli wystąpią problemy z wydajnością na filtrowanych mapach (na przykład ciemne jaskinie). Włączenie tej opcji sprawi, że w grze będą używane zaawansowane filtry kolorów zamiast nakładek w kolorze stałym.</string>
     <string name="storage_permissions_mandatory">Dostęp do pamięci urządzenia jest niezbędny dla Andor\'s Trail w zakresie obsługi zapisów gry i mapy świata. Aplikacja zostanie zamknięta.</string>
+    <string name="dialog_loading_failed_cheat">Nie można załadować pliku zapisu. Ten plik zapisu był już kontynuowany.</string>
+    <string name="dialog_game_over_title">Koniec gry</string>
+    <string name="dialog_game_over_text">Wydajesz ostatnie tchnienie i umierasz.</string>
+    <string name="rip_startscreen">(RIP)</string>
+    <string name="heroinfo_mode">Tryb gry</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Standardowy
+\n(Nieograniczona liczba żyć i zapisów)</string>
+    <string name="heroinfo_unlimited_lives">Nieograniczona liczba żyć, 1 zapis gry</string>
+    <string name="heroinfo_limited_lives">Ograniczona liczba żyć (pozostało %1$d/%2$d)</string>
+    <string name="heroinfo_one_life">Permanentna śmierć (1 życie)</string>
+    <string name="startscreen_game_mode">Tryb gry</string>
+    <string name="startscreen_load_game">Wczytaj grę</string>
+    <string name="startscreen_load_game_confirm">Obecna gra jest niezapisana i stracisz swoją postać.</string>
+    <string name="startscreen_error_loading_game">Błąd przy wczytywaniu gry</string>
+    <string name="startscreen_error_loading_empty_slot">Nie można wczytać gry z pustego slotu.</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Uwaga</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Wczytanie tego zapisu spowoduje jego usunięcie. Musisz zapisać grę ponownie zanim przełączysz się na inną rozgrywkę.</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Standard (Nieograniczona liczba żyć i zapisów gry)</string>
+    <string name="startscreen_mode_unlimited_lives">Poziom średni (Nieograniczona liczba żyć, 1 zapis gry)</string>
+    <string name="startscreen_mode_50_lives">Poziom trudny ( 50 żyć, 1 zapis gry)</string>
+    <string name="startscreen_mode_10_lives">Poziom bardzo trudny ( 10 żyć, 1 zapis gry)</string>
+    <string name="startscreen_mode_3_lives">Poziom skrajnie trudny (3 życia, 1 zapis gry)</string>
+    <string name="startscreen_mode_1_life">Śmierć permanentna (1 życie, 1 zapis gry)</string>
+    <string name="preferences_language_default">Język systemowy</string>
+    <string name="preferences_language">Język</string>
+    <string name="preferences_language_description">Wybierz język. Angielski jest używany, jeśli język systemu jest niedostępny lub treść nie została przetłumaczona. (Wymaga ponownego uruchomienia)</string>
+    <string name="menu_save_switch_character_title">Zmień postać</string>
+    <string name="menu_save_switch_character">Zapis umożliwi zmianę postaci i późniejsze kontynuowanie bieżącej gry. Czy chcesz dokonać zapisu i wyjść z bieżącej gry\?</string>
+    <string name="loadsave_empty_slot">%1$d.&lt;pusty&gt;</string>
+    <string name="skill_title_weapon_prof_pole">Biegłość w posługiwaniu się bronią drzewcową</string>
+    <string name="skill_shortdescription_weapon_prof_pole">Lepszy w walce bronią drzewcową</string>
+    <string name="skill_longdescription_weapon_prof_pole">Każdy poziom umiejętności podnosi szansę trafienia broni drzewcowej o %1$d%%, zwiększa jej szansę bloku o %2$d%% oraz zwiększa szansę trafienia krytycznego o %3$d%%. Wymienione wartości są obliczane z wartości bazowych parametrów danej broni.</string>
+    <string name="preferences_display_scaling_factor_50_percent">Pomniejszenie 0.5x</string>
+    <string name="preferences_display_scaling_factor_75_percent">Pomniejszenie 0.75x</string>
 </resources>

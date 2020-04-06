@@ -11,6 +11,7 @@
                 "max":2
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":137,
             "increaseAttackChance":10
         }
     },

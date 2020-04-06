@@ -144,9 +144,9 @@
 \n &lt;br /&gt; 
 \n &lt;a href=http://andorstrail.com/&gt;Forum auf andorstrail.com für Fragen und Diskussionen.&lt;/a&gt;&lt;br /&gt; 
 \n &lt;br /&gt; 
-\n &lt;a href=http://andorstrail.com/wiki&gt;Game-Wiki über die Welt von Andors Trail und weitergehende Informationen.&lt;/a&gt;&lt;br /&gt; 
+\n &lt;a href=http://docs.andorstrail.com/&gt;Game-Wiki über die Welt von Andor\'s Trail und weitergehende Informationen.&lt;/a&gt;&lt;br /&gt; 
 \n &lt;br /&gt; 
-\n &lt;a href=http://github.com/Zukero/andors-trail/&gt;Projekt-Homepage auf github.com für Entwickler.&lt;/a&gt;&lt;br /&gt; 
+\n &lt;a href="https://github.com/AndorsTrailRelease/andors-trail/"&gt;Projekt-Homepage auf github.com für Entwickler.&lt;/a&gt;&lt;br /&gt; 
 \n &lt;br /&gt; 
 \n Bitte besuche das Forum, um das Spiel mit anderen Spielern zu diskutieren.&lt;br /&gt;</string>
     <!--
@@ -161,7 +161,7 @@
 \n &lt;br /&gt;
 \n Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm erhalten haben. Falls nicht, siehe hier:&lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt;
 \n &lt;br /&gt;
-\n Für den Quelltext und Verbesserungsanfragen, besuchen Sie bitte die Projektseite:&lt;a href=http://github.com/Zukero/andors-trail/&gt;http://github.com/Zukero/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
+\n Für den Quelltext und Verbesserungsanfragen, besuchen Sie bitte die Projektseite:&lt;a href="https://github.com/AndorsTrailRelease/andors-trail/"&gt;"https://github.com/AndorsTrailRelease/andors-trail/"&lt;/a&gt;&lt;br /&gt;</string>
     <string name="about_interface"><![CDATA[
 
 <div><b>Spiel Einstellungen</b> können über den Menüknopf deines Gerätes erreicht werden.</div>
@@ -277,7 +277,7 @@
     <string name="iteminfo_effect_increase_movecost">Bewegungsstrafe +%1$d AP</string>
     <string name="iteminfo_effect_decrease_movecost">Bewegungsbonus %1$d AP</string>
     <string name="preferences_display_scaling_factor_title">Skalierung</string>
-    <string name="preferences_display_scaling_factor">Vergrößert die Darstellung.</string>
+    <string name="preferences_display_scaling_factor">Vergrößert oder verkleinert die Darstellung.</string>
     <string name="preferences_display_scaling_factor_normal">Normale Größe</string>
     <string name="preferences_display_scaling_factor_50_percent_larger">1,5-fache Größe</string>
     <string name="preferences_display_scaling_factor_double">Doppelte Größe</string>
@@ -624,4 +624,39 @@ Jeder Level des Skills erhöht die Angriffschance von Waffen um %1$d %% ihrer ur
     <string name="preferences_display_theme">Oberflächendesign auswählen (Neustart notwendig)</string>
     <string name="combat_taunt_monster">Du verhöhnst %1$s!</string>
     <string name="storage_permissions_mandatory">Der Zugriff auf den Datenspeicher ist zwingend notwendig, um Spielstände zu laden und zu speichern. Andor\'s Trail wird daher geschlossen.</string>
+    <string name="dialog_loading_failed_cheat">Andor\'s Trail konnte die Savegame-Datei nicht laden. Diese Savegame-Datei wurde bereits fortgesetzt.</string>
+    <string name="dialog_game_over_title">Game over</string>
+    <string name="dialog_game_over_text">Du nimmst deinen letzten Atemzug und stirbst.</string>
+    <string name="rip_startscreen">(RIP)</string>
+    <string name="heroinfo_mode">Modus</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Standard
+\n(Unbegrenzte Leben und Speichern)</string>
+    <string name="heroinfo_unlimited_lives">Unbegrenzte Leben, 1 mal speichern</string>
+    <string name="heroinfo_limited_lives">Begrenzte Leben (%1$d/%2$d übrig)</string>
+    <string name="heroinfo_one_life">Permadeath (1 Leben)</string>
+    <string name="startscreen_game_mode">Modus</string>
+    <string name="startscreen_load_game">Spiel laden</string>
+    <string name="startscreen_load_game_confirm">Das aktuelle Spiel ist nicht gespeichert und du wirst deinen Charakter verlieren.</string>
+    <string name="startscreen_error_loading_game">Fehler beim Laden des Spiels</string>
+    <string name="startscreen_error_loading_empty_slot">Von einem leeren Speicherplatz kann nicht geladen werden.</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Achtung</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Das Laden dieses Spiels löscht seinen Speicherplatz. Sie müssen erneut speichern, bevor Sie zu einem anderen Spiel wechseln.</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Standard
+\n(Unbegrenzte Leben und Speichern)</string>
+    <string name="startscreen_mode_unlimited_lives">Medium (Unbegrenzte Leben, 1 Speicherplatz)</string>
+    <string name="startscreen_mode_50_lives">Hart (50 Leben, 1 Speicherplatz)</string>
+    <string name="startscreen_mode_10_lives">Sehr hart (10 Leben, 1 Speicherplatz)</string>
+    <string name="startscreen_mode_3_lives">Extrem (3 Leben, 1 Speicherplatz)</string>
+    <string name="startscreen_mode_1_life">Permadeath (1 Leben, 1 Speicherplatz)</string>
+    <string name="preferences_language_default">Systemsprache</string>
+    <string name="preferences_language">Sprache</string>
+    <string name="preferences_language_description">Wähle die Sprache aus. Englisch wird verwendet, wenn die Systemsprache nicht verfügbar ist oder Inhalte nicht übersetzt wurden. (Neustart erforderlich)</string>
+    <string name="menu_save_switch_character_title">Charakter wechseln</string>
+    <string name="menu_save_switch_character">Beim Speichern kannst du zu einem anderen Charakter wechseln und später das aktuelle Spiel fortsetzen. Möchtest du das aktuelle Spiel speichern und beenden\?</string>
+    <string name="loadsave_empty_slot">%1$d.&lt;leer&gt;</string>
+    <string name="skill_title_weapon_prof_pole">Fertigkeit: Stabwaffen</string>
+    <string name="skill_shortdescription_weapon_prof_pole">Verbesserter Kampf mit Stabwaffen</string>
+    <string name="skill_longdescription_weapon_prof_pole">Erhöht für jede Fertigkeitsstufe die Angriffswahrscheinlichkeit beim Einsatz von Stabaffen um %1$d %% der Basisangriffschance des Gegenstands, erhöht die Blockchance um %2$d %% der Basisblockchance des Gegenstands und die kritische Fertigkeit um %3$d %% der basiskritischen Fertigkeit des Gegenstands.</string>
+    <string name="preferences_display_scaling_factor_50_percent">Halbe Größe</string>
+    <string name="preferences_display_scaling_factor_75_percent">0,75-fache Größe</string>
 </resources>

@@ -213,7 +213,7 @@
 		&lt;br /&gt;
 		&lt;a href="http://docs.andorstrail.com/"&gt;Game wiki for info about the Andor\'s Trail world, among other things.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
-		&lt;a href="https://github.com/Zukero/andors-trail/"&gt;Project source code on github.com for developers.&lt;/a&gt;&lt;br /&gt;
+		&lt;a href="https://github.com/AndorsTrailRelease/andors-trail/"&gt;Project source code on github.com for developers.&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
 		Please visit the forums to discuss the game with other players.&lt;br /&gt;
 	</string>
@@ -231,7 +231,7 @@
 		&lt;br /&gt;
 		You should have received a copy of the GNU General Public License along with this program; if not, see &lt;a href="http://www.gnu.org/licenses"&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt;
 		&lt;br /&gt;
-		For source code and feature requests, please visit the project page at &lt;a href="https://github.com/Zukero/andors-trail/"&gt;https://github.com/Zukero/andors-trail/&lt;/a&gt;&lt;br /&gt;
+		For source code and feature requests, please visit the project page at &lt;a href="https://github.com/AndorsTrailRelease/andors-trail/"&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;
 	</string>
 	<string name="about_interface"><![CDATA[
 
@@ -283,18 +283,16 @@
 ]]></string>
 
 	<string name="dialog_newversion_title">Welcome</string>
-	<string name="dialog_newversion_message">
-		Thank you for downloading Andor\'s Trail!\n\n
-		Please note that this version of Andor\'s Trail is a WORK IN PROGRESS, which means that all maps are not yet complete.\n
-		Please visit the project forums to discuss the game with other players or to help make the game even better (see "about").\n
-		\n
-		Thanks for all the feedback!
+	<string name="dialog_newversion_message">Thank you for downloading Andor\'s Trail!\n\nPlease note that this version of Andor\'s Trail is a WORK IN PROGRESS, which means that all maps are not yet complete.\nPlease visit the project forums to discuss the game with other players or to help make the game even better (see "about").\n\nThanks for all the feedback!
 	</string>
+	<string name="dialog_newversion_permission_information">\n\nIn order to save and load your games (and only for this purpose) Andor\'s Trail will ask you for permission to access your storage.</string>
+	<string name="dialog_permission_information_title">Loading and saving games</string>
+	<string name="dialog_permission_information">Andor\'s Trail writes saved games to user accessible storage on your device. This allows you to easily back up your saved games or transfer them to a new device. Please visit our forums for more information.\n\nAndor\'s Trail does not use access to your device for any other purpose and does not access the internet. Andor\'s Trail is open source; the sources can be found on github.</string>
 
 	<string name="questlog_includecompleted_prompt">Select quests to show</string>
-	<string name="questlog_includecompleted_hidecompleted">Hide completed quests</string>
-	<string name="questlog_includecompleted_includecompleted">Include completed quests</string>
-	<string name="questlog_includecompleted_onlycompleted">Only completed quests</string>
+	<string name="questlog_includecompleted_hidecompleted">Active quests</string>
+	<string name="questlog_includecompleted_includecompleted">All quests</string>
+	<string name="questlog_includecompleted_onlycompleted">Completed quests</string>
 	<string name="questlog_queststatus">Status: %1$s</string>
 	<string name="questlog_queststatus_inprogress">In progress</string>
 	<string name="questlog_queststatus_completed">Completed</string>
@@ -364,14 +362,16 @@
 	<string name="iteminfo_effect_decrease_movecost">Lowers move cost %1$d AP</string>
 
 	<string name="preferences_display_scaling_factor_title">Scaling factor</string>
-	<string name="preferences_display_scaling_factor">Makes the game view display everything larger.</string>
+	<string name="preferences_display_scaling_factor">Makes the game view display everything larger or smaller.</string>
+	<string name="preferences_display_scaling_factor_50_percent">Half size</string>
+	<string name="preferences_display_scaling_factor_75_percent">0.75x size</string>
 	<string name="preferences_display_scaling_factor_normal">Normal size</string>
 	<string name="preferences_display_scaling_factor_50_percent_larger">1.5x size</string>
 	<string name="preferences_display_scaling_factor_double">Double size</string>
 
 	<string name="preferences_language_default">System language</string>
 	<string name="preferences_language">Language</string>
-	<string name="preferences_language_description">Select the language. English is used if the system language is not available or content has not ben translated. (Requires restart)</string>
+	<string name="preferences_language_description">Select the language. English is used if the system language is not available or content has not been translated. (Requires restart)</string>
 
 	<string name="inventory_assign">Assign quick slot</string>
 	<string name="inventory_selectitem">Select item to assign</string>
@@ -561,6 +561,7 @@
 	<string name="iteminfo_effect_weapon_attack_damage">Attack damage: %1$d</string>
 	<string name="iteminfo_effect_weapon_attack_damage_minmax">Attack damage: %1$d-%2$d</string>
 	<string name="iteminfo_effect_increase_attack_damage">Increases attack damage by %1$d</string>
+	<string name="iteminfo_effect_set_damage_modifier">Damage modifier: %1$d%%</string>
 	<string name="iteminfo_effect_increase_attack_damage_minmax">Increases attack damage by %1$d-%2$d</string>
 	<string name="iteminfo_effect_decrease_attack_damage">Lowers attack damage by %1$d</string>
 	<string name="iteminfo_effect_decrease_attack_damage_minmax">Lowers attack damage by %1$d-%2$d</string>
@@ -611,6 +612,7 @@
 	<string name="skill_title_fightstyle_dualwield">Fighting style: Dual wield</string>
 	<string name="skill_title_fightstyle_2hand">Fighting style: Two-handed weapon</string>
 	<string name="skill_title_fightstyle_weapon_shield">Fighting style: Weapon and shield</string>
+	<string name="skill_title_fightstyle_unarmed_unarmored">Fighting style: Way of the monk</string>
 	<string name="skill_title_specialization_dualwield">Specialization: Dual wield</string>
 	<string name="skill_title_specialization_2hand">Specialization: Two-handed weapon</string>
 	<string name="skill_title_specialization_weapon_shield">Specialization: Weapon and shield</string>
@@ -629,6 +631,7 @@
 	<string name="skill_shortdescription_fightstyle_dualwield">Wield two weapons at the same time</string>
 	<string name="skill_shortdescription_fightstyle_2hand">Make better use of weapons that require both hands</string>
 	<string name="skill_shortdescription_fightstyle_weapon_shield">Better at fighting with weapon and shield</string>
+	<string name="skill_shortdescription_fightstyle_unarmed_unarmored">Better at fighting unarmed/unarmored</string>
 	<string name="skill_shortdescription_specialization_dualwield">Expert at dual wielding</string>
 	<string name="skill_shortdescription_specialization_2hand">Expert at two-handed weapons</string>
 	<string name="skill_shortdescription_specialization_weapon_shield">Expert at fighting with weapon and shield</string>
@@ -657,6 +660,9 @@ Every skill level increases damage potential of two-handed weapons with %1$d %% 
 	<string name="skill_longdescription_fightstyle_weapon_shield">"Gives benefits when fighting with a weapon in the main hand and having a shield equipped in the off-hand.
 
 Every skill level increases the attack chance of weapons with %1$d %% of their original attack chances, and the block chance of shields by %2$d %% of their original block chances."</string>
+	<string name="skill_longdescription_fightstyle_unarmed_unarmored">"While fighting without having any piece of armor equipped and without using a weapon or shield, gain %1$d attack chance, %2$d block chance, %3$d damage resistance and increase the maximum damage by %4$d per skill level. The skill also gives a critical multiplier of 1 plus 0.%5$d per level.
+
+Items made of cloth are not considered as being armor." </string>
 	<string name="skill_longdescription_specialization_dualwield">Increases the attack chance of both wielded weapons by an additional %1$d %% of their original attack chances, in addition to the benefits given by the weapon style skill. The block chances of both wielded weapons are also increased by %2$d %% of their original block chances.</string>
 	<string name="skill_longdescription_specialization_2hand">Increases damage potential of two-handed weapons by an additional %1$d %% of the original damage potential, in addition to the benefits given by the weapon style skill. The attack chances of two-handed weapons are also increased by %2$d %% of their original attack chances.</string>
 	<string name="skill_longdescription_specialization_weapon_shield">Increases both attack chances and damage potential of weapons. The attack chance is increased by %1$d %% of the original attack chance, and the damage potential is increased by %2$d %% of the original damage potential.</string>

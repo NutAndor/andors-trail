@@ -3,8 +3,8 @@
 <manifest 
 	xmlns:android="http://schemas.android.com/apk/res/android" 
 	package="com.gpl.rpg.AndorsTrail"
-	android:versionCode="49"
-	android:versionName="0.7.8"
+	android:versionCode="52"
+	android:versionName="0.7.10beta"
 	android:installLocation="auto"
 	>
 	<uses-sdk 
@@ -22,10 +22,10 @@
 	
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-	
+
 	<uses-permission android:name="android.permission.READ_LOGS"/>
-	
-		
+
+
 	<application 
 		android:name=".AndorsTrailApplication" 
 		android:label="@string/app_name" 

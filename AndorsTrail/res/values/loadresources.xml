@@ -3,8 +3,8 @@
         <item>@raw/itemcategories_1</item>
         <!--Added by ATCS v0.6.11 for project stoutford_combined-->
         <item>@raw/itemcategories_stoutford_combined</item>
-        <!--Added by ATCS v0.6.14 for project ratdom-->
-        <item>@raw/itemcategories_ratdom</item>
+        <!--Added by ATCS v0.6.15 for project v076-->
+        <item>@raw/itemcategories_omicronrg9</item>
     </array>
         
     <array name="loadresource_actorconditions">
@@ -121,7 +121,8 @@
         <item>@raw/questlist_shortcut_lodar</item>
         <item>@raw/questlist_pathway_fallhaven</item>
         <item>@raw/questlist_halvor_surprise</item>
-                        -		
+                                -		
+        
         
         
         <item>@raw/questlist_stoutford</item>

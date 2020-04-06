@@ -27,7 +27,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	public void moveMonsters() {
 		long currentTime = System.currentTimeMillis();
 
-		for (MonsterSpawnArea a : world.model.currentMap.spawnAreas) {
+		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
 			for (Monster m : a.monsters) {
 				if (m.nextActionTime <= currentTime) {
 					moveMonster(m, a);
@@ -37,7 +37,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	}
 
 	public void attackWithAgressiveMonsters() {
-		for (MonsterSpawnArea a : world.model.currentMap.spawnAreas) {
+		for (MonsterSpawnArea a : world.model.currentMaps.map.spawnAreas) {
 			for (Monster m : a.monsters) {
 				if (!m.isAgressive(world.model.player)) continue;
 				if (!m.isAdjacentTo(world.model.player)) continue;
@@ -75,8 +75,8 @@ public final class MonsterMovementController implements EvaluateWalkable {
 	}
 
 	private void moveMonster(final Monster m, final MonsterSpawnArea area) {
-		PredefinedMap map = world.model.currentMap;
-		LayeredTileMap tileMap = world.model.currentTileMap;
+		PredefinedMap map = world.model.currentMaps.map;
+		LayeredTileMap tileMap = world.model.currentMaps.tileMap;
 		m.nextActionTime = System.currentTimeMillis() + getMillisecondsPerMove(m);
 		if (m.movementDestination != null && m.position.equals(m.movementDestination)) {
 			// Monster has been moving and arrived at the destination.
@@ -159,7 +159,7 @@ public final class MonsterMovementController implements EvaluateWalkable {
 
 	@Override
 	public boolean isWalkable(CoordRect r, Monster m) {
-		return monsterCanMoveTo(null, world.model.currentMap, world.model.currentTileMap, r, m.area.ignoreAreas);
+		return monsterCanMoveTo(null, world.model.currentMaps.map, world.model.currentMaps.tileMap, r, m.area.ignoreAreas);
 	}
 
 	public void moveMonsterToNextPosition(final Monster m, final PredefinedMap map) {

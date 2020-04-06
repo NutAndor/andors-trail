@@ -1139,8 +1139,8 @@
         "message":"The ground is very slippery. You can't get back onto the solid rock!",
         "replies":[
             {
-                "text":"Oh no...",
-                "nextPhraseID":"X"
+                "text":"Oh no... I can't swim!",
+                "nextPhraseID":"arulircave_trap10_10"
             }
         ],
         "rewards":[
@@ -2042,5 +2042,29 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"arulircave_trap10_10",
+        "message":"You feel that you can no longer hold on. You will have to slide into the cold water ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arulircave_trap10_20"
+            }
+        ]
+    },
+    {
+        "id":"arulircave_trap10_20",
+        "message":"You think of Mikhail, and of Andor ... your strength is slowly leaving you. ...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"arulircave_trap10_30"
+            }
+        ]
+    },
+    {
+        "id":"arulircave_trap10_30",
+        "message":"Maybe the current will wash you ashore somewhere?"
     }
 ]

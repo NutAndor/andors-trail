@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2019-12-05 04:47+0000\n"
+"PO-Revision-Date: 2020-02-03 21:16+0000\n"
 "Last-Translator: Anatoly Chub <anatolijuschub@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.11-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:25+0000\n"
 
 #: [none]
@@ -286,11 +286,11 @@ msgstr ""
 
 #: actorconditions_omicronrg9.json:g03_concentration
 msgid "Concentration"
-msgstr ""
+msgstr "Концентрація"
 
 #: actorconditions_omicronrg9.json:g03_combo
 msgid "Combo"
-msgstr ""
+msgstr "Комбо"
 
 #: actorconditions_omicronrg9.json:carrying_ambelie
 msgid "Carrying Ambelie"
@@ -298,19 +298,19 @@ msgstr ""
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
-msgstr ""
+msgstr "Розтрощений"
 
 #: actorconditions_arulir_mountain.json:head_wound
 msgid "Head wound"
-msgstr ""
+msgstr "Рана голови"
 
 #: actorconditions_arulir_mountain.json:mermaid_scale
 msgid "Mermaid curse"
-msgstr ""
+msgstr "Прокляття русалки"
 
 #: actorconditions_arulir_mountain.json:increased_defense
 msgid "Increased defense"
-msgstr ""
+msgstr "Збільшений захист"
 
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
@@ -605,7 +605,7 @@ msgstr ""
 #: conversationlist_guynmart2.json:guynmart_s_rob6b_10:1
 #: conversationlist_guynmart2_npc.json:guynmart_rob6_10:1
 msgid "No thanks."
-msgstr ""
+msgstr "Ні, дякую."
 
 #: conversationlist_crossglen.json:drunk1:1
 #: conversationlist_rothses.json:rothses_c2:2
@@ -961,7 +961,7 @@ msgstr "Щодо Оромира, твого чоловіка?"
 #: conversationlist_crossglen_leta.json:leta1:2
 #: conversationlist_crossglen_leta.json:leta1:3
 msgid "Umar sent me."
-msgstr ""
+msgstr "Умар прислав мене."
 
 #: conversationlist_crossglen_leta.json:leta2
 msgid "Beat it kid, get out of my house!"
@@ -1020,7 +1020,7 @@ msgstr ""
 #: conversationlist_stoutford.json:kayla_1
 #: conversationlist_stoutford.json:glasforn_initial_0
 msgid "Hello."
-msgstr ""
+msgstr "Вітаю."
 
 #: conversationlist_crossglen_leta.json:oromir2
 msgid "I'm hiding here from my wife Leta. She is always getting angry at me for not helping out on the farm. Please don't tell her that I'm here."
@@ -1699,7 +1699,7 @@ msgstr "Зілля з кісткового борошна вже готові?"
 
 #: conversationlist_fallhaven_church.json:thoronir_default:3
 msgid "I really need your help!"
-msgstr ""
+msgstr "Мені дійсно потрібна ваша допомога!"
 
 #: conversationlist_fallhaven_church.json:thoronir_shadow_1
 #: conversationlist_jolnor.json:jolnor_shadow_1
@@ -3185,56 +3185,56 @@ msgstr "Звісно! Що це?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_5
 msgid "Let me tell you a story. Long ago, I was cutting in the woods to the north of Fallhaven. I used to cut the trees with great speed with my favorite axe. It was made of fine steel and probably worth more than my hut."
-msgstr ""
+msgstr "Дозволь мені розповісти тобі історію. Колись давно я рубав у лісі на півночі від Фолгевену. Я дуже швидко вирубував дерева своєю улюбленою сокирою. Вона була зроблена з відмінної сталі і, ймовірно, коштувала більше, ніж моя хатинка."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_6
 msgid "But then, I got attacked by a pack of wolves and I had to flee immediately. I barely saved my life, but during the escape I lost my precious axe."
-msgstr ""
+msgstr "Але потім на мене напала зграя вовків і мені довелося негайно тікати. Я ледве врятував своє життя, але під час втечі я втратив дорогоцінну сокиру."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_7
 msgid "I'm afraid of travelling to that place again because I'm not a trained fighter and the wolves, especially their leader, were really powerful."
-msgstr ""
+msgstr "Боюсь знову поїхати до того місця, бо я не тренований боєць, а вовки, особливо їх вождь, були справді потужні."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_7:0
 msgid "So I guess you want me to retrieve your axe?"
-msgstr ""
+msgstr "Тож я гадаю, ви хочете, щоб я повернув вашу сокиру?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_8
 msgid "Yes exactly. If you would do me that favor I will gladly cut away the trees and receive payment afterwards. Just head north to the Crossroads guardhouse and then head eastwards down the Duleian Road. That's where I lost my axe. And look out for that wolf pack!"
-msgstr ""
+msgstr "Саме так. Якщо ти зробиш мені таку послугу, я з радістю вирубаю дерева і отримаю плату після цього. Просто вирушайте на північ до охоронного будинку «Перехрестя», а потім рухайтеся на схід вниз по Дулеанській дорозі. Ось де я втратив сокиру. І пильнуйте цю вовчу зграю!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_8:0
 msgid "Sounds simple enough. On my way."
-msgstr ""
+msgstr "Звучить досить просто. Я вже на шляху."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_8:1
 msgid "No way! That is far too dangerous!"
-msgstr ""
+msgstr "Нізащо! Це занадто небезпечно!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_9
 msgid "Have you made any progress in finding my axe?"
-msgstr ""
+msgstr "Ти досяг успіху в пошуку моєї сокири?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_10
 msgid "Let me see... Oh yes! This is my axe! I cannot thank you enough!"
-msgstr ""
+msgstr "Дайте-но подивитися... О, так! Це моя сокира! Не знаю як я можу тобі віддячити!"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_10:0
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_16:0
 msgid "So will you cut away those trees that block the old pathway?"
-msgstr ""
+msgstr "Так ви зрубаєте ті дерева, які перекривають старий шлях?"
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_11
 msgid "Sure! Already on my way! The work will be finished soon."
-msgstr ""
+msgstr "Звичайно! Вже в дорозі! Робота незабаром буде закінчена."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_11:0
 msgid "That sounds great! Remember to ask the stupid warden for a decent payment."
-msgstr ""
+msgstr "Звучить чудово! Не забудьте попросити у дурного наглядача гідну оплату."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_12
 msgid "Sure. Will do that. He he."
-msgstr ""
+msgstr "Звичайно. Зробимо це. Хе-хе."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_12:1
 #: conversationlist_alynndir.json:alynndir_6:0
@@ -3247,7 +3247,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_151:0
 #: conversationlist_stoutford_combined.json:stoutford_widow_12:0
 msgid "Goodbye."
-msgstr ""
+msgstr "Бувайте."
 
 #: conversationlist_fallhaven_south.json:fallhaven_lumberjack_13
 msgid "You're welcome. But you're not the only one who is happy. There are more people resting for a night in Fallhaven, which helps our economy. Some even bought items at my store! By the way, I was surprised, but I even got paid well by the warden."
@@ -22094,6 +22094,7 @@ msgid "I have dealt with Erwyn's army."
 msgstr ""
 
 #: conversationlist_stoutford.json:yolgen_initial_0:5
+#: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:1
 msgid "I cleared Flagstone of an evil demon."
 msgstr ""
 
@@ -22661,7 +22662,7 @@ msgid "That chest is something of a local legend. Been there for generations. Th
 msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20:0
-msgid "Killing the undead is my speciality."
+msgid "Killing the undead is my specialty."
 msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20:1
@@ -22803,7 +22804,7 @@ msgid "I've come for the key."
 msgstr ""
 
 #: conversationlist_graveyard1.json:algore_99a
-msgid "Lets go."
+msgid "Let's go."
 msgstr ""
 
 #: conversationlist_graveyard1.json:algore_99a:0
@@ -25745,7 +25746,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_100
 msgid ""
 "Then you must open the gate! Go to the gatehouse and open it, so that my men can get in. Be quick.\n"
-"After that go to the farm south of here. I expect a feroucious battle."
+"After that go to the farm south of here. I expect a ferocious battle."
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_110
@@ -26015,7 +26016,7 @@ msgid "Guynmart Castle? I have never heard of it. Please tell me more."
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_40
-msgid "Our land belongs to Guynmart Castle, but old Guynmart is a friendly and rightious man. He never takes too much from us."
+msgid "Our land belongs to Guynmart Castle, but old Guynmart is a friendly and righteous man. He never takes too much from us."
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_50
@@ -26967,7 +26968,7 @@ msgid "Yes, Aryfora told me. She asked me to bring her some damerilias for Norae
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4
-msgid "I still have some. Here, take these to her, and send her my condolances."
+msgid "I still have some. Here, take these to her, and send her my condolences."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4:0
@@ -27167,7 +27168,7 @@ msgid "You got hold of the shelves and tore them down!"
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:lakecave2_script_keycheck3a
-msgid "Hey, this looks like Caedas lost key."
+msgid "Hey, this looks like Caeda's lost key."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:caeda_20
@@ -28324,10 +28325,6 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:0
 msgid "OK. I will go to the prison."
-msgstr ""
-
-#: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:1
-msgid "I cleared flagstone of an evil demon."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:yolgen_task_0_2_2
@@ -30002,7 +29999,7 @@ msgid "No, not really. I'm not interested in being a smug thief."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild_2a
-msgid "Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligable to be a member of our guild."
+msgid "Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligible to be a member of our guild."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild_2a:0
@@ -30776,7 +30773,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:Feygard_BG_guild02_1
 msgid ""
 "Halt! The road to Fallhaven is closed due to recent information about a dangerous criminal who has been seen not far from here.\n"
-"That criminal commited a murder only hours ago."
+"That criminal committed a murder only hours ago."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild02_1:0
@@ -30986,7 +30983,8 @@ msgid "Argh. OK. What a tedious job!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:troublemaker_guild02_8:1
-msgid "Understoood."
+#: conversationlist_omicronrg9.json:umar_guild02_21:1
+msgid "Understood."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_7b
@@ -31111,10 +31109,6 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_21:0
 msgid "OK, thanks."
-msgstr ""
-
-#: conversationlist_omicronrg9.json:umar_guild02_21:1
-msgid "Understood."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_22
@@ -31351,7 +31345,7 @@ msgid "Honestly, I don't know for certain."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_11b
-msgid "Appearently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit."
+msgid "Apparently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_11b:0
@@ -31537,7 +31531,7 @@ msgid "Sorry, have you heard anything about a murder?"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:crossroads_guild03_2
-msgid "Yeah, Feygard authorities have sent more patrols to the south. Appearently there is a group of criminals hiding in the forest"
+msgid "Yeah, Feygard authorities have sent more patrols to the south. Apparently there is a group of criminals hiding in the forest"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:crossroads_guild03_3
@@ -31545,7 +31539,7 @@ msgid "Now go away kid, I'm working!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:benbyr_guild03_1
-msgid "(This man seems to be inmersed in his thoughts)"
+msgid "(This man seems to be immersed in his thoughts)"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:benbyr_guild03_1:0
@@ -31601,7 +31595,7 @@ msgid "[Lie]I will!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_0
-msgid "Halt! The road to Fallhaven is closed due to a murder commited three days ago."
+msgid "Halt! The road to Fallhaven is closed due to a murder committed three days ago."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_0:0
@@ -31843,7 +31837,7 @@ msgid "Hmm .... This is not the place where I would choose to live."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild03_crackshot_1:1
-msgid "You are under arrest for the crimes you've commited against Feygard!"
+msgid "You are under arrest for the crimes you've committed against Feygard!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild03_crackshot_2a
@@ -32199,7 +32193,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_30
 msgid ""
-"I expect more of you.That was your first mission inside the guild and you failed it!\n"
+"I expect more of you. That was your first mission inside the guild and you failed it!\n"
 ""
 msgstr ""
 
@@ -32213,7 +32207,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_31
 msgid ""
-"What we have here? (Umar's face gets a smile while he admires the neckace)\n"
+"What we have here? (Umar's face gets a smile while he admires the necklace)\n"
 ""
 msgstr ""
 
@@ -32451,7 +32445,7 @@ msgid "The ground is very slippery. You can't get back onto the solid rock!"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulircave_trap10:0
-msgid "Oh no..."
+msgid "Oh no... I can't swim!"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulircave_trap10_msg
@@ -32732,6 +32726,18 @@ msgstr ""
 
 #: conversationlist_arulir_mountain.json:blackwater_mountain5a_01
 msgid "You have found a small, shiny, metal bar. "
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_10
+msgid "You feel that you can no longer hold on. You will have to slide into the cold water ..."
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_20
+msgid "You think of Mikhail, and of Andor ... your strength is slowly leaving you. ..."
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_30
+msgid "Maybe the current will wash you ashore somewhere?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_1a
@@ -33304,7 +33310,7 @@ msgid "This is your father's ring, I think."
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_6_83a:0
-msgid "Mikhails ring!"
+msgid "Mikhail's ring!"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_6_84a
@@ -33344,7 +33350,7 @@ msgid "I don't suppose you are a member of the Thieves guild? I never heard of y
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8a
-msgid "You talk of Unmar and his little gang? Are you also no one and nobody has seen you?"
+msgid "You talk of Umar and his little gang? Are you also no one and nobody has seen you?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8a:1
@@ -38620,7 +38626,7 @@ msgid "Cave scorpion"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:cave_scorpion_1
-msgid "Agressive cave scorpion"
+msgid "Aggressive cave scorpion"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:cave_scorpion_2

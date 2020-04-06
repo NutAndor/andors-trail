@@ -3,8 +3,12 @@ package com.gpl.rpg.AndorsTrail.model.actor;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 import java.util.UUID;
 
@@ -19,6 +23,7 @@ import com.gpl.rpg.AndorsTrail.model.ability.SkillCollection;
 import com.gpl.rpg.AndorsTrail.model.item.DropListCollection;
 import com.gpl.rpg.AndorsTrail.model.item.Inventory;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
+import com.gpl.rpg.AndorsTrail.model.quest.Quest;
 import com.gpl.rpg.AndorsTrail.model.quest.QuestProgress;
 import com.gpl.rpg.AndorsTrail.savegames.LegacySavegameFormatReaderForPlayer;
 import com.gpl.rpg.AndorsTrail.util.Coord;
@@ -40,8 +45,9 @@ public final class Player extends Actor {
 	public int useItemCost;
 	public int reequipCost;
 	public int totalExperience;
+	public final Range weaponDamage = new Range();
 
-	private final HashMap<String, HashSet<Integer> > questProgress = new HashMap<String, HashSet<Integer> >();
+	private final LinkedHashMap<String, HashSet<Integer> > questProgress = new LinkedHashMap<String, HashSet<Integer> >();
 	private String spawnMap;
 	private String spawnPlace;
 	private final HashMap<String, Integer> alignments = new HashMap<String, Integer>();
@@ -117,6 +123,7 @@ public final class Player extends Actor {
 		this.ap.set(baseTraits.maxAP, baseTraits.maxAP);
 		this.health.set(baseTraits.maxHP, baseTraits.maxHP);
 		this.conditions.clear();
+		this.weaponDamage.set(0, 0);
 
 		Loot startItems = new Loot();
 		dropLists.getDropList(DropListCollection.DROPLIST_STARTITEMS).createRandomLoot(startItems, this);
@@ -138,6 +145,9 @@ public final class Player extends Actor {
 	}
 	public boolean hasAnyQuestProgress(String questID) {
 		return questProgress.containsKey(questID);
+	}
+	public Collection<String> getAllQuestProgressIDs() {
+		return new ArrayList<String>(this.questProgress.keySet());
 	}
 	public boolean isLatestQuestProgress(String questID, int progress) {
 		if (!questProgress.containsKey(questID)) return false;
@@ -343,16 +353,30 @@ public final class Player extends Actor {
 		this.spawnPlace = src.readUTF();
 
 		if (fileversion > 13) {
+			LinkedHashMap<String, HashSet<Integer> > questProgress = new LinkedHashMap<String, HashSet<Integer> >();
 			final int numQuests = src.readInt();
 			for(int i = 0; i < numQuests; ++i) {
 				final String questID = src.readUTF();
-				this.questProgress.put(questID, new HashSet<Integer>());
+				questProgress.put(questID, new HashSet<Integer>());
 				final int numProgress = src.readInt();
 				for(int j = 0; j < numProgress; ++j) {
 					int progress = src.readInt();
-					this.questProgress.get(questID).add(progress);
+					questProgress.get(questID).add(progress);
 				}
 			}
+
+			// questprogress is randomly sorted until 52 so sort it by quest order
+			if (fileversion < 52) {
+				for (Quest q : world.quests.getAllQuests()) {
+					final HashSet<Integer> questSteps = questProgress.get(q.questID);
+					if (questSteps != null) {
+						this.questProgress.put(q.questID, questSteps);
+					}
+				}
+			} else {
+				this.questProgress.putAll(questProgress);
+			}
+
 		}
 
 		this.availableSkillIncreases = 0;

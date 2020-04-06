@@ -93,7 +93,7 @@ public final class DisplayWorldMapActivity extends AndorsTrailBaseActivity {
 		}
 
 		WorldMapSegment segment = world.maps.worldMapSegments.get(worldMapSegmentName);
-		map = segment.maps.get(world.model.currentMap.name);
+		map = segment.maps.get(world.model.currentMaps.map.name);
 		if (map == null) {
 			this.finish();
 			return;

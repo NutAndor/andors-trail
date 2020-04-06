@@ -167,8 +167,8 @@ public final class MainView extends SurfaceView
 			sh.setFixedSize(surfaceSize.width, surfaceSize.height);
 		}
 		
-		if (model.currentMap != null) {
-			onPlayerEnteredNewMap(model.currentMap, model.player.position);
+		if (model.currentMaps.map != null) {
+			onPlayerEnteredNewMap(model.currentMaps.map, model.player.position);
 		} else {
 			redrawAll(RedrawAllDebugReason.SurfaceChanged);
 		}
@@ -506,8 +506,8 @@ public final class MainView extends SurfaceView
 		movingSpritesRedrawTick.start();
 		synchronized (holder) {
 			currentMap = map;
-			currentTileMap = model.currentTileMap;
-			tiles = world.tileManager.currentMapTiles;
+			currentTileMap = model.currentMaps.tileMap;
+			tiles = world.model.currentMaps.tiles;
 			movingSprites = 0;
 			Size visibleNumberOfTiles = new Size(
 					Math.min(screenSizeTileCount.width, currentMap.size.width)

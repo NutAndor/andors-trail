@@ -2531,7 +2531,7 @@
         "message":"This is your father's ring, I think.",
         "replies":[
             {
-                "text":"Mikhails ring!",
+                "text":"Mikhail's ring!",
                 "nextPhraseID":"burhczydx_9a_6_84"
             }
         ],
@@ -2661,7 +2661,7 @@
     },
     {
         "id":"burhczydx_9a_8a",
-        "message":"You talk of Unmar and his little gang? Are you also no one and nobody has seen you?",
+        "message":"You talk of Umar and his little gang? Are you also no one and nobody has seen you?",
         "replies":[
             {
                 "text":"Yes.",

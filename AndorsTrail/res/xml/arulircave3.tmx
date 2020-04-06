@@ -239,11 +239,6 @@
     <property name="place" value="trapexit"/>
    </properties>
   </object>
-  <object id="13" name="arulircave_trap10_msg" type="script" x="192" y="352" width="96" height="32">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Spawn" visible="0">
   <object id="6" name="arulir_2" type="spawn" x="64" y="64" width="160" height="224">

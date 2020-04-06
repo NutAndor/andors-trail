@@ -35,6 +35,7 @@
             },
             "increaseReequipCost":0,
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":96,
             "increaseAttackChance":15,
             "increaseCriticalSkill":10,
             "increaseBlockChance":2,
@@ -117,6 +118,7 @@
             },
             "increaseMaxHP":0,
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":117,
             "increaseAttackChance":19,
             "increaseCriticalSkill":10,
             "increaseBlockChance":0,
@@ -167,6 +169,7 @@
                 "max":4
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":101,
             "increaseAttackChance":9,
             "increaseBlockChance":11
         }

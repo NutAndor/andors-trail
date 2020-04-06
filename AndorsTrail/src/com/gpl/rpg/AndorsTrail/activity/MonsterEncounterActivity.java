@@ -41,7 +41,7 @@ public final class MonsterEncounterActivity extends AndorsTrailBaseActivity {
 
 		TextView tv = (TextView) findViewById(R.id.monsterencounter_title);
 		tv.setText(monster.getName());
-		world.tileManager.setImageViewTile(getResources(), tv, monster);
+		world.tileManager.setImageViewTile(getResources(), tv, monster, world.model.currentMaps.tiles);
 
 		tv = (TextView) findViewById(R.id.monsterencounter_description);
 		tv.setText(getString(R.string.dialog_monsterencounter_message, difficulty));

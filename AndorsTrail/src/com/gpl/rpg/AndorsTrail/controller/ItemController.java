@@ -19,6 +19,8 @@ import com.gpl.rpg.AndorsTrail.model.item.ItemTraits_OnUse;
 import com.gpl.rpg.AndorsTrail.model.item.ItemType;
 import com.gpl.rpg.AndorsTrail.model.item.Loot;
 
+import static java.lang.Math.min;
+
 public final class ItemController {
 
 	private final ControllerContext controllers;
@@ -33,7 +35,7 @@ public final class ItemController {
 	public void dropItem(ItemType type, int quantity) {
 		if (world.model.player.inventory.getItemQuantity(type.id) < quantity) return;
 		world.model.player.inventory.removeItem(type.id, quantity);
-		world.model.currentMap.itemDropped(type, quantity, world.model.player.position);
+		world.model.currentMaps.map.itemDropped(type, quantity, world.model.player.position);
 	}
 
 	public void equipItem(ItemType type, Inventory.WearSlot slot) {
@@ -175,8 +177,12 @@ public final class ItemController {
 			// The stats for off-hand weapons will be added later in SkillController.applySkillEffectsFromFightingStyles
 			if (SkillController.isDualWielding(mainHandItem, type)) return;
 		}
-		if (type.effects_equip != null && type.effects_equip.stats != null)
-		controllers.actorStatsController.applyAbilityEffects(player, type.effects_equip.stats, 1);
+		if (type.effects_equip != null && type.effects_equip.stats != null) {
+            controllers.actorStatsController.applyAbilityEffects(player, type.effects_equip.stats, 1);
+            if (type.isWeapon()) {
+                controllers.actorStatsController.addPlayerWeaponDamage(player, type.effects_equip.stats.increaseMinDamage, type.effects_equip.stats.increaseMaxDamage);
+            }
+        }
 	}
 
 	public static void recalculateHitEffectsFromWornItems(Player player) {
@@ -239,8 +245,8 @@ public final class ItemController {
 	public boolean removeLootBagIfEmpty(final Loot loot) {
 		if (loot.hasItemsOrGold()) return false;
 
-		world.model.currentMap.removeGroundLoot(loot);
-		controllers.mapController.mapLayoutListeners.onLootBagRemoved(world.model.currentMap, loot.position);
+		world.model.currentMaps.map.removeGroundLoot(loot);
+		controllers.mapController.mapLayoutListeners.onLootBagRemoved(world.model.currentMaps.map, loot.position);
 		return true; // The bag was removed.
 	}
 
@@ -383,4 +389,41 @@ public final class ItemController {
 		}
 	}
 
+	public int removeEquippedItem(String itemTypeID, int count) {
+		int removed = 0;
+		final Player player = world.model.player;
+		for (Inventory.WearSlot slot : Inventory.WearSlot.values()) {
+			ItemType type = player.inventory.getItemTypeInWearSlot(slot);
+			if (type != null && type.id.equals(itemTypeID)) {
+				player.inventory.setItemTypeInWearSlot(slot, null);
+				controllers.actorStatsController.removeConditionsFromUnequippedItem(player, type);
+				controllers.actorStatsController.recalculatePlayerStats(player);
+				removed++;
+				if (removed >= count) {
+					break;
+				}
+			}
+		}
+		return removed;
+	}
+	public static void applyDamageModifier(Player player) {
+		ItemType itemType = player.inventory.getItemTypeInWearSlot(Inventory.WearSlot.weapon);
+		int modifier1 = -1;
+		int modifier2 = -1;
+		if (itemType != null) modifier1 = itemType.effects_equip.stats.setNonWeaponDamageModifier;
+		itemType = player.inventory.getItemTypeInWearSlot(Inventory.WearSlot.shield);
+		if (itemType != null && itemType.isWeapon()) modifier2 = itemType.effects_equip.stats.setNonWeaponDamageModifier;
+
+		int modifier = 100;
+		if (modifier1 >= 0 && modifier2 >= 0) modifier = Math.min(modifier1, modifier2);
+		else if (modifier1 <= 0 && modifier2 >= 0) modifier = modifier2;
+		else if (modifier2 <= 0 && modifier1 >= 0) modifier = modifier1;
+
+		if (modifier != 100) {
+			final int minBaseDamage = player.damagePotential.current - player.weaponDamage.current;
+			final int maxBaseDamage = player.damagePotential.max - player.weaponDamage.max;
+			player.damagePotential.add(Math.round(minBaseDamage * ((modifier - 100)/100f)), true);
+			player.damagePotential.addToMax(Math.round(maxBaseDamage * ((modifier - 100)/100f)));
+		}
+	}
 }

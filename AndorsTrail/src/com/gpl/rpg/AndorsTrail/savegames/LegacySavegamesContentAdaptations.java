@@ -29,7 +29,7 @@ public class LegacySavegamesContentAdaptations {
 							for (MonsterSpawnArea newarea : fields5Map.spawnAreas) {
 								if (newarea.areaID.equals("guynmart_robber1")) {
 									controllers.monsterSpawnController.spawnAllInArea(fields5Map, 
-											(world.model.currentMap == fields5Map ? world.model.currentTileMap : null), 
+											(world.model.currentMaps.map == fields5Map ? world.model.currentMaps.tileMap : null),
 											newarea, true);
 									break;
 								}

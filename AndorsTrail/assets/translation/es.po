@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: andors-trail\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-10 11:48+0000\n"
-"PO-Revision-Date: 2019-12-25 21:21+0000\n"
-"Last-Translator: J <joaquinfc@protonmail.com>\n"
+"PO-Revision-Date: 2020-03-05 09:33+0000\n"
+"Last-Translator: mario-boop <eselfin3484@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/andors-trail/"
 "game-content/es/>\n"
 "Language: es\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10\n"
+"X-Generator: Weblate 4.0-dev\n"
 "X-Launchpad-Export-Date: 2015-11-02 12:26+0000\n"
 
 #: [none]
 msgid "translator-credits"
-msgstr "(K´)ah, Julian Lamus, Karla, Mariano Agüero, Miguel de Dios, Travis Nguyen, ndika, willicab, Carlos Duque, Pahsito"
+msgstr "(K´)ah, Julian Lamus, Karla, Mariano Agüero, Miguel de Dios, Travis Nguyen, ndika, willicab, Carlos Duque, Pahsito, Juanma Cantero"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
@@ -295,7 +295,7 @@ msgstr "Llevando a Ambelie"
 
 #: actorconditions_arulir_mountain.json:crushed
 msgid "Crushed"
-msgstr ""
+msgstr "crushed"
 
 #: actorconditions_arulir_mountain.json:head_wound
 msgid "Head wound"
@@ -22205,6 +22205,7 @@ msgid "I have dealt with Erwyn's army."
 msgstr "He tratado con el ejército de Erwyn."
 
 #: conversationlist_stoutford.json:yolgen_initial_0:5
+#: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:1
 msgid "I cleared Flagstone of an evil demon."
 msgstr "Despejé Flagstone de un demonio malvado."
 
@@ -22778,7 +22779,7 @@ msgid "That chest is something of a local legend. Been there for generations. Th
 msgstr "Ese cofre es una especie de leyenda local. Ha estado ahí por generaciones. Dicen que está sellado con magia y sólo puede abrirse con una llave especial, que cuelga del cuello de uno de los no-muertos que vagan en un cementerio justo al sur de aquí."
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20:0
-msgid "Killing the undead is my speciality."
+msgid "Killing the undead is my specialty."
 msgstr "Matar a los no-muertos es mi especialidad."
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20:1
@@ -22925,7 +22926,7 @@ msgid "I've come for the key."
 msgstr "He venido por la llave."
 
 #: conversationlist_graveyard1.json:algore_99a
-msgid "Lets go."
+msgid "Let's go."
 msgstr "Vamos."
 
 #: conversationlist_graveyard1.json:algore_99a:0
@@ -25927,7 +25928,7 @@ msgstr "Sí. Entré por la puerta del jardín."
 #: conversationlist_guynmart_npc.json:guynmart_100
 msgid ""
 "Then you must open the gate! Go to the gatehouse and open it, so that my men can get in. Be quick.\n"
-"After that go to the farm south of here. I expect a feroucious battle."
+"After that go to the farm south of here. I expect a ferocious battle."
 msgstr ""
 "¡Entonces debes abrir la puerta! Ve a la puerta y ábrela, para que mis hombres puedan entrar. Se rápido.\n"
 "Después de eso, ve a la granja al sur de aquí. Será una feroz batalla."
@@ -26209,7 +26210,7 @@ msgid "Guynmart Castle? I have never heard of it. Please tell me more."
 msgstr "¿Castillo de Guynmart? Nunca he oído hablar de él. Por favor, dime más."
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_40
-msgid "Our land belongs to Guynmart Castle, but old Guynmart is a friendly and rightious man. He never takes too much from us."
+msgid "Our land belongs to Guynmart Castle, but old Guynmart is a friendly and righteous man. He never takes too much from us."
 msgstr "Nuestra tierra pertenece al Castillo de Guynmart, pero el viejo Guynmart es un hombre amistoso y correcto. Nunca nos quita demasiado."
 
 #: conversationlist_guynmart2_npc.json:guynmart_farmer_50
@@ -27181,7 +27182,7 @@ msgid "Yes, Aryfora told me. She asked me to bring her some damerilias for Norae
 msgstr "Sí, Aryfora me lo dijo. Me pidió que le llevara unas damerilias para la tumba de Noraed."
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4
-msgid "I still have some. Here, take these to her, and send her my condolances."
+msgid "I still have some. Here, take these to her, and send her my condolences."
 msgstr "Todavía tengo alguna. Toma, llévale estas y envíale mis condolencias."
 
 #: conversationlist_stoutford_combined.json:caeda_root10_4:0
@@ -27383,7 +27384,7 @@ msgid "You got hold of the shelves and tore them down!"
 msgstr "¡Agarraste los estantes y los derribaste!"
 
 #: conversationlist_stoutford_combined.json:lakecave2_script_keycheck3a
-msgid "Hey, this looks like Caedas lost key."
+msgid "Hey, this looks like Caeda's lost key."
 msgstr "Parece que Caedas perdió la llave."
 
 #: conversationlist_stoutford_combined.json:caeda_20
@@ -28555,10 +28556,6 @@ msgstr "¿Podrías ayudarme con Flagstone?"
 #: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:0
 msgid "OK. I will go to the prison."
 msgstr "OK. Iré a la prisión."
-
-#: conversationlist_stoutford_combined.json:yolgen_task_0_2_1:1
-msgid "I cleared flagstone of an evil demon."
-msgstr "Despejé Flagstone de un demonio malvado."
 
 #: conversationlist_stoutford_combined.json:yolgen_task_0_2_2
 msgid "Can you clear the castle?"
@@ -30243,7 +30240,7 @@ msgid "No, not really. I'm not interested in being a smug thief."
 msgstr "No, en realidad no. No me interesa ser un ladrón engreído."
 
 #: conversationlist_omicronrg9.json:umar_guild_2a
-msgid "Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligable to be a member of our guild."
+msgid "Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligible to be a member of our guild."
 msgstr "Bueno, nos has demostrado que eres digno de confianza trayendo esa llave. Sin embargo, hacer una sola tarea no nos demuestra que eres elegible para ser miembro de nuestro gremio."
 
 #: conversationlist_omicronrg9.json:umar_guild_2a:0
@@ -30364,60 +30361,64 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_8b
 msgid "Hmpf. Go kill some beetles with your strength!"
-msgstr ""
+msgstr "Hmm. ¡Ve y mata algún escarabajo con tu fuerza!"
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_9
 msgid ""
 "Ah! I almost forgot. You have to say the password if you want them to give you the journal.\n"
 "The password is \"You are no one. No one knows you. No one has seen you.\" Good luck."
 msgstr ""
+"¡Ah! Casi lo olvido. Tienes que decir la contraseña si quieres que te den el diario.\n"
+"La contraseña es: \"No eres nadie. Nadie te conoce. Nadie te ha visto.\" Buena suerte."
 
 #: conversationlist_omicronrg9.json:troublemaker_guild_9:0
 msgid "I will keep that in mind. Bye."
-msgstr ""
+msgstr "Lo tendré en cuenta. Adios."
 
 #: conversationlist_omicronrg9.json:dunla_guild_1
 msgid "What? I don't know what you are talking about."
-msgstr ""
+msgstr "¿Qué? No sé de qué hablas."
 
 #: conversationlist_omicronrg9.json:dunla_guild_1:0
 #: conversationlist_omicronrg9.json:dunla_guild_1:1
 msgid "You are no one. No one knows you. No one has seen you."
-msgstr ""
+msgstr "No eres nadie. Nadie te conoce. Nadie te ha visto."
 
 #: conversationlist_omicronrg9.json:dunla_guild_2a
 msgid "So, you are one of us. Here, take my journal."
-msgstr ""
+msgstr "Entonces, eres uno de los nuestros. Toma el diario."
 
 #: conversationlist_omicronrg9.json:dunla_guild_2b
 msgid "Sorry, I don't have any more information for you."
-msgstr ""
+msgstr "Lo siento, no tengo más información para ti."
 
 #: conversationlist_omicronrg9.json:dunla_guild_2b:1
 msgid "Ok, bye."
-msgstr ""
+msgstr "Vale, adios."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_1
 msgid "Finally! I was getting tired of waiting here killing these beasts ..."
-msgstr ""
+msgstr "!Al fin! Ya estaba cansado de esperar matando bestias..."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_2
 msgid "Take this. All I've seen is written here ..."
-msgstr ""
+msgstr "Ten. Todo lo qu he visto está escrito aquí..."
 
 #: conversationlist_omicronrg9.json:feygard_scout_1
 msgid "Halt! You have been caught!"
-msgstr ""
+msgstr "¡Alto! ¡Te hemos descubierto!"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_3
 msgid "In the blink of an eye, Fanamor starts attacking the scout."
-msgstr ""
+msgstr "En un abrir y cerrar de ojos, Fanamor ataca al espía."
 
 #: conversationlist_omicronrg9.json:feygard_scout_2
 msgid ""
 "Argh ... damned trash, take this! \n"
 "(His sword swings quickly, and severely wounds Fanamor)"
 msgstr ""
+"Ah... maldita basura, ¡toma ésto!\n"
+"(Su espada se mueve rápido y hiere de gravedad a Fanamor)"
 
 #: conversationlist_omicronrg9.json:feygard_scout_3
 msgid ""
@@ -30425,19 +30426,22 @@ msgid ""
 "What have we here? A lost kid trying to do business with this scum, hah? \n"
 "You are under arrest!"
 msgstr ""
+"(Coge el libro)\n"
+"¿Qué tenemos aquí? Un niño perdido haciendo chanchullos con esta basura, ¿eh?\n"
+"¡Estás detenido!"
 
 #: conversationlist_omicronrg9.json:feygard_scout_3:0
 msgid "Not without a fight!"
-msgstr ""
+msgstr "¡No sin luchar!"
 
 #: conversationlist_omicronrg9.json:feygard_scout_3:1
 msgid "How dare you! Prepare to die, useless soldier!"
-msgstr ""
+msgstr "¡Cómo te atreves! Prepárate a morir, ¡soldado inútil!"
 
 #: conversationlist_omicronrg9.json:feygard_scout_3:2
 #: conversationlist_omicronrg9.json:rebthief2_g03_1:2
 msgid "For the shadow!"
-msgstr ""
+msgstr "¡Por la sombra!"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_4
 msgid ""
@@ -30445,38 +30449,41 @@ msgid ""
 "You kid, protect the book!\n"
 ""
 msgstr ""
+"Tch... no... puedo...\n"
+"Tú chaval, ¡protege el libro!\n"
+""
 
 #: conversationlist_omicronrg9.json:leta_guild_1a
 msgid "Umar you say? I don't know any Umar!"
-msgstr ""
+msgstr "¿Umar dices? ¡No conozco a ningún Umar!"
 
 #: conversationlist_omicronrg9.json:leta_guild_1a:0
 msgid "(Whispering) You are no one. No one knows you. No one has seen you."
-msgstr ""
+msgstr "(Susurrando) No eres nadie. Nadie te conoce. Nadie te ha visto."
 
 #: conversationlist_omicronrg9.json:leta_guild_2
 msgid "How do you ...? Whatever, you are one of us."
-msgstr ""
+msgstr "¿Pero cómo...? No importa, eres uno de los nuestros."
 
 #: conversationlist_omicronrg9.json:leta_guild_2:0
 msgid "Umar sent me to get your journal."
-msgstr ""
+msgstr "Umar me envía para conseguir tu diario."
 
 #: conversationlist_omicronrg9.json:leta_guild_3
 msgid "Here. Make sure you don't raise any suspicion on your future jobs. Bye kid."
-msgstr ""
+msgstr "Aquí. Asegúrate de no levantar sospechas para futuros trabajos. Adios chaval."
 
 #: conversationlist_omicronrg9.json:leta_guild_1b
 msgid "I gave you all the information I have gathered. Now leave me alone."
-msgstr ""
+msgstr "Te he dado toda la información que he reunido. Ahora déjame."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_5
 msgid "Wow, you ... you really got rid of him ...."
-msgstr ""
+msgstr "Oye, tú... pues si que te has librado de él..."
 
 #: conversationlist_omicronrg9.json:fanamor_guild_5:0
 msgid "Did you doubt me?"
-msgstr ""
+msgstr "¿Dudas de mí?"
 
 #: conversationlist_omicronrg9.json:fanamor_guild_5:1
 msgid "Yes, even though he was strong, as we can expect of Feygard soldiers ..."
@@ -31019,7 +31026,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:Feygard_BG_guild02_1
 msgid ""
 "Halt! The road to Fallhaven is closed due to recent information about a dangerous criminal who has been seen not far from here.\n"
-"That criminal commited a murder only hours ago."
+"That criminal committed a murder only hours ago."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild02_1:0
@@ -31229,7 +31236,8 @@ msgid "Argh. OK. What a tedious job!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:troublemaker_guild02_8:1
-msgid "Understoood."
+#: conversationlist_omicronrg9.json:umar_guild02_21:1
+msgid "Understood."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_7b
@@ -31354,10 +31362,6 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_21:0
 msgid "OK, thanks."
-msgstr ""
-
-#: conversationlist_omicronrg9.json:umar_guild02_21:1
-msgid "Understood."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_22
@@ -31594,7 +31598,7 @@ msgid "Honestly, I don't know for certain."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_11b
-msgid "Appearently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit."
+msgid "Apparently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_11b:0
@@ -31780,7 +31784,7 @@ msgid "Sorry, have you heard anything about a murder?"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:crossroads_guild03_2
-msgid "Yeah, Feygard authorities have sent more patrols to the south. Appearently there is a group of criminals hiding in the forest"
+msgid "Yeah, Feygard authorities have sent more patrols to the south. Apparently there is a group of criminals hiding in the forest"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:crossroads_guild03_3
@@ -31788,7 +31792,7 @@ msgid "Now go away kid, I'm working!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:benbyr_guild03_1
-msgid "(This man seems to be inmersed in his thoughts)"
+msgid "(This man seems to be immersed in his thoughts)"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:benbyr_guild03_1:0
@@ -31844,7 +31848,7 @@ msgid "[Lie]I will!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_0
-msgid "Halt! The road to Fallhaven is closed due to a murder commited three days ago."
+msgid "Halt! The road to Fallhaven is closed due to a murder committed three days ago."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:Feygard_BG_guild03_0:0
@@ -32086,7 +32090,7 @@ msgid "Hmm .... This is not the place where I would choose to live."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild03_crackshot_1:1
-msgid "You are under arrest for the crimes you've commited against Feygard!"
+msgid "You are under arrest for the crimes you've committed against Feygard!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:guild03_crackshot_2a
@@ -32442,7 +32446,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_30
 msgid ""
-"I expect more of you.That was your first mission inside the guild and you failed it!\n"
+"I expect more of you. That was your first mission inside the guild and you failed it!\n"
 ""
 msgstr ""
 
@@ -32456,7 +32460,7 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_31
 msgid ""
-"What we have here? (Umar's face gets a smile while he admires the neckace)\n"
+"What we have here? (Umar's face gets a smile while he admires the necklace)\n"
 ""
 msgstr ""
 
@@ -32694,7 +32698,7 @@ msgid "The ground is very slippery. You can't get back onto the solid rock!"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulircave_trap10:0
-msgid "Oh no..."
+msgid "Oh no... I can't swim!"
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulircave_trap10_msg
@@ -32975,6 +32979,18 @@ msgstr ""
 
 #: conversationlist_arulir_mountain.json:blackwater_mountain5a_01
 msgid "You have found a small, shiny, metal bar. "
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_10
+msgid "You feel that you can no longer hold on. You will have to slide into the cold water ..."
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_20
+msgid "You think of Mikhail, and of Andor ... your strength is slowly leaving you. ..."
+msgstr ""
+
+#: conversationlist_arulir_mountain.json:arulircave_trap10_30
+msgid "Maybe the current will wash you ashore somewhere?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_1a
@@ -33547,7 +33563,7 @@ msgid "This is your father's ring, I think."
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_6_83a:0
-msgid "Mikhails ring!"
+msgid "Mikhail's ring!"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_6_84a
@@ -33587,7 +33603,7 @@ msgid "I don't suppose you are a member of the Thieves guild? I never heard of y
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8a
-msgid "You talk of Unmar and his little gang? Are you also no one and nobody has seen you?"
+msgid "You talk of Umar and his little gang? Are you also no one and nobody has seen you?"
 msgstr ""
 
 #: conversationlist_burhczyd.json:burhczydx_9a_8a:1
@@ -38863,7 +38879,7 @@ msgid "Cave scorpion"
 msgstr "Escorpión de cueva"
 
 #: monsterlist_stoutford_combined.json:cave_scorpion_1
-msgid "Agressive cave scorpion"
+msgid "Aggressive cave scorpion"
 msgstr "Escorpión de cueva agresivo"
 
 #: monsterlist_stoutford_combined.json:cave_scorpion_2
@@ -42455,4 +42471,3 @@ msgstr "Stoutford"
 #: worldmap.xml:world1:guynmart_area
 msgid "Guynmart Castle"
 msgstr "Castillo de Guynmart"
-

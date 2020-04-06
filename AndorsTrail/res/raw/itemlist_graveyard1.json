@@ -14,6 +14,7 @@
         "iconID":"items_misc_3:231",
         "name":"LifeTaker",
         "displaytype":"extraordinary",
+        "hasManualPrice":1,
         "baseMarketCost":5045,
         "category":"lsword",
         "description":"A fine blade enhanced by undead forces.",
@@ -23,6 +24,7 @@
                 "max":7
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":104,
             "increaseAttackChance":30,
             "increaseCriticalSkill":0,
             "increaseBlockChance":0,
@@ -119,6 +121,7 @@
                 "max":8
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":195,
             "increaseAttackChance":12
         },
         "hitEffect":{

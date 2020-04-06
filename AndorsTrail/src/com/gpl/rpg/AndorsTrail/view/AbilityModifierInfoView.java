@@ -19,6 +19,7 @@ public final class AbilityModifierInfoView extends LinearLayout {
 	private final TextView abilitymodifierinfo_change_attack_cost;
 	private final TextView abilitymodifierinfo_change_attack_chance;
 	private final TextView abilitymodifierinfo_change_attack_damage;
+	private final TextView abilitymodifierinfo_set_damage_modifier;
 	private final TextView abilitymodifierinfo_change_critical_skill;
 	private final TextView abilitymodifierinfo_change_critical_multiplier;
 	private final TextView abilitymodifierinfo_change_block_chance;
@@ -38,6 +39,7 @@ public final class AbilityModifierInfoView extends LinearLayout {
 		abilitymodifierinfo_change_attack_cost = (TextView) findViewById(R.id.abilitymodifierinfo_change_attack_cost);
 		abilitymodifierinfo_change_attack_chance = (TextView) findViewById(R.id.abilitymodifierinfo_change_attack_chance);
 		abilitymodifierinfo_change_attack_damage = (TextView) findViewById(R.id.abilitymodifierinfo_change_attack_damage);
+ 		abilitymodifierinfo_set_damage_modifier =  (TextView) findViewById(R.id.abilitymodifierinfo_set_damage_modifier);
 		abilitymodifierinfo_change_critical_skill = (TextView) findViewById(R.id.abilitymodifierinfo_change_critical_skill);
 		abilitymodifierinfo_change_critical_multiplier = (TextView) findViewById(R.id.abilitymodifierinfo_change_critical_multiplier);
 		abilitymodifierinfo_change_block_chance = (TextView) findViewById(R.id.abilitymodifierinfo_change_block_chance);
@@ -88,6 +90,12 @@ public final class AbilityModifierInfoView extends LinearLayout {
 				abilitymodifierinfo_change_attack_damage.setText(res.getString(label, Math.abs(traits.increaseMinDamage), Math.abs(traits.increaseMaxDamage)));
 			}
 			abilitymodifierinfo_change_attack_damage.setVisibility(View.VISIBLE);
+		}
+
+		if (isWeapon) {
+			final int nonWeaponDamageModifier = traits.setNonWeaponDamageModifier > 0 ? traits.setNonWeaponDamageModifier : 100;
+			abilitymodifierinfo_set_damage_modifier.setText(res.getString(R.string.iteminfo_effect_set_damage_modifier, nonWeaponDamageModifier));
+			abilitymodifierinfo_set_damage_modifier.setVisibility(View.VISIBLE);
 		}
 	}
 

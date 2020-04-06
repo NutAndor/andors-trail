@@ -299,6 +299,7 @@
                 "max":4
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":155,
             "increaseAttackChance":8,
             "increaseCriticalSkill":1,
             "increaseBlockChance":-2,
@@ -318,6 +319,7 @@
             },
             "increaseMaxHP":2,
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":155,
             "increaseAttackChance":23,
             "increaseCriticalSkill":4,
             "increaseDamageResistance":-1,
@@ -342,6 +344,7 @@
                 "max":6
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":121,
             "increaseAttackChance":9,
             "increaseCriticalSkill":1,
             "increaseBlockChance":-5,
@@ -360,6 +363,7 @@
                 "max":6
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":135,
             "increaseAttackChance":12,
             "increaseCriticalSkill":1,
             "increaseBlockChance":3,
@@ -378,6 +382,7 @@
                 "max":4
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":124,
             "increaseAttackChance":12,
             "increaseCriticalSkill":6,
             "increaseBlockChance":-5,
@@ -396,6 +401,7 @@
                 "max":8
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":175,
             "increaseAttackChance":12,
             "increaseCriticalSkill":1,
             "increaseBlockChance":-5,
@@ -414,6 +420,7 @@
                 "max":6
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":175,
             "increaseAttackChance":21,
             "increaseCriticalSkill":1,
             "increaseBlockChance":-4,
@@ -432,6 +439,7 @@
                 "max":5
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":185,
             "increaseAttackChance":13,
             "increaseCriticalSkill":1,
             "increaseBlockChance":11,
@@ -452,6 +460,7 @@
             },
             "increaseMaxHP":4,
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":195,
             "increaseAttackChance":10,
             "increaseCriticalSkill":2,
             "increaseBlockChance":15,
@@ -471,6 +480,7 @@
                 "max":7
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":180,
             "increaseAttackChance":28,
             "increaseCriticalSkill":7,
             "increaseBlockChance":-6,
@@ -491,6 +501,7 @@
                 "max":4
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":132,
             "increaseAttackChance":12,
             "increaseCriticalSkill":13,
             "increaseBlockChance":-4,
@@ -521,6 +532,7 @@
             },
             "increaseMaxHP":5,
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":179,
             "increaseAttackChance":19,
             "increaseCriticalSkill":2,
             "increaseBlockChance":5,
@@ -542,6 +554,7 @@
             },
             "increaseMaxHP":-4,
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":129,
             "increaseAttackChance":35,
             "increaseCriticalSkill":5,
             "increaseBlockChance":-7,
@@ -582,6 +595,7 @@
             },
             "increaseMaxHP":-3,
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":187,
             "increaseAttackChance":23,
             "increaseCriticalSkill":10,
             "increaseBlockChance":-4,
@@ -613,6 +627,7 @@
             },
             "increaseMaxHP":-2,
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":173,
             "increaseAttackChance":32,
             "increaseCriticalSkill":3,
             "increaseBlockChance":12,
@@ -648,6 +663,7 @@
                 "max":5
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":119,
             "increaseAttackChance":5,
             "increaseBlockChance":-2
         },
@@ -674,6 +690,7 @@
                 "max":3
             },
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":128,
             "increaseAttackChance":6,
             "increaseBlockChance":-1
         }
@@ -691,6 +708,7 @@
             },
             "increaseMaxHP":1,
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":163,
             "increaseAttackChance":12,
             "increaseBlockChance":2
         }
@@ -707,6 +725,7 @@
                 "max":8
             },
             "increaseAttackCost":8,
+            "setNonWeaponDamageModifier":218,
             "increaseAttackChance":23,
             "increaseCriticalSkill":5,
             "increaseBlockChance":-17,
@@ -727,6 +746,7 @@
             },
             "increaseMaxHP":2,
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":164,
             "increaseAttackChance":21,
             "increaseCriticalSkill":5,
             "setCriticalMultiplier":1.5
@@ -745,6 +765,7 @@
                 "max":17
             },
             "increaseAttackCost":8,
+            "setNonWeaponDamageModifier":320,
             "increaseAttackChance":14,
             "increaseBlockChance":-7,
             "increaseDamageResistance":-1,
@@ -768,6 +789,7 @@
                 "max":2
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":99,
             "increaseAttackChance":8,
             "increaseBlockChance":-7
         }
@@ -784,6 +806,7 @@
                 "max":3
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":104,
             "increaseAttackChance":17,
             "increaseCriticalSkill":8,
             "increaseBlockChance":-7,
@@ -805,6 +828,7 @@
                 "max":4
             },
             "increaseAttackCost":4,
+			"setNonWeaponDamageModifier":98,
             "increaseAttackChance":5,
             "increaseCriticalSkill":9,
             "increaseBlockChance":-8,
@@ -829,6 +853,7 @@
                 "max":3
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":186,
             "increaseAttackChance":6
         }
     },
@@ -844,6 +869,7 @@
                 "max":4
             },
             "increaseAttackCost":8,
+            "setNonWeaponDamageModifier":190,
             "increaseAttackChance":12,
             "increaseBlockChance":-3
         }
@@ -860,6 +886,7 @@
                 "max":6
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":175,
             "increaseAttackChance":12,
             "increaseCriticalSkill":6,
             "increaseBlockChance":-5,
@@ -880,6 +907,7 @@
                 "max":2
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":173,
             "increaseAttackChance":7,
             "increaseCriticalSkill":10,
             "increaseBlockChance":-5,
@@ -909,6 +937,7 @@
                 "max":4
             },
             "increaseAttackCost":8,
+            "setNonWeaponDamageModifier":191,
             "increaseAttackChance":10,
             "increaseBlockChance":8
         }
@@ -925,6 +954,7 @@
                 "max":13
             },
             "increaseAttackCost":10,
+            "setNonWeaponDamageModifier":202,
             "increaseAttackChance":25,
             "increaseBlockChance":-6,
             "increaseDamageResistance":-1
@@ -942,6 +972,7 @@
             },
             "increaseMaxHP":2,
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":178,
             "increaseAttackChance":10,
             "increaseCriticalSkill":7,
             "increaseBlockChance":-5,
@@ -962,6 +993,7 @@
                 "max":4
             },
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":188,
             "increaseAttackChance":16,
             "increaseCriticalSkill":10,
             "increaseBlockChance":-5,
@@ -991,6 +1023,7 @@
             },
             "increaseMaxHP":1,
             "increaseAttackCost":5,
+            "setNonWeaponDamageModifier":113,
             "increaseAttackChance":23,
             "increaseCriticalSkill":10,
             "increaseBlockChance":-4,
@@ -1010,6 +1043,7 @@
                 "max":5
             },
             "increaseAttackCost":8,
+            "setNonWeaponDamageModifier":209,
             "increaseAttackChance":24,
             "increaseBlockChance":9
         }
@@ -1029,6 +1063,7 @@
             },
             "increaseMaxHP":3,
             "increaseAttackCost":6,
+            "setNonWeaponDamageModifier":175,
             "increaseAttackChance":32,
             "increaseCriticalSkill":10,
             "increaseBlockChance":-5,

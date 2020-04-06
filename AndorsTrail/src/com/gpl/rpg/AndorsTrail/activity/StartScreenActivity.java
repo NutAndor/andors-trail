@@ -10,9 +10,13 @@ import com.gpl.rpg.AndorsTrail.activity.fragment.StartScreenActivity_NewGame.Gam
 import com.gpl.rpg.AndorsTrail.resource.tiles.TileManager;
 import com.gpl.rpg.AndorsTrail.util.ThemeHelper;
 import com.gpl.rpg.AndorsTrail.view.CloudsAnimatorView;
+import com.gpl.rpg.AndorsTrail.view.CustomDialogFactory;
 
 import android.Manifest;
 import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
@@ -109,34 +113,30 @@ public final class StartScreenActivity extends AndorsTrailBaseFragmentActivity i
 		toggleUiVisibility();
 		
 		app.getWorldSetup().startResourceLoader(res);
-		
-		checkAndRequestPermissions();
-	}
-	
-	private static final int READ_EXTERNAL_STORAGE_REQUEST=1;
-	private static final int WRITE_EXTERNAL_STORAGE_REQUEST=2;
-	
-	@TargetApi(23)
-	private void checkAndRequestPermissions() {
-		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-			if (getApplicationContext().checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-				this.requestPermissions(new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, READ_EXTERNAL_STORAGE_REQUEST);
-			}
-			if (getApplicationContext().checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-				this.requestPermissions(new String[] {Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_EXTERNAL_STORAGE_REQUEST);
-			} 
-		}
 	}
 
 	@Override
 	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
 		if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-			Toast.makeText(this, R.string.storage_permissions_mandatory, Toast.LENGTH_LONG).show();
-			((AndorsTrailApplication)getApplication()).discardWorld();
-			finish();
+
+			final Dialog d = CustomDialogFactory.createDialog(this,
+					getResources().getString(R.string.dialog_permission_information_title),
+					getResources().getDrawable(android.R.drawable.ic_dialog_info),
+					getResources().getString(R.string.dialog_permission_information),
+					null,
+					true);
+			final Activity activity = this;
+			CustomDialogFactory.addDismissButton(d, android.R.string.ok);
+			CustomDialogFactory.setDismissListener(d, new DialogInterface.OnDismissListener() {
+				@Override
+				public void onDismiss(DialogInterface dialog) {
+					StartScreenActivity_MainMenu.checkAndRequestPermissions(activity);
+				}
+			});
+			CustomDialogFactory.show(d);
 		}
 	}
-	
+
 	private void toggleUiVisibility() {
 		ui_visible = !ui_visible; 
 		int visibility = ui_visible ? View.VISIBLE : View.GONE;

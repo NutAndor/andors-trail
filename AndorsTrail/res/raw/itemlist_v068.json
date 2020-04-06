@@ -84,6 +84,8 @@
                 "max":11
             },
             "increaseAttackCost":8,
+
+            "setNonWeaponDamageModifier":210,
             "increaseAttackChance":15,
             "increaseCriticalSkill":5,
             "setCriticalMultiplier":3.0
@@ -101,6 +103,7 @@
                 "max":11
             },
             "increaseAttackCost":7,
+            "setNonWeaponDamageModifier":162,
             "increaseAttackChance":10,
             "increaseCriticalSkill":10,
             "setCriticalMultiplier":3.0

@@ -130,7 +130,7 @@ public final class ConversationController {
 	private void changeMapFilter(Resources res, String mapName, String effectID) {
 		PredefinedMap map = findMapForScriptEffect(mapName);
 		map.currentColorFilter = effectID;
-		if (world.model.currentMap == map) {
+		if (world.model.currentMaps.map == map) {
 			controllers.mapController.applyCurrentMapReplacements(res, true);
 		}
 	}
@@ -141,7 +141,7 @@ public final class ConversationController {
 	}
 
 	private PredefinedMap findMapForScriptEffect(String mapName) {
-		if (mapName == null) return world.model.currentMap;
+		if (mapName == null) return world.model.currentMaps.map;
 		return world.maps.findPredefinedMap(mapName);
 	}
 
@@ -153,8 +153,8 @@ public final class ConversationController {
 	private void spawnAll(String mapName, String areaId) {
 		PredefinedMap map = findMapForScriptEffect(mapName);
 		LayeredTileMap tileMap = null;
-		if (map == world.model.currentMap) {
-			tileMap = world.model.currentTileMap;
+		if (map == world.model.currentMaps.map) {
+			tileMap = world.model.currentMaps.tileMap;
 		}
 		for (MonsterSpawnArea area : map.spawnAreas) {
 			if (!area.areaID.equals(areaId)) continue;
@@ -174,12 +174,12 @@ public final class ConversationController {
 
 	private void addAlignmentReward(Player player, String faction, int delta) {
 		player.addAlignment(faction, delta);
-		MovementController.refreshMonsterAggressiveness(world.model.currentMap, world.model.player);
+		MovementController.refreshMonsterAggressiveness(world.model.currentMaps.map, world.model.player);
 	}
 
 	private void setAlignmentReward(Player player, String faction, int delta) {
 		player.setAlignment(faction, delta);
-		MovementController.refreshMonsterAggressiveness(world.model.currentMap, world.model.player);
+		MovementController.refreshMonsterAggressiveness(world.model.currentMaps.map, world.model.player);
 	}
 
 	private void addQuestProgressReward(Player player, String questID, int questProgress, ScriptEffectResult result) {
@@ -241,11 +241,11 @@ public final class ConversationController {
 		result.actorConditions.add(e);
 	}
 
-	private static void applyReplyEffect(final WorldContext world, final Reply reply) {
+	private static void applyReplyEffect(final WorldContext world, final Reply reply, ControllerContext controllers) {
 		if (!reply.hasRequirements()) return;
 
 		for (Requirement requirement : reply.requires) {
-			requirementFulfilled(world, requirement);
+			requirementFulfilled(world, requirement, controllers);
 		}
 	}
 
@@ -270,6 +270,7 @@ public final class ConversationController {
 				result = player.isLatestQuestProgress(requirement.requireID, requirement.value);
 				break;
 			case wear:
+			case wearRemove:
 				result =  player.inventory.isWearing(requirement.requireID, requirement.value);
 				break;
 			case inventoryKeep:
@@ -316,7 +317,7 @@ public final class ConversationController {
 		return requirement.negate ? !result : result;
 	}
 
-	public static void requirementFulfilled(WorldContext world, Requirement requirement) {
+	public static void requirementFulfilled(WorldContext world, Requirement requirement, ControllerContext controllers) {
 		Player p = world.model.player;
 		switch (requirement.requireType) {
 			case inventoryRemove:
@@ -326,6 +327,10 @@ public final class ConversationController {
 				} else {
 					p.inventory.removeItem(requirement.requireID, requirement.value);
 				}
+				break;
+            case wearRemove:
+                controllers.itemController.removeEquippedItem(requirement.requireID, requirement.value);
+                break;
 		}
 	}
 
@@ -357,7 +362,7 @@ public final class ConversationController {
 		public String getCurrentPhraseID() { return currentPhraseID; }
 
 		public void playerSelectedReply(final Resources res, Reply r) {
-			applyReplyEffect(world, r);
+			applyReplyEffect(world, r, controllers);
 			proceedToPhrase(res, r.nextPhrase, true, true);
 		}
 
@@ -383,7 +388,7 @@ public final class ConversationController {
 				if (currentPhrase == null) currentPhrase = new Phrase("(phrase \"" + phraseID + "\" not implemented yet)", null, null, null);
 			}
 			if (this.currentPhrase.switchToNPC != null) {
-				setCurrentNPC(world.model.currentMap.findSpawnedMonster(this.currentPhrase.switchToNPC));
+				setCurrentNPC(world.model.currentMaps.map.findSpawnedMonster(this.currentPhrase.switchToNPC));
 			}
 		}
 
@@ -414,7 +419,7 @@ public final class ConversationController {
 			if (currentPhrase.message == null) {
 				for (Reply r : currentPhrase.replies) {
 					if (!canSelectReply(world, r)) continue;
-					applyReplyEffect(world, r);
+					applyReplyEffect(world, r, controllers);
 					proceedToPhrase(res, r.nextPhrase, applyScriptEffects, displayPhraseMessage);
 					return;
 				}
@@ -440,7 +445,7 @@ public final class ConversationController {
 				listener.onConversationEnded();
 				return;
 			}
-			controllers.monsterSpawnController.remove(world.model.currentMap, npc);
+			controllers.monsterSpawnController.remove(world.model.currentMaps.map, npc);
 			listener.onConversationEndedWithRemoval(npc);
 		}
 

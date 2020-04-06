@@ -19,7 +19,7 @@
     },
     {
         "id":"umar_guild_2a",
-        "message":"Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligable to be a member of our guild.",
+        "message":"Well, you've shown us you are trustworthy by bringing that key. However, doing just one task does not prove to us that you are eligible to be a member of our guild.",
         "replies":[
             {
                 "text":"But I really want to join your guild!",
@@ -1698,7 +1698,7 @@
     },
     {
         "id":"Feygard_BG_guild02_1",
-        "message":"Halt! The road to Fallhaven is closed due to recent information about a dangerous criminal who has been seen not far from here.\nThat criminal commited a murder only hours ago.",
+        "message":"Halt! The road to Fallhaven is closed due to recent information about a dangerous criminal who has been seen not far from here.\nThat criminal committed a murder only hours ago.",
         "replies":[
             {
                 "text":"But I really need to pass!",
@@ -2070,7 +2070,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Understoood.",
+                "text":"Understood.",
                 "nextPhraseID":"X"
             }
         ],
@@ -2820,7 +2820,7 @@
     },
     {
         "id":"umar_guild03_11b",
-        "message":"Appearently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit.",
+        "message":"Apparently they decided the Guild wasn't the best option, so they turned greedy and betrayed us. That's more common than I would like to admit.",
         "replies":[
             {
                 "text":"What filthy and disloyal people.",
@@ -3109,7 +3109,7 @@
     },
     {
         "id":"crossroads_guild03_2",
-        "message":"Yeah, Feygard authorities have sent more patrols to the south. Appearently there is a group of criminals hiding in the forest",
+        "message":"Yeah, Feygard authorities have sent more patrols to the south. Apparently there is a group of criminals hiding in the forest",
         "replies":[
             {
                 "text":"N",
@@ -3130,7 +3130,7 @@
     },
     {
         "id":"benbyr_guild03_1",
-        "message":"(This man seems to be inmersed in his thoughts)",
+        "message":"(This man seems to be immersed in his thoughts)",
         "replies":[
             {
                 "text":"Hi. Have you heard about the murder not far from here?",
@@ -3257,7 +3257,7 @@
     },
     {
         "id":"Feygard_BG_guild03_0",
-        "message":"Halt! The road to Fallhaven is closed due to a murder commited three days ago.",
+        "message":"Halt! The road to Fallhaven is closed due to a murder committed three days ago.",
         "replies":[
             {
                 "text":"Hey! I live in Crossglen. How do you expect me to get there?",
@@ -3783,7 +3783,7 @@
                 "nextPhraseID":"guild03_crackshot_2a"
             },
             {
-                "text":"You are under arrest for the crimes you've commited against Feygard!",
+                "text":"You are under arrest for the crimes you've committed against Feygard!",
                 "nextPhraseID":"guild03_crackshot_2b"
             }
         ]
@@ -4468,7 +4468,7 @@
     },
     {
         "id":"umar_guild02_30",
-        "message":"I expect more of you.That was your first mission inside the guild and you failed it!\n",
+        "message":"I expect more of you. That was your first mission inside the guild and you failed it!\n",
         "replies":[
             {
                 "text":"I brought a valuable necklace from the noblewoman.",
@@ -4495,7 +4495,7 @@
     },
     {
         "id":"umar_guild02_31",
-        "message":"What we have here? (Umar's face gets a smile while he admires the neckace)\n",
+        "message":"What we have here? (Umar's face gets a smile while he admires the necklace)\n",
         "replies":[
             {
                 "text":"N",

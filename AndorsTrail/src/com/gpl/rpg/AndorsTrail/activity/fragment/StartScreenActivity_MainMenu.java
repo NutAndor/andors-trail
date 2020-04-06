@@ -1,11 +1,15 @@
 package com.gpl.rpg.AndorsTrail.activity.fragment;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -140,6 +144,12 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		} else if (AndorsTrailApplication.DEVELOPMENT_FORCE_CONTINUEGAME) {
 			continueGame(false, Savegames.SLOT_QUICKSAVE, null);
 		}
+
+		// if it is a new version we first fire a welcome screen in onResume
+		// and afterwards check the permissions
+		if (!isNewVersion()) {
+			checkAndRequestPermissions(getActivity());
+		}
 		
 		return root;
 	}
@@ -171,13 +181,34 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		setButtonState(playerName, displayInfo, iconID, isDead);
 
 		if (isNewVersion()) {
-			Dialogs.showNewVersion(getActivity());
+			Dialogs.showNewVersion(getActivity(), new DialogInterface.OnDismissListener() {
+				@Override
+				public void onDismiss(DialogInterface arg0) {
+					setCurrentVersionForVersionCheck();
+					checkAndRequestPermissions(getActivity());
+				}
+			});
 		}
 
 		boolean hasSavegames = !Savegames.getUsedSavegameSlots().isEmpty();
 		startscreen_load.setEnabled(hasSavegames);
 	}
-	
+
+	private static final int READ_EXTERNAL_STORAGE_REQUEST=1;
+	private static final int WRITE_EXTERNAL_STORAGE_REQUEST=2;
+
+	@TargetApi(23)
+	public static void checkAndRequestPermissions(final Activity activity) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (activity.getApplicationContext().checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+				activity.requestPermissions(new String[] {Manifest.permission.READ_EXTERNAL_STORAGE}, READ_EXTERNAL_STORAGE_REQUEST);
+			}
+			if (activity.getApplicationContext().checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+				activity.requestPermissions(new String[] {Manifest.permission.WRITE_EXTERNAL_STORAGE}, WRITE_EXTERNAL_STORAGE_REQUEST);
+			}
+		}
+	}
+
 	@Override
 	public void onAttach(Activity activity) {
 		super.onAttach(activity);
@@ -246,16 +277,20 @@ public class StartScreenActivity_MainMenu extends Fragment {
 		CustomDialogFactory.show(d);
 		
 	}
-	
+
+	private static final String versionCheck = "lastversion";
 	private boolean isNewVersion() {
-		final String v = "lastversion";
 		SharedPreferences s = getActivity().getSharedPreferences(Constants.PREFERENCE_MODEL_LASTRUNVERSION, Activity.MODE_PRIVATE);
-		int lastversion = s.getInt(v, 0);
+		int lastversion = s.getInt(versionCheck, 0);
 		if (lastversion >= AndorsTrailApplication.CURRENT_VERSION) return false;
-		Editor e = s.edit();
-		e.putInt(v, AndorsTrailApplication.CURRENT_VERSION);
-		e.commit();
 		return true;
+	}
+
+	private void setCurrentVersionForVersionCheck() {
+		SharedPreferences s = getActivity().getSharedPreferences(Constants.PREFERENCE_MODEL_LASTRUNVERSION, Activity.MODE_PRIVATE);
+		Editor e = s.edit();
+		e.putInt(versionCheck, AndorsTrailApplication.CURRENT_VERSION);
+		e.commit();
 	}
 	
 

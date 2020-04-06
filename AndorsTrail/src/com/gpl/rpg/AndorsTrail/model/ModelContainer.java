@@ -9,6 +9,7 @@ import com.gpl.rpg.AndorsTrail.context.WorldContext;
 import com.gpl.rpg.AndorsTrail.model.actor.Player;
 import com.gpl.rpg.AndorsTrail.model.map.LayeredTileMap;
 import com.gpl.rpg.AndorsTrail.model.map.PredefinedMap;
+import com.gpl.rpg.AndorsTrail.resource.tiles.TileCollection;
 
 public final class ModelContainer {
 
@@ -17,8 +18,7 @@ public final class ModelContainer {
 	public final CombatLog combatLog = new CombatLog();
 	public final GameStatistics statistics;
 	public final WorldData worldData;
-	public PredefinedMap currentMap;
-	public LayeredTileMap currentTileMap;
+	public MapBundle currentMaps = new MapBundle();;
 
 	public ModelContainer(int startLives, boolean unlimitedSaves) {
 		player = new Player();
@@ -31,13 +31,13 @@ public final class ModelContainer {
 
 	public ModelContainer(DataInputStream src, WorldContext world, ControllerContext controllers, int fileversion) throws IOException {
 		this.player = Player.newFromParcel(src, world, controllers, fileversion);
-		this.currentMap = world.maps.findPredefinedMap(src.readUTF());
+		this.currentMaps.map = world.maps.findPredefinedMap(src.readUTF());
 		this.uiSelections = new InterfaceData(src, fileversion);
 		if (uiSelections.selectedPosition != null) {
-			this.uiSelections.selectedMonster = currentMap.getMonsterAt(uiSelections.selectedPosition);
+			this.uiSelections.selectedMonster = currentMaps.map.getMonsterAt(uiSelections.selectedPosition);
 		}
 		this.statistics = new GameStatistics(src, world, fileversion);
-		this.currentTileMap = null;
+		this.currentMaps.tileMap = null;
 		if (fileversion >= 40) {
 			this.worldData = new WorldData(src, fileversion);
 		} else {
@@ -47,7 +47,7 @@ public final class ModelContainer {
 
 	public void writeToParcel(DataOutputStream dest) throws IOException {
 		player.writeToParcel(dest);
-		dest.writeUTF(currentMap.name);
+		dest.writeUTF(currentMaps.map.name);
 		uiSelections.writeToParcel(dest);
 		statistics.writeToParcel(dest);
 		worldData.writeToParcel(dest);

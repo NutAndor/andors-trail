@@ -79,7 +79,7 @@ public final class MonsterInfoActivity extends AndorsTrailBaseActivity {
 
 	private void updateTitle(Monster monster) {
 		monsterinfo_title.setText(monster.getName());
-		world.tileManager.setImageViewTile(getResources(), monsterinfo_title, monster);
+		world.tileManager.setImageViewTile(getResources(), monsterinfo_title, monster, world.model.currentMaps.tiles);
 		monsterinfo_difficulty.setText(getMonsterDifficultyResource(controllers, monster));
 	}
 

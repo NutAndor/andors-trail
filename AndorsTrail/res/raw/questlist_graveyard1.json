@@ -225,6 +225,10 @@
             {
                 "progress":220,
                 "logText":"You will never get this quest stage (used for lookout)"
+            },
+            {
+                "progress":230,
+                "logText":"bought Brimhaven bed"
             }
         ]
     }

@@ -149,17 +149,16 @@
     <string name="about_contents3">Niniejszy program jest wolnym oprogramowaniem; możesz go rozprowadzać dalej i/lub modyfikować na warunkach Powszechnej Licencji Publicznej GNU, wydanej przez Fundację Wolnego Oprogramowania - według wersji 2-giej tej Licencji lub którejś z późniejszych wersji.&lt;br /&gt; &lt;br /&gt; Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania bliższych informacji -patrz Powszechna Licencja Publiczna GNU&lt;br /&gt; &lt;br /&gt; Z pewnością wraz z niniejszym programem otrzymałeś też egzemplarz Powszechnej Licencji Publicznej GNU (GNU General Public License);jeśli nie to patrz &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt; &lt;br /&gt; &lt;br /&gt; W celu pobrania kodu źródłowego i opisu gry odwiedź stronę projektu: &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
     <string name="about_interface">&lt;div&gt;&lt;b&gt;Opcje Gry&lt;/b&gt; uzyskasz, gdy wciśniesz klawisz menu.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Ikony interfejsu&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Skrzynia&lt;/b&gt;&lt;img alt=chest src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Slot ekwipunku [Przytrzymaj dłużej palec na slocie, aby przypisać mu przedmiot]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Bohater&lt;/b&gt;&lt;img alt=hero src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Przegląd, Zadania, Umiejętności oraz Inwentarz *]&lt;/p&gt; &lt;p&gt;* (Gdy jesteś w inwentarzu kliknij przedmiot, żeby otrzymać informacje lub przytrzymaj dłużej palec na przedmiocie aby uzyskać więcej opcji)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Przeciwnik&lt;/b&gt;&lt;img alt=monster src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Informacja [Wyświetlana podczas walki]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Walka&lt;/h1&gt; &lt;p&gt;Akcje wykonane podczas walki kosztują Punkty Akcji (PA)...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Atak&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attacking src=doubleattackexample.png /&gt; &lt;p&gt;* (Ekwipunek oraz użycie przedmiotów może wpłynąć na ilość PA i(lub) koszt użycia)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Użycie Przedmiotu&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Ucieczka&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Zaawansowana Walka&lt;/h1&gt; &lt;div&gt;Podczas walki przytrzymaj dłużej palec na polu sąsiadującym z Bohaterem...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Aby uciec&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(Wybrana podświetlona ikona zamienia koszt ataku na koszt ruchu)&lt;/p&gt; &lt;img alt=flee src=flee_example.png /&gt; &lt;p&gt;[Tryb ucieczki aktywowany - Przytrzymaj dłużej palec na wrogu by powrócić do trybu walki]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Aby zmienić cel&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(przełącz czerwone podświetlenie celu między poszczególnymi przeciwnikami)&lt;/p&gt; &lt;p&gt;[Cel został zmieniony]&lt;/p&gt;</string>
     <string name="dialog_newversion_title">Witaj</string>
-    <string name="dialog_newversion_message">"Dziękujemy za instalację Andor\'s Trail!
-\n
-\n Zwracamy uwagę, iż prace nad grą ciągle trwają, co oznacza, że nie wszystkie mapy są jeszcze gotowe.
-\n
-\n Zapraszamy do dyskusji  na forum (więcej informacji w zakładce O grze).
+    <string name="dialog_newversion_message">Dziękujemy za instalację Andor\'s Trail! 
 \n 
-\n Dziękujemy za wszelkie sugestie i uwagi dotyczące gry!"</string>
+\nZwracamy uwagę, iż prace nad grą ciągle trwają, co oznacza, że nie wszystkie mapy są jeszcze gotowe. 
+\nZapraszamy do dyskusji na forum (więcej informacji w zakładce \"O grze\"). 
+\n 
+\nDziękujemy za wszelkie sugestie i uwagi dotyczące gry!</string>
     <string name="questlog_includecompleted_prompt">Wybierz zadania, które chcesz wyświetlić</string>
-    <string name="questlog_includecompleted_hidecompleted">Ukryj ukończone zadania</string>
-    <string name="questlog_includecompleted_includecompleted">Wyświetl wszystkie zadania</string>
-    <string name="questlog_includecompleted_onlycompleted">Wyświetl tylko ukończone zadania</string>
+    <string name="questlog_includecompleted_hidecompleted">Aktywne zadania</string>
+    <string name="questlog_includecompleted_includecompleted">Wszystkie zadania</string>
+    <string name="questlog_includecompleted_onlycompleted">Ukończone zadania</string>
     <string name="questlog_queststatus">Status: %1$s</string>
     <string name="questlog_queststatus_inprogress">W trakcie realizacji</string>
     <string name="questlog_queststatus_completed">Ukończone</string>
@@ -430,7 +429,7 @@
     <string name="skill_shortdescription_weapon_prof_axe">Lepszy w walce z użyciem topora</string>
     <string name="skill_shortdescription_weapon_prof_blunt">Lepszy w walce z użyciem broni obuchowej</string>
     <string name="skill_shortdescription_weapon_prof_unarmed">Lepszy w walce bez użycia broni</string>
-    <string name="skill_shortdescription_armor_prof_shield">Lepsze wykorzystanie tarczy w walce</string>
+    <string name="skill_shortdescription_armor_prof_shield">Lepsze wykorzystanie tarczy lub lewaka w walce</string>
     <string name="skill_shortdescription_armor_prof_unarmored">Lepsza walka bez zbroi</string>
     <string name="skill_shortdescription_armor_prof_light">Lepsze wykorzystanie lekkiej zbroi w walce</string>
     <string name="skill_shortdescription_armor_prof_heavy">Lepsze wykorzystanie ciężkiej zbroi w walce</string>
@@ -445,21 +444,27 @@
     <string name="skill_longdescription_weapon_prof_2hsword">Kiedy używasz dwuręcznego miecza, to z każdym poziomem tej umiejętności zwiększają się (w odniesieniu do wartości bazowych poszczególnych cech danej broni): szansa trafienia o %1$d %% ; szansa bloku o %2$d %% oraz szansa trafienia krytycznego o %3$d %%.</string>
     <string name="skill_longdescription_weapon_prof_axe">Kiedy używasz topora lub wielkiego topora, to z każdym poziomem tej umiejętności zwiększają się (w odniesieniu do wartości bazowych poszczególnych cech danej broni): szansa trafienia o %1$d %% ; szansa bloku o %2$d %% oraz szansa trafienia krytycznego o %3$d %%.</string>
     <string name="skill_longdescription_weapon_prof_blunt">Kiedy używasz broni obuchowej, to z każdym poziomem tej umiejętności zwiększają się (w odniesieniu do wartości bazowych poszczególnych cech danej broni): szansa trafienia o %1$d %% ; szansa bloku o %2$d %% oraz szansa trafienia krytycznego o %3$d %%. Umiejętność obejmuje takie bronie jak: maczugi, buławy, berła, młoty bojowe i olbrzymie młoty.</string>
-    <string name="skill_longdescription_weapon_prof_unarmed">Kiedy walczysz bez broni i tarczy, to z każdym poziomem tej umiejętności zwiększają się: szansa trafienia o %1$d %% ,zadawane obrażenia o %2$d oraz szansa bloku o %3$d %%.</string>
-    <string name="skill_longdescription_armor_prof_shield">Jeśli używasz tarczy, to z każdym poziomem umiejętności o %1$d zwiększa się odporność na obrażenia.</string>
-    <string name="skill_longdescription_armor_prof_unarmored">Kiedy walczysz bez jakiegokolwiek elementu zbroi, to z każdym poziomem tej umiejętności o %1$d %% zwiększa się szansa bloku. Ubrania nie są uważane za zbroję.</string>
-    <string name="skill_longdescription_armor_prof_light">Z każdym poziomem tej umiejętności,o %1$d %% zwiększa się szansa bloku za każdy element ekwipunku należący do kategorii zbroi lekkich (w odniesieniu do wartości bazowej szansy bloku używanego ekwiunku). Kategoria lekkie zboje obejmuje pancerze skórzane, lekkie pancerze metalowe oraz ukryte pancerze.</string>
+    <string name="skill_longdescription_weapon_prof_unarmed">Kiedy walczysz bez broni i tarczy, to z każdym poziomem tej umiejętności zwiększają się: szansa trafienia o %1, zadawane obrażenia o %2$d oraz szansa bloku o %3$d.</string>
+    <string name="skill_longdescription_armor_prof_shield">Jeśli używasz tarczy lub lewaka, to z każdym poziomem umiejętności o %1$d zwiększa się odporność na obrażenia.</string>
+    <string name="skill_longdescription_armor_prof_unarmored">Kiedy walczysz bez jakiegokolwiek elementu zbroi, to z każdym poziomem tej umiejętności o %1$d zwiększa się szansa bloku. Rzeczy wykonane z tkaniny nie są uważane za zbroję.</string>
+    <string name="skill_longdescription_armor_prof_light">Z każdym poziomem tej umiejętności,o %1$d %% zwiększa się szansa bloku za każdy element ekwipunku należący do kategorii zbroi lekkich (w odniesieniu do wartości bazowej szansy bloku używanego ekwipunku). Kategoria lekkie zboje obejmuje pancerze skórzane, lekkie pancerze metalowe oraz ukryte pancerze.</string>
     <string name="skill_longdescription_armor_prof_heavy">Z każdym poziomem tej umiejętności,o %1$d %% zwiększa się szansa bloku za każdy element ekwipunku należący do kategorii zbroi ciężkich (w odniesieniu do wartości bazowej szansy bloku używanego ekwiunku). Ponadto reducji ulegają kary naliczane za używanie tychże elementów ekwipunku: kara dla ruchu o %2$d %% na poziom umiejętności oraz kara dla kosztu ataku o %3$d %% na poziom umiejętności. Kategoria ciężkie zbroje obejmuje pancerze metalowe, kolczugi i zbroje płytowe.</string>
-    <string name="skill_longdescription_fightstyle_dualwield">Daje korzyści w przypadku walki dwoma broniami równocześnie (gdy w każdej ręce znajduje się broń). Bez tej umiejętności, tylko %1$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Dotyczy to szansy trafienia, szansy trafienia krytycznego, zadawanych obrażeń oraz szansy bloku. Ponadto, koszt ataku (liczony w PA) jest sumą kosztów ataku obu broni znajdujących się w rękach bohatera. Na pierwszym poziomie umiejętności, %2$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Ponadto koszt ataku (liczony w PA) jest sumą: kosztu ataku broni w prawej ręce plus %3$d %% kosztu ataku broni w lewej ręce. Na drugim poziomie umiejętności, %4$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Jako prędkość ataku (koszt ataku liczony w PA) przyjmuje się wyższą wartość spośród wartości ataku używanych broni.</string>
+    <string name="skill_longdescription_fightstyle_dualwield">Daje korzyści w przypadku walki dwoma broniami równocześnie (gdy w każdej ręce znajduje się broń).
+\n
+\nBez tej umiejętności, tylko %1$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Dotyczy to szansy trafienia, szansy trafienia krytycznego, zadawanych obrażeń oraz szansy bloku. Ponadto, koszt ataku (liczony w PA) jest sumą kosztów ataku obu broni znajdujących się w rękach bohatera. 
+\n
+\nNa pierwszym poziomie umiejętności, %2$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Ponadto koszt ataku (liczony w PA) jest sumą: kosztu ataku broni w prawej ręce plus %3$d %% kosztu ataku broni w lewej ręce. 
+\n
+\nNa drugim poziomie umiejętności, %4$d %% wartości cech broni jest wykorzystywane, gdy broń znajduje się w lewej ręce. Jako prędkość ataku (koszt ataku liczony w PA) przyjmuje się wyższą wartość spośród wartości ataku używanych broni.</string>
     <string name="skill_longdescription_fightstyle_2hand">"Daje korzyści z używania broni wymagających użycia obu rąk, jak na przykład miecze dwuręczne, wielkie topory czy też olbrzymie młoty.
 
 Każdy poziom umiejętności podnosi obrażenia zadawane każdą broń dwuręczną o %1$d %% (licząc z wartości bazowej obrażeń zadawanych przez daną broń)."</string>
-    <string name="skill_longdescription_fightstyle_weapon_shield">"Daje korzyści z walki przy równoczesnym użyciu broni w prawej ręce i tarczy w lewej ręce.
-
-Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc z wartości bazowej szansy trafienia danej broni). Ponadto szansa bloku używanej tarczy rośnie o %2$d %% (licząc z wartości bazowej szansy bloku danej tarczy)."</string>
+    <string name="skill_longdescription_fightstyle_weapon_shield">Daje korzyści z walki przy równoczesnym użyciu broni w prawej ręce i tarczy lub lewaka w lewej ręce.
+\n
+\nKażdy poziom umiejętności podnosi szansę trafienia broni w prawej ręce o %1$d %% (licząc z wartości bazowej szansy trafienia danej broni). Ponadto szansa bloku używanej tarczy lub lewaka rośnie o %2$d %% (licząc z wartości bazowej szansy bloku).</string>
     <string name="skill_longdescription_specialization_dualwield">Oprócz korzyści dawanych przez umiejętność Styl walki: dwie bronie podnosi dodatkowo szansę trafienia obydwu używanych broni o %1$d %% (w stosunku do bazowej szansy trafienia używanych broni). Ponadto szansa bloku obydwu używanych broni wzrasta o %2$d %% (licząc z wartości bazowej szansy bloku danych broni).</string>
     <string name="skill_longdescription_specialization_2hand">Oprócz korzyści dawanych przez umiejętność Styl walki: Broń dwuręczna podnosi dodatkowo obrażenia zadawane przez bronie dwuręczne  o %1$d %% (w stosunku do bazowej wartości zadawanych obrażeń używanej broni). Ponadto szansa trafienia używanej broni dwuręcznej wzrasta o %2$d %% (licząc z wartości bazowej szansy trafienia danej broni).</string>
-    <string name="skill_longdescription_specialization_weapon_shield">Oprócz korzyści dawanych przez umiejętność Styl walki: Broń i tarcza podnosi dodatkowo szanse trafienia oraz zadawane obrażenia używanej broni. Szansa trafienia (w stosunku do bazowej wartości szansy trafienia używanej broni) wzrasta o %1$d %% a zadawane obrażenia (w stosunku do bazowej wartości zadawanych obrażeń używanej broni) wzrastają o %2$d %%.</string>
+    <string name="skill_longdescription_specialization_weapon_shield">Oprócz korzyści dawanych przez umiejętność Styl walki: Broń i tarcza podnosi dodatkowo szanse trafienia oraz zadawane obrażenia używanej w prawej ręce broni. Szansa trafienia (w stosunku do bazowej wartości szansy trafienia używanej broni) wzrasta o %1$d %% a zadawane obrażenia (w stosunku do bazowej wartości zadawanych obrażeń używanej broni) wzrastają o %2$d %%.</string>
     <string name="preferences_quickslots_placement">Umiejscowienie szybkich slotów </string>
     <string name="preferences_quickslots_placement_summary">Wybierz miejsce, w którym mają znajdować się sloty ekwipunku</string>
     <string name="preferences_quickslots_placements_horizontal_center_bottom">Środek dolnej krawędzi ekranu</string>
@@ -488,7 +493,7 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <!-- =========================================== -->
     <!-- Added in v0.7.1 -->
     <string name="preferences_ui_use_localized_resources_title">Użyj lokalizacji zasobów</string>
-    <string name="preferences_ui_use_localized_resources">Użyj tłumaczenia gry jeśli jest dostępne (wymaga restartu gry).</string>
+    <string name="preferences_ui_use_localized_resources">Użyj tłumaczenia gry jeśli jest dostępne. (wymaga restartu gry)</string>
     <string name="change_locale_requires_restart">Zmiany ustawień lokalnych wymagały restartu gry. Andor`s Trail został zamknięty.</string>
     <string name="combat_miss_animation_message">PUDŁO</string>
     <string name="dialog_recenter">Wyśrodkuj ponownie</string>
@@ -552,8 +557,7 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <string name="preferences_display_theme_blue">Kobalt</string>
     <string name="preferences_display_theme_green">Malachit</string>
     <string name="preferences_display_theme_charcoal">Obsydian</string>
-    <string name="change_theme_requires_restart">Zmiana motywu UI wymaga restartu.
-\nAndor\'s Trail został zamknięty.</string>
+    <string name="change_theme_requires_restart">Zmiana motywu UI wymaga restartu. Andor\'s Trail został zamknięty.</string>
     <string name="preferences_high_quality_filters_title">Filtry wysokiej jakości</string>
     <string name="preferences_high_quality_filters">Wyłącz to, jeśli wystąpią problemy z wydajnością na filtrowanych mapach (na przykład ciemne jaskinie). Włączenie tej opcji sprawi, że w grze będą używane zaawansowane filtry kolorów zamiast nakładek w kolorze stałym.</string>
     <string name="storage_permissions_mandatory">Dostęp do pamięci urządzenia jest niezbędny dla Andor\'s Trail w zakresie obsługi zapisów gry i mapy świata. Aplikacja zostanie zamknięta.</string>
@@ -591,4 +595,17 @@ Każdy poziom umiejętności podnosi szansę trafienia broni o %1$d %% (licząc 
     <string name="skill_longdescription_weapon_prof_pole">Każdy poziom umiejętności podnosi szansę trafienia broni drzewcowej o %1$d%%, zwiększa jej szansę bloku o %2$d%% oraz zwiększa szansę trafienia krytycznego o %3$d%%. Wymienione wartości są obliczane z wartości bazowych parametrów danej broni.</string>
     <string name="preferences_display_scaling_factor_50_percent">Pomniejszenie 0.5x</string>
     <string name="preferences_display_scaling_factor_75_percent">Pomniejszenie 0.75x</string>
+    <string name="skill_title_fightstyle_unarmed_unarmored">Styk walki: Droga mnicha</string>
+    <string name="iteminfo_effect_set_damage_modifier">Modyfikator obrażeń: %1$d%%</string>
+    <string name="dialog_permission_information">Andor\'s Trail zapisuje stan gry w pamięci dostępnej dla użytkownika na Twoim urządzeniu. Pozwala to łatwo wykonać kopię zapasową plików lub przenieść je na nowe urządzenie. Odwiedź nasze forum, aby uzyskać więcej informacji.
+\n
+\nAndor\'s Trail nie wykorzystuje dostępu do Twojego urządzenia w żadnym innym celu i nie potrzebuje dostępu do Internetu. Jest to aplikacja open source; kod źródłowy można znaleźć na github.</string>
+    <string name="dialog_permission_information_title">Ładowanie i zapisywanie gry</string>
+    <string name="dialog_newversion_permission_information">"
+\n
+\nAby zapisać i załadować grę (i tylko w tym celu), Andor\'s Trail poprosi Cię o zgodę na dostęp do pamięci Twojego urządzenia."</string>
+    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Podczas walki bez nałożonej zbroi oraz bez użycia broni lub tarczy każdy poziom umiejętności podnosi: szansę trafienia o %1$d; szansę bloku o %2$d; odporność na obrażenia o %3$d; zadawane obrażenia o %4$d. Obrażenia zadawane przez ciosy krytyczne są zwiększane o mnożnik 1 plus 0.%5$d na każdy poziom.
+\n
+\nPrzedmioty wykonane z tkaniny nie są uważane za zbroję.</string>
+    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">Lepszy w walce bez użycia broni/pancerza</string>
 </resources>

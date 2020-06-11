@@ -89,7 +89,7 @@
     },
     {
         "id":"fayvara1_5",
-        "message":"I can teach you about using shields to your advantage, or how to best use light or heavy armors. I can also teach you how to better handle blows when not wearing any armor at all, fighting unarmored that is.",
+        "message":"I can teach you about using shields and parrying weapons to your advantage, or how to best use light or heavy armors. I can also teach you how to better handle blows when not wearing any armor at all - fighting unarmored, that is.",
         "replies":[
             {
                 "text":"N",
@@ -102,7 +102,7 @@
         "message":"We only have time for one type of armor right now though, so think carefully on which one will suit you best.",
         "replies":[
             {
-                "text":"Tell me more about shields.",
+                "text":"Tell me more about shields and parrying weapons.",
                 "nextPhraseID":"fayvara1_7_s"
             },
             {
@@ -132,7 +132,7 @@
     },
     {
         "id":"fayvara1_7_s",
-        "message":"Shields can be used in combination with your regular weapon, to block attacks from your opponent.",
+        "message":"Shields can be used in combination with your regular weapon, to block attacks from your opponent. Parrying weapons are mainly defensive, and can be use to block or divert your opponents strike. They will not block as well as a good shield, but if you know how to use them they can be very effective, and you may be able to do some damage with them.",
         "replies":[
             {
                 "text":"N",
@@ -142,10 +142,10 @@
     },
     {
         "id":"fayvara1_7_s1",
-        "message":"I can teach you to better withstand attacks using a shield, so that you don't take as much damage while using them.",
+        "message":"I can teach you to better withstand attacks using a shield, or to divert blows using a parrying weapon, so that you don't take as much damage while using them.",
         "replies":[
             {
-                "text":"Sounds good. Teach me about shields.",
+                "text":"Sounds good. Teach me about shields and parrying weapons.",
                 "nextPhraseID":"fayvara1_7_s2"
             },
             {

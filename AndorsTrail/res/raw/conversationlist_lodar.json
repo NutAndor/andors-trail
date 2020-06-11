@@ -2126,6 +2126,7 @@
         "message":"Sure feel free to use any bed in the main hall you like.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"lodar_d1"
             }
         ]

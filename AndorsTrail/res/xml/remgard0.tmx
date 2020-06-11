@@ -253,10 +253,16 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="brv_patrol_check_stop_hero" type="script" x="480" y="480" width="96" height="96">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="ingus" type="spawn" x="448" y="480" width="256" height="128">
    <properties>
+    <property name="ignoreAreas" value="true"/>
     <property name="spawngroup" value="ingus"/>
    </properties>
   </object>
@@ -275,6 +281,24 @@
     <property name="spawngroup" value="taylin"/>
    </properties>
   </object>
+  <object name="knights" type="spawn" x="448" y="416" width="192" height="192">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object name="stop_hero" type="key" x="448" y="448" width="160" height="160">
+   <properties>
+    <property name="phrase" value="brv_wait_patrol"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="140"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

@@ -34,7 +34,7 @@
     <string name="heroinfo_actionpoints">Points d\'action (PA) :</string>
     <string name="heroinfo_quests">Quêtes</string>
     <string name="combat_attack">Attaque (%1$d PA)</string>
-    <string name="combat_move">Déplacement (%1$d AP)</string>
+    <string name="combat_move">Déplacement (%1$d PA)</string>
     <string name="combat_use">Utiliser l\'objet</string>
     <string name="combat_endturn">Fin du tour</string>
     <!-- <string name="combat_endcombat">End combat</string>-->
@@ -52,8 +52,8 @@
     <string name="combat_result_herohit">Vous frappez %1$s pour %2$d PV !</string>
     <string name="combat_result_herohitcritical">Vous frappez %1$s avec un coup critique pour %2$d PV !</string>
     <string name="combat_result_herokillsmonster">Vous avez tué %1$s !</string>
-    <string name="combat_not_enough_ap">Vous n\'avez plus de PA suffisants ce tour-ci.</string>
-    <string name="combat_hero_dies">Le monde tourne et s\'éteint autour de vous tandis que vous perdez connaissance... Heureusement, vous vous réveillez en vie. Vous perdez %1$d points d\'expérience.</string>
+    <string name="combat_not_enough_ap">Vous n\'avez plus assez de PA ce tour-ci.</string>
+    <string name="combat_hero_dies">Vous perdez connaissance... Heureusement, vous vous réveillez en vie, étourdi et fatigué. Vous perdez %1$d points d\'expérience.</string>
     <string name="inventory_info">Info</string>
     <string name="inventory_equip">Équiper</string>
     <string name="inventory_unequip">Déséquiper</string>
@@ -150,64 +150,24 @@
 		Pour toute requête concernant le code source ou les fonctionnalités, veuillez visiter la page du projet : &lt;a href="https://github.com/AndorsTrailRelease/andors-trail/"&gt;https://github.com/AndorsTrailRelease/andors-trail/&lt;/a&gt;&lt;br /&gt;
 	</string>
     <string name="dialog_newversion_title">Bienvenue</string>
-    <string name="dialog_newversion_message">Merci à vous d\'avoir téléchargé Sur les traces d\'Andor!
-\n
-\n Veuillez noter que cette version de Sur les traces d\'Andor est un TRAVAIL EN COURS, cela signifie que toutes les cartes ne sont pas encore complètes.
-\n Vous pouvez visiter les forums du projet pour obtenir plus d\'informations ou pour contribuer au projet (voir « À propos »).
+    <string name="dialog_newversion_message">Merci d\'avoir téléchargé Sur les traces d\'Andor ! 
+\n 
+\n Veuillez noter que cette version est un TRAVAIL EN COURS, ce qui signifie que toutes les cartes ne sont pas encore complètes. 
+\n Vous pouvez visiter les forums du projet pour discuter avec les autres joueurs ou pour contribuer au projet (voir « À propos »). 
 \n 
 \n Merci pour les retours d\'utilisation !</string>
-    <string name="about_interface"><![CDATA[
-
-<div><b>Paramètres du jeu</b> disponible en appuyant sur le Bouton Menu de votre appareil.</div>
-
-<p>________________</p>
-<h1>Icônes d\'Interface</h1>
-<div><b>Le Coffre</b><img alt=coffre src=chest.png /></div>
-<p>Emplacements rapides [Appuyez longuement sur les pochettes à l\'intérieur pour assigner des articles pour une utilisation instantanée.]</p>
-
-<div><b>Le Héro</b><img alt=héros src=char_hero.png /></div>
-<p>Menu [Vue d\'ensemble, Quêtes, Compétences &amp;amp; Inventaire *]</p>
-<p>* (Dans l\'inventaire, appuyez sur un objet pour information &amp; un appui long pour plus d\'options)</p>
-
-<div><b>L\'Ennemi</b><img alt=monstre src=monster.png /></div>
-<p>Information [Apparaît pendant le Combat]</p>
-
-<p>________________</p>
-<h1>Combat</h1>
-
-<p>Coût en PA des Actions pendant la bataille...</p>
-
-<div><b>Attaquer</b> - [3AP] *</div>
-<img alt=attaquer src=doubleattackexample.png />
-<p>* (L\'Équipement &amp; l\'usage d\'objet peuvent modifier les PA &amp; le coût d\'utilisation)</p>
-
-<div><b>Utilisation d\'Objets</b> - [5AP]</div>
-<div><b>Fuite</b> - [6AP]</div>
-
-<p>________________</p> <h1>Combat Avancé</h1>
-<div>Pendant un Combat, un appui long sur un emplacement proche du Héro...</div>
-
-<div><b>Pour Fuir</b></div>
-<p>(l\'emplacement choisi est mit en surbrillance - le Bouton d\'Attaque change pour Déplacement)</p>
-<img alt=fuite src=flee_example.png />
-<p>[mode fuite activé - Une longue pression sur l\'ennemi pour rentrer au combat]</p>
-
-<div><b>Pour Changer de Cible</b></div>
-<p>(le halo rouge passe d\'un ennemi à l\'autre)</p>
-<p>[la cible a été changée]</p>
-
-]]></string>
+    <string name="about_interface">&lt;div&gt;&lt;b&gt;Paramètres du jeu&lt;/b&gt; disponible en appuyant sur le Bouton Menu de votre appareil.&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Icônes d\'Interface&lt;/h1&gt; &lt;div&gt;&lt;b&gt;Le Coffre&lt;/b&gt;&lt;img alt=coffre src=chest.png /&gt;&lt;/div&gt; &lt;p&gt;Raccourcis d\'objets [Appuyez longuement sur les pochettes à l\'intérieur pour assigner des articles pour une utilisation instantanée.]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Le Héro&lt;/b&gt;&lt;img alt=héros src=char_hero.png /&gt;&lt;/div&gt; &lt;p&gt;Menu [Vue d\'ensemble, Quêtes, Compétences &amp;amp;amp; Inventaire *]&lt;/p&gt; &lt;p&gt;* (Dans l\'inventaire, appuyez sur un objet pour information &amp;amp; un appui long pour plus d\'options)&lt;/p&gt; &lt;div&gt;&lt;b&gt;L\'Ennemi&lt;/b&gt;&lt;img alt=monstre src=monster.png /&gt;&lt;/div&gt; &lt;p&gt;Information [Apparaît pendant le Combat]&lt;/p&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combat&lt;/h1&gt; &lt;p&gt;Coût en PA des Actions pendant la bataille...&lt;/p&gt; &lt;div&gt;&lt;b&gt;Attaquer&lt;/b&gt; - [3PA] *&lt;/div&gt; &lt;img alt=attaquer src=doubleattackexample.png /&gt; &lt;p&gt;* (L\'Équipement &amp;amp; l\'usage d\'objet peuvent modifier les PA &amp;amp; le coût d\'utilisation)&lt;/p&gt; &lt;div&gt;&lt;b&gt;Utilisation d\'Objets&lt;/b&gt; - [5PA]&lt;/div&gt; &lt;div&gt;&lt;b&gt;Fuite&lt;/b&gt; - [6PA]&lt;/div&gt; &lt;p&gt;________________&lt;/p&gt; &lt;h1&gt;Combat Avancé&lt;/h1&gt; &lt;div&gt;Pendant un Combat, un appui long sur un emplacement proche du Héro...&lt;/div&gt; &lt;div&gt;&lt;b&gt;Pour Fuir&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(l\'emplacement choisi est mit en surbrillance - le Bouton d\'Attaque change pour Déplacement)&lt;/p&gt; &lt;img alt=fuite src=flee_example.png /&gt; &lt;p&gt;[mode fuite activé - Une longue pression sur l\'ennemi pour rentrer au combat]&lt;/p&gt; &lt;div&gt;&lt;b&gt;Pour Changer de Cible&lt;/b&gt;&lt;/div&gt; &lt;p&gt;(le halo rouge passe d\'un ennemi à l\'autre)&lt;/p&gt; &lt;p&gt;[la cible a été changée]&lt;/p&gt;</string>
     <string name="questlog_includecompleted_prompt">Sélectionner les quêtes à afficher</string>
-    <string name="questlog_includecompleted_hidecompleted">Cacher les quêtes terminées</string>
-    <string name="questlog_includecompleted_includecompleted">Inclure les quêtes terminées</string>
-    <string name="questlog_includecompleted_onlycompleted">N\'afficher que les quêtes terminées</string>
+    <string name="questlog_includecompleted_hidecompleted">Quêtes en cours</string>
+    <string name="questlog_includecompleted_includecompleted">Toutes les quêtes</string>
+    <string name="questlog_includecompleted_onlycompleted">Quêtes terminées</string>
     <string name="questlog_queststatus">État : %1$s</string>
     <string name="questlog_queststatus_inprogress">En cours</string>
     <string name="questlog_queststatus_completed">Terminée</string>
     <string name="preferences_display_category">Affichage</string>
     <string name="preferences_display_fullscreen_title">Plein écran</string>
     <string name="preferences_display_fullscreen">Affiche le jeu en mode plein écran (nécessite un redémarrage)</string>
-    <string name="preferences_dialog_category">Dialogue de confirmation</string>
+    <string name="preferences_dialog_category">Dialogues de confirmation</string>
     <string name="preferences_dialog_confirmrest_title">Confirmer le repos</string>
     <string name="preferences_dialog_confirmrest">Demande si vous voulez vous reposer quand vous êtes sur un lit. Sinon, vous serez toujours automatiquement mis au repos.</string>
     <string name="preferences_dialog_confirmattack_title">Confirmer les attaques</string>
@@ -246,23 +206,23 @@
     <string name="iteminfo_effect_increase_current_hp">Restaure %1$s HP</string>
     <string name="iteminfo_effect_decrease_current_ap">Draine %1$s AP</string>
     <string name="iteminfo_effect_increase_current_ap">Restaure %1$s AP</string>
-    <string name="iteminfo_effect_increase_max_hp">Augmenter les HP max. de %1$d</string>
-    <string name="iteminfo_effect_decrease_max_hp">Diminuer les HP max. de %1$d</string>
-    <string name="iteminfo_effect_increase_max_ap">Augmenter les AP max. de %1$d</string>
-    <string name="iteminfo_effect_decrease_max_ap">Diminuer les AP max. de %1$d</string>
-    <string name="iteminfo_effect_increase_movecost">Augmenter le coût de mouvement de %1$d AP</string>
-    <string name="iteminfo_effect_decrease_movecost">Diminuer le coût de mouvement de %1$d AP</string>
+    <string name="iteminfo_effect_increase_max_hp">Augmente les PV max. de %1$d</string>
+    <string name="iteminfo_effect_decrease_max_hp">Diminue les PV max. de %1$d</string>
+    <string name="iteminfo_effect_increase_max_ap">Augmente les PA max. de %1$d</string>
+    <string name="iteminfo_effect_decrease_max_ap">Diminue les PA max. de %1$d</string>
+    <string name="iteminfo_effect_increase_movecost">Augmente le coût de mouvement de %1$d PA</string>
+    <string name="iteminfo_effect_decrease_movecost">Diminue le coût de mouvement de %1$d PA</string>
     <!-- La suite est ok -->
     <string name="preferences_display_scaling_factor_title">Facteur de zoom</string>
-    <string name="preferences_display_scaling_factor">Permet d\'agrandir toute la zone de jeu.</string>
+    <string name="preferences_display_scaling_factor">Permet d\'agrandir ou rétrécir l\'affichage de la zone de jeu.</string>
     <string name="preferences_display_scaling_factor_normal">Taille normale</string>
     <string name="preferences_display_scaling_factor_50_percent_larger">Zoom de 150%</string>
     <string name="preferences_display_scaling_factor_double">Zoom de 200%</string>
-    <string name="inventory_assign">Affecter un emplacement rapide</string>
+    <string name="inventory_assign">Assigner un raccourci</string>
     <string name="inventory_assign_slot1">Emplacement 1</string>
     <string name="inventory_assign_slot2">Emplacement 2</string>
     <string name="inventory_assign_slot3">Emplacement 3</string>
-    <string name="inventory_unassign">Désaffecter un emplacement rapide</string>
+    <string name="inventory_unassign">Retirer le raccourci</string>
     <!-- =========================================== -->
     <!-- Added in v0.6.10 -->
     <string name="preferences_movement_dpad_position_title">Croix directionnelle (D-pad) virtuelle</string>
@@ -333,12 +293,12 @@
     <string name="skill_longdescription_barkskin">Chaque niveau de compétence augmente la résistance aux dégâts de %1$d.</string>
     <string name="skill_longdescription_more_criticals">Chaque niveau de compétence augmente la probabilité d\'infliger un coup critique de %1$d %%.</string>
     <string name="skill_longdescription_better_criticals">Chaque niveau de compétence augmente le facteur multiplicatif de coups critiques existant (donné par l\'équipement) de %1$d %%.</string>
-    <string name="skill_longdescription_speed">Chaque niveau de compétence augmente le nombre maximal de points d\'action (AP) de %1$d.</string>
+    <string name="skill_longdescription_speed">Chaque niveau de compétence augmente le nombre maximal de points d\'action (PA) de %1$d.</string>
     <string name="skill_longdescription_coinfinder">Chaque niveau de compétence augmente les chances de trouver de l\'or dans les butins de monstres de %1$d %%, et augmente le montant d\'or trouvé de %2$d %% (jusqu\'à atteindre le montant maximum propre à chaque monstre).</string>
     <string name="skill_longdescription_more_exp">Chaque niveau de compétence augmente le nombre de points d\'expérience acquis en tuant un monstre de %1$d %%.</string>
-    <string name="skill_longdescription_cleave">Chaque niveau de compétence redonne %1$d points d\'action (AP) pour chaque monstre tué.</string>
+    <string name="skill_longdescription_cleave">Chaque niveau de compétence redonne %1$d points d\'action (PA) pour chaque monstre tué.</string>
     <string name="skill_longdescription_eater">Chaque niveau de compétence redonne %1$d points de vie (HP) pour chaque monstre tué.</string>
-    <string name="skill_longdescription_fortitude">Chaque changement de niveau ultérieur augmente le nombre maximal de points de vie (HP) de %1$d par niveau de compétence. Ceci n\'est pas appliqué rétroactivement, seuls les changements de niveau ultérieurs sont affectés.</string>
+    <string name="skill_longdescription_fortitude">Chaque changement de niveau ultérieur augmente le nombre maximal de points de vie (PV) de %1$d par niveau de compétence. Ceci n\'est pas appliqué rétroactivement, seuls les changements de niveau ultérieurs sont impactés.</string>
     <string name="skill_longdescription_evasion">Chaque niveau de compétence réduit la probabilité de ne pas pouvoir fuir de %1$d %%, ainsi que la probabilité qu\'un monstre proche attaque de %2$d %%.</string>
     <string name="skill_longdescription_regeneration">Permet de récupérer +%1$d points de vie (HP) par niveau de compétence à chaque tour quand aucun monstre n\'est adjacent.</string>
     <string name="skill_longdescription_lower_exploss">Chaque niveau de compétence réduit la quantité d\'expérience perdue en cas de décès de %1$d %% (pourcentage relatif à la perte existante et non pourcentage absolu). Le niveau %2$d de ce talent enlève toute perte d\'expérience au décès.</string>
@@ -351,7 +311,7 @@
     <string name="skill_current_level_with_maximum">Niveau courant : %1$d / %2$d</string>
     <string name="skill_prerequisite_other_skill">Pour améliorer cette compétence, vous devez atteindre au moins le niveau %1$d de la compétence %2$s.</string>
     <string name="skill_prerequisite_level">Pour améliorer cette compétence, vous devez atteindre au moins le niveau %1$d.</string>
-    <string name="skill_prerequisite_stat">Pour améliorer cette compétence, vous devez avoir au moins %1$d %2$s (statistiques de base).</string>
+    <string name="skill_prerequisite_stat">Pour améliorer cette compétence, vous devez avoir au moins %1$d à la statistique de base \"%2$s\".</string>
     <string name="skill_number_of_increases_one">Vous pouvez sélectionner une compétence à améliorer.</string>
     <string name="skill_number_of_increases_several">Vous pouvez sélectionner %1$d compétences à améliorer.</string>
     <string name="levelup_adds_new_skillpoint">Ce niveau vous donne également un nouveau point de compétence à utiliser !</string>
@@ -368,11 +328,11 @@
     <string name="actorcondition_categories_mental">Mental</string>
     <string name="actorcondition_categories_physical">Capacité physique</string>
     <string name="actorcondition_categories_blood">Trouble sanguin</string>
-    <string name="traitsinfo_base_max_hp">HP max. :</string>
-    <string name="traitsinfo_base_max_ap">AP max. :</string>
+    <string name="traitsinfo_base_max_hp">PV max. :</string>
+    <string name="traitsinfo_base_max_ap">PA max. :</string>
     <string name="menu_save_saving_not_allowed_in_combat">Impossible de faire une sauvegarde du jeu au cours d\'un combat.</string>
     <string name="preferences_optimized_drawing_title">Affichage optimisé</string>
-    <string name="preferences_optimized_drawing">Désactivez cette option si vous voyez des artefacts graphiques. Lorsque cette option est activée, seules les parties de l\'écran ayant changées sont redessinées lors du rafraîchissement.</string>
+    <string name="preferences_optimized_drawing">Désactivez cette option si vous voyez des artefacts graphiques. Lorsque cette option est activée, seules les parties de l\'écran ayant changé sont redessinées lors du rafraîchissement.</string>
     <!-- =========================================== -->
     <!-- Added in v0.6.11 -->
     <string name="skill_title_shadow_bless">Bénédiction de l\'Ombre</string>
@@ -392,9 +352,9 @@
     <string name="display_worldmap_not_available">Impossible d\'afficher la carte à partir de cet endroit.</string>
     <string name="display_worldmap_title">Carte</string>
     <string name="inventory_equip_offhand">Equiper (main gauche)</string>
-    <string name="iteminfo_effect_weapon_attack_cost">Coût d\'attaque : %1$d AP</string>
-    <string name="iteminfo_effect_increase_attack_cost">Augmente le coût d\'attaque de %1$d AP</string>
-    <string name="iteminfo_effect_decrease_attack_cost">Diminue le coût d\'attaque de %1$d AP</string>
+    <string name="iteminfo_effect_weapon_attack_cost">Coût d\'attaque : %1$d PA</string>
+    <string name="iteminfo_effect_increase_attack_cost">Augmente le coût d\'attaque de %1$d PA</string>
+    <string name="iteminfo_effect_decrease_attack_cost">Diminue le coût d\'attaque de %1$d PA</string>
     <string name="iteminfo_effect_weapon_attack_chance">Chance d\'attaque : %1$d</string>
     <string name="iteminfo_effect_increase_attack_chance">Augmente les chances d’attaque de %1$d</string>
     <string name="iteminfo_effect_decrease_attack_chance">Diminue les chances d’attaque de %1$d</string>
@@ -413,19 +373,19 @@
     <string name="iteminfo_effect_decrease_damage_resistance">Diminue la résistance aux dégâts de %1$d</string>
     <string name="iteminfo_effect_increase_use_cost">Augmente le coût d’utilisation des objets en combat de %1$d PA</string>
     <string name="iteminfo_effect_decrease_use_cost">Diminue le coût d’utilisation des objets en combat de %1$d PA</string>
-    <string name="iteminfo_effect_increase_reequip_cost">Augmente le coût d’équipemment d’objets en combat de %1$d AP</string>
-    <string name="iteminfo_effect_decrease_reequip_cost">Diminue le coût d’équipement d’objets en combat de %1$d AP</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Augmente le coût d’équipemment d’objets en combat de %1$d PA</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Diminue le coût d’équipement d’objets en combat de %1$d PA</string>
     <string name="loadsave_save_overwrite_confirmation_all">Êtes-vous sûr de vouloir écraser cette sauvegarde ?</string>
     <string name="loadsave_save_overwrite_confirmation_slot">(slot %1$d)</string>
     <string name="preferences_display_overwrite_savegame_entries_always_confirm">Toujours afficher la boîte de dialogue de confirmation</string>
     <string name="preferences_display_overwrite_savegame_entries_confirm_overwrite">Afficher seulement lors de l’écrasement d’un nom de joueur différent</string>
     <string name="preferences_display_overwrite_savegame_entries_never_confirm">Ne jamais afficher la boîte de dialogue de confirmation</string>
-    <string name="preferences_dialog_overwrite_savegame_title">Confirmer l’écrasement des sauvegardes</string>
-    <string name="preferences_dialog_overwrite_savegame">Affiche une question demandant si vous voulez écraser une sauvegarde lorsque vous tenter de sauvegarder dans un emplacement occupé.</string>
+    <string name="preferences_dialog_overwrite_savegame_title">Ecrasement des sauvegardes</string>
+    <string name="preferences_dialog_overwrite_savegame">Demande confirmation lorsque vous tentez de sauvegarder dans un emplacement occupé.</string>
     <!-- =========================================== -->
     <!-- Added in v0.7.0 -->
     <string name="heroinfo_reequip_cost">Coût de rééquipement (PA) :</string>
-    <string name="heroinfo_useitem_cost">Utiliser le coût de l’objet (PA) :</string>
+    <string name="heroinfo_useitem_cost">Coût d\'utilisation d\'un objet (PA) :</string>
     <string name="combat_result_monstermoved">%1$s se déplace.</string>
     <string name="combat_log_title">Journal de combat</string>
     <string name="conversation_reward_quest_finished">[Quête accomplie : « %1$s »]</string>
@@ -452,7 +412,7 @@
     <string name="skill_shortdescription_weapon_prof_axe">Meilleur au combat avec haches</string>
     <string name="skill_shortdescription_weapon_prof_blunt">Meilleur au combat avec gourdins</string>
     <string name="skill_shortdescription_weapon_prof_unarmed">Meilleur au combat sans armes</string>
-    <string name="skill_shortdescription_armor_prof_shield">Utilise mieux les boucliers</string>
+    <string name="skill_shortdescription_armor_prof_shield">Faire un meilleur usage des boucliers et des armes de parades</string>
     <string name="skill_shortdescription_armor_prof_unarmored">Meilleur au combat sans armures</string>
     <string name="skill_shortdescription_armor_prof_light">Utilise mieux les armures légères</string>
     <string name="skill_shortdescription_armor_prof_heavy">Utilise mieux les armures lourdes</string>
@@ -468,18 +428,20 @@
     <string name="skill_longdescription_weapon_prof_axe">Pour chaque niveau de compétence, augmente les chances d’attaque en utilisant des haches et des grandes haches de %1$d %% des chances d’attaque de base de l’objet, augmente les chances de parade de %2$d %% des chances de parade de base de l’objet, et augmente la compétence cruciale de %3$d %% de la compétence cruciale de base de l’objet.</string>
     <string name="skill_longdescription_weapon_prof_blunt">Pour chaque niveau de compétence, augmente les chances d’attaque en utilisant des armes contondantes de %1$d %% des chances d’attaque de base de l’objet, augmente les chances de parade de %2$d %% des chances de parade de base de l’objet, et augmente la compétence cruciale de %3$d %% de la compétence cruciale de base de l’objet. Cela inclut les gourdins, les bâtons de combat, les masses, les sceptres, les marteaux de guerre et les marteaux géants.</string>
     <string name="skill_longdescription_weapon_prof_unarmed">En combattant sans armes et boucliers, gagne %1$d chances d’attaque, %2$d de dégâts potentiels et %3$d de chances de parade par niveau de compétence.</string>
-    <string name="skill_longdescription_armor_prof_shield">Augmente la résistance aux dégâts de %1$d par niveau de compétence en ayant un bouclier équipé.</string>
+    <string name="skill_longdescription_armor_prof_shield">Augmente la résistance aux dégâts de %1$d par niveau de compétence en ayant un bouclier ou une arme de parade équipé.</string>
     <string name="skill_longdescription_armor_prof_unarmored">En combattant sans avoir une seule pièce d’armure équipée, gagne %1$d chances de parade par niveau de compétence. Les vêtements ne sont pas considérés comme étant des armures.</string>
     <string name="skill_longdescription_armor_prof_light">Pour chaque niveau de compétence, augmente les chances de parade de toute pièce d’armure légère portée de %1$d %% de leur chances de parade de base. Les armures légères incluent le cuir tanné, le métal léger et les armures en cuir.</string>
     <string name="skill_longdescription_armor_prof_heavy">Pour chaque niveau de compétence, augmente les chances de parade de chaque pièce d’armure lourde portée de %1$d %% de leurs chances de parade de base. Les pièces d’armures lourdes ont leurs pénalités de mouvement réduites de %2$d %% par niveau de compétence et leurs pénalités de vitesse d’attaque réduites de %3$d %% par niveau de compétence. Les armures lourdes incluent les armures métalliques, les cottes de mailles et les armures de plates.</string>
     <string name="skill_longdescription_fightstyle_dualwield">Donne des avantages en combattant avec deux armes en même temps, une dans la main dominante et une dans la main non dominante.\n\nSans cette compétence, seulement %1$d %% des qualités d’une arme pourront être utilisées quand elle équipée dans la main non dominante. Cela inclut les chances d’attaque, la compétence cruciale, les dégâts potentiels et les chances de parade. Sans cette compétence, la vitesse d’attaque (coût de PA) est la somme de vitesse d’attaque de l’arme principale et celle de l’arme utilisée dans la main non dominante.\n\nAvec 1 niveau dans cette compétence, %2$d %% des qualités de l’arme de la main non dominante peuvent être utilisées, et la vitesse d’attaque est la vitesse d’attaque de l’arme dans la main dominante plus %3$d %% de la vitesse d’attaque de l’arme dans la main non dominante.\n\nAvec 2 niveaux dans cette compétence, %4$d %% des qualités de l’arme de la main non dominante peuvent être utilisées, et la vitesse d’attaque égale la plus haute vitesse d’attaque des deux armes équipées.</string>
     <string name="skill_longdescription_fightstyle_2hand">Donne des avantages en combattant avec des armes nécessitant deux mains pour être maniées, comme les épées à deux mains, les grandes haches ou les marteaux géants.\n\nChaque niveau de compétence augmente les dégâts potentiels des armes à deux mains de %1$d %% des dégâts potentiels de base.</string>
-    <string name="skill_longdescription_fightstyle_weapon_shield">Donne des avantages en combattant avec une arme dans la main dominante et un bouclier dans la main non dominante.\n\nChaque niveau de compétence augmente les chances d’attaque des armes de %1$d %% de leurs chances d’attaque de base, et les chances de parade des boucliers de %2$d %% de leurs chances de parade de base.</string>
+    <string name="skill_longdescription_fightstyle_weapon_shield">Donne des avantages en combattant avec une arme dans la main dominante et un bouclier ou une arme de parade dans la main non dominante.
+\n
+\nChaque niveau de compétence augmente les chances d’attaque des armes dans la main dominante de %1$d %% de leurs chances d’attaque de base, et les chances de parade des boucliers ou des armes de parade de %2$d %% de leurs chances de parade de base.</string>
     <string name="skill_longdescription_specialization_dualwield">Augmente les chances d’attaque des deux armes maniées de %1$d %% de leurs chances d’attaque de base, en plus des avantages donnés par la compétence de style d’armes. Les chances de parade des deux armes maniées sont de même augmentées de %2$d %% de leurs chances de parade de base.</string>
     <string name="skill_longdescription_specialization_2hand">Augmente les dégâts potentiels des armes à deux mains de %1$d %% de leurs dégâts potentiels de base, en plus des avantages donnés par la compétence de style d’armes. Les chances d’attaque des armes à deux mains sont de même augmentées de %2$d %% de leurs chances d’attaque de base.</string>
-    <string name="skill_longdescription_specialization_weapon_shield">Augmente les chances d’attaque et les dégâts potentiels des armes. Les chances d’attaque sont augmentées de %1$d %% de leurs chances d’attaque de base, et les dégâts potentiels sont augmentées de %2$d %% de leurs dégâts potentiels de base.</string>
-    <string name="preferences_quickslots_placement">Position de l\'accès rapide</string>
-    <string name="preferences_quickslots_placement_summary">Où placer les accès rapides</string>
+    <string name="skill_longdescription_specialization_weapon_shield">Augmente les chances d’attaque et les dégâts potentiels des armes dans la main principale. Les chances d’attaque sont augmentées de %1$d %% de leurs chances d’attaque de base, et les dégâts potentiels sont augmentées de %2$d %% de leurs dégâts potentiels de base.</string>
+    <string name="preferences_quickslots_placement">Position des raccourcis</string>
+    <string name="preferences_quickslots_placement_summary">Où placer les raccourcis d\'objets</string>
     <string name="preferences_quickslots_placements_horizontal_center_bottom">Centre bas</string>
     <string name="preferences_quickslots_placements_vertical_center_left">Milieu gauche</string>
     <string name="preferences_quickslots_placements_vertical_center_right">Milieu droit</string>
@@ -487,15 +449,15 @@
     <string name="preferences_quickslots_placements_horizontal_bottom_left">En bas à gauche, le long du bord bas</string>
     <string name="preferences_quickslots_placements_horizontal_bottom_right">En bas à droite, le long du bord bas</string>
     <string name="preferences_quickslots_placements_vertical_bottom_right">En bas à droite, le long du bord droit</string>
-    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible_title">Afficher les accès rapides lorsque la boîte à outils est ouverte</string>
-    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible">Afficher les boutons d’emplacement rapide dès que la boîte à outils est ouverte</string>
+    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible_title">Raccourcis et boîte à outils</string>
+    <string name="preferences_ui_show_quickslots_when_toolbox_is_visible">Afficher les raccourcis d\'objets dès que la boîte à outils est ouverte</string>
     <string name="startscreen_incompatible_savegames">Ceci est une version de développement de Sur les traces d\'Andor. Les sauvegardes de cette version sont incompatibles avec la version publiée.</string>
-    <string name="startscreen_non_release_version">Ceci est une préversion de Sur les traces d\'Andor Les sauvegardes de cette version ne seront peut-être pas compatibles avec la version publiée.</string>
+    <string name="startscreen_non_release_version">Ceci est une préversion de Sur les traces d\'Andor. Les sauvegardes de cette version ne seront peut-être pas compatibles avec la version finale.</string>
     <string name="heroinfo_gamestats">Statistiques de jeu</string>
     <string name="heroinfo_gamestats_quests">Quêtes accomplies</string>
     <string name="heroinfo_gamestats_deaths">Temps passé inconscient</string>
     <string name="heroinfo_gamestats_spent_gold">Or dépensé en boutique</string>
-    <string name="heroinfo_gamestats_bonemeals">Potions de cendres d’os utilisées</string>
+    <string name="heroinfo_gamestats_bonemeals">Potions d’os utilisées</string>
     <string name="heroinfo_gamestats_num_used_items">Objets utilisés</string>
     <string name="heroinfo_gamestats_visited_maps">Lieux visités</string>
     <string name="heroinfo_gamestats_fav_item">Objet le plus utilisé</string>
@@ -508,7 +470,7 @@
     <!-- Added in v0.7.1 -->
     <string name="preferences_ui_use_localized_resources_title">Activer la traduction</string>
     <string name="preferences_ui_use_localized_resources">Utiliser une traduction de l\'interface et du contenu, lorsque disponible. (nécessite un redémarrage)</string>
-    <string name="change_locale_requires_restart">Changer la localisation nécessite un redémarrage. Sur les traces d\'Andor a été arrêté.</string>
+    <string name="change_locale_requires_restart">Changer la langue nécessite un redémarrage. Sur les traces d\'Andor a été arrêté.</string>
     <string name="combat_miss_animation_message">RATE</string>
     <string name="about_button4">A propos</string>
     <string name="preferences_display_loot_dialog_on_items">Afficher la boîte de dialogue uniquement quand le butin contient des objets</string>
@@ -520,7 +482,7 @@
     <string name="skill_shortdescription_crit2">Chance de fracture</string>
     <string name="skill_longdescription_crit1">Pour chaque coup critique porté, il y a %1$d %% chances que le coup causera des hémorragies internes à la cible, provoquant alors l’état « Hémorragie interne ». Hémorragie interne diminue sévèrement les capacités offensives de combat, réduisant l’aptitude de la cible à réussir ses attaques.</string>
     <string name="skill_longdescription_crit2">Pour chaque coup critique porté, il y a %1$d %% chances que le coup causera des fractures osseuses à la cible, provoquant alors l’état « Fracture ». Fracture diminue sévèrement les capacités défensives de combat, réduisant l’aptitude de la cible à se défendre contre les attaques ultérieures.</string>
-    <string name="skill_title_rejuvenation">Réjuvénation</string>
+    <string name="skill_title_rejuvenation">Rajeunissement</string>
     <string name="skill_shortdescription_rejuvenation">Risque de suppression de l’effet</string>
     <string name="skill_longdescription_rejuvenation">À chaque tour (6 secondes), il y a %1$d %% de chances que l’une des conditions négatives actives soit diminuée d’1 cran. Cela s’applique à tous les types d’effets temporaires affectant le corps : états mentaux comme Abasourdi, états physiques comme Fatigue et aussi maladies du sang comme Poison.</string>
     <string name="skill_title_taunt">Provocation</string>
@@ -539,7 +501,7 @@
     <string name="heroinfo_healthpoints">Points de vie (PV) :</string>
     <string name="heroinfo_experiencepoints">Points d\'expérience (PE) :</string>
     <string name="combat_taunt_monster">Tu te moques de %1$s !</string>
-    <string name="combat_condition_player_apply">Vous êtes affecté par %1$s.</string>
+    <string name="combat_condition_player_apply">Vous êtes impacté par %1$s.</string>
     <string name="combat_condition_player_clear">L\'effet de %1$s s\'estompe.</string>
     <string name="combat_condition_player_immune">Tu es immunisé contre %1$s.</string>
     <string name="combat_condition_monster_apply">%2$s nuit à %1$s.</string>
@@ -554,7 +516,7 @@
     <string name="iteminfo_effect_works_when_killed_by_attacker">Lorsque tué par l\'attaquant</string>
     <string name="inventory_selectitem">Choisis un objet à assigner</string>
     <string name="preferences_high_quality_filters_title">Filtres de haute qualité</string>
-    <string name="preferences_high_quality_filters">Désactivez cette option si vous remarquez des problèmes de performance dans dans les endroits avec filtres, par exemple des cavernes sombres. Laissez activer pour utiliser des filtres de couleur avancés au lieu de couches de couleur opaques.</string>
+    <string name="preferences_high_quality_filters">Désactivez cette option si vous remarquez des problèmes de performance dans les endroits avec filtres, par exemple des cavernes sombres.</string>
     <string name="combat_log_noentries">Aucune inscription encore.</string>
     <string name="inventory_category_all">Tout</string>
     <string name="inventory_category_favorites">Favoris</string>
@@ -593,5 +555,52 @@
     <string name="preferences_display_theme_green">Malachite</string>
     <string name="preferences_display_theme_charcoal">Obsidienne</string>
     <string name="change_theme_requires_restart">Changer le thème de couleurs nécessite un redémarrage. Sur les traces d\'Andor a été arrêté.</string>
-    <string name="storage_permissions_mandatory">L\'accès au stockage est obligatoire pour Andor\'s Trail pour gérer les parties sauvegardées et la carte du monde. Fermeture d\'Andor\'s Trail.</string>
+    <string name="storage_permissions_mandatory">L\'accès au stockage est obligatoire afin de gérer les parties sauvegardées et la carte du monde. Fermeture du jeu.</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Attention</string>
+    <string name="startscreen_error_loading_empty_slot">Impossible de charger une partie à partir d\'un emplacement vide.</string>
+    <string name="startscreen_error_loading_game">Erreur pendant le chargement du jeu</string>
+    <string name="startscreen_load_game_confirm">La partie en cours n\'est pas sauvegardée, vous allez perdre votre personnage.</string>
+    <string name="startscreen_load_game">Charger le jeu</string>
+    <string name="startscreen_game_mode">Mode</string>
+    <string name="heroinfo_one_life">Mort définitive (une seule vie)</string>
+    <string name="heroinfo_limited_lives">Vies (%1$d/%2$d restantes)</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Classique
+\n(Vies et sauvegardes illimitées)</string>
+    <string name="heroinfo_mode">Mode</string>
+    <string name="rip_startscreen">(Repose en paix)</string>
+    <string name="dialog_game_over_text">Vous rendez votre dernier souffle.</string>
+    <string name="dialog_game_over_title">Vous avez perdu</string>
+    <string name="heroinfo_unlimited_lives">Vies illimitées, une seule sauvegarde</string>
+    <string name="dialog_loading_failed_cheat">Impossible de charger la sauvegarde. Cette partie a déjà été continuée.</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Classique (Vies et sauvegardes illimitées)</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">Charger cette partie supprimera son emplacement de sauvegarde. Vous devrez à nouveau sauvegarder avant de changer de partie.</string>
+    <string name="startscreen_mode_1_life">Mort définitive (1 vie, 1 sauvegarde)</string>
+    <string name="startscreen_mode_3_lives">Extrême (3 vies, 1 sauvegarde)</string>
+    <string name="startscreen_mode_10_lives">Très difficile (10 vies, 1 sauvegarde)</string>
+    <string name="startscreen_mode_50_lives">Difficile (50 vies, 1 sauvegarde)</string>
+    <string name="startscreen_mode_unlimited_lives">Modéré (Nombre illimité de vie, 1 sauvegarde)</string>
+    <string name="preferences_display_scaling_factor_75_percent">Zoom à 75 %</string>
+    <string name="preferences_display_scaling_factor_50_percent">Zoom à 50 %</string>
+    <string name="preferences_language_description">Sélectionnez la langue. L\'anglais sera utilisé si la langue du système choisie n\'est pas disponible ou que son contenu n\'a pas encore été traduit. (Redémarrage nécessaire)</string>
+    <string name="preferences_language">Langue</string>
+    <string name="preferences_language_default">Langue du système</string>
+    <string name="menu_save_switch_character_title">Changer de personnage</string>
+    <string name="skill_shortdescription_weapon_prof_pole">Meilleur au combat à l\'arme d\'hast</string>
+    <string name="skill_title_weapon_prof_pole">Compétence à l\'arme d\'hast</string>
+    <string name="loadsave_empty_slot">%1$d.&lt;vide&gt;</string>
+    <string name="menu_save_switch_character">Sauvegarder vous permet de changer de personnage et de poursuivre la partie actuelle. Voulez-vous sauvegarder et quitter la session actuelle \?</string>
+    <string name="skill_longdescription_weapon_prof_pole">Chaque niveau de compétence augmente la chance d\'attaque avec une arme d\'hast de %1$d %% par rapport à celle de base de l\'objet, augmente les chances de parades de %2$d %% par rapport à celle de base de l\'objet, et augmente la compétence cruciale de %3$d %% par rapport à celle de base de l\'objet.</string>
+    <string name="iteminfo_effect_set_damage_modifier">Modificateur de dégâts : %1$d%%</string>
+    <string name="dialog_permission_information">Le jeu sauvegarde les parties sur l\'espace de stockage disponible de votre appareil. Cela vous permet de facilement sauvegarder vos parties et de les transférer vers un nouvel appareil. Consultez nos forums pour plus d\'information.
+\n
+\nLe jeu n\'accède en aucun cas à votre appareil pour une autre raison. Il n\'accède pas non plus à internet. Sur les traces d\'Andor est un logiciel libre et open source ; les sources sont disponibles sur github.</string>
+    <string name="dialog_permission_information_title">Chargement et enregistrement des jeux</string>
+    <string name="dialog_newversion_permission_information">"
+\n
+\nLe jeu va vous demander la permission d\'accéder à votre espace de stockage dans le but de sauvegarder ou charger vos parties (et uniquement dans cet objectif)."</string>
+    <string name="skill_longdescription_fightstyle_unarmed_unarmored">Lors de combats sans aucun armure ni arme ni bouclier, gagne %1$d de chances d\'attaque, %2$d de chances de parer, %3$d de résistance aux dégâts et une augmentation des dégâts maximum de %4$d par niveau de compétence. La compétence donne aussi un multiplicateur critique de 1 plus 0.%5$d par niveau.
+\n
+\nLes objets en tissu ne sont pas considérés comme des armures.</string>
+    <string name="skill_title_fightstyle_unarmed_unarmored">Style de combat : la Voie du moine</string>
+    <string name="skill_shortdescription_fightstyle_unarmed_unarmored">Mieux se battre sans armes ni armure</string>
 </resources>

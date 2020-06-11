@@ -2,46 +2,6 @@
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  <tileset firstgid="1" name="map_bed_1" tileheight="32" tilewidth="32">
   <image height="256" source="../drawable/map_bed_1.png" width="512"/>
  </tileset><tileset firstgid="129" name="map_border_1" tileheight="32" tilewidth="32">
@@ -205,6 +165,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="burhczyd_check7" type="script" x="320" y="896" width="96" height="32"/>
   <object height="32" name="south" type="mapchange" width="64" x="512" y="928">
    <properties>
     <property name="map" value="remgard2"/>

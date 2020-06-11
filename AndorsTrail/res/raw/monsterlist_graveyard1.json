@@ -390,6 +390,7 @@
             "max":6
         },
         "spawnGroup":"revenant",
+        "droplistID":"revenant_1",
         "attackCost":4,
         "attackChance":100,
         "blockChance":110,
@@ -418,6 +419,7 @@
             "max":8
         },
         "spawnGroup":"revenant",
+        "droplistID":"revenant_2",
         "attackCost":3,
         "attackChance":130,
         "blockChance":120,

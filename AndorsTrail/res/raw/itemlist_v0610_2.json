@@ -58,7 +58,7 @@
                 "max":5
             },
             "increaseAttackCost":5,
-            "setNonWeaponDamageModifier":115,
+            "setNonWeaponDamageModifier":112,
             "increaseAttackChance":10
         }
     },
@@ -72,7 +72,7 @@
         "category":"lsword",
         "equipEffect":{
             "increaseAttackCost":5,
-            "setNonWeaponDamageModifier":128,
+            "setNonWeaponDamageModifier":120,
             "increaseAttackChance":-50
         }
     },

@@ -243,6 +243,7 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object name="burhczyd_check2" type="script" x="224" y="448" width="96" height="32"/>
   <object name="prison" type="mapchange" x="416" y="768" width="32" height="32">
    <properties>
     <property name="map" value="fallhaven_prison"/>

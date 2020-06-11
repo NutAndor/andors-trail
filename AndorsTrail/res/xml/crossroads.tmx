@@ -262,6 +262,11 @@
   <object name="sign_crossroadshouse" type="sign" x="672" y="352" width="32" height="32"/>
   <object name="sign_crossroads_s" type="sign" x="608" y="480" width="32" height="32"/>
   <object name="sign_crossroads_n" type="sign" x="640" y="128" width="32" height="32"/>
+  <object name="brv_patrol_check_stop_hero" type="script" x="352" y="448" width="480" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn uniques">
   <object name="fieldwasp_unique" type="spawn" x="32" y="64" width="256" height="352">
@@ -314,12 +319,32 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys">
+  <object name="stop_hero" type="key" x="320" y="416" width="544" height="128">
+   <properties>
+    <property name="phrase" value="brv_wait_patrol"/>
+    <property name="requireId" value="brv_nondisplay"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="140"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Spawn_guild">
   <object name="feygard_scout" type="spawn" x="128" y="736" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="feygard_scout"/>
     <property name="active" value="false"/>
+    <property name="spawngroup" value="feygard_scout"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Spawn_knights">
+  <object name="knights" type="spawn" x="320" y="416" width="544" height="128">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="patrol_roaming"/>
    </properties>
   </object>
  </objectgroup>

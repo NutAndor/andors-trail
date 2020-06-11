@@ -1,0 +1,9 @@
+[
+    {
+        "id":"weapon_blocking",
+        "name":"Parrying weapon",
+        "actionType":"equip",
+        "size":"light",
+        "inventorySlot":"shield"
+    }
+]

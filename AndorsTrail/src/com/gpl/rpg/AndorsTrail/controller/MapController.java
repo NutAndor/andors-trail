@@ -193,7 +193,7 @@ public final class MapController {
 				else ConversationController.requirementFulfilled(world, replacement.requirement, controllers);
 				tileMap.applyReplacement(replacement);
 				for (ReplaceableMapSection impactedReplacement : tileMap.replacements) {
-					if (impactedReplacement.isApplied && impactedReplacement.replacementArea.intersects(replacement.replacementArea)) {
+					if (replacement != impactedReplacement && impactedReplacement.isApplied && impactedReplacement.replacementArea.intersects(replacement.replacementArea)) {
 						//The applied replacement has overwritten changes made by a previously applied replacement.
 						//This previous replacement must now be considered as unapplied to let it be reapplied later eventually.
 						impactedReplacement.isApplied = false;
@@ -209,7 +209,7 @@ public final class MapController {
 				hasUpdated = true;
 			}
 		}
-		if (map.lastSeenLayoutHash != tileMap.getCurrentLayoutHash()) {
+		if (!map.lastSeenLayoutHash.equalsIgnoreCase(tileMap.getCurrentLayoutHash())) {
 			map.lastSeenLayoutHash = tileMap.getCurrentLayoutHash();
 			hasUpdated = true;
 		}

@@ -26,7 +26,7 @@
         "category":"dagger",
         "equipEffect":{
             "increaseAttackCost":5,
-            "setNonWeaponDamageModifier":137
+            "setNonWeaponDamageModifier":128
         }
     },
     {

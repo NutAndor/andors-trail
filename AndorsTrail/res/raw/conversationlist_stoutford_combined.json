@@ -1140,6 +1140,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"secret_garden",
                 "value":50
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lakecave0_15",
+                "mapName":"lakecave0"
             }
         ]
     },
@@ -1150,19 +1155,9 @@
                 "nextPhraseID":"caeda_root50_3",
                 "requires":[
                     {
-                        "requireType":"killedMonster",
-                        "requireID":"cave_troll_2",
-                        "value":7
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"cave_troll_3",
-                        "value":15
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"cave_troll_4",
-                        "value":7
+                        "requireType":"questProgress",
+                        "requireID":"secret_garden",
+                        "value":55
                     }
                 ]
             },

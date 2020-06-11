@@ -1,407 +1,353 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="app_name">Andorren bidea</string>
-	<string name="app_description">Erronketan oinarritutako fantasiazko RPGa</string>
-
-	<string name="exit_to_menu">Irten menura</string>
-	<string name="menu_settings">Hobespenak</string>
-	<string name="menu_save">Gorde</string>
-	<string name="menu_save_gamesaved">Partida %1$d erretenean gorde da</string>
-	<string name="menu_save_failed">Huts egin du partida gordetzean! SD txartela muntatuta dago eta idazteko baimena duzu?</string>
-
-	<string name="loadsave_title_save">Gorde partida</string>
-	<string name="loadsave_title_load">Kargatu gordetako partida</string>
-	<string name="loadsave_selectslot">Aukeratu erretena</string>
-	<string name="savegame_currenthero_displayinfo">Maila %1$d, %2$d esp, %3$d txanpon</string>
-
-	<string name="dialog_loading_message">Baliabideak kargatzen…</string>
-	<string name="dialog_loading_failed_title">Kargak huts egin du</string>
-	<string name="dialog_loading_failed_message">Aplikazioak ezin izan du gordetako partida kargatu.
-
-:(
-
-Fitxategia hondatuta edo osatu gabe egon daiteke.</string>
-	<string name="dialog_loading_failed_incorrectversion">Aplikazioak ezin izan du gordetako partida kargatu. Gordetako partida fitxategi hau orain darabilzuna baino berriagoa den aplikazio batekin sortu da.</string>
-
-	<string name="dialog_close">Itxi</string>
-
-	<string name="dialog_monsterencounter_title">Norgehiagoka</string>
-	<string name="dialog_monsterencounter_message">Erasotu nahi duzu?
-Zailtasuna: %1$s</string>
-	<string name="dialog_monsterencounter_info">Info</string>
-
-	<string name="status_hp">OP:</string>
-	<string name="status_ap">EP:</string>
-	<string name="status_exp">Maila:</string>
-
-	<string name="heroinfo_char">Laburpena</string>
-	<string name="heroinfo_inv">Objektuak</string>
-	<string name="heroinfo_skill">Trebetasunak</string>
-	<string name="heroinfo_levelup">Igo mailaz</string>
-	<string name="heroinfo_level">Maila</string>
-	<string name="heroinfo_totalexperience">Esperientzia guztira</string>
-	<string name="heroinfo_wornequipment">Daramazun ekipoa</string>
-	<string name="heroinfo_inventory">Inbentarioa</string>
-	<string name="heroinfo_gold">"Txanponak:  %1$d"</string>
-	<string name="combat_status_ap">EP: %1$d</string>
-	<string name="heroinfo_actionpoints">Ekintza puntuak (EP):</string>
-	<string name="combat_attack">Erasotu (%1$d EP)</string>
-	<string name="combat_move">Mugitu (%1$d EP)</string>
-	<string name="combat_not_enough_ap">"Ez duzu EP  nahiko txanda honetarako."</string>
-	<string name="actorinfo_movecost">Mugitzearen kostua (EP):</string>
-	<string name="traitsinfo_attack_cost">Erasoaren kostua (EP):</string>
-	<string name="iteminfo_action_use_ap">Erabili (%1$d EP)</string>
-	<string name="iteminfo_action_equip_ap">Ekipatu (%1$d EP)</string>
-	<string name="iteminfo_action_unequip_ap">Kendu (%1$d EP)</string>
-
-	<string name="iteminfo_effect_decrease_current_ap">%1$s EP ahitzen ditu</string>
-	<string name="iteminfo_effect_increase_current_ap">%1$s EP berreskuratzen ditu</string>
-
-	<string name="iteminfo_effect_increase_max_ap">Gehieneko EPak areagotzen ditu +%1$d</string>
-	<string name="iteminfo_effect_decrease_max_ap">Gehieneko EPak murrizten ditu -%1$d</string>
-	<string name="iteminfo_effect_increase_movecost">Mugitzeko kostua areagotzen du +%1$d EP</string>
-	<string name="iteminfo_effect_decrease_movecost">Mugitzeko kostua murrizten du -%1$d EP</string>
-
-	<string name="skill_title_weapon_chance">Armaren zehaztasuna</string>
-	<string name="skill_shortdescription_resistance_physical_capacity">Gaitasun fisikoen baldintzei erresistentzia</string>
-	<string name="skill_longdescription_speed">Gehieneko ekintza puntu (EP) kopurua areagotzen du %1$d trebetasun maila bakoitzeko.</string>
-	<string name="skill_longdescription_cleave">+%1$d ekintza puntu ematen ditu trebetasun mailako garaipen bakoitzean.</string>
-	<string name="skill_longdescription_fortitude">Geroko maila igoera bakoitzean , gehieneko osasun puntuak (OP) %1$d areagotuko dira trebetasun mailako. Hau ez da iraganerantz aplikatzen, soilik hemendik aurrerako maila igoeratara.</string>
-	<string name="skill_longdescription_resistance_mental">Baldintza mentalek kaltetzeko aukera %1$d %% gutxiagotzen du trebetasun maila bakoitzeko, gehienez %2$d %% arte. Honek munstroen erasoek sortutako Nahastuta edo Armaren ahulezia bezalako baldintzak barne hartzen ditu.</string>
-	<string name="skill_longdescription_resistance_physical_capacity">Baldintza fisikoek kaltetzeko aukera %1$d %% gutxiagotzen du trebetasun maila bakoitzeko, gehienez %2$d %% arte. Honek munstroen erasoek sortutako Nekea bezalako baldintzak barne hartzen ditu.</string>
-	<string name="actorcondition_categories_physical">Gaitasun fisikoa</string>
-	<string name="traitsinfo_base_max_ap">Gehieneko EP:</string>
-	<string name="preferences_optimized_drawing">Desgaitu hau akats grafikoak ikusten badituzu. Aukera hau gaitzean jokoak aldatutako parteak besterik ez ditu marraztuko fotograma bakoitzean.</string>
-
-	<string name="skill_longdescription_rejuvenation">"Txanda bakoitzean (6 segundo), %%1$d %ko aukera bat dago aktibo dauden baldintza negatiboetako bat magnitude batean gutxiagotzeko. Hau gorputza eragiten duten efektu iragankor mota guztiei aplikatzen zaie, hala nola Nahastuta bezalako baldintza mentalak edo Nekea  bezalako baldintza fisikoak, baita pozoia bezalako odol arazoei."</string>
-	<string name="skill_shortdescription_taunt">Erasotzaileak EPak galtzen ditu kale egitean</string>
-	<string name="skill_longdescription_taunt">Erasotzaileak kale egiten badu, %2$d ekintza puntu (EP) galtzeko %%1$d %ko aukera bat dago. Hau zure kontrako aurrez aurreko eraso guztiei aplikatzen zaie.</string>
-	<string name="menu_button_worldmap">Mapa</string>
-	<string name="menu_button_worldmap_failed">Ezin da mapa bistaratu.</string>
-	<string name="display_worldmap_not_available">Mapa ezin da kokapen honetan bistaratu.</string>
-	<string name="display_worldmap_title">Mapa</string>
-
-	<string name="iteminfo_effect_weapon_attack_cost">Erasoaren kostua: %1$d EP</string>
-	<string name="iteminfo_effect_increase_attack_cost">Erasoaren kostua %1$d EPtan areagotzen du</string>
-	<string name="iteminfo_effect_decrease_attack_cost">Erasoaren kostua %1$d EPtan txikiagotzen du</string>
-	<string name="iteminfo_effect_increase_use_cost">Borrokan objektuak erabiltzearen kostua %1$d EPtan areagotzen du</string>
-	<string name="iteminfo_effect_decrease_use_cost">Borrokan objektuak erabiltzearen kostua %1$d EPtan txikiagotzen du</string>
-	<string name="iteminfo_effect_increase_reequip_cost">Borrokan objektuak ekipatzearen kostua %1$d EPtan areagotzen du</string>
-	<string name="iteminfo_effect_decrease_reequip_cost">Borrokan objektuak ekipatzearen kostua %1$d EPtan txikiagotzen du</string>
-
-	<string name="heroinfo_reequip_cost">Berrekipatzearen kostua (EP):</string>
-	<string name="heroinfo_useitem_cost">Objektua erabiltzearen kostua (EP):</string>
-	<string name="skill_title_fightstyle_2hand">Borrokatze estiloa: Bi eskutako arma</string>
-	<string name="skill_title_fightstyle_weapon_shield">Borrokatze estiloa: Arma eta ezkutua</string>
-	<string name="skill_title_specialization_2hand">Espezializazioa: Bi eskutako arma</string>
-	<string name="skill_title_specialization_weapon_shield">Espezializazioa: Arma eta ezkutua</string>
-
-	<string name="skill_shortdescription_weapon_prof_unarmed">Hobea armarik gabe borrokatzen</string>
-	<string name="skill_shortdescription_fightstyle_dualwield">Astindu bi armekin aldi berean</string>
-	<string name="skill_shortdescription_fightstyle_2hand">Bi eskuak behar dituzten armak hobeto erabili</string>
-	<string name="skill_shortdescription_fightstyle_weapon_shield">Hobea arma eta ezkutua erabiltzean</string>
-	<string name="skill_shortdescription_specialization_2hand">Bi eskutako armatan jaioa</string>
-	<string name="skill_shortdescription_specialization_weapon_shield">Arma eta ezkutua erabiltzen jaioa</string>
-
-	<string name="skill_longdescription_weapon_prof_unarmed">arma eta ezkutu gabe borrokatzean, irabazi %1$d erasotzeko aukera, %2$d kalte potentziala eta %3$d blokeatzeko aukera trebetasun mailako.</string>
-	<string name="combat_monsterhealth">OP:</string>
-	<string name="combat_result_monsterhit">%1$s(e)k jo dizu eta %2$d op kendu!</string>
-	<string name="combat_result_monsterhitcritical">%1$s(e)k kolpe kritiko bat lortu du eta %2$d op kendu!</string>
-	<string name="combat_result_herohit">%1$s jo duzu eta %2$d op kendu!</string>
-	<string name="combat_result_herohitcritical">%1$s(r)i kolpe kritikoa eman diozu eta %2$d op kendu!</string>
-	<string name="levelup_add_health">Areagotu osasuna (+%1$d OP)</string>
-	<string name="iteminfo_effect_decrease_current_hp">%1$s OP ahitzen ditu</string>
-	<string name="iteminfo_effect_increase_current_hp">%1$s OP berreskuratzen ditu</string>
-	<string name="iteminfo_effect_increase_max_hp">Gehieneko OP kopurua areagotzen du +%1$d</string>
-	<string name="iteminfo_effect_decrease_max_hp">Gehieneko OP kopurua txikiagotzen du +%1$d</string>
-	<string name="skill_longdescription_eater">+%1$d osasun puntu (OP) ematen ditu trebetasun mailako garaipen bakoitzean.</string>
-	<string name="skill_longdescription_regeneration">Berreskuratu +%1$d osasun puntu (OP) trebetasun mailako ondoan munstrorik ez dagoen txanda bakoitzean.</string>
-	<string name="traitsinfo_base_max_hp">Gehieneko OP:</string>
-	<string name="heroinfo_quests">Eginkizunak</string>
-
-	<string name="questlog_includecompleted_prompt">Aukeratu bistaratuko diren eginkizunak</string>
-	<string name="questlog_includecompleted_hidecompleted">Ezkutatu burututako eginkizunak</string>
-	<string name="questlog_includecompleted_includecompleted">Burututako eginkizunak barne</string>
-	<string name="questlog_includecompleted_onlycompleted">Soilik burututako eginkizunak</string>
-	<string name="preferences_dialog_confirmrest">Ohean atsedena hartu nahi duzun galdetzen du. Bestela, automatikoki hartuko duzu atsedena.</string>
-	<string name="iteminfo_displaytypes_quest">Eginkizunaren objektua</string>
-	<string name="preferences_dialog_overwrite_savegame">Gordetako partida bat duen erretena aukeratzean gainidatzi nahi duzun galdetzen du.</string>
-
-	<string name="conversation_reward_quest_finished">[Burututako eginkizuna: \"%1$s\"]</string>
-	<string name="conversation_reward_quest_updated">[Eguneratutako eginkizuna: \"%1$s\"]</string>
-
-	<string name="heroinfo_gamestats_quests">Burututako eginkizunak</string>
-	<string name="combat_use">Erabili objektua</string>
-	<string name="combat_endturn">Bukatu txanda</string>
-	<string name="combat_flee">Ihes</string>
-	<string name="combat_begin_flee">Borrokatik ihes egin dezakezu norabidean ukituz.</string>
-	<string name="combat_flee_failed">Ezin izan duzu ihes egin!</string>
-	<string name="combat_monsteraction">%1$s erasotzen ari da.</string>
-	<string name="combat_result_monstermiss">%1$s(e)k huts egin du!</string>
-	<string name="combat_result_heromiss">Zure erasoak huts egin du.</string>
-	<string name="combat_result_herokillsmonster">%1$s hil da!</string>
-	<string name="combat_hero_dies">Kontzientzia galdu duzu, baina zorionez bizirik esnatu zara, nahastuta eta nekatuta. %1$d esperientzia puntu galdu dituzu.</string>
-	<string name="combat_miss_animation_message">HUTSA</string>
-	
-	<string name="inventory_info">Info</string>
-	<string name="inventory_equip">Ekipatu</string>
-	<string name="inventory_unequip">Kendu</string>
-	<string name="inventory_use">Erabili</string>
-	<string name="inventory_drop">Bota</string>
-	<string name="inventory_item_used">%1$s erabili duzu.</string>
-	<string name="inventory_item_dropped">%1$s bota duzu.</string>
-	<string name="inventory_item_equipped">%1$s ekipatu duzu.</string>
-
-	<string name="dialog_loot_pickall">Jaso guztia</string>
-	<string name="dialog_loot_foundgold">"%1$d txanpon aurkitu dituzu "</string>
-	<string name="dialog_loot_pickedupitem">"Objektu bat jaso duzu. "</string>
-	<string name="dialog_loot_pickedupitems">"%1$d objektu jaso dituzu. "</string>
-	<string name="dialog_groundloot_title">Objektuak</string>
-	<string name="dialog_groundloot_message">"Objektu batzuk aurkitu dituzu. "</string>
-	<string name="dialog_monsterloot_title">Garaipena</string>
-	<string name="dialog_monsterloot_message">"Norgehiagokatik bizirik atera zara. "</string>
-	<string name="dialog_monsterloot_gainedexp">"%1$d esperientzia puntu irabazi dituzu. "</string>
-
-	<string name="monster_difficulty_veryeasy">Oso erraza</string>
-	<string name="monster_difficulty_easy">Erraza</string>
-	<string name="monster_difficulty_normal">Arrunta</string>
-	<string name="monster_difficulty_hard">Zaila</string>
-	<string name="monster_difficulty_veryhard">Oso zaila</string>
-	<string name="monster_difficulty_impossible">Ezinezkoa</string>
-
-	<string name="actorinfo_class">Mota:</string>
-	<string name="actorinfo_difficulty">Zailtasuna:</string>
-	<string name="actorinfo_health">Osasuna:</string>
-	<string name="actorinfo_attack">Erasoa:</string>
-	<string name="actorinfo_defense">Defentsa:</string>
-	<string name="actorinfo_basetraits">Oinarrizko borroka estatistikak (ekipamendu eta trebetasunik gabe)</string>
-	<string name="actorinfo_currenttraits">Borroka estatistikak (orain)</string>
-
-	<string name="traitsinfo_attack_chance">Erasorako aukera:</string>
-	<string name="traitsinfo_attack_damage">Erasoaren kaltea:</string>
-	<string name="traitsinfo_criticalhit_skill">Kolpe kritikorako trebetasuna:</string>
-	<string name="traitsinfo_criticalhit_multiplier">Kritikoaren multiplikatzailea:</string>
-	<string name="traitsinfo_defense_chance">Blokeatzearen aukera:</string>
-	<string name="traitsinfo_defense_damageresist">Kalteari erresistentzia:</string>
-
-	<string name="iteminfo_category">"Kategoria: "</string>
-	<string name="iteminfo_action_use">Erabili</string>
-	<string name="iteminfo_action_equip">Ekipatu</string>
-	<string name="iteminfo_action_unequip">Kendu</string>
-	<string name="startscreen_continue">Jarraitu partida</string>
-	<string name="startscreen_newgame">Partida berria</string>
-	<string name="startscreen_newgame_confirm">Uneko partida eta pertsonaia galduko dituzu, ziur partida berria hasi nahi duzula?</string>
-	<string name="startscreen_about">Honi buruz/Laguntza</string>
-	<string name="startscreen_enterheroname">Idatzi heroiaren izena</string>
-	<string name="startscreen_load">Kargatu</string>
-
-	<string name="conversation_rewardexp">" [%1$d esperientzia puntu irabazi dituzu]"</string>
-	<string name="conversation_rewardgold">" [%1$d txanpon lortu dituzu]"</string>
-	<string name="conversation_lostgold">" [%1$d txanpon galdu dituzu]"</string>
-	<string name="shop_buyitem">Erosi (%1$d txanpon)</string>
-	<string name="shop_sellitem">Saldu (%1$d txanpon)</string>
-	<string name="shop_yourgold">Zure txanponak: %1$d</string>
-	<string name="preferences_dialog_monsterloot">Aukeratu borrokaren emaitza nola bistaratu (txanponak, esperientzia, objektuak).</string>
-	<string name="bulkselection_totalcost_buy">Kostua guztira: %1$d txanpon</string>
-	<string name="bulkselection_totalcost_sell">Kostua guztira: %1$d txanpon</string>
-	<string name="skill_shortdescription_coinfinder">Txanponak aurkitzeko aukera gehiago</string>
-	<string name="skill_longdescription_barter">Trebetasun maila bakoitzeko erosi eta saltzean txanpon kopurua ehuneko %1$d hobetzen da.</string>
-	<string name="skill_longdescription_coinfinder">Munstroek txanponak botatzeko aukera %1$d %% areagotzen du eta bototako txanpon kopurua %2$d %% areagotzen du trebetasun maila bakoitzeko (munstroak bota dezakeen gehieneko kopurua arte).</string>
-	<string name="heroinfo_gamestats_spent_gold">Dendatan gastatutako txanponak</string>
-	<string name="conversation_rewarditem">" [Objektu bat lortu duzu]"</string>
-	<string name="conversation_rewarditems">" [%1$d objektu lortu dituzu]"</string>
-	<string name="conversation_next">Hurrengoa</string>
-	<string name="conversation_leave">Utzi</string>
-
-	<string name="shop_buy">Erosi</string>
-	<string name="shop_sell">Saldu</string>
-	<string name="shop_infoitem">Info</string>
-	<string name="shop_item_bought">%1$s erosita.</string>
-	<string name="shop_item_sold">%1$s salduta.</string>
-
-	<string name="levelup_title">Igo mailaz</string>
-	<string name="levelup_description">Ongi etorria %1$d mailara!</string>
-	<string name="levelup_buttontext">Igo mailaz</string>
-	<string name="levelup_add_health_description">Gehitu %1$d zure gehieneko osasunera.</string>
-	<string name="levelup_add_attackchance">Areagotu erasoaren aukera (+%1$d)</string>
-	<string name="levelup_add_attackchance_description">%1$d puntu gehitzen dizkio zure oinarrizko erasotzeko aukerari.</string>
-	<string name="levelup_add_attackdamage">Areagotu erasoaren kaltea (+%1$d)</string>
-	<string name="levelup_add_attackdamage_description">%1$d puntu gehitzen dizkio zure oinarrizko erasoaren kalteari.</string>
-	<string name="levelup_add_blockchance">Areagotu blokeatzeko aukera (+%1$d)</string>
-	<string name="levelup_add_blockchance_description">%1$d puntu gehitzen dizkio zure oinarrizko blokeatzeko aukerari.</string>
-
-	<string name="dialog_rest_title">Hartu atsedena</string>
-	<string name="dialog_rest_confirm_message">Hemen hartu nahi duzu atsedena?</string>
-	<string name="dialog_rest_message">Atsedena hartu duzu eta osasun osoa berreskuratu duzu.</string>
-
-	<string name="about_button1">Laguntza</string>
-	<string name="about_button2">Egileak</string>
-	<string name="about_button3">Lizentzia</string>
-	<string name="dialog_newversion_title">Ongi etorri</string>
-	<string name="dialog_newversion_message">"
- Eskerrik asko Andorren bidea deskargatzeagatik
-
-
- Kontuan izan BUKATU GABEKO LANA dela oraindik Andorren bidearen bertsio hau, honek esan nahi du mapa guztiak ez daudela osorik.
-
-
- Bisitatu proiektuaren foroak jokoari buruz beste jokalari batzuekin hitz egiteko edo jokoa honbetzen laguntzeko (ikusi honi buruz atala).
-
- 
-
-Zure iruzkinak ongi etorriak dira!
- "</string>
-
-	<string name="questlog_queststatus">Egoera: %1$s</string>
-	<string name="questlog_queststatus_inprogress">Abian</string>
-	<string name="questlog_queststatus_completed">Burututa</string>
-
-	<string name="preferences_display_category">Bistaratzea</string>
-	<string name="preferences_display_fullscreen_title">Pantaila osoan</string>
-	<string name="preferences_display_fullscreen">Jokoa pantaila osoan bistaratzen du (berrabiaraztea eskatzen du)</string>
-	<string name="preferences_dialog_category">Elkarrizketaren berrespena</string>
-	<string name="preferences_dialog_confirmrest_title">Berretsi atsedena</string>
-	<string name="preferences_dialog_confirmattack_title">Berretsi erasoa</string>
-	<string name="preferences_dialog_confirmattack">\'... erasotu nahi duzu?\' elkarrizketa koadroa bistaratzen du munstro bat erasotzean.</string>
-	<string name="preferences_dialog_monsterloot_title">Erakutsi borrokaren irabaziak</string>
-	<string name="preferences_combat_category">Borroka</string>
-	<string name="preferences_combat_speed_title">Borrokaren abiadura</string>
-	<string name="preferences_combat_speed">Zehaztu munstroek zeinen azkar erasotuko duten.</string>
-
-	<string name="preferences_display_loot_dialog">Beti erakutsi irabazien elkarrizketa koadroa</string>
-	<string name="preferences_display_loot_dialog_on_items">Erakutsi irabazien elkarrizketa koadroa objektuak aurkitzean</string>
-	<string name="preferences_display_loot_dialog_on_items_or_toast">Elkarrizketa koadroa objektuentzako, bestela jakinarazpena</string>
-	<string name="preferences_display_loot_toast">Erakutsi jakinarazpen labur bat</string>
-	<string name="preferences_display_loot_toast_on_items">Erakutsi jakinarazpena soilik objektuak aurkitzean</string>
-	<string name="preferences_display_loot_never">Ez erakutsi</string>
-
-	<string name="preferences_attackspeed_instant">Berehalakoa (animaziorik gabe)</string>
-	<string name="preferences_attackspeed_fast">Azkarra</string>
-	<string name="preferences_attackspeed_normal">Arrunta</string>
-	<string name="preferences_attackspeed_slow">Motela</string>
-
-	<string name="preferences_movement_category">Mugimendua</string>
-	<string name="preferences_movementmethod_title">Mugitzeko metodoa</string>
-	<string name="preferences_movementmethod">Mugitzeko eta oztopoak kudeatzeko metodo mota.</string>
-	<string name="preferences_movementmethods_straight">Zuzen (jatorrizkoa)</string>
-	<string name="preferences_movementmethods_avoid">Objektuak ekidinez</string>
-
-
-	<string name="actorinfo_currentconditions">Baldintza aktiboak</string> <string name="actorcondition_info_removes_all">%1$s guztia kentzen du</string>
-	<string name="iteminfo_effect_chance_of">%1$s aukera %2$s lortzeko</string>
-	<string name="iteminfo_effect_duration">(%1$d txanda)</string>
-
-	<string name="iteminfo_effect_works_on_source">Jatorrian</string>
-	<string name="iteminfo_effect_works_on_target">Xedean</string>
-	<string name="iteminfo_effect_works_when_hitting_target">Xedeari ematean</string>
-	<string name="iteminfo_effect_works_when_killing_target">Hilketa bakoitzean</string>
-	<string name="iteminfo_effect_works_when_used">Erabiltzean</string>
-	<string name="iteminfo_effect_works_when_equipped">Ekipatzean</string>
-
-	<string name="preferences_display_scaling_factor_title">Eskala faktorea</string>
-	<string name="preferences_display_scaling_factor">Jokoan dena handiagoa izatea dakar.</string>
-	<string name="preferences_display_scaling_factor_normal">Tamaina arrunta</string>
-	<string name="preferences_display_scaling_factor_50_percent_larger">1,5 aldiz bere tamaina</string>
-	<string name="preferences_display_scaling_factor_double">Tamaina bikoitza</string>
-
-	<string name="inventory_assign">Esleitu erreten azkarra</string>
-	<string name="inventory_assign_slot1">1. erretena</string>
-	<string name="inventory_assign_slot2">2. erretena</string>
-	<string name="inventory_assign_slot3">3. erretena</string>
-	<string name="inventory_unassign">Kendu erreten azkarra</string>
-
-	<string name="preferences_movement_dpad_position_title">d-pad birtuala</string>
-	<string name="preferences_movement_dpad_position">Pantailan norabide gezi birtualak kokatzen ditu, mugimendua kontrolatzeko.</string>
-	<string name="preferences_movement_dpad_minimizeable_title">d-pad txikigarria</string>
-	<string name="preferences_movement_dpad_positions_disabled">Desgaituta</string>
-	<string name="preferences_movement_dpad_positions_lower_right">behe eskumako erpina</string>
-	<string name="preferences_movement_dpad_minimizeable">d-pad birtuala aktibatuta badago, ezarpen honek d-pad hori zentroan sakatuz minimizatzea baimentzen du.</string>
-
-	<string name="preferences_movement_dpad_positions_lower_left">Behe-ezkerreko ertza</string>
-	<string name="preferences_movement_dpad_positions_center_bottom">Zentroan behean</string>
-	<string name="preferences_movement_dpad_positions_center_left">Zentroan ezkerrean</string>
-	<string name="preferences_movement_dpad_positions_center_right">Zentroan eskuman</string>
-	<string name="preferences_movement_dpad_positions_upper_left">Goi ezkerreko ertza</string>
-	<string name="preferences_movement_dpad_positions_upper_right">Goi eskumako ertza</string>
-	<string name="preferences_movement_dpad_positions_center_top">Zentroan goian</string>
-
-	<string name="actorconditioninfo_constant_effect">Eragin iraunkorra</string>
-	<string name="actorconditioninfo_effect_every_round">Txanda bakoitzean</string>
-	<string name="actorconditioninfo_effect_every_full_round">Txanda oso bakoitzean</string>
-	<string name="bulkselection_select_all">Guztiak</string>
-	<string name="bulkselection_sell_confirmation_title">Ziur?</string>
-	<string name="bulkselection_sell_confirmation">Ziur %1$s saldu nahi duzula? Objektu hau %2$s da eta agian ezin izango duzu berreskuratu.</string>
-
-	<string name="skill_title_weapon_dmg">Kolpe gogorra</string>
-	<string name="skill_title_barter">Merkataria</string>
-	<string name="skill_title_dodge">Saihestu</string>
-	<string name="skill_title_barkskin">Zuhaitz azala</string>
-	<string name="skill_title_more_criticals">Kritiko gehiago</string>
-	<string name="skill_title_better_criticals">Kritiko hobeak</string>
-	<string name="skill_title_speed">Borrokatzeko abiadura</string>
-	<string name="skill_title_coinfinder">Altxor bilatzailea</string>
-	<string name="skill_title_more_exp">Ikasle fina</string>
-	<string name="skill_title_cleave">Harakin aiztoa</string>
-	<string name="skill_title_eater">Gorpu jalea</string>
-	<string name="skill_title_fortitude">Indar gehiago</string>
-	<string name="skill_title_evasion">Ihesbidea</string>
-	<string name="skill_title_regeneration">Berrosatzea</string>
-	<string name="skill_title_lower_exploss">Porrotaren maisu</string>
-	<string name="skill_title_magicfinder">Magia aurkitzailea</string>
-	<string name="skill_title_resistance_mental">Gogo indartsua</string>
-	<string name="skill_title_resistance_physical_capacity">Gorputz iraunkorra</string>
-	<string name="skill_title_resistance_blood_disorder">Odol garbia</string>
-
-	<string name="skill_shortdescription_weapon_chance">Erasorako aukera gehiago</string>
-	<string name="skill_shortdescription_weapon_dmg">Erasoan kalte gehiago</string>
-	<string name="skill_shortdescription_barter">Prezio hobeak dendan</string>
-	<string name="skill_shortdescription_dodge">Blokeatzeko aukera gehiago</string>
-	<string name="skill_shortdescription_more_criticals">Trebetasun kritiko gehiago</string>
-	<string name="skill_shortdescription_better_criticals">Kalte kritiko gehiago</string>
-	<string name="skill_shortdescription_speed">Gehieneko ekintza puntu gehiago</string>
-	<string name="skill_shortdescription_evasion">Ihes egiteko aukera gehiago</string>
-	<string name="skill_shortdescription_magicfinder">Objektu magikoak aurkitzeko aukera gehiago</string>
-	<string name="change_locale_requires_restart">Hizkuntza aldatzeak berrabiaraztea eskatzen du. Aplikazioa itxi da.</string>
-
-<string name="preferences_ui_use_localized_resources">Erabili interfazearen eta jokoaren edukiaren itzulpena, eskuragarri badago. (Berrabiaraztea eskatzen du)</string>
-	<string name="skill_shortdescription_barkskin">Kalteari erresistentzia</string>
-	<string name="skill_shortdescription_more_exp">Esperientzia gehiago munstroak hiltzean</string>
-	<string name="skill_shortdescription_cleave">Berreskuratu ekintza puntuak hilketa bakoitzean</string>
-	<string name="skill_shortdescription_eater">Berreskuratu osasun puntuak hilketa bakoitzean</string>
-	<string name="skill_shortdescription_fortitude">Areagotu osasuna mailaz igotze bakoitzean</string>
-	<string name="skill_shortdescription_regeneration">Berreskuratu osasuna txanda bakoitzean</string>
-	<string name="skill_shortdescription_lower_exploss">Gutxiagotu galdutako esperientzia kontzientzia galtzean</string>
-	<string name="skill_shortdescription_resistance_mental">Baldintza mentalei erresistentzia</string>
-	<string name="skill_shortdescription_resistance_blood_disorder">Odol arazoei erresistentzia</string>
-
-	<string name="skill_longdescription_weapon_chance">Erasoaren aukera ehuneko %1$d areagotzen du trebetasun maila bakoitzeko.</string>
-	<string name="skill_longdescription_weapon_dmg">Gehieneko kaltea %1$d areagotzen du trebetasun maila bakoitzeko.</string>
-	<string name="skill_longdescription_dodge">Blokeatzeko aukera ehuneko %1$d areagotzen du trebetasun maila bakoitzeko.</string>
-	<string name="skill_longdescription_barkskin">Kalteari erresistentzia areagotzen du %1$d trebetasun maila bakoitzeko.</string>
-	<string name="skill_longdescription_more_criticals">Ekipoak emandako kolpe kritikorako gaitasuna areagotzen du %%1$d % trebetasun maila bakoitzeko.</string>
-	<string name="skill_longdescription_better_criticals">Ekipoak emandako multiplikatzaile kritikoa areagotzen du %%1$d % trebetasun maila bakoitzeko.</string>
-	<string name="about_contents1">"
- Ongi etorri Andorren bidera, Androiderako roguelike RPG libre bat.&lt;br /&gt;
- &lt;br /&gt;
- &lt;a href=http://andorstrail.com/&gt;andorstrail.com webgunean jokoaren foroetan galderak egin eta jokoari buruz eztabaidatu dezakezu.&lt;/a&gt;&lt;br /&gt;
- &lt;br /&gt;
- &lt;a href=http://andorstrail.com/wiki&gt;Jokoaren Wikian Andorren bidearen munduari buruzko informazioa dago, besteak beste.&lt;/a&gt;&lt;br /&gt;
- &lt;br /&gt;
- &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Proiektuaren iturburu kodea github.com webgunean dago garatzaileen eskura.&lt;/a&gt;&lt;br /&gt;
- &lt;br /&gt;
- Foroetan ongi etorria zara, zatoz beste jokalariekin jokoari buruz eztabaidatzera.&lt;br /&gt;
- "</string>
-
-	<string name="skill_longdescription_more_exp">Munstroak garaitzean lortutako esperientzia areagotzen du %%1$d % trebetasun maila bakoitzeko.</string>
-	<string name="skillinfo_action_levelup">Igo mailaz</string>
-	<string name="skill_current_level">"Uneko maila:  %1$d"</string>
-	<string name="skill_current_level_with_maximum">Uneko maila: %1$d / %2$d</string>
-	<string name="skill_prerequisite_other_skill">Gaitasun hau mailaz igotzeko, gutxienez %2$s trebetasunaren %1$d maila behar duzu.</string>
-	<string name="preferences_dialog_overwrite_savegame_title">Berretsi gordetako partidak gainidaztea</string>
-	<string name="combat_result_monstermoved">%1$s mugimendu.</string>
-	<string name="combat_log_title">Borrokaren egunkaria</string>
-	<string name="skill_title_weapon_prof_unarmed">Armarik gabeko borroka</string>
-		<string name="localize_resources_from_mo_filename">eu.mo</string>
-	<string name="dialog_recenter">Birzentratu</string>
+<resources>
+    <string name="app_name">Andorren bidea</string>
+    <string name="app_description">Erronketan oinarritutako fantasiazko RPGa</string>
+    <string name="exit_to_menu">Irten menura</string>
+    <string name="menu_settings">Hobespenak</string>
+    <string name="menu_save">Gorde</string>
+    <string name="menu_save_gamesaved">Partida %1$d erretenean gorde da</string>
+    <string name="menu_save_failed">Huts egin du partida gordetzean! SD txartela muntatuta dago eta idazteko baimena duzu?</string>
+    <string name="loadsave_title_save">Gorde partida</string>
+    <string name="loadsave_title_load">Kargatu gordetako partida</string>
+    <string name="loadsave_selectslot">Aukeratu erretena</string>
+    <string name="savegame_currenthero_displayinfo">Maila %1$d, %2$d esp, %3$d txanpon</string>
+    <string name="dialog_loading_message">Baliabideak kargatzen…</string>
+    <string name="dialog_loading_failed_title">Kargak huts egin du</string>
+    <string name="dialog_loading_failed_message">Aplikazioak ezin izan du gordetako partida kargatu. 
+\n
+\n:( 
+\n
+\nFitxategia hondatuta edo osatu gabe egon daiteke.</string>
+    <string name="dialog_loading_failed_incorrectversion">Aplikazioak ezin izan du gordetako partida kargatu. Gordetako partida fitxategi hau orain darabilzuna baino berriagoa den aplikazio batekin sortu da.</string>
+    <string name="dialog_close">Itxi</string>
+    <string name="dialog_monsterencounter_title">Norgehiagoka</string>
+    <string name="dialog_monsterencounter_message">Erasotu nahi duzu\? 
+\nZailtasuna: %1$s</string>
+    <string name="dialog_monsterencounter_info">Info</string>
+    <string name="status_hp">OP:</string>
+    <string name="status_ap">EP:</string>
+    <string name="status_exp">Maila:</string>
+    <string name="heroinfo_char">Laburpena</string>
+    <string name="heroinfo_inv">Objektuak</string>
+    <string name="heroinfo_skill">Trebetasunak</string>
+    <string name="heroinfo_levelup">Igo mailaz</string>
+    <string name="heroinfo_level">Maila</string>
+    <string name="heroinfo_totalexperience">Esperientzia guztira</string>
+    <string name="heroinfo_wornequipment">Daramazun ekipoa</string>
+    <string name="heroinfo_inventory">Inbentarioa</string>
+    <string name="heroinfo_gold">Txanponak: %1$d</string>
+    <string name="combat_status_ap">EP: %1$d</string>
+    <string name="heroinfo_actionpoints">Ekintza puntuak (EP):</string>
+    <string name="combat_attack">Erasotu (%1$d EP)</string>
+    <string name="combat_move">Mugitu (%1$d EP)</string>
+    <string name="combat_not_enough_ap">Ez duzu EP nahiko txanda honetarako.</string>
+    <string name="actorinfo_movecost">Mugitzearen kostua (EP):</string>
+    <string name="traitsinfo_attack_cost">Erasoaren kostua (EP):</string>
+    <string name="iteminfo_action_use_ap">Erabili (%1$d EP)</string>
+    <string name="iteminfo_action_equip_ap">Ekipatu (%1$d EP)</string>
+    <string name="iteminfo_action_unequip_ap">Kendu (%1$d EP)</string>
+    <string name="iteminfo_effect_decrease_current_ap">%1$s EP ahitzen ditu</string>
+    <string name="iteminfo_effect_increase_current_ap">%1$s EP berreskuratzen ditu</string>
+    <string name="iteminfo_effect_increase_max_ap">Gehieneko EPak areagotzen ditu +%1$d</string>
+    <string name="iteminfo_effect_decrease_max_ap">Gehieneko EPak murrizten ditu -%1$d</string>
+    <string name="iteminfo_effect_increase_movecost">Mugitzeko kostua areagotzen du +%1$d EP</string>
+    <string name="iteminfo_effect_decrease_movecost">Mugitzeko kostua murrizten du -%1$d EP</string>
+    <string name="skill_title_weapon_chance">Armaren zehaztasuna</string>
+    <string name="skill_shortdescription_resistance_physical_capacity">Gaitasun fisikoen baldintzei erresistentzia</string>
+    <string name="skill_longdescription_speed">Gehieneko ekintza puntu (EP) kopurua areagotzen du %1$d trebetasun maila bakoitzeko.</string>
+    <string name="skill_longdescription_cleave">+%1$d ekintza puntu ematen ditu trebetasun mailako garaipen bakoitzean.</string>
+    <string name="skill_longdescription_fortitude">Geroko maila igoera bakoitzean , gehieneko osasun puntuak (OP) %1$d areagotuko dira trebetasun mailako. Hau ez da iraganerantz aplikatzen, soilik hemendik aurrerako maila igoeratara.</string>
+    <string name="skill_longdescription_resistance_mental">Baldintza mentalek kaltetzeko aukera %1$d %% gutxiagotzen du trebetasun maila bakoitzeko, gehienez %2$d %% arte. Honek munstroen erasoek sortutako Nahastuta edo Armaren ahulezia bezalako baldintzak barne hartzen ditu.</string>
+    <string name="skill_longdescription_resistance_physical_capacity">Baldintza fisikoek kaltetzeko aukera %1$d %% gutxiagotzen du trebetasun maila bakoitzeko, gehienez %2$d %% arte. Honek munstroen erasoek sortutako Nekea bezalako baldintzak barne hartzen ditu.</string>
+    <string name="actorcondition_categories_physical">Gaitasun fisikoa</string>
+    <string name="traitsinfo_base_max_ap">Gehieneko EP:</string>
+    <string name="preferences_optimized_drawing">Desgaitu hau akats grafikoak ikusten badituzu. Aukera hau gaitzean jokoak aldatutako parteak besterik ez ditu marraztuko fotograma bakoitzean.</string>
+    <string name="skill_longdescription_rejuvenation">Txanda bakoitzean (6 segundo), %%1$d %ko aukera bat dago aktibo dauden baldintza negatiboetako bat magnitude batean gutxiagotzeko. Hau gorputza eragiten duten efektu iragankor mota guztiei aplikatzen zaie, hala nola Nahastuta bezalako baldintza mentalak edo Nekea bezalako baldintza fisikoak, baita pozoia bezalako odol arazoei.</string>
+    <string name="skill_shortdescription_taunt">Erasotzaileak EPak galtzen ditu kale egitean</string>
+    <string name="skill_longdescription_taunt">Erasotzaileak kale egiten badu, %2$d ekintza puntu (EP) galtzeko %%1$d %ko aukera bat dago. Hau zure kontrako aurrez aurreko eraso guztiei aplikatzen zaie.</string>
+    <string name="menu_button_worldmap">Mapa</string>
+    <string name="menu_button_worldmap_failed">Ezin da mapa bistaratu.</string>
+    <string name="display_worldmap_not_available">Mapa ezin da kokapen honetan bistaratu.</string>
+    <string name="display_worldmap_title">Mapa</string>
+    <string name="iteminfo_effect_weapon_attack_cost">Erasoaren kostua: %1$d EP</string>
+    <string name="iteminfo_effect_increase_attack_cost">Erasoaren kostua %1$d EPtan areagotzen du</string>
+    <string name="iteminfo_effect_decrease_attack_cost">Erasoaren kostua %1$d EPtan txikiagotzen du</string>
+    <string name="iteminfo_effect_increase_use_cost">Borrokan objektuak erabiltzearen kostua %1$d EPtan areagotzen du</string>
+    <string name="iteminfo_effect_decrease_use_cost">Borrokan objektuak erabiltzearen kostua %1$d EPtan txikiagotzen du</string>
+    <string name="iteminfo_effect_increase_reequip_cost">Borrokan objektuak ekipatzearen kostua %1$d EPtan areagotzen du</string>
+    <string name="iteminfo_effect_decrease_reequip_cost">Borrokan objektuak ekipatzearen kostua %1$d EPtan txikiagotzen du</string>
+    <string name="heroinfo_reequip_cost">Berrekipatze kostua (EP):</string>
+    <string name="heroinfo_useitem_cost">Objektua erabiltzearen kostua (EP):</string>
+    <string name="skill_title_fightstyle_2hand">Borrokatze estiloa: Bi eskutako arma</string>
+    <string name="skill_title_fightstyle_weapon_shield">Borrokatze estiloa: Arma eta ezkutua</string>
+    <string name="skill_title_specialization_2hand">Espezializazioa: Bi eskutako arma</string>
+    <string name="skill_title_specialization_weapon_shield">Espezializazioa: Arma eta ezkutua</string>
+    <string name="skill_shortdescription_weapon_prof_unarmed">Hobea armarik gabe borrokatzen</string>
+    <string name="skill_shortdescription_fightstyle_dualwield">Astindu bi armekin aldi berean</string>
+    <string name="skill_shortdescription_fightstyle_2hand">Bi eskuak behar dituzten armak hobeto erabili</string>
+    <string name="skill_shortdescription_fightstyle_weapon_shield">Hobea arma eta ezkutua erabiltzean</string>
+    <string name="skill_shortdescription_specialization_2hand">Bi eskutako armatan jaioa</string>
+    <string name="skill_shortdescription_specialization_weapon_shield">Arma eta ezkutua erabiltzen jaioa</string>
+    <string name="skill_longdescription_weapon_prof_unarmed">arma eta ezkutu gabe borrokatzean, irabazi %1$d erasotzeko aukera, %2$d kalte potentziala eta %3$d blokeatzeko aukera trebetasun mailako.</string>
+    <string name="combat_monsterhealth">OP:</string>
+    <string name="combat_result_monsterhit">%1$s(e)k jo dizu eta %2$d op kendu!</string>
+    <string name="combat_result_monsterhitcritical">%1$s(e)k kolpe kritiko bat lortu du eta %2$d op kendu!</string>
+    <string name="combat_result_herohit">%1$s jo duzu eta %2$d op kendu!</string>
+    <string name="combat_result_herohitcritical">%1$s(r)i kolpe kritikoa eman diozu eta %2$d op kendu!</string>
+    <string name="levelup_add_health">Areagotu osasuna (+%1$d OP)</string>
+    <string name="iteminfo_effect_decrease_current_hp">%1$s OP ahitzen ditu</string>
+    <string name="iteminfo_effect_increase_current_hp">%1$s OP berreskuratzen ditu</string>
+    <string name="iteminfo_effect_increase_max_hp">Gehieneko OP kopurua areagotzen du +%1$d</string>
+    <string name="iteminfo_effect_decrease_max_hp">Gehieneko OP kopurua txikiagotzen du +%1$d</string>
+    <string name="skill_longdescription_eater">+%1$d osasun puntu (OP) ematen ditu trebetasun mailako garaipen bakoitzean.</string>
+    <string name="skill_longdescription_regeneration">Berreskuratu +%1$d osasun puntu (OP) trebetasun mailako ondoan munstrorik ez dagoen txanda bakoitzean.</string>
+    <string name="traitsinfo_base_max_hp">Gehieneko OP:</string>
+    <string name="heroinfo_quests">Erronkak</string>
+    <string name="questlog_includecompleted_prompt">Aukeratu bistaratuko diren erronkak</string>
+    <string name="questlog_includecompleted_hidecompleted">Erronka aktiboak</string>
+    <string name="questlog_includecompleted_includecompleted">Erronka guztiak</string>
+    <string name="questlog_includecompleted_onlycompleted">Burututako erronkak</string>
+    <string name="preferences_dialog_confirmrest">Ohean atsedena hartu nahi duzun galdetzen du. Bestela, automatikoki hartuko duzu atsedena.</string>
+    <string name="iteminfo_displaytypes_quest">Erronka-objektua</string>
+    <string name="preferences_dialog_overwrite_savegame">Gordetako partida bat duen erretena aukeratzean gainidatzi nahi duzun galdetzen du.</string>
+    <string name="conversation_reward_quest_finished">[Burututako erronka: \"%1$s\"]</string>
+    <string name="conversation_reward_quest_updated">[Eguneratutako erronka: \"%1$s\"]</string>
+    <string name="heroinfo_gamestats_quests">Burututako erronkak</string>
+    <string name="combat_use">Erabili objektua</string>
+    <string name="combat_endturn">Bukatu txanda</string>
+    <string name="combat_flee">Ihes</string>
+    <string name="combat_begin_flee">Borrokatik ihes egin dezakezu norabidean ukituz.</string>
+    <string name="combat_flee_failed">Ezin izan duzu ihes egin!</string>
+    <string name="combat_monsteraction">%1$s erasotzen ari da.</string>
+    <string name="combat_result_monstermiss">%1$s(e)k huts egin du!</string>
+    <string name="combat_result_heromiss">Zure erasoak huts egin du.</string>
+    <string name="combat_result_herokillsmonster">%1$s hil da!</string>
+    <string name="combat_hero_dies">Kontzientzia galdu duzu, baina zorionez bizirik esnatu zara, nahastuta eta nekatuta. %1$d esperientzia puntu galdu dituzu.</string>
+    <string name="combat_miss_animation_message">HUTSA</string>
+    <string name="inventory_info">Info</string>
+    <string name="inventory_equip">Ekipatu</string>
+    <string name="inventory_unequip">Kendu</string>
+    <string name="inventory_use">Erabili</string>
+    <string name="inventory_drop">Bota</string>
+    <string name="inventory_item_used">%1$s erabili duzu.</string>
+    <string name="inventory_item_dropped">%1$s bota duzu.</string>
+    <string name="inventory_item_equipped">%1$s ekipatu duzu.</string>
+    <string name="dialog_loot_pickall">Jaso guztia</string>
+    <string name="dialog_loot_foundgold">%1$d txanpon aurkitu dituzu.</string>
+    <string name="dialog_loot_pickedupitem">Objektu bat jaso duzu.</string>
+    <string name="dialog_loot_pickedupitems">%1$d objektu jaso dituzu.</string>
+    <string name="dialog_groundloot_title">Objektuak</string>
+    <string name="dialog_groundloot_message">Objektu batzuk aurkitu dituzu.</string>
+    <string name="dialog_monsterloot_title">Garaipena</string>
+    <string name="dialog_monsterloot_message">Norgehiagokatik bizirik atera zara.</string>
+    <string name="dialog_monsterloot_gainedexp">%1$d esperientzia puntu irabazi dituzu.</string>
+    <string name="monster_difficulty_veryeasy">Oso erraza</string>
+    <string name="monster_difficulty_easy">Erraza</string>
+    <string name="monster_difficulty_normal">Arrunta</string>
+    <string name="monster_difficulty_hard">Zaila</string>
+    <string name="monster_difficulty_veryhard">Oso zaila</string>
+    <string name="monster_difficulty_impossible">Ezinezkoa</string>
+    <string name="actorinfo_class">Mota:</string>
+    <string name="actorinfo_difficulty">Zailtasuna:</string>
+    <string name="actorinfo_health">Osasuna:</string>
+    <string name="actorinfo_attack">Erasoa:</string>
+    <string name="actorinfo_defense">Defentsa:</string>
+    <string name="actorinfo_basetraits">Oinarrizko borroka estatistikak (ekipamendu eta trebetasunik gabe)</string>
+    <string name="actorinfo_currenttraits">Borroka estatistikak (orain)</string>
+    <string name="traitsinfo_attack_chance">Erasorako aukera:</string>
+    <string name="traitsinfo_attack_damage">Erasoaren kaltea:</string>
+    <string name="traitsinfo_criticalhit_skill">Kolpe kritikorako trebetasuna:</string>
+    <string name="traitsinfo_criticalhit_multiplier">Kritikoaren multiplikatzailea:</string>
+    <string name="traitsinfo_defense_chance">Blokeatzearen aukera:</string>
+    <string name="traitsinfo_defense_damageresist">Kalteari erresistentzia:</string>
+    <string name="iteminfo_category">Kategoria:</string>
+    <string name="iteminfo_action_use">Erabili</string>
+    <string name="iteminfo_action_equip">Ekipatu</string>
+    <string name="iteminfo_action_unequip">Kendu</string>
+    <string name="startscreen_continue">Jarraitu partida</string>
+    <string name="startscreen_newgame">Partida berria</string>
+    <string name="startscreen_newgame_confirm">Uneko partida eta pertsonaia galduko dituzu, ziur partida berria hasi nahi duzula?</string>
+    <string name="startscreen_about">Honi buruz/Laguntza</string>
+    <string name="startscreen_enterheroname">Idatzi heroiaren izena</string>
+    <string name="startscreen_load">Kargatu</string>
+    <string name="conversation_rewardexp">[%1$d esperientzia puntu irabazi dituzu]</string>
+    <string name="conversation_rewardgold">[%1$d txanpon lortu dituzu]</string>
+    <string name="conversation_lostgold">[%1$d txanpon galdu dituzu]</string>
+    <string name="shop_buyitem">Erosi (%1$d txanpon)</string>
+    <string name="shop_sellitem">Saldu (%1$d txanpon)</string>
+    <string name="shop_yourgold">Zure txanponak: %1$d</string>
+    <string name="preferences_dialog_monsterloot">Aukeratu borrokaren emaitza nola bistaratu (txanponak, esperientzia, objektuak).</string>
+    <string name="bulkselection_totalcost_buy">Kostua guztira: %1$d txanpon</string>
+    <string name="bulkselection_totalcost_sell">Kostua guztira: %1$d txanpon</string>
+    <string name="skill_shortdescription_coinfinder">Txanponak aurkitzeko aukera gehiago</string>
+    <string name="skill_longdescription_barter">Trebetasun maila bakoitzeko erosi eta saltzean txanpon kopurua ehuneko %1$d hobetzen da.</string>
+    <string name="skill_longdescription_coinfinder">Munstroek txanponak botatzeko aukera %1$d %% areagotzen du eta bototako txanpon kopurua %2$d %% areagotzen du trebetasun maila bakoitzeko (munstroak bota dezakeen gehieneko kopurua arte).</string>
+    <string name="heroinfo_gamestats_spent_gold">Dendatan gastatutako txanponak</string>
+    <string name="conversation_rewarditem">[Objektu bat lortu duzu]</string>
+    <string name="conversation_rewarditems">[%1$d objektu lortu dituzu]</string>
+    <string name="conversation_next">Hurrengoa</string>
+    <string name="conversation_leave">Utzi</string>
+    <string name="shop_buy">Erosi</string>
+    <string name="shop_sell">Saldu</string>
+    <string name="shop_infoitem">Info</string>
+    <string name="shop_item_bought">%1$s erosita.</string>
+    <string name="shop_item_sold">%1$s salduta.</string>
+    <string name="levelup_title">Igo mailaz</string>
+    <string name="levelup_description">Ongi etorria %1$d mailara!</string>
+    <string name="levelup_buttontext">Igo mailaz</string>
+    <string name="levelup_add_health_description">Gehitu %1$d zure gehieneko osasunera.</string>
+    <string name="levelup_add_attackchance">Areagotu erasoaren aukera (+%1$d)</string>
+    <string name="levelup_add_attackchance_description">%1$d puntu gehitzen dizkio zure oinarrizko erasotzeko aukerari.</string>
+    <string name="levelup_add_attackdamage">Areagotu erasoaren kaltea (+%1$d)</string>
+    <string name="levelup_add_attackdamage_description">%1$d puntu gehitzen dizkio zure oinarrizko erasoaren kalteari.</string>
+    <string name="levelup_add_blockchance">Areagotu blokeatzeko aukera (+%1$d)</string>
+    <string name="levelup_add_blockchance_description">%1$d puntu gehitzen dizkio zure oinarrizko blokeatzeko aukerari.</string>
+    <string name="dialog_rest_title">Hartu atsedena</string>
+    <string name="dialog_rest_confirm_message">Hemen hartu nahi duzu atsedena?</string>
+    <string name="dialog_rest_message">Atsedena hartu duzu eta osasun osoa berreskuratu duzu.</string>
+    <string name="about_button1">Laguntza</string>
+    <string name="about_button2">Egileak</string>
+    <string name="about_button3">Lizentzia</string>
+    <string name="dialog_newversion_title">Ongi etorri</string>
+    <string name="dialog_newversion_message">Eskerrik asko Andorren bidea deskargatzeagatik
+\n
+\n Kontuan izan BUKATU GABEKO LANA dela oraindik Andorren bidearen bertsio hau, honek esan nahi du mapa guztiak ez daudela osorik.
+\n Bisitatu proiektuaren foroak jokoari buruz beste jokalari batzuekin hitz egiteko edo jokoa honbetzen laguntzeko (ikusi honi buruz atala).
+\n
+\nZure iruzkinak ongi etorriak dira!</string>
+    <string name="questlog_queststatus">Egoera: %1$s</string>
+    <string name="questlog_queststatus_inprogress">Abian</string>
+    <string name="questlog_queststatus_completed">Burututa</string>
+    <string name="preferences_display_category">Bistaratzea</string>
+    <string name="preferences_display_fullscreen_title">Pantaila osoan</string>
+    <string name="preferences_display_fullscreen">Jokoa pantaila osoan bistaratzen du (berrabiaraztea eskatzen du)</string>
+    <string name="preferences_dialog_category">Elkarrizketaren berrespena</string>
+    <string name="preferences_dialog_confirmrest_title">Berretsi atsedena</string>
+    <string name="preferences_dialog_confirmattack_title">Berretsi erasoa</string>
+    <string name="preferences_dialog_confirmattack">\'... erasotu nahi duzu?\' elkarrizketa koadroa bistaratzen du munstro bat erasotzean.</string>
+    <string name="preferences_dialog_monsterloot_title">Erakutsi borrokaren irabaziak</string>
+    <string name="preferences_combat_category">Borroka</string>
+    <string name="preferences_combat_speed_title">Borrokaren abiadura</string>
+    <string name="preferences_combat_speed">Zehaztu munstroek zeinen azkar erasotuko duten.</string>
+    <string name="preferences_display_loot_dialog">Beti erakutsi irabazien elkarrizketa koadroa</string>
+    <string name="preferences_display_loot_dialog_on_items">Erakutsi irabazien elkarrizketa koadroa objektuak aurkitzean</string>
+    <string name="preferences_display_loot_dialog_on_items_or_toast">Elkarrizketa koadroa objektuentzako, bestela jakinarazpena</string>
+    <string name="preferences_display_loot_toast">Erakutsi jakinarazpen labur bat</string>
+    <string name="preferences_display_loot_toast_on_items">Erakutsi jakinarazpena soilik objektuak aurkitzean</string>
+    <string name="preferences_display_loot_never">Ez erakutsi</string>
+    <string name="preferences_attackspeed_instant">Berehalakoa (animaziorik gabe)</string>
+    <string name="preferences_attackspeed_fast">Azkarra</string>
+    <string name="preferences_attackspeed_normal">Arrunta</string>
+    <string name="preferences_attackspeed_slow">Motela</string>
+    <string name="preferences_movement_category">Mugimendua</string>
+    <string name="preferences_movementmethod_title">Mugitzeko metodoa</string>
+    <string name="preferences_movementmethod">Mugitzeko eta oztopoak kudeatzeko metodo mota.</string>
+    <string name="preferences_movementmethods_straight">Zuzen (jatorrizkoa)</string>
+    <string name="preferences_movementmethods_avoid">Objektuak ekidinez</string>
+    <string name="actorinfo_currentconditions">Baldintza aktiboak</string>
+    <string name="actorcondition_info_removes_all">%1$s guztia kentzen du</string>
+    <string name="iteminfo_effect_chance_of">%1$s aukera %2$s lortzeko</string>
+    <string name="iteminfo_effect_duration">(%1$d txanda)</string>
+    <string name="iteminfo_effect_works_on_source">Jatorrian</string>
+    <string name="iteminfo_effect_works_on_target">Xedean</string>
+    <string name="iteminfo_effect_works_when_hitting_target">Xedeari ematean</string>
+    <string name="iteminfo_effect_works_when_killing_target">Hilketa bakoitzean</string>
+    <string name="iteminfo_effect_works_when_used">Erabiltzean</string>
+    <string name="iteminfo_effect_works_when_equipped">Ekipatzean</string>
+    <string name="preferences_display_scaling_factor_title">Eskala faktorea</string>
+    <string name="preferences_display_scaling_factor">Jokoan dena handiagoa edo txikiagoa ikustea dakar.</string>
+    <string name="preferences_display_scaling_factor_normal">Tamaina arrunta</string>
+    <string name="preferences_display_scaling_factor_50_percent_larger">1,5 aldiz bere tamaina</string>
+    <string name="preferences_display_scaling_factor_double">Tamaina bikoitza</string>
+    <string name="inventory_assign">Esleitu erreten azkarra</string>
+    <string name="inventory_assign_slot1">1. erretena</string>
+    <string name="inventory_assign_slot2">2. erretena</string>
+    <string name="inventory_assign_slot3">3. erretena</string>
+    <string name="inventory_unassign">Kendu erreten azkarra</string>
+    <string name="preferences_movement_dpad_position_title">d-pad birtuala</string>
+    <string name="preferences_movement_dpad_position">Pantailan norabide gezi birtualak kokatzen ditu, mugimendua kontrolatzeko.</string>
+    <string name="preferences_movement_dpad_minimizeable_title">d-pad txikigarria</string>
+    <string name="preferences_movement_dpad_positions_disabled">Desgaituta</string>
+    <string name="preferences_movement_dpad_positions_lower_right">behe eskumako erpina</string>
+    <string name="preferences_movement_dpad_minimizeable">d-pad birtuala aktibatuta badago, ezarpen honek d-pad hori zentroan sakatuz minimizatzea baimentzen du.</string>
+    <string name="preferences_movement_dpad_positions_lower_left">Behe-ezkerreko ertza</string>
+    <string name="preferences_movement_dpad_positions_center_bottom">Zentroan behean</string>
+    <string name="preferences_movement_dpad_positions_center_left">Zentroan ezkerrean</string>
+    <string name="preferences_movement_dpad_positions_center_right">Zentroan eskuman</string>
+    <string name="preferences_movement_dpad_positions_upper_left">Goi ezkerreko ertza</string>
+    <string name="preferences_movement_dpad_positions_upper_right">Goi eskumako ertza</string>
+    <string name="preferences_movement_dpad_positions_center_top">Zentroan goian</string>
+    <string name="actorconditioninfo_constant_effect">Eragin iraunkorra</string>
+    <string name="actorconditioninfo_effect_every_round">Txanda bakoitzean</string>
+    <string name="actorconditioninfo_effect_every_full_round">Txanda oso bakoitzean</string>
+    <string name="bulkselection_select_all">Guztiak</string>
+    <string name="bulkselection_sell_confirmation_title">Ziur?</string>
+    <string name="bulkselection_sell_confirmation">Ziur %1$s saldu nahi duzula? Objektu hau %2$s da eta agian ezin izango duzu berreskuratu.</string>
+    <string name="skill_title_weapon_dmg">Kolpe gogorra</string>
+    <string name="skill_title_barter">Merkataria</string>
+    <string name="skill_title_dodge">Saihestu</string>
+    <string name="skill_title_barkskin">Zuhaitz azala</string>
+    <string name="skill_title_more_criticals">Kritiko gehiago</string>
+    <string name="skill_title_better_criticals">Kritiko hobeak</string>
+    <string name="skill_title_speed">Borrokatzeko abiadura</string>
+    <string name="skill_title_coinfinder">Altxor bilatzailea</string>
+    <string name="skill_title_more_exp">Ikasle fina</string>
+    <string name="skill_title_cleave">Harakin aiztoa</string>
+    <string name="skill_title_eater">Gorpu jalea</string>
+    <string name="skill_title_fortitude">Indar gehiago</string>
+    <string name="skill_title_evasion">Ihesbidea</string>
+    <string name="skill_title_regeneration">Berrosatzea</string>
+    <string name="skill_title_lower_exploss">Porrotaren maisu</string>
+    <string name="skill_title_magicfinder">Magia aurkitzailea</string>
+    <string name="skill_title_resistance_mental">Gogo indartsua</string>
+    <string name="skill_title_resistance_physical_capacity">Gorputz iraunkorra</string>
+    <string name="skill_title_resistance_blood_disorder">Odol garbia</string>
+    <string name="skill_shortdescription_weapon_chance">Erasorako aukera gehiago</string>
+    <string name="skill_shortdescription_weapon_dmg">Erasoan kalte gehiago</string>
+    <string name="skill_shortdescription_barter">Prezio hobeak dendan</string>
+    <string name="skill_shortdescription_dodge">Blokeatzeko aukera gehiago</string>
+    <string name="skill_shortdescription_more_criticals">Trebetasun kritiko gehiago</string>
+    <string name="skill_shortdescription_better_criticals">Kalte kritiko gehiago</string>
+    <string name="skill_shortdescription_speed">Gehieneko ekintza puntu gehiago</string>
+    <string name="skill_shortdescription_evasion">Ihes egiteko aukera gehiago</string>
+    <string name="skill_shortdescription_magicfinder">Objektu magikoak aurkitzeko aukera gehiago</string>
+    <string name="change_locale_requires_restart">Hizkuntza aldatzeak berrabiaraztea eskatzen du. Aplikazioa itxi da.</string>
+    <string name="preferences_ui_use_localized_resources">Erabili interfazearen eta jokoaren edukiaren itzulpena, eskuragarri badago. (Berrabiaraztea eskatzen du)</string>
+    <string name="skill_shortdescription_barkskin">Kalteari erresistentzia</string>
+    <string name="skill_shortdescription_more_exp">Esperientzia gehiago munstroak hiltzean</string>
+    <string name="skill_shortdescription_cleave">Berreskuratu ekintza puntuak hilketa bakoitzean</string>
+    <string name="skill_shortdescription_eater">Berreskuratu osasun puntuak hilketa bakoitzean</string>
+    <string name="skill_shortdescription_fortitude">Areagotu osasuna mailaz igotze bakoitzean</string>
+    <string name="skill_shortdescription_regeneration">Berreskuratu osasuna txanda bakoitzean</string>
+    <string name="skill_shortdescription_lower_exploss">Gutxiagotu galdutako esperientzia kontzientzia galtzean</string>
+    <string name="skill_shortdescription_resistance_mental">Baldintza mentalei erresistentzia</string>
+    <string name="skill_shortdescription_resistance_blood_disorder">Odol arazoei erresistentzia</string>
+    <string name="skill_longdescription_weapon_chance">Erasoaren aukera ehuneko %1$d areagotzen du trebetasun maila bakoitzeko.</string>
+    <string name="skill_longdescription_weapon_dmg">Gehieneko kaltea %1$d areagotzen du trebetasun maila bakoitzeko.</string>
+    <string name="skill_longdescription_dodge">Blokeatzeko aukera ehuneko %1$d areagotzen du trebetasun maila bakoitzeko.</string>
+    <string name="skill_longdescription_barkskin">Kalteari erresistentzia areagotzen du %1$d trebetasun maila bakoitzeko.</string>
+    <string name="skill_longdescription_more_criticals">Ekipoak emandako kolpe kritikorako gaitasuna areagotzen du %%1$d % trebetasun maila bakoitzeko.</string>
+    <string name="skill_longdescription_better_criticals">Ekipoak emandako multiplikatzaile kritikoa areagotzen du %%1$d % trebetasun maila bakoitzeko.</string>
+    <string name="about_contents1">Ongi etorri Andorren bidera, Androiderako roguelike RPG libre bat.&lt;br /&gt;
+\n &lt;br /&gt;
+\n &lt;a href=http://andorstrail.com/&gt;andorstrail.com webgunean jokoaren foroetan galderak egin eta jokoari buruz eztabaidatu dezakezu.&lt;/a&gt;&lt;br /&gt;
+\n &lt;br /&gt;
+\n &lt;a href=http://andorstrail.com/wiki&gt;Jokoaren Wikian Andorren bidearen munduari buruzko informazioa dago, besteak beste.&lt;/a&gt;&lt;br /&gt;
+\n &lt;br /&gt;
+\n &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;Proiektuaren iturburu kodea github.com webgunean dago garatzaileen eskura.&lt;/a&gt;&lt;br /&gt;
+\n &lt;br /&gt;
+\n Foroetan ongi etorria zara, zatoz beste jokalariekin jokoari buruz eztabaidatzera.&lt;br /&gt;</string>
+    <string name="skill_longdescription_more_exp">Munstroak garaitzean lortutako esperientzia areagotzen du %%1$d % trebetasun maila bakoitzeko.</string>
+    <string name="skillinfo_action_levelup">Igo mailaz</string>
+    <string name="skill_current_level">Uneko maila: %1$d</string>
+    <string name="skill_current_level_with_maximum">Uneko maila: %1$d / %2$d</string>
+    <string name="skill_prerequisite_other_skill">Gaitasun hau mailaz igotzeko, gutxienez %2$s trebetasunaren %1$d maila behar duzu.</string>
+    <string name="preferences_dialog_overwrite_savegame_title">Berretsi gordetako partidak gainidaztea</string>
+    <string name="combat_result_monstermoved">%1$s mugimendu.</string>
+    <string name="combat_log_title">Borrokaren egunkaria</string>
+    <string name="skill_title_weapon_prof_unarmed">Armarik gabeko borroka</string>
+    <string name="localize_resources_from_mo_filename">eu.mo</string>
+    <string name="dialog_recenter">Birzentratu</string>
     <string name="dialog_more">Gehiago</string>
     <string name="dialog_monsterencounter_conditions">Baldintzak</string>
     <string name="heroinfo_skill_categories">Kategoria</string>
@@ -414,4 +360,26 @@ Zure iruzkinak ongi etorriak dira!
     <string name="combat_condition_player_apply">%1$s-k eragiten dizu.</string>
     <string name="combat_condition_player_clear">%1$s-z garbi zaude.</string>
     <string name="combat_condition_player_immune">%1$s-k ez dizu eraginik egingo orain.</string>
+    <string name="iteminfo_effect_decrease_attack_damage_minmax">Erasoaren kaltea %1$d-%2$d murrizten du</string>
+    <string name="iteminfo_effect_decrease_attack_damage">Erasoaren kaltea %1$d murrizten du</string>
+    <string name="iteminfo_effect_increase_attack_damage_minmax">Erasoaren kaltea %1$d-%2$d areagotzen du</string>
+    <string name="iteminfo_effect_set_damage_modifier">Eraso aldatzailea: %1$d%%</string>
+    <string name="iteminfo_effect_increase_attack_damage">Erasoaren kaltea %1$d areagotzen du</string>
+    <string name="iteminfo_effect_weapon_attack_damage_minmax">Erasoaren kaltea: %1$d-%2$d</string>
+    <string name="iteminfo_effect_weapon_attack_damage">Erasoaren kaltea : %1$d</string>
+    <string name="iteminfo_effect_decrease_attack_chance">Eraso-aukera %1$d murrizten du</string>
+    <string name="iteminfo_effect_increase_attack_chance">Eraso-aukera %1$d areagotzen du</string>
+    <string name="iteminfo_effect_weapon_attack_chance">Eraso-aukera: %1$d</string>
+    <string name="iteminfo_displaytypes_rare">Bitxia</string>
+    <string name="iteminfo_displaytypes_extraordinary">Apartekoa</string>
+    <string name="iteminfo_displaytypes_legendary">Elezaharretakoa</string>
+    <string name="iteminfo_displaytypes_ordinary">Arrunta</string>
+    <string name="skill_longdescription_magicfinder">"Ezohiko objektuak aurkitzeko aukera maila bakoitzeko %% %1$d  areagotzen du."</string>
+    <string name="inventory_selectitem">Hautatu objektua esleitzeko</string>
+    <string name="iteminfo_effect_works_when_killed_by_attacker">Erasotzaileak hiltzean</string>
+    <string name="iteminfo_effect_works_when_hit_by_attacker">Erasotzaileak jotzean</string>
+    <string name="iteminfo_effect_works_on_attacker">Erasotzailean</string>
+    <string name="shop_item_sort">Ordenatu</string>
+    <string name="inventory_category_quest">Erronkako objektua</string>
+    <string name="combat_log_noentries">Sarrerarik ez oraindik.</string>
 </resources>

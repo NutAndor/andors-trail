@@ -355,6 +355,12 @@
     <property name="spawngroup" value="cave_troll_1"/>
    </properties>
   </object>
+  <object id="28" name="lakecave0_15" type="spawn" x="288" y="288" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="spawngroup" value="cave_troll_7"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
  <objectgroup name="Replace">

@@ -1260,5 +1260,34 @@
         "monsterClass":"undead",
         "spawnGroup":"erwyn_skel_cymbal",
         "phraseID":"erwyn_skel_band"
+    },
+    {
+        "id":"cave_troll_7",
+        "name":"Cave troll",
+        "iconID":"monsters_tometik5:14",
+        "maxHP":230,
+        "maxAP":10,
+        "moveCost":5,
+        "unique":1,
+        "monsterClass":"giant",
+        "attackDamage":{
+            "min":1,
+            "max":15
+        },
+        "spawnGroup":"cave_troll_7",
+        "droplistID":"cave_troll_1",
+        "attackCost":5,
+        "attackChance":60,
+        "blockChance":40,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"10"
+                }
+            ]
+        }
     }
 ]

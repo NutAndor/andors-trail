@@ -179,7 +179,14 @@
         "replies":[
             {
                 "text":"Never mind. Here is the sword. We had better destroy it.",
-                "nextPhraseID":"vilegard_smith_xul_8"
+                "nextPhraseID":"vilegard_smith_xul_8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"xulviir0",
+                        "value":1
+                    }
+                ]
             },
             {
                 "text":"I'll go find some of those crystals.",

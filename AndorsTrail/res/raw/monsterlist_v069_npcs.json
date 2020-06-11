@@ -612,7 +612,6 @@
             "max":6
         },
         "spawnGroup":"blackwater_throneguard",
-        "faction":"fct_bwm",
         "phraseID":"blackwater_throneguard",
         "attackCost":5,
         "attackChance":60,

@@ -258,6 +258,8 @@ public final class ResourceLoader {
 		final Size sz7x1 = new Size(7, 1);
 		final Size sz20x12 = new Size(20, 12);
 		final Size mapTileSize = new Size(16, 8);
+		final Size sz8x8 = new Size(8, 8);
+
 
 		loader.prepareTileset(R.drawable.char_hero, "char_hero", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.char_hero_maksiu_girl_01, "char_hero_maksiu_girl_01", sz1x1, sz1x1, mTileSize);
@@ -325,7 +327,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.monsters_man1, "monsters_man1", sz1x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_men, "monsters_men", new Size(9, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_men2, "monsters_men2", new Size(10, 1), sz1x1, mTileSize);
-		loader.prepareTileset(R.drawable.monsters_misc, "monsters_misc", new Size(12, 1), sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.monsters_misc, "monsters_misc", new Size(13, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rats, "monsters_rats", new Size(5, 1), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_redshrike1, "monsters_redshrike1", sz7x1, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.monsters_rltiles1, "monsters_rltiles1", new Size(20, 8), sz1x1, mTileSize);
@@ -406,6 +408,7 @@ public final class ResourceLoader {
 		loader.prepareTileset(R.drawable.map_shop_1, "map_shop_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_sign_ladder_1, "map_sign_ladder_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_table_1, "map_table_1", mapTileSize, sz1x1, mTileSize);
+		loader.prepareTileset(R.drawable.map_table_2, "map_table_2", new Size(14, 8), sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_trail_1, "map_trail_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_1, "map_transition_1", mapTileSize, sz1x1, mTileSize);
 		loader.prepareTileset(R.drawable.map_transition_2, "map_transition_2", mapTileSize, sz1x1, mTileSize);

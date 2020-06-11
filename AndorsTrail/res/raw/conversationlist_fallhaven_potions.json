@@ -21,6 +21,17 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"Can you sell me a special crystal vial?",
+                "nextPhraseID":"fallhaven_potions_offer_crystal_vial",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"quick_glance",
+                        "value":78
+                    }
+                ]
             }
         ]
     },

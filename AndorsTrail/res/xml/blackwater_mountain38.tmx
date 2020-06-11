@@ -1,44 +1,4 @@
 <?xml version="1.0" ?><!DOCTYPE map  SYSTEM 'http://mapeditor.org/dtd/1.0/map.dtd'><map height="19" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30">
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  <tileset firstgid="1" name="map_bed_1" tileheight="32" tilewidth="32">
   <image height="256" source="../drawable/map_bed_1.png" width="512"/>
  </tileset><tileset firstgid="129" name="map_border_1" tileheight="32" tilewidth="32">
@@ -184,6 +144,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="burhczyd_check6" type="script" x="640" y="384" width="64" height="96"/>
   <object height="32" name="sign_blackwater38_1" type="sign" width="32" x="832" y="160"/>
   <object height="32" name="sign_blackwater38_2" type="sign" width="32" x="224" y="192"/>
   <object height="32" name="sign_blackwater38_3" type="sign" width="32" x="96" y="544"/>

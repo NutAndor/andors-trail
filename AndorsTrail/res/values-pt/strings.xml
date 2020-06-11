@@ -153,10 +153,10 @@
 	-->
     <string name="about_contents3">Este programa é um programa livre. Podes redistribuí-lo e/ou alterá-lo segundo os termos da licença GNU General Public License, como publicada pela Free Software Foundation; quer a versão 2 da Licença, ou (caso o desejes) qualquer versão posterior.&lt;br /&gt; &lt;br /&gt; Este programa é distribuído com a esperança de ser útil, mas SEM NENHUMA GARANTIA; nem mesmo a garantia implícita de MERCANTABILIDADE ou PREPARADA PARA UMA DETERMINADA TAREFA. Vê a licença GNU General Public License para mais detalhes.&lt;br /&gt; &lt;br /&gt; Deves ter recebido uma cópia da licença GNU General Public License junto com este programa; se tal não aconteceu, acede a &lt;a href=http://www.gnu.org/licenses&gt;http://www.gnu.org/licenses&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; Para acesso ao código-fonte e pedidos de novas funcionalidades, visita a página do projeto em &lt;a href=http://code.google.com/p/andors-trail/&gt;http://code.google.com/p/andors-trail/&lt;/a&gt;&lt;br /&gt;</string>
     <string name="dialog_newversion_title">Bem-vindo</string>
-    <string name="dialog_newversion_message">Obrigado por descarregares o Andor\'s Trail!
-\n
-\n Toma nota que esta versão do Andor\'s Trail é uma VERSÃO EM DESENVOLVIMENTO, o que quer dizer que ainda há mapas que não estão finalizados.
-\n Por favor, visita os fóruns de discussão do projeto para entrares em contacto com outros jogadores ou para ajudar a tornar o jogo ainda melhor (ver sobre).
+    <string name="dialog_newversion_message">Obrigado por baixar o Andor\'s Trail! 
+\n 
+\n Toma nota que esta versão do Andor\'s Trail é uma VERSÃO EM DESENVOLVIMENTO, o que quer dizer que ainda há mapas que não estão finalizados. 
+\n Por favor, visita os fóruns de discussão do projeto para entrares em contacto com outros jogadores ou para ajudar a tornar o jogo ainda melhor (ver sobre). 
 \n 
 \n Muito obrigado por todos os comentários e sugestões!</string>
     <string name="questlog_includecompleted_prompt">Seleciona as missões a mostrar</string>
@@ -454,7 +454,7 @@
     <string name="skill_shortdescription_weapon_prof_axe">Melhor na luta com machados</string>
     <string name="skill_shortdescription_weapon_prof_blunt">Melhor na luta com cacetetes</string>
     <string name="skill_shortdescription_weapon_prof_unarmed">Melhor na luta sem armas</string>
-    <string name="skill_shortdescription_armor_prof_shield">Faça um melhor uso de escudos</string>
+    <string name="skill_shortdescription_armor_prof_shield">Faça um melhor uso de escudos e aparar armas</string>
     <string name="skill_shortdescription_armor_prof_unarmored">Melhor na luta sem armadura</string>
     <string name="skill_shortdescription_armor_prof_light">Faça um melhor uso de armaduras leves</string>
     <string name="skill_shortdescription_armor_prof_heavy">Faça um melhor uso de armaduras pesadas</string>
@@ -489,7 +489,7 @@
 \nCada nível de habilidade aumenta a chance de ataque da arma com %1$d %% da chance de ataque original da arma, e a chance de bloqueio de escudos em %2$d %% da chance de bloqueio original do escudo.</string>
     <string name="skill_longdescription_specialization_dualwield">Aumenta a chance de ataque de ambas as armas empunhadas e dá um adicional %1$d %% da chance de ataque original das armas, além dos benefícios oferecidos pela habilidade do estilo da arma. A chance de bloqueio de ambas as armas também são aumentadas em %2$d %% da chance de bloqueio original das armas.</string>
     <string name="skill_longdescription_specialization_2hand">Aumenta o potencial das dano de armas de duas mãos num adicional de %1$d %% do potencial de dano original, em acréscimo aos benefícios dados pela habilidade estilo de arma. A chance de ataque das armas de duas mãos são, também, aumentadas em %2$d %% das suas chances de ataque originais.</string>
-    <string name="skill_longdescription_specialization_weapon_shield">Aumenta a chance de ataque e o potencial de dano das armas. A chance de ataque é aumentada em %1$d %% da chance de ataque original, e o potencial de dano é aumentado em %2$d %% do potencial de dano original.</string>
+    <string name="skill_longdescription_specialization_weapon_shield">Aumenta a chance de ataque e o potencial de dano das armas na mão principal. A chance de ataque é aumentada em %1$d %% da chance de ataque original, e o potencial de dano é aumentado em %2$d %% do potencial de dano original.</string>
     <string name="preferences_quickslots_placement">Posição do acesso rápido</string>
     <string name="preferences_quickslots_placement_summary">Onde colocar o acesso rápido</string>
     <string name="preferences_quickslots_placements_horizontal_center_bottom">Centro inferior</string>
@@ -560,4 +560,42 @@
     <string name="preferences_high_quality_filters">Desativa isto se tiveres problemas de desempenho em mapas filtrados (por exemplo em cavernas escuras). Esta opção ativada faz com que o jogo use filtros de cor avançados, em vez de sobreposições de cores sólidas.</string>
     <string name="inventory_category_quest">Item de missão</string>
     <string name="storage_permissions_mandatory">O acesso ao armazenamento é obrigatório para o jogo Andor\'s Trail conseguir guardar jogos e o mapa mundial. A fechar o jogo Andor\'s Trail.</string>
+    <string name="dialog_loading_failed_cheat">O Andor\'s Trail não conseguiu carregar o arquivo savegame. Este arquivo savegame já foi continuado.</string>
+    <string name="skill_title_weapon_prof_pole">Proficiência em armas</string>
+    <string name="skill_title_fightstyle_unarmed_unarmored">Estilo de luta: Caminho do monge</string>
+    <string name="menu_save_switch_character">Salvar permite mudar para outro personagem e depois continuar o jogo atual. Deseja salvar e sair do jogo atual\?</string>
+    <string name="menu_save_switch_character_title">Escolha o personagem</string>
+    <string name="preferences_language_description">Selecione o idioma O inglês é usado se o idioma do sistema não estiver disponível ou o conteúdo não tiver sido traduzido. (Requer reinicialização)</string>
+    <string name="preferences_language">Idioma</string>
+    <string name="preferences_language_default">Idioma do sistema</string>
+    <string name="preferences_display_scaling_factor_75_percent">0.75x tamanho</string>
+    <string name="preferences_display_scaling_factor_50_percent">Metade do tamanho</string>
+    <string name="dialog_permission_information">"O Andor\'s Trail grava jogos salvos no armazenamento acessível ao usuário no seu dispositivo. Isso permite que você faça backup facilmente de seus jogos salvos ou transfira-os para um novo dispositivo. Visite nossos fóruns para mais informações.
+\n
+\nO Andor\'s Trail não usa o acesso ao seu dispositivo para nenhuma outra finalidade e não acessa a Internet. O  Andor\'s Trail é de código aberto; as fontes podem ser encontradas no github."</string>
+    <string name="dialog_permission_information_title">Carregando e salvando jogos</string>
+    <string name="dialog_newversion_permission_information">"
+\n
+\nPara salvar e carregar seus jogos (e somente para esse fim), o Andor\'s Trail solicitará permissão para acessar seu armazenamento."</string>
+    <string name="startscreen_mode_1_life">Permadeath (1 vida, 1 save)</string>
+    <string name="startscreen_mode_3_lives">Extremo (5 vidas, 1 save)</string>
+    <string name="startscreen_mode_10_lives">Muito difícil (10 vidas, 1 save)</string>
+    <string name="startscreen_mode_50_lives">Hard (50 vidas, 1 save)</string>
+    <string name="startscreen_mode_unlimited_lives">Médio (Vidas ilimitadas, 1 save)</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Padrão (Vidas ilimitadas e saves)</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">O carregamento deste jogo exclui seu slot de salvamento. Você precisará salvar novamente antes de mudar para outro jogo.</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Atenção</string>
+    <string name="startscreen_error_loading_empty_slot">Não é possível carregar de um slot vazio.</string>
+    <string name="dialog_game_over_title">Fim de jogo.</string>
+    <string name="startscreen_error_loading_game">Erro ao carregar o jogo</string>
+    <string name="startscreen_load_game_confirm">O jogo atual não é salvo e você perderá seu personagem.</string>
+    <string name="startscreen_load_game">Carregar jogo</string>
+    <string name="startscreen_game_mode">Modo</string>
+    <string name="heroinfo_one_life">Permadeath (1 vida)</string>
+    <string name="heroinfo_unlimited_lives">Vidas ilimitadas, 1 save</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Padrão
+\n(Vidas ilimitadas e saves)</string>
+    <string name="heroinfo_mode">Modo</string>
+    <string name="rip_startscreen">(Descanse em paz)</string>
+    <string name="dialog_game_over_text">Você dá seu último suspiro e morre.</string>
 </resources>

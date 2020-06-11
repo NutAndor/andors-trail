@@ -20,7 +20,7 @@
     {
         "id":"hunters_sword",
         "iconID":"items_misc_5:42",
-        "name":"Hunters Sword",
+        "name":"Hunter's Sword",
         "displaytype":"extraordinary",
         "category":"lsword",
         "description":"When venery is your game, you need a superior sword.",
@@ -32,13 +32,11 @@
             "increaseAttackCost":4,
             "increaseAttackChance":25
         },
-        "hitEffect":{
+        "killEffect":{
             "increaseCurrentAP":{
                 "min":1,
-                "max":1
-            }
-        },
-        "killEffect":{
+                "max":3
+            },
             "conditionsSource":[
                 {
                     "condition":"rage_minor",
@@ -104,7 +102,8 @@
             "increaseAttackCost":14,
             "increaseAttackChance":20,
             "increaseCriticalSkill":5,
-            "setCriticalMultiplier":3.0
+            "setCriticalMultiplier":3.0,
+            "setNonWeaponDamageModifier":320
         },
         "hitEffect":{
             "conditionsTarget":[

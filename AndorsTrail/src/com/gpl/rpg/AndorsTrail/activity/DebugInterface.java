@@ -183,13 +183,13 @@ public final class DebugInterface {
 						controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "fallhaven_ne", "clothes", 0, 0);
 					}
 				})
-				,new DebugButton("prim", new OnClickListener() {
+				,new DebugButton("pm", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "blackwater_mountain29", "south", 0, 0);
 					}
 				})
-				,new DebugButton("bwm", new OnClickListener() {
+				,new DebugButton("bm", new OnClickListener() {
 					@Override
 					public void onClick(View arg0) {
 						controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "blackwater_mountain43", "south", 0, 0);
@@ -237,6 +237,12 @@ public final class DebugInterface {
 						controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "mountainlake5", "north", 0, 0);
 					}
 				})
+				,new DebugButton("ws", new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				controllerContext.movementController.placePlayerAsyncAt(MapObject.MapObjectType.newmap, "woodsettlement0", "east", 0, 0);
+			}
+		})
 		}));
 		buttonList.addAll(tpButtons);
 		

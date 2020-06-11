@@ -216,7 +216,7 @@
     <string name="iteminfo_effect_increase_movecost">Penalidade de custo por movimento em +%1$d AP</string>
     <string name="iteminfo_effect_decrease_movecost">Diminui o custo de movimento em %1$d AP</string>
     <string name="preferences_display_scaling_factor_title">Fator de escala</string>
-    <string name="preferences_display_scaling_factor">Faz a exibição do jogo exibir tudo maior.</string>
+    <string name="preferences_display_scaling_factor">Faz a exibição do jogo mostrar tudo maior ou menor.</string>
     <string name="preferences_display_scaling_factor_normal">Tamanho Normal</string>
     <string name="preferences_display_scaling_factor_50_percent_larger">1.5x o tamanho</string>
     <string name="preferences_display_scaling_factor_double">Tamanho Duplo</string>
@@ -565,4 +565,38 @@ Andor\'s Trail foi fechado.</string>
     <string name="preferences_display_theme_charcoal">Obsidiana</string>
     <string name="change_theme_requires_restart">Alterar o tema da interface do usuário requer reinicialização. O jogo \'Trilha de Andor\' foi fechado.</string>
     <string name="storage_permissions_mandatory">O acesso ao armazenamento é obrigatório para o jogo \"Andor\'s Trail\" lidar com salvamento de jogos e com o mapa mundial. Fechando jogo \"Andor\'s Trail\".</string>
+    <string name="startscreen_error_loading_game">Erro ao carregar o jogo</string>
+    <string name="startscreen_load_game">Carregar jogo</string>
+    <string name="startscreen_game_mode">Modo</string>
+    <string name="heroinfo_one_life">Morte permanente (1 vida)</string>
+    <string name="heroinfo_limited_lives">Vidas limitadas (%1$d/%2$d esquerda)</string>
+    <string name="heroinfo_unlimited_lives_and_saves">Padrão
+\n(Vidas e salvamentos ilimitados)</string>
+    <string name="heroinfo_mode">Modo</string>
+    <string name="dialog_loading_failed_cheat">O Andor\'s Trail não conseguiu carregar o arquivo salvo. Este arquivo salvo já foi continuado.</string>
+    <string name="heroinfo_unlimited_lives">Vidas ilimitadas, 1 salvamento</string>
+    <string name="dialog_game_over_title">Fim de jogo</string>
+    <string name="skill_longdescription_weapon_prof_pole">Para cada nível de habilidade, a chance de ataque aumenta ao usar alabardas para %1$d %% da chance de ataque base do item, aumentando defesa para %2$d %% da chance de defesa base do item, e aumenta a a habilidade critica para %3$d %% da chance de critico base do item.</string>
+    <string name="skill_title_weapon_prof_pole">Proficiência com alabardas</string>
+    <string name="skill_shortdescription_weapon_prof_pole">Melhor em lutas usando alabardas</string>
+    <string name="loadsave_empty_slot">%1$d. &lt;vazio&gt;</string>
+    <string name="menu_save_switch_character">Salvar permite que você troque para outro personagem e depois continue o jogo atual. Você quer salvar e sair do jogo atual\?</string>
+    <string name="menu_save_switch_character_title">Trocar de personagem</string>
+    <string name="preferences_language_description">Selecione a linguagem. Inglês será usado se o sistema de linguagem não estiver disponível ou se o conteúdo não foi traduzido. (requer reinicialização)</string>
+    <string name="preferences_language">Linguagem</string>
+    <string name="preferences_language_default">Sistema de linguagem</string>
+    <string name="preferences_display_scaling_factor_75_percent">Tamanho 0,75x</string>
+    <string name="preferences_display_scaling_factor_50_percent">Metade do tamanho</string>
+    <string name="startscreen_attention_slot_gets_delete_on_load">Atenção</string>
+    <string name="startscreen_attention_message_slot_gets_delete_on_load">O carregamento deste jogo exclui seu slot de salvamento. Você precisará salvar novamente antes de mudar para outro jogo.</string>
+    <string name="startscreen_mode_1_life">Morte permanente (1 vida, 1 salvamento)</string>
+    <string name="startscreen_mode_3_lives">Extremo (3 vidas, 1 salvamento)</string>
+    <string name="startscreen_mode_10_lives">Muito difícil (10 vidas, 1 salvamento)</string>
+    <string name="startscreen_mode_50_lives">Difícil (50 vidas, 1 salvamento)</string>
+    <string name="startscreen_mode_unlimited_lives">Médio (Vidas ilimitadas, 1 salvamento)</string>
+    <string name="startscreen_mode_unlimited_saves_and_lives">Padrão (Vidas e salvamentos ilimitados)</string>
+    <string name="startscreen_load_game_confirm">O jogo atual não esta salvo e você perderá o seu personagem.</string>
+    <string name="startscreen_error_loading_empty_slot">Não é possível carregar um espaço vazio.</string>
+    <string name="rip_startscreen">(DESCANSE EM PAZ)</string>
+    <string name="dialog_game_over_text">Você faz o último suspiro de vida e morre.</string>
 </resources>

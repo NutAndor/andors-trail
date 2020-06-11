@@ -227,6 +227,12 @@
     <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
+  <object name="burhczyd6e" type="spawn" x="480" y="128" width="32" height="64">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys"/>
 </map>

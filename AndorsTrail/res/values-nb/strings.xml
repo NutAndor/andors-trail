@@ -560,4 +560,7 @@
     <string name="storage_permissions_mandatory">Tilgang til lagring er påkrevd for at Andors sti skal kunne håndtere lagrede spill og verdenskartet. Lukker Andors sti.</string>
     <string name="dialog_game_over_title">Spill over</string>
     <string name="heroinfo_mode">Modus</string>
+    <string name="startscreen_load_game">Last inn spill</string>
+    <string name="startscreen_game_mode">Modus</string>
+    <string name="dialog_game_over_text">Du trekker siste åndedrag og kreperer.</string>
 </resources>

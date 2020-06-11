@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" nextobjectid="17">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="20" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="14">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -183,27 +183,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="20" height="30">
+ <layer id="1" name="Ground" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJzt1TEKgDAMheHQzfuvXqFK8QBVb1DrETyIhj6hk0MTUCTDR6b+JFNDRxQaRUc0w4DZ2mLper/BiinpscMVO6a0Z94zwVd7xphnvSs0Wh7/DhsVmtzxaC3C3r1bRCsLe7G6VdpiSXG3uqnV+osTBvy1VQ==
   </data>
  </layer>
- <layer name="Objects" width="20" height="30">
+ <layer id="2" name="Objects" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJx9VsFqG0EMXXxvQS4Z2EJy6p/0E/Id+YTc+hf9hN4DOSYG24unhySwjuuCISahji8+hfRgqJRInTfaWQvEbmalp/c0mnGOh1V1wr6pq2rLvmR/Zl+w/9Lnnqo38zFm34bpXdaj5i01XnB87qwQI/Z1kLDO4H2jeRvgh7mx7sb84PxTwDjn94vw7gv2Metq2Fvq5prN+dtK9T+ozlt+PjHWnca1lOIFM+r6Htalzk7rGYaYYVsO1m5DztfwMQ9z55RqWb9X1NX0H1/jp5An+KJTnrI+Ab7Wb7EJ6JRY0doC1yf2P+qbkNfZAyfENENtYjdHXC+kv6ch7w36FjARe+76bHj39I5n/TD9Zh7L5ndMOc8XxnhV/xuSTjPbN5sxz29G5f2eu17sKJ/1FeX9LO11QzkXrCu8pMYH1vxRdIP2Eh9vfXeCrcua4F+G1INGa/pcf2+IRdevEhc7S9gH6Uss1BAb9cxdaW4i9E3wf1L6Ltx+U55XmheP2RZ4+Zmwp4/xsW99o5z/qO7qsTxb8/cH8vPzVOJgOvDbFft1j2bZ8+9wF0t8U7grrR72tsRjpvEyV5c6DwvY90P7+uUzz2JImGLCLQ7zPNNqd92y7ufThDRv1p9Pg6rXcH+j6vFnt6Funvym1eyPA71z3Sz5fYw9Z83bCu497Dv2LZsZyvu3Vl5ij4MUg7N1daB/ezfDUmutOmeUfqv8OdnqnPgZLsX6c136v6aPXwv8Suc1Ql3U8Q86Y56k
   </data>
  </layer>
- <layer name="Above" width="20" height="30">
+ <layer id="3" name="Above" width="20" height="30">
   <data encoding="base64" compression="zlib">
    eJy1VUkOgzAMRPygF6Tc++uqj6C95sYP4JS8pkSVxcjyQkIYKRIgZzx2BieHYYj7spBPxNyBberLtyh8LbWVPev0703LXo4UDi58vgrkuXKGpKmnNoTG3cN3d+itQXT65unr2fMEPMhJOaw83APS2Xi11oA4vgpXrSdJbxLqTsJ+qT+8f9I+C5JOrT4N2vyo0VVi5n19hJpqc+N3r4+E9+jrIy6rP6/x4NpgHpMPNT3Ph62vcOF9gTwtM2kBPq5Jyu95u3Ctxv1Y8/9hrRF6Ngs6JT38HbVp3jrr4RzsOjFW0yPFt5yh5QE+Kwg/lWB4/w==
   </data>
  </layer>
- <layer name="Walkable" width="20" height="30" visible="0">
+ <layer id="4" name="Walkable" width="20" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNlFEKwDAIQ3uK3f8KveG+BkOqiRqhhVG6pS9qXfez1r74+YaaZ0ekO60jXuRjNf8Zxeh5nPZkcmf9UF0qvGlulx31USXOSm8ihvcO7feYnXwyPNX/G/lmeKyX4v7pcqaYLCvjibTK+k7ykEYVF9t3zLfKOSmY2fojfSUPtr7KHrC6F/2THVk=
+   eJzNlNENwCAIRJ2i+6/ghv1q0hjgDjjSmhij4jtAdF9r7R/3p6l5Z4vsrHnEi3ROm/eIfPQ0rDOZ2Fk9lJcKb5rbZUd1VPGzUpuI4a2h8x6zE0+Gp3q/kW6Gx2op/p8uZ4rJsjKayFaZ3ymeyobxi607Zm/qntgYVHX3VRwZfYt5A7kwHuc=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="5" name="Mapevents">
   <object id="1" name="west1" type="mapchange" x="0" y="64" width="32" height="96">
    <properties>
     <property name="map" value="wild17"/>
@@ -223,48 +223,56 @@
     <property name="place" value="east2"/>
    </properties>
   </object>
-  <object id="7" name="south2" type="mapchange" x="480" y="928" width="96" height="32">
+  <object id="5" name="south2" type="mapchange" x="480" y="928" width="96" height="32">
    <properties>
     <property name="map" value="wild19"/>
     <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="8" name="south1" type="mapchange" x="192" y="928" width="64" height="32">
+  <object id="6" name="south1" type="mapchange" x="192" y="928" width="64" height="32">
    <properties>
     <property name="map" value="wild19"/>
     <property name="place" value="north1"/>
    </properties>
   </object>
-  <object id="9" name="east1" type="mapchange" x="608" y="256" width="32" height="96">
+  <object id="7" name="east1" type="mapchange" x="608" y="256" width="32" height="96">
    <properties>
     <property name="map" value="wild16"/>
     <property name="place" value="west1"/>
    </properties>
   </object>
-  <object id="10" name="forestbeetle" type="spawn" x="192" y="448" width="192" height="224"/>
-  <object id="11" name="forestwolf1" type="spawn" x="416" y="608" width="192" height="320">
+  <object id="8" name="forestbeetle" type="spawn" x="192" y="448" width="192" height="224">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestbeetle"/>
    </properties>
   </object>
-  <object id="13" name="forestboar2" type="spawn" x="64" y="768" width="256" height="160">
+  <object id="9" name="forestwolf1" type="spawn" x="416" y="608" width="192" height="320">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object id="15" name="cont_stoutford_grave" type="container" x="192" y="736" width="32" height="32"/>
+  <object id="10" name="forestboar2" type="spawn" x="64" y="768" width="256" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar2"/>
+   </properties>
+  </object>
+  <object id="11" name="cont_stoutford_grave" type="container" x="192" y="736" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
-  <object id="5" name="forestwolf1" type="spawn" x="64" y="96" width="512" height="320">
+ <objectgroup id="6" name="Spawn">
+  <object id="12" name="forestwolf1" type="spawn" x="64" y="96" width="512" height="320">
    <properties>
     <property name="quantity" value="4"/>
+    <property name="spawngroup" value="forestwolf1"/>
    </properties>
   </object>
-  <object id="6" name="forestboar2" type="spawn" x="64" y="64" width="288" height="160">
+  <object id="13" name="forestboar2" type="spawn" x="64" y="64" width="288" height="160">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="forestboar2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup id="7" name="Keys"/>
 </map>

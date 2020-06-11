@@ -236,6 +236,12 @@
     <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
+  <object name="burhczyd2e" type="spawn" x="256" y="256" width="32" height="32">
+   <properties>
+    <property name="active" value="false"/>
+    <property name="ignoreAreas" value="true"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="fallhaventavern:20" type="key" x="448" y="288" width="32" height="32">

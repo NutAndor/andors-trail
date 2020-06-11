@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="30" height="27" tilewidth="32" tileheight="32" nextobjectid="8">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="27" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -228,6 +228,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object id="8" name="brv_ctrl_flood" type="script" x="896" y="96" width="32" height="192"/>
  </objectgroup>
  <objectgroup name="Spawn">
   <object id="3" name="erumen_1" type="spawn" x="736" y="96" width="160" height="480">

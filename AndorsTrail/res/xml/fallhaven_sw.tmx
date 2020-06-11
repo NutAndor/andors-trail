@@ -2,46 +2,6 @@
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  <tileset firstgid="1" name="map_bed_1" tileheight="32" tilewidth="32">
   <image height="256" source="../drawable/map_bed_1.png" width="512"/>
  </tileset><tileset firstgid="129" name="map_border_1" tileheight="32" tilewidth="32">
@@ -242,7 +202,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys" visible="0">
+  <object name="andor1_5" type="key" x="416" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="fallhaven_lumberjack"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Citizens" visible="0">
   <object height="256" name="fallhaven_citizen3" type="spawn" width="576" x="320" y="64">
    <properties>
@@ -254,6 +223,7 @@
   <object height="32" name="fallhaven_lumberjack" type="spawn" width="32" x="416" y="256">
    <properties>
     <property name="spawngroup" value="fallhaven_lumberjack"/>
+    <property name="ignoreAreas" value="true"/>
    </properties>
   </object>
   <object height="192" name="forestant" type="spawn" width="288" x="64" y="384">

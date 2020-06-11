@@ -1,162 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><string name="app_description">任務導向的奇幻 RPG</string>
-
-	<string name="exit_to_menu">回到選單</string>
-	<string name="menu_settings">設定</string>
-	<string name="menu_save">儲存</string>
-	<string name="menu_save_gamesaved">遊戲已經儲存到 紀錄 %1$d</string>
-	<string name="menu_save_failed">儲存失敗！記憶卡是否已安裝且可以寫入？</string>
-
-	<string name="loadsave_title_save">儲存遊戲</string>
-	<string name="loadsave_title_load">載入遊戲</string>
-	<string name="loadsave_selectslot">選擇紀錄</string>
-	<string name="savegame_currenthero_displayinfo">等級 %1$d，%2$d 經驗值，%3$d 金幣</string>
-
-	<string name="dialog_loading_message">載入資源中…</string>
-	<string name="dialog_loading_failed_title">載入失敗</string>
-	<string name="dialog_loading_failed_message">Andor\'s Trail 無法載入遊戲存擋。 
+<resources>
+    <string name="app_description">任務導向的奇幻 RPG</string>
+    <string name="exit_to_menu">回到選單</string>
+    <string name="menu_settings">設定</string>
+    <string name="menu_save">儲存</string>
+    <string name="menu_save_gamesaved">遊戲已經儲存到 紀錄 %1$d</string>
+    <string name="menu_save_failed">儲存失敗！記憶卡是否已安裝且可以寫入？</string>
+    <string name="loadsave_title_save">儲存遊戲</string>
+    <string name="loadsave_title_load">載入遊戲</string>
+    <string name="loadsave_selectslot">選擇紀錄</string>
+    <string name="savegame_currenthero_displayinfo">等級 %1$d，%2$d 經驗值，%3$d 金幣</string>
+    <string name="dialog_loading_message">載入資源中…</string>
+    <string name="dialog_loading_failed_title">載入失敗</string>
+    <string name="dialog_loading_failed_message">Andor\'s Trail 無法載入遊戲存擋。 
 \n 
 \n:( 
 \n 
 \n檔案也許損壞或不完整。</string>
-	<string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 無法載入遊戲存檔。 
+    <string name="dialog_loading_failed_incorrectversion">Andor\'s Trail 無法載入遊戲存檔。 
 \n遊戲存檔的版本比現正運行的版本新。</string>
-
-	<string name="dialog_close">關閉</string>
-
-	<string name="dialog_monsterencounter_message">你想要攻擊嗎?
+    <string name="dialog_close">關閉</string>
+    <string name="dialog_monsterencounter_message">你想要攻擊嗎?
 \n難度: %1$s</string>
-	<string name="dialog_monsterencounter_info">資訊</string>
-
-	<string name="status_hp">血量：</string>
-	<string name="status_ap">AP：</string>
-	<string name="status_exp">等級：</string>
-
-	<string name="heroinfo_char">簡介</string>
-	<string name="heroinfo_inv">物品</string>
-	<string name="heroinfo_skill">技能</string>
-	<string name="heroinfo_levelup">等級上升</string>
-	<string name="heroinfo_level">等級</string>
-	<string name="heroinfo_totalexperience">總經驗值</string>
-	<string name="heroinfo_gold">金幣： %1$d</string>
-	<string name="heroinfo_actionpoints">行動點數（AP）：</string>
-	<string name="heroinfo_quests">任務</string>
-
-	<string name="combat_attack">攻擊（%1$d AP）</string>
-	<string name="combat_move">移動（%1$d AP）</string>
-	<string name="combat_use">使用物品</string>
-	<string name="combat_endturn">結束回合</string>
-	<string name="combat_flee">逃跑</string>
-	<string name="combat_begin_flee">你現在可以逃離戰鬥，透過點擊你想要移動的方向。</string>
-	<string name="combat_flee_failed">逃走失敗了！</string>
-	<string name="combat_status_ap">AP： %1$d</string>
-	<string name="combat_monsterhealth">HP：</string>
-	<string name="combat_monsteraction">%1$s 正在攻擊。</string>
-	<string name="combat_result_monstermiss">%1$s 沒有命中！</string>
-	<string name="combat_result_monsterhit">%1$s 命中，你損失 %2$d hp！</string>
-	<string name="combat_result_monsterhitcritical">%1$s 爆擊，你損失 %2$d hp！</string>
-	<string name="combat_result_heromiss">你的攻擊沒有命中。</string>
-	<string name="combat_result_herohit">你的攻擊命中，%1$s 損失 %2$d hp！</string>
-	<string name="combat_result_herohitcritical">你的攻擊爆擊了，%1$s 損失 %2$d hp！</string>
-	<string name="combat_result_herokillsmonster">%1$s 死了！</string>
-	<string name="combat_not_enough_ap">這回合剩下的AP不夠。</string>
-	<string name="combat_hero_dies">你失去知覺，但幸運地活著醒了過來，並感覺到茫然和疲憊。你損失%1$d 經驗值。</string>
-	<string name="combat_miss_animation_message">MISS</string>
-	
-	<string name="inventory_info">資訊</string>
-	<string name="inventory_equip">裝備</string>
-	<string name="inventory_unequip">卸下</string>
-	<string name="inventory_use">使用</string>
-	<string name="inventory_drop">丟棄</string>
-	<string name="inventory_item_used">你使用了 %1$s。</string>
-	<string name="inventory_item_dropped">%1$s 被丟棄了。</string>
-	<string name="inventory_item_equipped">你裝備了 %1$s。</string>
-
-	<string name="dialog_loot_pickall">全部撿起</string>
-	<string name="dialog_loot_foundgold">你找到 %1$d 金幣。</string>
-	<string name="dialog_loot_pickedupitem">你撿起一個物品。</string>
-	<string name="dialog_loot_pickedupitems">你撿起 %1$d 個物品。</string>
-	<string name="dialog_groundloot_title">物品</string>
-	<string name="dialog_groundloot_message">你找到一些物品。</string>
-	<string name="dialog_monsterloot_title">勝利</string>
-	<string name="dialog_monsterloot_gainedexp">你得到 %1$d 經驗值。</string>
-
-	<string name="monster_difficulty_veryeasy">非常簡單</string>
-	<string name="monster_difficulty_easy">簡單</string>
-	<string name="monster_difficulty_normal">普通</string>
-	<string name="monster_difficulty_hard">困難</string>
-	<string name="monster_difficulty_veryhard">非常困難</string>
-	<string name="monster_difficulty_impossible">不可能的任務</string>
-
-	<string name="actorinfo_difficulty">難度：</string>
-	<string name="actorinfo_health">血量：</string>
-	<string name="actorinfo_attack">攻擊力：</string>
-	<string name="actorinfo_defense">防禦力：</string>
-	<string name="actorinfo_movecost">移動消耗（AP）：</string>
-	<string name="actorinfo_basetraits">基本戰鬥統計（除去裝備與技能）</string>
-	<string name="actorinfo_currenttraits">戰鬥統計（current）</string>
-
-	<string name="traitsinfo_attack_cost">攻擊消耗（AP）：</string>
-	<string name="traitsinfo_attack_chance">命中機率：</string>
-	<string name="traitsinfo_attack_damage">攻擊傷害：</string>
-	<string name="traitsinfo_criticalhit_skill">爆擊等級：</string>
-	<string name="traitsinfo_criticalhit_multiplier">爆擊倍率：</string>
-	<string name="traitsinfo_defense_chance">格擋機率：</string>
-	<string name="traitsinfo_defense_damageresist">傷害減免：</string>
-
-	<string name="iteminfo_action_use">使用</string>
-	<string name="iteminfo_action_equip">裝備</string>
-	<string name="iteminfo_action_unequip">卸下</string>
-	<string name="iteminfo_action_use_ap">使用（%1$d AP）</string>
-	<string name="iteminfo_action_equip_ap">裝備（%1$d AP）</string>
-	<string name="iteminfo_action_unequip_ap">卸下（%1$d AP）</string>
-
-	<string name="startscreen_continue">繼續當前遊戲</string>
-	<string name="startscreen_newgame">新遊戲</string>
-	<string name="startscreen_newgame_confirm">你即將失去當前的遊戲進度和角色，確定要開啟一個新遊戲？</string>
-	<string name="startscreen_about">關於/幫助</string>
-	<string name="startscreen_enterheroname">輸入英雄名稱</string>
-	<string name="startscreen_load">載入</string>
-
-	<string name="conversation_rewardexp">[你獲得 %1$d 經驗值]</string>
-	<string name="conversation_rewardgold">[你獲得 %1$d 金幣]</string>
-	<string name="conversation_lostgold">[你損失 %1$d 金幣]</string>
-	<string name="conversation_rewarditem">[你得到一個物品]</string>
-	<string name="conversation_rewarditems">[你得到 %1$d 個物品]</string>
-	<string name="conversation_next">繼續</string>
-	<string name="conversation_leave">離開</string>
-
-	<string name="shop_buy">購買</string>
-	<string name="shop_sell">賣出</string>
-	<string name="shop_infoitem">資訊</string>
-	<string name="shop_buyitem">購買（%1$d 金幣）</string>
-	<string name="shop_sellitem">賣出（%1$d 金幣）</string>
-	<string name="shop_yourgold">你的金幣： %1$d</string>
-	<string name="shop_item_bought">買了 %1$s。</string>
-	<string name="shop_item_sold">賣了 %1$s。</string>
-
-	<string name="levelup_title">等級上升</string>
-	<string name="levelup_description">歡迎來到等級 %1$d！</string>
-	<string name="levelup_buttontext">等級上升</string>
-	<string name="levelup_add_health">增加血量（+%1$d HP）</string>
-	<string name="levelup_add_health_description">增加 %1$d 到你的最大血量。</string>
-	<string name="levelup_add_attackchance">增加命中機率（+%1$d）</string>
-	<string name="levelup_add_attackchance_description">增加 %1$d 到你的基本命中機率。</string>
-	<string name="levelup_add_attackdamage">增加攻擊傷害（+%1$d）</string>
-	<string name="levelup_add_attackdamage_description">增加 %1$d 到你的基本攻擊傷害。</string>
-	<string name="levelup_add_blockchance">增加格擋機率（+%1$d）</string>
-	<string name="levelup_add_blockchance_description">增加 %1$d 到你的基本格擋機率。</string>
-
-	<string name="dialog_rest_title">休息</string>
-	<string name="dialog_rest_confirm_message">你是否要在這裡休息？</string>
-	<string name="dialog_rest_message">你已經休息，並回復了血量。</string>
-
-	<string name="about_button1">幫助</string>
-	<string name="about_button2">作者群</string>
-	<string name="about_button3">聲明 or 權限</string>
-	<string name="about_contents1">歡迎來到 Andor\'s Trail，一個開源的、Android的地牢型RPG。&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;遊戲論壇在 andorstrail.com，可以提出問題和遊玩的意見。&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;遊戲的 wiki，有關 Andor\'s Trail 的世界、任務、地圖...等&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;專案的原始碼在 github.com 上（給開發者）。&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;歡迎到論壇上和其他玩家共同討論。&lt;br /&gt;</string>
-
-	<string name="localize_resources_from_mo_filename">zh_TW.mo</string>
+    <string name="dialog_monsterencounter_info">資訊</string>
+    <string name="status_hp">血量：</string>
+    <string name="status_ap">AP：</string>
+    <string name="status_exp">等級：</string>
+    <string name="heroinfo_char">簡介</string>
+    <string name="heroinfo_inv">物品</string>
+    <string name="heroinfo_skill">技能</string>
+    <string name="heroinfo_levelup">等級上升</string>
+    <string name="heroinfo_level">等級</string>
+    <string name="heroinfo_totalexperience">總經驗值</string>
+    <string name="heroinfo_gold">金幣： %1$d</string>
+    <string name="heroinfo_actionpoints">行動點數（AP）：</string>
+    <string name="heroinfo_quests">任務</string>
+    <string name="combat_attack">攻擊（%1$d AP）</string>
+    <string name="combat_move">移動（%1$d AP）</string>
+    <string name="combat_use">使用物品</string>
+    <string name="combat_endturn">結束回合</string>
+    <string name="combat_flee">逃跑</string>
+    <string name="combat_begin_flee">你現在可以逃離戰鬥，透過點擊你想要移動的方向。</string>
+    <string name="combat_flee_failed">逃走失敗了！</string>
+    <string name="combat_status_ap">AP： %1$d</string>
+    <string name="combat_monsterhealth">HP：</string>
+    <string name="combat_monsteraction">%1$s 正在攻擊。</string>
+    <string name="combat_result_monstermiss">%1$s 沒有命中！</string>
+    <string name="combat_result_monsterhit">%1$s 命中，你損失 %2$d hp！</string>
+    <string name="combat_result_monsterhitcritical">%1$s 爆擊，你損失 %2$d hp！</string>
+    <string name="combat_result_heromiss">你的攻擊沒有命中。</string>
+    <string name="combat_result_herohit">你的攻擊命中，%1$s 損失 %2$d hp！</string>
+    <string name="combat_result_herohitcritical">你的攻擊爆擊了，%1$s 損失 %2$d hp！</string>
+    <string name="combat_result_herokillsmonster">%1$s 死了！</string>
+    <string name="combat_not_enough_ap">這回合剩下的AP不夠。</string>
+    <string name="combat_hero_dies">你失去知覺，但幸運地活著醒了過來，並感覺到茫然和疲憊。你損失%1$d 經驗值。</string>
+    <string name="combat_miss_animation_message">MISS</string>
+    <string name="inventory_info">資訊</string>
+    <string name="inventory_equip">裝備</string>
+    <string name="inventory_unequip">卸下</string>
+    <string name="inventory_use">使用</string>
+    <string name="inventory_drop">丟棄</string>
+    <string name="inventory_item_used">你使用了 %1$s。</string>
+    <string name="inventory_item_dropped">%1$s 被丟棄了。</string>
+    <string name="inventory_item_equipped">你裝備了 %1$s。</string>
+    <string name="dialog_loot_pickall">全部撿起</string>
+    <string name="dialog_loot_foundgold">你找到 %1$d 金幣。</string>
+    <string name="dialog_loot_pickedupitem">你撿起一個物品。</string>
+    <string name="dialog_loot_pickedupitems">你撿起 %1$d 個物品。</string>
+    <string name="dialog_groundloot_title">物品</string>
+    <string name="dialog_groundloot_message">你找到一些物品。</string>
+    <string name="dialog_monsterloot_title">勝利</string>
+    <string name="dialog_monsterloot_gainedexp">你得到 %1$d 經驗值。</string>
+    <string name="monster_difficulty_veryeasy">非常簡單</string>
+    <string name="monster_difficulty_easy">簡單</string>
+    <string name="monster_difficulty_normal">普通</string>
+    <string name="monster_difficulty_hard">困難</string>
+    <string name="monster_difficulty_veryhard">非常困難</string>
+    <string name="monster_difficulty_impossible">不可能的任務</string>
+    <string name="actorinfo_difficulty">難度：</string>
+    <string name="actorinfo_health">血量：</string>
+    <string name="actorinfo_attack">攻擊力：</string>
+    <string name="actorinfo_defense">防禦力：</string>
+    <string name="actorinfo_movecost">移動消耗（AP）：</string>
+    <string name="actorinfo_basetraits">基本戰鬥統計（除去裝備與技能）</string>
+    <string name="actorinfo_currenttraits">戰鬥統計（current）</string>
+    <string name="traitsinfo_attack_cost">攻擊消耗（AP）：</string>
+    <string name="traitsinfo_attack_chance">命中機率：</string>
+    <string name="traitsinfo_attack_damage">攻擊傷害：</string>
+    <string name="traitsinfo_criticalhit_skill">爆擊等級：</string>
+    <string name="traitsinfo_criticalhit_multiplier">爆擊倍率：</string>
+    <string name="traitsinfo_defense_chance">格擋機率：</string>
+    <string name="traitsinfo_defense_damageresist">傷害減免：</string>
+    <string name="iteminfo_action_use">使用</string>
+    <string name="iteminfo_action_equip">裝備</string>
+    <string name="iteminfo_action_unequip">卸下</string>
+    <string name="iteminfo_action_use_ap">使用（%1$d AP）</string>
+    <string name="iteminfo_action_equip_ap">裝備（%1$d AP）</string>
+    <string name="iteminfo_action_unequip_ap">卸下（%1$d AP）</string>
+    <string name="startscreen_continue">繼續當前遊戲</string>
+    <string name="startscreen_newgame">新遊戲</string>
+    <string name="startscreen_newgame_confirm">你即將失去當前的遊戲進度和角色，確定要開啟一個新遊戲？</string>
+    <string name="startscreen_about">關於/幫助</string>
+    <string name="startscreen_enterheroname">輸入英雄名稱</string>
+    <string name="startscreen_load">載入</string>
+    <string name="conversation_rewardexp">[你獲得 %1$d 經驗值]</string>
+    <string name="conversation_rewardgold">[你獲得 %1$d 金幣]</string>
+    <string name="conversation_lostgold">[你損失 %1$d 金幣]</string>
+    <string name="conversation_rewarditem">[你得到一個物品]</string>
+    <string name="conversation_rewarditems">[你得到 %1$d 個物品]</string>
+    <string name="conversation_next">繼續</string>
+    <string name="conversation_leave">離開</string>
+    <string name="shop_buy">購買</string>
+    <string name="shop_sell">賣出</string>
+    <string name="shop_infoitem">資訊</string>
+    <string name="shop_buyitem">購買（%1$d 金幣）</string>
+    <string name="shop_sellitem">賣出（%1$d 金幣）</string>
+    <string name="shop_yourgold">你的金幣： %1$d</string>
+    <string name="shop_item_bought">買了 %1$s。</string>
+    <string name="shop_item_sold">賣了 %1$s。</string>
+    <string name="levelup_title">等級上升</string>
+    <string name="levelup_description">歡迎來到等級 %1$d！</string>
+    <string name="levelup_buttontext">等級上升</string>
+    <string name="levelup_add_health">增加血量（+%1$d HP）</string>
+    <string name="levelup_add_health_description">增加 %1$d 到你的最大血量。</string>
+    <string name="levelup_add_attackchance">增加命中機率（+%1$d）</string>
+    <string name="levelup_add_attackchance_description">增加 %1$d 到你的基本命中機率。</string>
+    <string name="levelup_add_attackdamage">增加攻擊傷害（+%1$d）</string>
+    <string name="levelup_add_attackdamage_description">增加 %1$d 到你的基本攻擊傷害。</string>
+    <string name="levelup_add_blockchance">增加格擋機率（+%1$d）</string>
+    <string name="levelup_add_blockchance_description">增加 %1$d 到你的基本格擋機率。</string>
+    <string name="dialog_rest_title">休息</string>
+    <string name="dialog_rest_confirm_message">你是否要在這裡休息？</string>
+    <string name="dialog_rest_message">你已經休息，並回復了血量。</string>
+    <string name="about_button1">幫助</string>
+    <string name="about_button2">作者群</string>
+    <string name="about_button3">聲明 or 權限</string>
+    <string name="about_contents1">歡迎來到 Andor\'s Trail，一個開源的、Android的地牢型RPG。&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/&gt;遊戲論壇在 andorstrail.com，可以提出問題和遊玩的意見。&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=http://andorstrail.com/wiki&gt;遊戲的 wiki，有關 Andor\'s Trail 的世界、任務、地圖...等&lt;/a&gt;&lt;br /&gt; &lt;br /&gt; &lt;a href=https://github.com/AndorsTrailRelease/andors-trail/&gt;專案的原始碼在 github.com 上（給開發者）。&lt;/a&gt;&lt;br /&gt; &lt;br /&gt;歡迎到論壇上和其他玩家共同討論。&lt;br /&gt;</string>
+    <string name="localize_resources_from_mo_filename">zh_TW.mo</string>
     <string name="dialog_recenter">回到中央</string>
     <string name="dialog_more">更多</string>
     <string name="dialog_monsterencounter_title">遭遇</string>
@@ -266,4 +246,5 @@
     <string name="preferences_movement_dpad_minimizeable_title">最小化虛擬方向鍵</string>
     <string name="preferences_movement_dpad_minimizeable">如果虛擬方向鍵啟用，這項設定允許按一下虛擬方向鍵的中心來最小化。</string>
     <string name="preferences_movement_dpad_positions_disabled">不使用</string>
+    <string name="app_name">Andor的行跡</string>
 </resources>

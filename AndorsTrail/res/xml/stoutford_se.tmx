@@ -222,6 +222,7 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
+  <object name="burhczyd_check5" type="script" x="384" y="480" width="96" height="32"/>
   <object id="4" name="farmer2" type="mapchange" x="864" y="480" width="32" height="32">
    <properties>
     <property name="map" value="stoutford_farmhouse2"/>

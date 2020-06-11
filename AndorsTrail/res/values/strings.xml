@@ -624,7 +624,7 @@
 	<string name="skill_shortdescription_weapon_prof_axe">Better at fighting with axes</string>
 	<string name="skill_shortdescription_weapon_prof_blunt">Better at fighting with bludgeoning weapons</string>
 	<string name="skill_shortdescription_weapon_prof_unarmed">Better at fighting without weapons</string>
-	<string name="skill_shortdescription_armor_prof_shield">Make better use of shields</string>
+	<string name="skill_shortdescription_armor_prof_shield">Make better use of shields and parrying weapons</string>
 	<string name="skill_shortdescription_armor_prof_unarmored">Better at fighting without armor</string>
 	<string name="skill_shortdescription_armor_prof_light">Make better use of light armor</string>
 	<string name="skill_shortdescription_armor_prof_heavy">Make better use of heavy armor</string>
@@ -643,29 +643,29 @@
 	<string name="skill_longdescription_weapon_prof_axe">For each skill level, increases attack chance of axes and greataxes by %1$d %% of the item\'s base attack chance, increases block chance by %2$d %% of the item\'s base block chance, and increases critical skill by %3$d %% of the item\'s base critical skill.</string>
 	<string name="skill_longdescription_weapon_prof_blunt">For each skill level, increases attack chance of bludgeoning weapons by %1$d %% of the item\'s base attack chance, increases block chance by %2$d %% of the item\'s base block chance, and increases critical skill by %3$d %% of the item\'s base critical skill. This includes clubs, quarterstaves, maces, scepters, war hammers and giant hammers.</string>
 	<string name="skill_longdescription_weapon_prof_unarmed">When fighting without a weapon and shield, gain %1$d attack chance, %2$d damage potential and %3$d block chance per skill level.</string>
-	<string name="skill_longdescription_armor_prof_shield">Increase damage resistance by %1$d per skill level while having a shield equipped.</string>
+	<string name="skill_longdescription_armor_prof_shield">Increase damage resistance by %1$d per skill level while having a shield or parrying weapon equipped.</string>
 	<string name="skill_longdescription_armor_prof_unarmored">While fighting without having any piece of armor equipped, gain %1$d block chance per skill level. Items made of cloth are not considered as being armor.</string>
 	<string name="skill_longdescription_armor_prof_light">For every skill level, increases the block chance of every piece of light armor being worn by %1$d %% of their original block chances. Light armors include leather, light metal and hide armors.</string>
 	<string name="skill_longdescription_armor_prof_heavy">For every skill level, increases the block chance of every piece of heavy armor being worn by %1$d %% of their original block chances. Pieces of heavy armor have their movement penalties reduced by %2$d %% per skill level, and their attack speed penalties reduced by %3$d %% per skill level. Heavy armors include metal armors, chain mail and plate mail.</string>
 	<string name="skill_longdescription_fightstyle_dualwield">"Gives benefits when fighting with two weapons at the same time, one in the main hand and one in the off-hand.
 
-Without this skill, only %1$d %% of a weapon\'s qualities may be used when equipped in the off-hand. This includes attack chance, critical skill, damage potential and block chance. Without this skill, attack speed (AP cost) of making an attack is the sum of the attack speed of the main weapon and that of the weapon used in the off-hand.
+Without this skill, only %1$d %% of a weapon\'s qualities may be used when equipped in the off-hand. This includes attack chance, critical skill, damage potential and block chance. Without this skill, attack cost (AP cost) of making an attack is the sum of the attack cost of the main weapon and that of the weapon used in the off-hand.
 
-With one level of this skill, %2$d %% of the off-hand\'s weapon\'s qualities may be used, and the attack speed is the highest attack speed of both weapons plus %3$d %% of the lowest attack speed of both weapons.
+With one level of this skill, %2$d %% of the off-hand\'s weapon\'s qualities may be used, and the attack cost is the highest attack cost of both weapons plus %3$d %% of the lowest attack cost of both weapons.
 
-With two levels of this skill, %4$d %% of the off-hand\'s weapon\'s qualities may be used, and the attack speed equals the highest of the attack speeds of the two equipped weapons."</string>
+With two levels of this skill, %4$d %% of the off-hand\'s weapon\'s qualities may be used, and the attack cost equals the highest of the attack costs of the two equipped weapons."</string>
 	<string name="skill_longdescription_fightstyle_2hand">"Gives benefits when using weapons that require both hands to wield, such as two-handed swords, greataxes or giant hammers.
 
 Every skill level increases damage potential of two-handed weapons with %1$d %% of the original damage potential."</string>
-	<string name="skill_longdescription_fightstyle_weapon_shield">"Gives benefits when fighting with a weapon in the main hand and having a shield equipped in the off-hand.
+	<string name="skill_longdescription_fightstyle_weapon_shield">"Gives benefits when fighting with a weapon in the main hand and having a shield or parrying weapon equipped in the off-hand.
 
-Every skill level increases the attack chance of weapons with %1$d %% of their original attack chances, and the block chance of shields by %2$d %% of their original block chances."</string>
+Every skill level increases the attack chance of weapons in the main hand with %1$d %% of their original attack chances, and the block chance of shields or parrying weapons by %2$d %% of their original block chances."</string>
 	<string name="skill_longdescription_fightstyle_unarmed_unarmored">"While fighting without having any piece of armor equipped and without using a weapon or shield, gain %1$d attack chance, %2$d block chance, %3$d damage resistance and increase the maximum damage by %4$d per skill level. The skill also gives a critical multiplier of 1 plus 0.%5$d per level.
 
 Items made of cloth are not considered as being armor." </string>
 	<string name="skill_longdescription_specialization_dualwield">Increases the attack chance of both wielded weapons by an additional %1$d %% of their original attack chances, in addition to the benefits given by the weapon style skill. The block chances of both wielded weapons are also increased by %2$d %% of their original block chances.</string>
 	<string name="skill_longdescription_specialization_2hand">Increases damage potential of two-handed weapons by an additional %1$d %% of the original damage potential, in addition to the benefits given by the weapon style skill. The attack chances of two-handed weapons are also increased by %2$d %% of their original attack chances.</string>
-	<string name="skill_longdescription_specialization_weapon_shield">Increases both attack chances and damage potential of weapons. The attack chance is increased by %1$d %% of the original attack chance, and the damage potential is increased by %2$d %% of the original damage potential.</string>
+	<string name="skill_longdescription_specialization_weapon_shield">Increases both attack chances and damage potential of weapons in the main hand. The attack chance is increased by %1$d %% of the original attack chance, and the damage potential is increased by %2$d %% of the original damage potential.</string>
 	<string name="skill_longdescription_weapon_prof_pole">For each skill level, increases attack chance when using pole weapons by %1$d %% of the item\'s base attack chance, increases block chance by %2$d %% of the item\'s base block chance, and increases critical skill by %3$d %% of the item\'s base critical skill.</string>
 
 	<string name="preferences_quickslots_placement">Quickslot position</string>

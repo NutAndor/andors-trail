@@ -234,6 +234,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="burhczyd_check3" type="script" x="448" y="384" width="96" height="32"/>
   <object id="7" name="lonefordhouse5" type="mapchange" x="672" y="480" width="32" height="32">
    <properties>
     <property name="map" value="loneford7"/>

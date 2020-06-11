@@ -211,13 +211,12 @@
 
 ]]></string>
     <string name="dialog_newversion_title">Willkommen</string>
-    <string name="dialog_newversion_message">
-		Vielen Dank, dass Du Andor\'s Trail heruntergeladen hast!\n\n
-		Bedenke bitte, dass diese Version von Andor\'s Trail noch IN DER ENTWICKLUNG ist und somit noch nicht alle Karten komplett fertig sind.\n
-		Bitte besuche das Projekt-Forum für weitere Informationen oder wenn du mithelfen willst (siehe "Über").\n
-		\n
-		Danke für alle bisherigen Rückmeldungen!
-	</string>
+    <string name="dialog_newversion_message">Vielen Dank, dass Du Andor\'s Trail heruntergeladen hast!
+\n
+\n Bedenke bitte, dass diese Version von Andor\'s Trail noch IN DER ENTWICKLUNG ist und somit noch nicht alle Karten komplett fertig sind.
+\n Bitte besuche das Projekt-Forum für weitere Informationen oder wenn Du mithelfen willst (siehe Über).
+\n 
+\n Danke für alle bisherigen Rückmeldungen!</string>
     <string name="questlog_includecompleted_prompt">Anzuzeigende Quests auswählen</string>
     <string name="questlog_includecompleted_hidecompleted">Verstecke abgeschlossene Quests</string>
     <string name="questlog_includecompleted_includecompleted">Zeige auch abgeschlossene Quests</string>
@@ -659,4 +658,11 @@ Jeder Level des Skills erhöht die Angriffschance von Waffen um %1$d %% ihrer ur
     <string name="skill_longdescription_weapon_prof_pole">Erhöht für jede Fertigkeitsstufe die Angriffswahrscheinlichkeit beim Einsatz von Stabaffen um %1$d %% der Basisangriffschance des Gegenstands, erhöht die Blockchance um %2$d %% der Basisblockchance des Gegenstands und die kritische Fertigkeit um %3$d %% der basiskritischen Fertigkeit des Gegenstands.</string>
     <string name="preferences_display_scaling_factor_50_percent">Halbe Größe</string>
     <string name="preferences_display_scaling_factor_75_percent">0,75-fache Größe</string>
+    <string name="dialog_permission_information">"Andor\'s Trail schreibt Spielstände in den für Benutzer zugänglichen Speicher auf dem Gerät. Dadurch kannst Du Deine gespeicherten Spielestände einfach sichern oder auf ein neues Gerät übertragen. Bitte besuche unsere Foren für weitere Informationen.
+\n
+\nAndor\'s Trail verwendet den Zugriff auf Dein Gerät nicht für andere Zwecke und greift nicht auf das Internet zu. Andors Trail ist Open Source;  Die Quellen findest Du auf Github."</string>
+    <string name="dialog_permission_information_title">Spielstände laden und speichern</string>
+    <string name="dialog_newversion_permission_information">"
+\n
+\nUm Deine Spielstände speichern und laden zu können (und nur dafür) wird Andor\'s Trail um die Erlaubnis zum Zugriff auf das Dateisystem bitten."</string>
 </resources>

@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
+  <segment id="basiliskcave" x="-6" y="-42">
+    <map id="basiliskcave1_1_1" x="-6" y="-12"/>
+    <map id="basiliskcave1_1_2" x="11" y="-5"/>
+    <map id="basiliskcave1_1_3" x="12" y="-28"/>
+    <map id="basiliskcave1_1_4" x="-2" y="-38"/>
+    <map id="basiliskcave1_1_5" x="12" y="-42"/>
+  </segment>
   <segment id="arulircave" x="2" y="29">
     <map id="arulircave1" x="2" y="45"/>
     <map id="arulircave2" x="15" y="29"/>
@@ -55,7 +62,6 @@
   </segment>
   <segment id="bwentry2" x="46" y="368">
     <map id="blackwater_mountain7" x="47" y="368"/>
-    <map id="blackwater_mountain7a" x="46" y="399"/>
   </segment>
   <segment id="bwsettlement" x="0" y="414">
     <map id="blackwater_mountain43" x="37" y="414"/>
@@ -71,7 +77,6 @@
     <map id="blackwater_mountain19" x="122" y="399"/>
     <map id="blackwater_mountain20" x="133" y="399"/>
     <map id="blackwater_mountain39" x="144" y="403"/>
-    <map id="blackwater_mountain39a" x="138" y="424"/>
   </segment>
   <segment id="bwcave2" x="51" y="415">
     <map id="blackwater_mountain36" x="80" y="415"/>
@@ -358,6 +363,12 @@
     <map id="waytolake12" x="678" y="174"/>
     <map id="arulirmountain1" x="817" y="94"/>
     <map id="arulirmountain2" x="848" y="96"/>
+    <map area="brimhaven_area" id="brimhaven1" x="426" y="259"/>
+    <map id="brimhaven4" x="395" y="259"/>
+    <map id="brimhaven2" x="395" y="290"/>
+    <map id="brimhaven3" x="457" y="265"/>
+    <map id="brimhaven7" x="457" y="259"/>
+    <map id="brimhaven8" x="426" y="290"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -370,5 +381,6 @@
     <namedarea id="prim" name="Prim" type="settlement"/>
     <namedarea id="stoutford" name="Stoutford" type="settlement"/>
     <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
+    <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
   </segment>
 </worldmap>

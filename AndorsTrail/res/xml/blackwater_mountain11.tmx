@@ -222,6 +222,7 @@
     <property name="place" value="south"/>
    </properties>
   </object>
+  <object name="burhczyd_check9" type="script" x="320" y="768" width="96" height="32"/>
   <object id="4" name="house3" type="mapchange" x="128" y="704" width="32" height="32">
    <properties>
     <property name="map" value="blackwater_mountain23"/>

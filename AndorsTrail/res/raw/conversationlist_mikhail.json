@@ -185,6 +185,79 @@
             {
                 "text":"Is there anything else you can tell me about Andor?",
                 "nextPhraseID":"mikhail_andor1"
+            },
+            {
+                "text":"I have a present for you.",
+                "nextPhraseID":"mikhail_present_20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"I have a present for you.",
+                "nextPhraseID":"mikhail_present_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_present",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brv_nondisplay_multipurpose",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I was searching for Andor.",
+                "nextPhraseID":"mikhail_news_10"
             }
         ]
     },

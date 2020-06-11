@@ -877,7 +877,7 @@
     },
     {
         "id":"algangror_task2_n",
-        "message":"Ah yes. After all, you are just a child and I can understand that all of this must be too much for you. He he.",
+        "message":"Ah yes. After all, you are just a child and I can understand that all of this must be too much for you. Hee hee.",
         "replies":[
             {
                 "text":"N",
@@ -887,7 +887,7 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"algangror",
+                "rewardID":"fiveidols",
                 "value":100
             }
         ]

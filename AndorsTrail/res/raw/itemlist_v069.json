@@ -14,7 +14,7 @@
             },
             "increaseMaxHP":5,
             "increaseAttackCost":5,
-            "setNonWeaponDamageModifier":145,
+            "setNonWeaponDamageModifier":131,
             "increaseAttackChance":21
         },
         "hitEffect":{
@@ -70,7 +70,7 @@
             },
             "increaseMaxAP":2,
             "increaseAttackCost":5,
-            "setNonWeaponDamageModifier":132,
+            "setNonWeaponDamageModifier":123,
             "increaseAttackChance":25,
             "increaseBlockChance":5,
             "addedConditions":[
@@ -95,7 +95,7 @@
                 "max":6
             },
             "increaseAttackCost":5,
-            "setNonWeaponDamageModifier":121,
+            "setNonWeaponDamageModifier":115,
             "increaseAttackChance":21,
             "increaseBlockChance":5
         },
@@ -340,7 +340,7 @@
                 "max":12
             },
             "increaseAttackCost":6,
-            "setNonWeaponDamageModifier":165,
+            "setNonWeaponDamageModifier":140,
             "increaseAttackChance":9
         }
     },

@@ -140,13 +140,13 @@
 		<item>English</item>
 		<item>Deutsch (89%)</item>
 		<item>Español (81%)</item>
-		<item>Française (89%)</item>
-		<item>Italiano (82%)</item>
+		<item>Française (94%)</item>
+		<item>Italiano (99%)</item>
 		<item>Magyar (39%)</item>
 		<item>Polski (89%)</item>
-		<item>Português (70%)</item>
-		<item>Português Brasil (77%)</item>
-		<item>Русский язык (89%)</item>
+		<item>Português (99%)</item>
+		<item>Português Brasil (99%)</item>
+		<item>Русский язык (99%)</item>
 	</string-array>
 
 	<!-- see AndorsTrailApplication.localeForLanguageTag for allowed formats -->

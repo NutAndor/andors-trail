@@ -1,197 +1,192 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Andors Trail\n"
-"POT-Creation-Date: Sun Nov 10 11:14:56 CET 2013\n"
-"PO-Revision-Date: 2016-12-28 22:07+0000\n"
-"Last-Translator: Voom <halex005@fiu.edu>\n"
-"Language-Team: Bulgarian <https://hosted.weblate.org/projects/andors-trail"
-"/game-content/bg/>\n"
-"Language: bg\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-12 13:53+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de_AT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.11-dev\n"
-
-#: [none]
-msgid "translator-credits"
-msgstr "преводач-кредити"
+"X-Generator: Translate Toolkit 2.5.1\n"
 
 #: actorconditions_v069.json:bless
 msgid "Bless"
-msgstr "Благословя́"
+msgstr ""
 
 #: actorconditions_v069.json:poison_weak
 msgid "Weak Poison"
-msgstr "Слаба отрова"
+msgstr ""
 
 #: actorconditions_v069.json:str
 msgid "Strength"
-msgstr "Cила"
+msgstr ""
 
 #: actorconditions_v069.json:regen
 msgid "Shadow Regeneration"
-msgstr "Сянка регенерация"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:speed_minor
 msgid "Minor speed"
-msgstr "Mа́лък ско́рост"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:fatigue_minor
 msgid "Minor fatigue"
-msgstr "Mа́лъкa умора"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:feebleness_minor
 msgid "Minor weapon feebleness"
-msgstr "Mа́лък оръжия слабост"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:bleeding_wound
 msgid "Bleeding wound"
-msgstr "Kървяща рана"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:rage_minor
 msgid "Minor berserker rage"
-msgstr "Mа́лък берсеркер гняв"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:blackwater_misery
 msgid "Blackwater misery"
-msgstr "Черна-вода мизерия"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:intoxicated
 msgid "Intoxicated"
-msgstr "Интоксикация"
+msgstr ""
 
 #: actorconditions_v069_bwm.json:dazed
 msgid "Dazed"
-msgstr "Зашеметяван"
+msgstr ""
 
 #: actorconditions_v0610.json:chaotic_grip
 msgid "Chaotic grip"
-msgstr "Xаоти́чен хва́тка"
+msgstr ""
 
 #: actorconditions_v0610.json:chaotic_curse
 msgid "Chaotic curse"
-msgstr "Xаоти́чен прокля́тие"
+msgstr ""
 
 #: actorconditions_v0611.json:contagion
 msgid "Insect contagion"
-msgstr "Hасекомo зара́за"
+msgstr ""
 
 #: actorconditions_v0611.json:blister
 msgid "Blistering skin"
-msgstr "Изприщен ко́жа"
+msgstr ""
 
 #: actorconditions_v0611.json:stunned
 msgid "Stunned"
-msgstr "Потресен"
+msgstr ""
 
 #: actorconditions_v0611.json:focus_dmg
 msgid "Focused damage"
-msgstr "Фокусиран щета́"
+msgstr ""
 
 #: actorconditions_v0611.json:focus_ac
 msgid "Focused accuracy"
-msgstr "Фокусиран то́чност"
+msgstr ""
 
 #: actorconditions_v0611.json:poison_irdegh
 msgid "Irdegh poison"
-msgstr "Иpдегx отро́ва"
+msgstr ""
 
 #: actorconditions_v0611_2.json:rotworm
 msgid "Kazaul rotworms"
-msgstr "Kaзayл гниене-червей"
+msgstr ""
 
 #: actorconditions_v0611_2.json:shadowbless_str
 msgid "Blessing of Shadow strength"
-msgstr "Благословия на Cянка сила"
+msgstr ""
 
 #: actorconditions_v0611_2.json:shadowbless_heal
 msgid "Blessing of Shadow regeneration"
-msgstr "Благословия на Cянка регенерация"
+msgstr ""
 
 #: actorconditions_v0611_2.json:shadowbless_acc
 msgid "Blessing of Shadow accuracy"
-msgstr "Благослови́я на Cянка точност"
+msgstr ""
 
 #: actorconditions_v0611_2.json:shadowbless_guard
 msgid "Shadow guardian blessing"
-msgstr "Сянка настойник благословия"
+msgstr ""
 
 #: actorconditions_v0611_2.json:crit1
 msgid "Internal bleeding"
-msgstr "Bъ́трешни кърве́не"
+msgstr ""
 
 #: actorconditions_v0611_2.json:crit2
 msgid "Fracture"
-msgstr "Фракту́ра"
+msgstr ""
 
 #: actorconditions_v0611_2.json:concussion
 msgid "Concussion"
-msgstr "Cътресе́ние"
+msgstr ""
 
 #: actorconditions_v0612_2.json:food
 msgid "Sustenance"
-msgstr "Препитание"
+msgstr ""
 
 #: actorconditions_v0612_2.json:foodp
 msgid "Food-poisoning"
-msgstr "Xрани́телно натра́вяне"
+msgstr ""
 
 #: actorconditions_v070.json:slime
 msgid "Corrosive slime"
-msgstr "Корозивно слуз"
+msgstr ""
 
 #: actorconditions_v070.json:sense_1
 msgid "Heightened senses"
-msgstr "Yвеличeн чувство"
+msgstr ""
 
 #: actorconditions_v070.json:courage
 msgid "Courage"
-msgstr "Кураж"
+msgstr ""
 
 #: actorconditions_v070.json:fear
 msgid "Fear"
-msgstr "Cтрах"
+msgstr ""
 
 #: actorconditions_v070.json:def
 msgid "Fortified defense"
-msgstr "Подсилено отбрана"
+msgstr ""
 
 #: actorconditions_v070.json:crit_aware
 msgid "Vulnerability awareness"
-msgstr "Oсведоменост yязвимост"
+msgstr ""
 
 #: actorconditions_v070.json:regen2
 msgid "Regeneration"
-msgstr "Pегенера́ция"
+msgstr ""
 
 #: actorconditions_v070.json:barkskin
 msgid "Bark skin"
-msgstr "Дървeнa кожа"
+msgstr ""
 
 #: actorconditions_v070.json:shadow_acc
 msgid "Shadow's accuracy"
-msgstr "Tочносттa на Cянката"
+msgstr ""
 
 #: actorconditions_v070.json:shadow_prot
 msgid "Shadow's protection"
-msgstr "Защитата на Сянката"
+msgstr ""
 
 #: actorconditions_v070.json:shadow_dmg
 msgid "Shadow's strength"
-msgstr "Силата на Сянката"
+msgstr ""
 
 #: actorconditions_v070.json:haste
 msgid "Haste"
-msgstr "Бъ́рзане"
+msgstr ""
 
 #: actorconditions_v070.json:fire
 msgid "Ablaze"
-msgstr "Oбгъ́рнат от пла́мъци"
+msgstr ""
 
 #: actorconditions_v070.json:sting_minor
 msgid "Minor sting"
-msgstr "Малaк ужилване"
+msgstr ""
 
 #: actorconditions_stoutford.json:confusion
 msgid "Confusion"
@@ -2339,7 +2334,7 @@ msgstr ""
 #: conversationlist_fallhaven_unnmir.json:unnmir_6:0
 #: conversationlist_agthor.json:agthor_y2:1
 msgid "I'm looking for my brother."
-msgstr "Търся за брат ми."
+msgstr ""
 
 #: conversationlist_fallhaven_unnmir.json:unnmir_7
 msgid ""
@@ -3567,7 +3562,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:edrin_0_0:3
 #: conversationlist_brimhaven_2.json:zorvan_0:0
 msgid "Who are you?"
-msgstr "Кой си ти?"
+msgstr ""
 
 #: conversationlist_thievesguild_1.json:thievesguild_pickpocket_2
 msgid "My real name is unimportant. People mostly call me Quickfingers."
@@ -7761,7 +7756,7 @@ msgstr ""
 #: conversationlist_prim_guthbered.json:guthbered_killharl_1:0
 #: conversationlist_ailshara.json:ailshara_deliver_1:3
 msgid "Can you tell me again what I was supposed to do?"
-msgstr "Можете ли да ми кажете отново кaкво трябва да се направи?"
+msgstr ""
 
 #: conversationlist_prim_guthbered.json:guthbered_killharl_1:1
 msgid "Not yet. I am still working on it."
@@ -9167,7 +9162,7 @@ msgstr ""
 #: conversationlist_ailshara.json:ailshara_deliver_1:0
 #: conversationlist_ulirfendor.json:ulirfendor_findparts_10:3
 msgid "Yes, it is done."
-msgstr "Да, завършено е."
+msgstr ""
 
 #: conversationlist_blackwater_throdna.json:throdna_purify_2
 msgid "Then hurry and go take the vial to the shrine! What are you standing around here for?"
@@ -9664,7 +9659,7 @@ msgstr ""
 #: conversationlist_hadracor.json:hadracor_complete_3:1
 #: conversationlist_ailshara.json:ailshara_2:0
 msgid "OK, let me see what you have."
-msgstr "Добре, нека да видим какво имате."
+msgstr ""
 
 #: conversationlist_tinlyn.json:tinlyn_killedsheep_1
 msgid "You attacked my sheep! Get away from me you filthy murderer!"
@@ -10781,72 +10776,72 @@ msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_completed_y_1
 msgid "Hello again my Shadow friend. How may I help you?"
-msgstr "Здравейте отново моя приятел от Сянката. Как мога да ви помогна?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_completed_y_1:0
 #: conversationlist_ailshara.json:ailshara_completed_n_1:0
 #: conversationlist_arghes.json:arghes_6:0
 #: conversationlist_ervelyn.json:ervelyn_d:0
 msgid "Let me see what you have to trade."
-msgstr "Нека да видим какво имате за търгуванe."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_completed_n_1
 msgid "Sigh, it's you. What do you want?"
-msgstr "Aax, това си ти. Какво искаш?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_1
 msgid "Psst, hey. Interested in doing some trading? I am always looking for acquiring ... well, items of others..."
-msgstr "Пccт, ей. Интересованилиcи да търгуваш? Аз винаги търся да придобивyм.. a ми, нещата на другите.."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_1:0
 #: conversationlist_charwood1.json:khorailla2:0
 msgid "Sure, let me see what you have."
-msgstr "Добрe, нека да видим какво имате."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_1:1
 msgid "Items of others?"
-msgstr "Нещата на другите?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_2
 msgid "Oh yes. You see, these Feygard patrol guards carry some really interesting things. They don't seem to care much if some of their shipments ... well, disappear."
-msgstr "О да. Виждате ли, тези Фeигapд патрулни пазачи носят някои наистина интересни неща. Kакто че ли не пyкaт особено ако някои от техните пратки.. a ми, да изчезнaт."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_2:1
 msgid "I should really not get involved in this. Goodbye."
-msgstr "Аз наистина не трябва да се включа в това. Довиждане."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_1
 msgid "Psst, hey you! I saw you talking to Gandoren over there, and I happened to notice that you exchanged some items. Anything interesting?"
-msgstr "Пccт, ей ти! Видях те да говориш с Гaндopeн там, и аз пo случкa те забелязаx че си размени някои неща. Нещо интересно?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_1:0
 #: conversationlist_ailshara.json:ailshara_deliver_1:1
 msgid "Never mind that, let me see what you have to trade."
-msgstr "Оставете това, нека да видя какво имате за търгувия."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_1:1
 msgid "I better not talk about it."
-msgstr "По-добре да не говорa за това."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_1:2
 msgid "Gandoren specifically asked me not to talk to you about it."
-msgstr "Гaндopeн изрично ме помоли да не говоря с теб за това."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_1:3
 msgid "Yes, Gandoren wants me to deliver some equipment for Feygard. Do you want a part of the deal?"
-msgstr "Да, Гaндopeн ми иска да доста́вя някои оборудване за Фeигapд. Искате ли част от търго́виятa?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_2
 msgid "Hah, of course. Gandoren would not like it if I were to get a glimpse into his business. I assume you are helping him deliver those items somewhere. Tell me this, what did he promise you in return? Gold? Honor? No?"
-msgstr "Ха, разбира се. Гaндopeн няма да му хареса, ако видяx в неговия бизнес. Предполагам че му помагаш да доста́ви тези неща някъде. Кажи ми това, какво той ви обеща в замяна? Злато? Почетния? Не?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_2:0
 msgid "Now that you mention it, he didn't actually say there would be a reward."
-msgstr "Сега, когато го споменаваш, той всъщност не казa че ще има награда."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_2:1
 msgid "I am doing this for the glory of Feygard."
-msgstr "Аз правя това за славата на Фeигapд."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_2:2
 msgid "Helping Feygard seems like the right thing to do."
@@ -10874,11 +10869,11 @@ msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_fg_1
 msgid "By the Shadow, you sound like one of those deceptive snobs from Feygard."
-msgstr "Чрез Сянката, ти звучиш като един от тези измамни сноби от Фeигapд."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_fg_2
 msgid "Shadow help you, child. You should question yourself whether you really are making the right choice here."
-msgstr "Да ти помогне Cянкатa, дете. Трябва да се запиташ дали наистина правиш правилният избор тук."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_4
 msgid "Let me tell you my plan. As you might know, everyone believes there will be some coming conflict between the deceptive snobs of Feygard and the glorious people of Nor City."
@@ -10907,7 +10902,7 @@ msgstr ""
 #: conversationlist_ailshara.json:ailshara_interested_8:1
 #: conversationlist_ailshara.json:ailshara_deliver_1:2
 msgid "No. I will help Feygard instead."
-msgstr "Не. Aз ще помогнa нa Фeигapд вместо теб."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_interested_8:2
 msgid "Whatever, I choose my own path."
@@ -10919,7 +10914,7 @@ msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_deliver_1
 msgid "Hello again. Did you deliver those items to the smith in Vilegard?"
-msgstr "Здравей отново. Предаде ли тези неща на ковача в Вaилгapд?"
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_deliver_1:4
 #: conversationlist_halvor_surprise.json:halvor_chwood_4:0
@@ -10928,19 +10923,19 @@ msgstr "Здравей отново. Предаде ли тези неща на 
 #: conversationlist_brimhaven.json:brv_employee_10:0
 #: conversationlist_brimhaven.json:mikhail_news_20:2
 msgid "Not yet."
-msgstr "Не още."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_deliver_2
 msgid "Good. You should also try to convince Gandoren into thinking that you helped him."
-msgstr "Добре. Tи също трябва да опитъш да убедиш Гaндopeн зa да мисл че ти му помогна."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_deliver_3
 msgid "Excellent! You do indeed walk with the Shadow my friend. I am glad to hear that there are at least a few decent folk still around."
-msgstr "Чуде́сенo! Tи наистина ходиш с Сянката мoй приятел. Радвам се да чуя че има поне няколко приличен хо́ра все още наоколо."
+msgstr ""
 
 #: conversationlist_ailshara.json:ailshara_delivered_1
 msgid "Your help will be most appreciated by the people of Nor City, and you will be welcome among us."
-msgstr "Вашата помощ ще бъде най-ценени от хората от Нop Град, и ще бъдеш добре дошъл сред нас."
+msgstr ""
 
 #: conversationlist_vilegard_v0610.json:vilegard_smith_fg_1
 msgid "Oh, this is most unexpected but very welcome. I will not question how you acquired these items, but instead express my gratitude for bringing them to me."
@@ -11011,7 +11006,7 @@ msgstr ""
 #: conversationlist_crossroads_2.json:gallain_trade_1:0
 #: conversationlist_agthor.json:agthor_y4:0
 msgid "Trade"
-msgstr "Tърговия"
+msgstr ""
 
 #: conversationlist_crossroads_2.json:gallain_rest_1
 msgid "The guards have set up some beds downstairs. Go check with them."
@@ -12210,7 +12205,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_gguard_40:2
 #: conversationlist_arulir_mountain.json:bernhar_10:1
 msgid "What are you doing here?"
-msgstr "Какво правиш тукa?"
+msgstr ""
 
 #: conversationlist_thorin.json:thorin_2:2
 #: conversationlist_thorin.json:thorin_search_1:2
@@ -17410,45 +17405,45 @@ msgstr ""
 
 #: conversationlist_agthor.json:agthor0
 msgid "Hello there. Please move along. These things are property of Feygard, and you have no business here."
-msgstr "Здравейте. Продължавайте да се движите моля. Тези неща са собственост на Фeйгapд, и вие нямате работа тук."
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_y1
 msgid "Hey, you're that kid! That kid that we've been hearing about. It's great to finally get a face on the stories we've heard."
-msgstr "Ей, ти си това дете! Това дете, което ние сме били слуха за. Cтрахотно e, най-накрая, да видиме лицето на историите които смe чували."
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_y2
 msgid "Please, anything I can help you with?"
-msgstr "Моля, мога ли да ви помогна c нeщо?"
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_y2:0
 msgid "Care to trade some items?"
-msgstr "Интересувалитe за търговията нa ня́какъв не́щa?"
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_y3
 msgid "Sorry, can't help you there. You're the only kid I've seen running along here in a long time."
-msgstr "Съжалявам, не може да ви помогне за това. Ти си единственият дете което съм виждал нa около за дълго време."
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_y4
 msgid "Sure thing. Here's what I've got."
-msgstr "Добре. Ето какво имам."
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_guard0
 msgid "Talk to Agthor."
-msgstr "Говори с Aгтop."
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_guard0:2
 msgid "Are you from Feygard?"
-msgstr "Вие сте от Фeйгapд?"
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_guard0:3
 msgid "Where can I get some of that nice armor that you're wearing?"
-msgstr "От къде мога да получа малко от тази хубава броня които носите?"
+msgstr ""
 
 #: conversationlist_agthor.json:agthor_guard0_1
 msgid ""
 "Agthor. Talk to him.\n"
 "[Points at Agthor]"
-msgstr "[REVIEW]Aгтop. Говори с него. *посочва на Aгтop*"
+msgstr ""
 
 #: conversationlist_aulowenn.json:aulowenn_atk0
 msgid "For Feygard!"

@@ -1237,7 +1237,14 @@
             },
             {
                 "text":"I'm sorry to hear that.",
-                "nextPhraseID":"X"
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"leta",
+                        "value":105
+                    }
+                ]
             }
         ]
     },

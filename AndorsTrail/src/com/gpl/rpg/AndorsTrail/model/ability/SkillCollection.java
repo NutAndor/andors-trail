@@ -33,6 +33,7 @@ public final class SkillCollection {
 		,resistancePhysical	// lowers chance to get negative active conditions by monsters (Physical Capacity like Minor fatigue)
 		,resistanceBlood	// lowers chance to get negative active conditions by monsters (Blood Disorder like Weak Poison)
 		,shadowBless
+		,sporeImmunity
 		,crit1			// lowers atk ability
 		,crit2			// lowers def ability ,rejuvenation	// Reduces magnitudes of conditions
 		,rejuvenation	// Reduces magnitudes of conditions
@@ -186,6 +187,7 @@ public final class SkillCollection {
 		initializeSkill(new SkillInfo(SkillID.resistancePhysical, MAX_LEVEL_RESISTANCE, SkillInfo.LevelUpType.alwaysShown, SkillCategory.immunity, null, position++));
 		initializeSkill(new SkillInfo(SkillID.resistanceBlood, MAX_LEVEL_RESISTANCE, SkillInfo.LevelUpType.alwaysShown, SkillCategory.immunity, null, position++));
 		initializeSkill(new SkillInfo(SkillID.shadowBless, 1, SkillInfo.LevelUpType.onlyByQuests, SkillCategory.immunity, null, position++));
+		initializeSkill(new SkillInfo(SkillID.sporeImmunity, 1, SkillInfo.LevelUpType.onlyByQuests, SkillCategory.immunity, null, position++));
 		initializeSkill(new SkillInfo(SkillID.crit1, 1, SkillInfo.LevelUpType.alwaysShown, SkillCategory.criticals, new SkillLevelRequirement[] {
 			SkillLevelRequirement.requireOtherSkill(SkillID.moreCriticals, 3)
 			,SkillLevelRequirement.requireOtherSkill(SkillID.betterCriticals, 3)

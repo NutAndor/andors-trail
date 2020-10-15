@@ -126,6 +126,9 @@ public final class SkillController {
 		int result = 0;
 		result += getActorConditionEffectChanceRollBiasFromResistanceSkills(effect, player);
 		result += getActorConditionEffectChanceRollBias(effect, player, SkillID.shadowBless, SkillCollection.PER_SKILLPOINT_INCREASE_RESISTANCE_SHADOW_BLESS);
+		if ("spore_poison".equals(effect.conditionType.conditionTypeID)) {
+			result += getActorConditionEffectChanceRollBias(effect, player, SkillID.sporeImmunity, 100);
+		}
 		return result;
 	}
 

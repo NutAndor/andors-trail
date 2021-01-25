@@ -327,6 +327,18 @@ msgstr ""
 msgid "Venom"
 msgstr ""
 
+#: actorconditions_fungi_panic.json:spore_poison
+msgid "Spore poisoning"
+msgstr ""
+
+#: actorconditions_gison.json:reinvigorated
+msgid "Reinvigorated"
+msgstr ""
+
+#: actorconditions_gison.json:sated
+msgid "Sated"
+msgstr ""
+
 #: conversationlist_mikhail.json:mikhail_gamestart
 msgid "Oh good, you are awake."
 msgstr ""
@@ -367,6 +379,10 @@ msgstr ""
 
 #: conversationlist_mikhail.json:mikhail_default:7
 msgid "I was searching for Andor."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_default:8
+msgid "What kind of book is it that you have in your hand?"
 msgstr ""
 
 #: conversationlist_mikhail.json:mikhail_tasks
@@ -449,6 +465,11 @@ msgstr ""
 #: conversationlist_brimhaven.json:mikhail_news_30:1
 #: conversationlist_brimhaven_2.json:inspiring_snake_master_25:0
 #: conversationlist_brimhaven_2.json:brv_churchman_i1:5
+#: conversationlist_fungi_panic.json:bogsten_10_10:1
+#: conversationlist_fungi_panic.json:bogsten_30_10:1
+#: conversationlist_fungi_panic.json:bogsten_50_10:1
+#: conversationlist_fungi_panic.json:zuul_khan_70_10:0
+#: conversationlist_fungi_panic.json:zuul_khan_115:0
 msgid "No, not yet."
 msgstr ""
 
@@ -514,6 +535,35 @@ msgid ""
 "Thanks for your help with the rats earlier.\n"
 "\n"
 "If you are hurt, use your bed over there to rest and regain your strength."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_10
+msgid "Just like my father once did, I want to give you a book to take with you on your way."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_20
+msgid "This book is some kind of diary, in which you can record unusual experiences and achievements that you may have on your way."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_30
+msgid "Would you like to have it?"
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_30:0
+msgid "Yes, sounds great."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_30:1
+msgid "No, thanks."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_40
+msgid "No problem. I won't bother you with it again."
+msgstr ""
+
+#: conversationlist_mikhail.json:mikhail_achievements_50
+#: conversationlist_stoutford_combined.json:stn_colonel_34
+msgid "Here you are."
 msgstr ""
 
 #: conversationlist_mikhail_foodpoison.json:mikhail_rats_start2a
@@ -652,7 +702,6 @@ msgstr ""
 #: conversationlist_crossglen_leonid.json:leonid_continue:0
 #: conversationlist_fallhaven.json:fallhaven_citizen1:0
 #: conversationlist_fallhaven.json:fallhaven_citizen2:0
-#: conversationlist_fallhaven.json:fallhaven_citizen3:0
 #: conversationlist_fallhaven.json:fallhaven_citizen4:0
 #: conversationlist_fallhaven.json:fallhaven_citizen6:0
 #: conversationlist_fallhaven.json:rigmor:0
@@ -1104,6 +1153,7 @@ msgstr ""
 #: conversationlist_brimhaven.json:brv_employer_10_30:0
 #: conversationlist_brimhaven.json:brv_employer_40:0
 #: conversationlist_brimhaven2.json:brv_school_enter_20:0
+#: conversationlist_gison.json:gison_p2_70_10:0
 msgid "OK."
 msgstr ""
 
@@ -1176,6 +1226,7 @@ msgstr ""
 #: conversationlist_stoutford_combined.json:yolgen_4:0
 #: conversationlist_brimhaven.json:melona_1:0
 #: conversationlist_brimhaven_2.json:brv_guard_deputy_asd_30:0
+#: conversationlist_gison.json:gison_p1_20_warmup_1:0
 msgid "Thanks."
 msgstr ""
 
@@ -1423,6 +1474,10 @@ msgstr ""
 msgid "Hi. Can I help you?"
 msgstr ""
 
+#: conversationlist_fallhaven.json:fallhaven_citizen3:0
+msgid "Have you seen my brother Andor? He looks a bit like me."
+msgstr ""
+
 #: conversationlist_fallhaven.json:fallhaven_citizen4
 msgid "You're that kid from Crossglen village right?"
 msgstr ""
@@ -1444,7 +1499,7 @@ msgid "Some other kid you say? Hmm, let me think."
 msgstr ""
 
 #: conversationlist_fallhaven.json:fallhaven_andor_3
-msgid "Hmm, I might have seen someone matching that description a few days ago. Can't remember where though."
+msgid "Hmm, I might have seen someone that looks a bit like you a few days ago. Can't remember where though."
 msgstr ""
 
 #: conversationlist_fallhaven.json:fallhaven_andor_4
@@ -1691,26 +1746,6 @@ msgstr ""
 
 #: conversationlist_fallhaven_church.json:chapelgoer
 msgid "Shadow, embrace me."
-msgstr ""
-
-#: conversationlist_fallhaven_church.json:thoronir_default
-msgid "Bask in the Shadow, my child."
-msgstr ""
-
-#: conversationlist_fallhaven_church.json:thoronir_default:0
-msgid "What can you tell me about the Shadow?"
-msgstr ""
-
-#: conversationlist_fallhaven_church.json:thoronir_default:1
-msgid "Can you tell me more about the church?"
-msgstr ""
-
-#: conversationlist_fallhaven_church.json:thoronir_default:2
-msgid "Are the Bonemeal potions ready yet?"
-msgstr ""
-
-#: conversationlist_fallhaven_church.json:thoronir_default:3
-msgid "I really need your help!"
 msgstr ""
 
 #: conversationlist_fallhaven_church.json:thoronir_shadow_1
@@ -2192,10 +2227,12 @@ msgid "Welcome to Fallhaven Tavern. Have a seat anywhere."
 msgstr ""
 
 #: conversationlist_fallhaven_tavern.json:bela:0
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_5:0
 msgid "Let me see what food and drinks you have available."
 msgstr ""
 
 #: conversationlist_fallhaven_tavern.json:bela:1
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_5:1
 #: conversationlist_kendelow.json:kendelow_d:2
 msgid "Are there any rooms available?"
 msgstr ""
@@ -2236,6 +2273,81 @@ msgstr ""
 
 #: conversationlist_fallhaven_tavern.json:ganos_1
 msgid "Thieves' Guild? How would I know? Do I look like a thief to you?! Hrmpf."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_1
+msgid "I'm glad you are still alive!"
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_1:0
+msgid "As you know I can handle myself."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_1:1
+msgid "Why? Has something happened?"
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_2
+msgid "Did you not hear of the most dangerous snake ever seen? It has been spotted on Fallhaven's southern border."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_2:0
+msgid "A snake?"
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_2:1
+msgid ""
+"No, I didn't hear, and I also don't want to.\n"
+"Please give me something to drink."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_3
+msgid "No normal snake. Huge as a house! Making noise like a hundred galloping horses!"
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_4
+msgid "Few people dare to walk outside of the city nowadays."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_4:0
+#: conversationlist_fungi_panic.json:bela_trade_2:0
+msgid "Sounds interesting."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_4:1
+msgid "Thanks for the warning. I'll avoid that area."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_5
+msgid "Good. Enough of such dark words - now go, have a seat anywhere."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_10
+msgid "Oh no - what have I done? I shouldn't have talked of the giant snake. Promise me you won't go there!"
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_10:0
+msgid "Well, if it makes you happy."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_10:1
+msgid "Of course I'll go there."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_11
+msgid "What a waste of such a young, promising life! Well...don't forget to pay your tab before you leave my tavern."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_20
+msgid "You are back!"
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_20:0
+msgid "Sure. And your little snake monster is no more."
+msgstr ""
+
+#: conversationlist_fallhaven_tavern.json:bela_gsnake_21
+msgid "Incredible! Let's feast now! Everyone have a free drink!"
 msgstr ""
 
 #: conversationlist_fallhaven_larcal.json:larcal
@@ -2784,6 +2896,7 @@ msgstr ""
 #: conversationlist_maevalia.json:maevalia_d10
 #: conversationlist_fallhaven_potions.json:fallhaven_potions3:0
 #: conversationlist_fallhaven_potions.json:fallhaven_pot_antifp_q4:0
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_60:0
 #: conversationlist_stoutford.json:soutford_gateguard_what_2:1
 #: conversationlist_stoutford.json:soutford_gateguard_who_2:1
 #: conversationlist_stoutford.json:stoutford_gateguard_andor_1:2
@@ -2805,6 +2918,8 @@ msgstr ""
 #: conversationlist_brimhaven2.json:brv_teacher_120:0
 #: conversationlist_brimhaven2.json:brv_wh_boss_10_90:0
 #: conversationlist_brimhaven2.json:golin_152:0
+#: conversationlist_gison.json:gison_p1_30_1
+#: conversationlist_gison.json:gison_catchsoup_new:0
 msgid "Thank you."
 msgstr ""
 
@@ -2863,6 +2978,10 @@ msgstr ""
 
 #: conversationlist_wilderness.json:bandit1_4
 msgid "OK then, your life it is. Let's fight. I have been looking forward to a good fight!"
+msgstr ""
+
+#: conversationlist_wilderness.json:fct_bandit1_10
+msgid "Now the area is clean of these nasty highwaymen at last."
 msgstr ""
 
 #: conversationlist_flagstone.json:zombie1
@@ -3149,7 +3268,21 @@ msgid "Hello. I'm Alaun. How can I help you?"
 msgstr ""
 
 #: conversationlist_fallhaven_south.json:alaun:0
+#: conversationlist_fungi_panic.json:alaun_complete:0
 msgid "Have you seen my brother Andor? He looks similar to me."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun:1
+msgid "Do you have a job for me?"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun:2
+#: conversationlist_fallhaven_south.json:alaun:3
+msgid "About the soup..."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun:4
+msgid "Gison gave me some of his soup."
 msgstr ""
 
 #: conversationlist_fallhaven_south.json:alaun_2
@@ -3258,6 +3391,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_lovis2_151:0
 #: conversationlist_stoutford_combined.json:stoutford_widow_12:0
 #: conversationlist_brimhaven_2.json:oromir_basement_help_15
+#: conversationlist_fungi_panic.json:bogsten_200_10:0
 msgid "Goodbye."
 msgstr ""
 
@@ -3297,6 +3431,198 @@ msgstr ""
 msgid "Thank you for bringing me back my axe!"
 msgstr ""
 
+#: conversationlist_fallhaven_south.json:alaun_1
+msgid "Oh, how surprising. How nice of you. Indeed there is something you could do for me."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_1:0
+msgid "Tell me what it is."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_1:1
+#: conversationlist_halvor_surprise.json:halvor_chwood_1:0
+#: conversationlist_stoutford_combined.json:blornvale_shop1_8:2
+msgid "Maybe later."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_1:2
+msgid "Let's talk about payment first."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_4
+msgid "Ahh, you are here to earn some money, okay."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_5
+msgid "I'll give you 10 gold if you do this little job for me: Bring me some of that delicious soup which Gison cooks using mushrooms and wild herbs."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_5:0
+msgid "Sounds easy, I'll do it!"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_5:1
+msgid "Give me 15 and I'll do it."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_5:2
+msgid "Give me 20 and I'll do it."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_5:3
+msgid "No way, I'm not your gopher."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_startquest10
+msgid "That's really nice of you."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_more1
+msgid ""
+"15? Let me think...erm...\n"
+"\n"
+"OK, I'll give you 15."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_more1:0
+#: conversationlist_fallhaven_south.json:alaun_more2:0
+msgid "Sounds good. I will do it."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_more1:1
+#: conversationlist_fallhaven_south.json:alaun_more2:1
+msgid "I changed my mind."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_more2
+msgid ""
+"20? Let me think...erm...\n"
+"\n"
+"OK. I'll give you 20. But please, bring it hot or I won't pay you."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_startquest15
+msgid "That's nice of you."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_startquest20
+msgid "OK, please bring it hot!"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_startquest_go
+msgid "You can find Gison and his wife Nimael south of here. Cross the path and head into the woods. You will find their house soon."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_startquest_go:0
+msgid "OK. See you later."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return
+msgid "Aah, you are back. Wonderful. I will stop working for now and take a little break."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return10
+msgid ""
+"Here is the money I promised you.\n"
+"\n"
+"And as a bonus I will give you some of this bread.\n"
+"\n"
+"Next time I will buy Nimael's soup."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return10:0
+#: conversationlist_fallhaven_south.json:alaun_return15:0
+#: conversationlist_fallhaven_south.json:alaun_return20:0
+msgid "Nimael's soup?"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return15
+#: conversationlist_fallhaven_south.json:alaun_return20
+msgid ""
+"Here is the money I promised you.\n"
+"\n"
+"Next time I will buy Nimael's soup."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_end
+msgid "Thanks again. And remember to take the bottle back to Gison. Now go please. I want to eat."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_end:0
+msgid "Enjoy your meal."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_nosoup
+msgid "Where is it?"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_nosoup:0
+msgid "Oops, I forgot that there is a hole in my bag."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_nosoup:1
+msgid "I ate it."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_nosoup_1
+msgid "What are you waiting for? Go on, bring me some soup. Hurry, I'm hungry!"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_nosoup_1:0
+msgid "Yes, I will return quickly."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_blindstart
+msgid "Yes. I asked you to bring me some of that delicious mushroom soup from Gison."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_blindstart:0
+msgid "Can you explain the way again?"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_blindstart:1
+msgid "Yes, I'm on my way."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_blindstart:2
+msgid "I was not able to bring you the soup."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_coldsoup
+msgid "This soup is cold. Return to me with a hot soup!"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_coldsoup:0
+msgid "Sorry. I will try again."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_coldsoup:1
+msgid "It still tastes..."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_fail
+msgid ""
+"That can't be. Get out of here!\n"
+"\n"
+"[Alaun starts throwing things at you]"
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_fail:0
+#: conversationlist_guynmart_npc.json:guynmart_steward3_24:0
+#: conversationlist_stoutford_combined.json:berbane_110:0
+#: conversationlist_stoutford_combined.json:blornvale_thorns72_90:0
+#: conversationlist_brimhaven2.json:brv_school_enter_10:0
+#: conversationlist_brimhaven2.json:brv_school_enter_90:0
+#: conversationlist_brimhaven2.json:brv_school_seated_14:0
+#: conversationlist_brimhaven2.json:brv_school_seated_22:0
+#: conversationlist_gison.json:gael_10_1:0
+msgid "But..."
+msgstr ""
+
+#: conversationlist_fallhaven_south.json:alaun_return_fail:1
+msgid "Listen..."
+msgstr ""
+
 #: conversationlist_signs_pre067.json:keyarea_andor1
 msgid "You should talk to Mikhail first."
 msgstr ""
@@ -3332,7 +3658,7 @@ msgid ""
 msgstr ""
 
 #: conversationlist_signs_pre067.json:sign_pitcave2
-msgid "Gandir lies here, slain by the hand of his former friend Irogotu."
+msgid "The ground is littered with bloodstained scraps of paper, seemingly torn from a journal in a fight."
 msgstr ""
 
 #: conversationlist_signs_pre067.json:sign_fallhaven1
@@ -3394,6 +3720,7 @@ msgid ""
 msgstr ""
 
 #: conversationlist_thievesguild_1.json:thievesguild_thief_1
+#: conversationlist_gison.json:nimael
 msgid "Hello kid."
 msgstr ""
 
@@ -3561,6 +3888,8 @@ msgstr ""
 #: conversationlist_arulir_mountain.json:tjure_0:0
 #: conversationlist_brimhaven.json:edrin_0_0:3
 #: conversationlist_brimhaven_2.json:zorvan_0:0
+#: conversationlist_fungi_panic.json:zuul_khan_20:0
+#: conversationlist_fungi_panic.json:fungi_rescued:0
 msgid "Who are you?"
 msgstr ""
 
@@ -5053,6 +5382,12 @@ msgstr ""
 #: conversationlist_burhczyd.json:burhczydx_4a_7
 #: conversationlist_brimhaven2.json:brv_wh_boss_10_92
 #: conversationlist_brimhaven2.json:guard_advent_22:0
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_10:0
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_20:0
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_30:0
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_40:0
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_50:0
+#: conversationlist_gison.json:gael_10:0
 msgid "What?"
 msgstr ""
 
@@ -5087,6 +5422,7 @@ msgstr ""
 #: conversationlist_omicronrg9.json:umar_guild02_3
 #: conversationlist_omicronrg9.json:umar_guild03_27c:0
 #: conversationlist_burhczyd.json:burhczydx_9a_4:0
+#: conversationlist_fungi_panic.json:zuul_khan9_20
 msgid "What do you mean?"
 msgstr ""
 
@@ -5933,6 +6269,7 @@ msgstr ""
 #: conversationlist_halvor_surprise.json:halvor_bwmine_14
 #: conversationlist_guynmart_npc.json:guynmart_wizard_50:0
 #: conversationlist_brimhaven_2.json:kizzo_asd_50:0
+#: conversationlist_gison.json:gael_20_6
 msgid "Really?"
 msgstr ""
 
@@ -6473,6 +6810,7 @@ msgstr ""
 #: conversationlist_burhczyd.json:burhczydx_4a_11:0
 #: conversationlist_brimhaven2.json:brv_wh_boss_10:2
 #: conversationlist_brimhaven2.json:golin_100:0
+#: conversationlist_gison.json:gael_1:0
 msgid "Sure."
 msgstr ""
 
@@ -8953,6 +9291,7 @@ msgstr ""
 #: conversationlist_blackwater_throdna.json:throdna_loop_1
 #: conversationlist_twoteeth.json:twoteeth_4:2
 #: conversationlist_stoutford_combined.json:lakecave2_troll_14
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low
 msgid "What do you want?"
 msgstr ""
 
@@ -9306,6 +9645,7 @@ msgstr ""
 #: conversationlist_kantya.json:kantya3:0
 #: conversationlist_lodar.json:lodar_andor13:0
 #: conversationlist_stoutford_combined.json:odirath_1_1:0
+#: conversationlist_gison.json:nimael_1:0
 msgid "What happened?"
 msgstr ""
 
@@ -9704,6 +10044,7 @@ msgid "Absolutely, it would be my honor to assist you in locating your missing s
 msgstr ""
 
 #: conversationlist_tinlyn.json:tinlyn_story_4:2
+#: conversationlist_fungi_panic.json:zuul_khan_70_22:0
 msgid "What would I gain from this?"
 msgstr ""
 
@@ -9854,11 +10195,17 @@ msgstr ""
 #: conversationlist_benbyr.json:benbyr_story_3_2:1
 #: conversationlist_crossroads_3.json:crossroads_backguard_5
 #: conversationlist_crossroads_3.json:crossroads_backguard_6
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_56:0
 #: conversationlist_stoutford.json:stoutford_gateguard_andor_2
 #: conversationlist_stoutford.json:stoutford_thief_initial_1:1
 #: conversationlist_graveyard1.json:graveyardtraveler_10:1
 #: conversationlist_stoutford_combined.json:key_wild21a:1
 #: conversationlist_brimhaven.json:brv_employer_get_boulder_10:2
+#: conversationlist_fungi_panic.json:bogsten_52_14
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_2
+#: conversationlist_gison.json:gison_p2_10_7:1
 msgid "No."
 msgstr ""
 
@@ -10922,6 +11269,7 @@ msgstr ""
 #: conversationlist_stoutford.json:glasforn_rumblings30_0:2
 #: conversationlist_brimhaven.json:brv_employee_10:0
 #: conversationlist_brimhaven.json:mikhail_news_20:2
+#: conversationlist_gison.json:gison_p2_50:2
 msgid "Not yet."
 msgstr ""
 
@@ -11553,6 +11901,7 @@ msgid "Now, tell me. Would you support those men by agreeing to their terms?"
 msgstr ""
 
 #: conversationlist_buceth.json:buceth_14:2
+#: conversationlist_fungi_panic.json:bogsten_granny_30:2
 msgid "I don't know."
 msgstr ""
 
@@ -11706,6 +12055,10 @@ msgstr ""
 
 #: conversationlist_buceth.json:buceth_story_7
 msgid "They were sending a boy to do some business here, and I was assigned to make sure that the mission was successful."
+msgstr ""
+
+#: conversationlist_buceth.json:buceth_story_7:0
+msgid "Do you know where he went after he left Loneford?"
 msgstr ""
 
 #: conversationlist_buceth.json:buceth_story_8
@@ -12070,7 +12423,7 @@ msgid "This is no place for a kid like you. I think you had better leave now."
 msgstr ""
 
 #: conversationlist_loneford_4.json:loneford_tavern_patron:0
-msgid "I met a man named Forlin who recomended that I speak with you in regards to a possible murder investigation that I am conducting."
+msgid "I met a man named Forlin who recommended that I speak with you in regards to a possible murder investigation that I am conducting."
 msgstr ""
 
 #: conversationlist_loneford_4.json:loneford_tavern_patron:1
@@ -12204,6 +12557,7 @@ msgstr ""
 #: conversationlist_guynmart_npc.json:guynmart_gguard_20:2
 #: conversationlist_guynmart_npc.json:guynmart_gguard_40:2
 #: conversationlist_arulir_mountain.json:bernhar_10:1
+#: conversationlist_gison.json:gison_p1_10_0:0
 msgid "What are you doing here?"
 msgstr ""
 
@@ -13031,6 +13385,7 @@ msgstr ""
 #: conversationlist_talion_2.json:talion_hair_1:0
 #: conversationlist_talion_2.json:talion_irdegh_1:0
 #: conversationlist_halvor_surprise.json:halvor_crossglen_7:1
+#: conversationlist_gison.json:gison_p1_20_warmup_1
 msgid "Here you go."
 msgstr ""
 
@@ -13861,6 +14216,9 @@ msgstr ""
 #: conversationlist_ulirfendor.json:ulirfendor_helmet_keep3:0
 #: conversationlist_aulowenn.json:aulowenn_atk0:0
 #: conversationlist_tiqui.json:tiqui_atk0:0
+#: conversationlist_fungi_panic.json:zuul_khan_14:1
+#: conversationlist_fungi_panic.json:zuul_khan_70_24:0
+#: conversationlist_gison.json:gison_thief1_22:0
 msgid "Attack!"
 msgstr ""
 
@@ -17065,6 +17423,7 @@ msgid "Here, have the message."
 msgstr ""
 
 #: conversationlist_vacor2.json:vacor_msg_5:1
+#: conversationlist_gison.json:gison_p1_40_2:1
 msgid "What's in it for me?"
 msgstr ""
 
@@ -17133,6 +17492,8 @@ msgid "Kaverin, my old friend! It's good to hear that he is still alive. What is
 msgstr ""
 
 #: conversationlist_unzel2.json:unzel_msg1:0
+#: conversationlist_fungi_panic.json:zuul_khan_115_20:0
+#: conversationlist_fungi_panic.json:zuul_khan_115_20:1
 msgid "Here it is."
 msgstr ""
 
@@ -17466,7 +17827,7 @@ msgid "I am Aulowenn of Feygard."
 msgstr ""
 
 #: conversationlist_aulowenn.json:aulowenn2:0
-msgid "What are doing out here?"
+msgid "What are you doing out here?"
 msgstr ""
 
 #: conversationlist_aulowenn.json:aulowenn3
@@ -19690,6 +20051,7 @@ msgstr ""
 
 #: conversationlist_lodar0g.json:lodar0_g0a
 #: conversationlist_halvor_surprise.json:halvor_bwmine_0:1
+#: conversationlist_brimhaven_blackjack.json:brv_zimsko_5
 msgid "You again?"
 msgstr ""
 
@@ -19993,7 +20355,7 @@ msgid "It's that obvious eh?"
 msgstr ""
 
 #: conversationlist_lowyna.json:lowyna_6
-msgid "I really shouldn't be discussing this with you. You look way to inexperienced for this."
+msgid "I really shouldn't be discussing this with you. You look way too inexperienced for this."
 msgstr ""
 
 #: conversationlist_lowyna.json:lowyna_6:0
@@ -20980,6 +21342,7 @@ msgid "It has all the markings. But it can't be? I don't understand."
 msgstr ""
 
 #: conversationlist_vilegard_v070.json:vilegard_smith_xul_2:0
+#: conversationlist_fungi_panic.json:fungi_rescued_90:0
 msgid "What is it?"
 msgstr ""
 
@@ -21104,6 +21467,22 @@ msgstr ""
 msgid "Can you sell me a special crystal vial?"
 msgstr ""
 
+#: conversationlist_fallhaven_potions.json:fallhaven_potions:4
+msgid "Bogsten is sick after encountering a giant mushroom. He asked me to get a cure for him."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fallhaven_potions:5
+msgid "Here are four samples of mushroom spores. Can you help Bogsten now?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fallhaven_potions:6
+msgid "Here's a sample of the mushroom spores. Can you help Bogsten now?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fallhaven_potions:7
+msgid "Here are some of Bogsten's mushrooms."
+msgstr ""
+
 #: conversationlist_fallhaven_potions.json:fallhaven_potions2
 msgid "Oh yes. Really disgusting smell, they have. But good for making potions."
 msgstr ""
@@ -21204,6 +21583,233 @@ msgstr ""
 
 #: conversationlist_fallhaven_potions.json:fallhaven_pot_antifp_q4:1
 msgid "I sure hope this mixture of your works."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_10
+msgid "Bogsten? I haven't heard from that old boy in a long time now. I was starting to wonder if he was still alive."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_10:0
+msgid "He is alive, but only barely. He didn't even make it to Fallhaven to ask for help."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_10:1
+msgid "Stop talking. Just give me the cure."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_12
+msgid "[muttering] ... grumble ... cheeky kids, grumble ..."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_20
+msgid "And now I have to rescue him again. Well, what did he do to himself this time?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_20:0
+msgid "A giant mushroom attacked him."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_20:1
+msgid "This time? Did he ask for help before?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_22
+msgid "Several times, indeed. Let me think..."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_24
+msgid "He was my first customer. Needed an antidote against snake poison. His pet snake bit him."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_24:0
+msgid "Pet snake?!"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_24:1
+msgid "I heard enough. Just give me the cure, please."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_26
+msgid "Next time he ate something interesting. I always had told him not to try all these red and white mushrooms."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_28
+msgid "Then he wanted some drink for an annoying 'friend' who always came and disturbed him."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_28:0
+#: conversationlist_fungi_panic.json:gison_bottle_8_1:0
+msgid "Nice."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_28:1
+msgid "Enough. Just give me the cure, please."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_30
+msgid "He came regularly for the snake antidote. Trying to tame snakes wasn't successful obviously..."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_30:0
+msgid "I can imagine."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_32
+msgid "He even tried to get my recipe for this antidote. But of course I couldn't reveal it to him."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_32:0
+msgid "Yes, such things should be done by learned potion makers."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_34
+msgid "Nonsense. He was my best customer. I want to keep it like this."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_34:0
+msgid "Oh. Sure."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40
+msgid "So you need a cure against giant mushrooms."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40:0
+#: conversationlist_graveyard1.json:graveyardtraveler_10:0
+#: conversationlist_guynmart_npc.json:guynmart_steward_40:0
+#: conversationlist_stoutford_combined.json:blornvale_shop1_2:0
+#: conversationlist_stoutford_combined.json:blornvale_thorns70_10
+#: conversationlist_stoutford_combined.json:blornvale_thorns74_1:0
+#: conversationlist_stoutford_combined.json:key_wild21a:0
+#: conversationlist_omicronrg9.json:umar_guild02_23a:1
+#: conversationlist_burhczyd.json:burhczydx_9a_8a:0
+#: conversationlist_brimhaven.json:brv_employer_get_boulder_10:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw:0
+#: conversationlist_gison.json:gison_p2_10_7:0
+msgid "Yes."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_40:1
+msgid "Yes. Here are some samples of the mushroom spores."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_42
+msgid "There are lots of different mushrooms. A spore infection can be nasty, deadly even. Unfortunately the cure for one kind kills you, when you are afflicted by another kind."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_42:0
+msgid "Oh dear. So Bogsten can't be helped?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_44
+msgid "No need to despair. To make a cure, I will need a sample of these spores. Can you get some?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_44:0
+msgid "I could try."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_46
+msgid "Good. Bring me four sample spores of the mushroom, then I will be able to choose the right antidote."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_46:0
+msgid "I will be back with the spores in an instant."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_46:1
+msgid "Here are four samples of the mushroom spores."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_50
+msgid "Let me see... Ah, yes. A fungus maximus, also known as 'Giant mushroom'. Its wounds are deadly if not cured properly."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_50a
+msgid "A sample? This won't do. I'll need at least four samples for my work."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_50a:0
+msgid "I see. I'll be back with more in just a moment."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_52
+msgid "I'm glad that I have the right potion for it. You can have it for only 150 gold coins."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_52:0
+msgid "That much!"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_52:1
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_54:1
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_56:1
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_58:1
+msgid "OK, here you are."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_54
+msgid "Take it or leave it. Poor Bogsten ..."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_54:0
+#: conversationlist_arulir_mountain.json:tjure_30_90:1
+msgid "Forget it."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_56
+msgid "I had always liked him ..."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_58
+#: conversationlist_brimhaven2.json:brv_school_history_30:0
+#: conversationlist_fungi_panic.json:zuul_khan3_blocker:1
+#: conversationlist_fungi_panic.json:zuul_khan4_blocker:1
+msgid "Sigh."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_58:0
+msgid "I said no."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_60
+msgid "And here's the cure."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_100
+msgid "Oh. Thank you."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_100:0
+msgid "Hey! Aren't you going to give me something interesting for it?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_110
+msgid "I could, yes. But I won't."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_110:0
+msgid "That's robbery! I won't let you get away with it!"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_112
+msgid "Now leave my shop, unless you have some other business. I have work to do."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_112:0
+msgid "Forget it, let's talk about something else."
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_112:1
+msgid "You can't do that to me! I'll get the guards!"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_120
+msgid "Calm down. Shall I sell a sedative to you?"
+msgstr ""
+
+#: conversationlist_fallhaven_potions.json:fungi_panic_potioner_120:0
+msgid "NO! I DON'T NEED ANY SEDATIVE!!"
 msgstr ""
 
 #: conversationlist_shortcut_lodar.json:sign_lodar_shortcut_1
@@ -21843,6 +22449,7 @@ msgstr ""
 
 #: conversationlist_halvor_surprise.json:halvor_mlake_leaving:2
 #: conversationlist_graveyard1.json:algore_special2:0
+#: conversationlist_fungi_panic.json:fungi_rescued_110:0
 msgid "Good luck!"
 msgstr ""
 
@@ -21852,11 +22459,6 @@ msgstr ""
 
 #: conversationlist_halvor_surprise.json:halvor_chwood_1
 msgid "I found a bone that's long enough by myself since we last met. I just need another one. Could you try to find it for me?"
-msgstr ""
-
-#: conversationlist_halvor_surprise.json:halvor_chwood_1:0
-#: conversationlist_stoutford_combined.json:blornvale_shop1_8:2
-msgid "Maybe later."
 msgstr ""
 
 #: conversationlist_halvor_surprise.json:halvor_chwood_1:1
@@ -22281,6 +22883,7 @@ msgid "OK, I can believe that you are Andor's sibling. You should have told me e
 msgstr ""
 
 #: conversationlist_stoutford.json:glasforn_rumblings20_2:0
+#: conversationlist_fungi_panic.json:zuul_khan4:0
 msgid "Why?"
 msgstr ""
 
@@ -22675,18 +23278,6 @@ msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardtraveler_10
 msgid "Hey, did you try to open that treasure chest?"
-msgstr ""
-
-#: conversationlist_graveyard1.json:graveyardtraveler_10:0
-#: conversationlist_guynmart_npc.json:guynmart_steward_40:0
-#: conversationlist_stoutford_combined.json:blornvale_shop1_2:0
-#: conversationlist_stoutford_combined.json:blornvale_thorns70_10
-#: conversationlist_stoutford_combined.json:blornvale_thorns74_1:0
-#: conversationlist_stoutford_combined.json:key_wild21a:0
-#: conversationlist_omicronrg9.json:umar_guild02_23a:1
-#: conversationlist_burhczyd.json:burhczydx_9a_8a:0
-#: conversationlist_brimhaven.json:brv_employer_get_boulder_10:1
-msgid "Yes."
 msgstr ""
 
 #: conversationlist_graveyard1.json:graveyardtraveler_20
@@ -23278,6 +23869,7 @@ msgstr ""
 #: conversationlist_graveyard1.json:aemens_3:1
 #: conversationlist_graveyard1.json:throthaus_0:0
 #: conversationlist_brimhaven_2.json:brv_churchman:1
+#: conversationlist_gison.json:gison_p1_10_0:2
 msgid "I'm looking for my brother, Andor. He looks a bit like me. Have you seen him?"
 msgstr ""
 
@@ -23532,6 +24124,10 @@ msgstr ""
 msgid "Yes, we will!"
 msgstr ""
 
+#: conversationlist_graveyard1.json:waterwaycavex_3
+msgid "You decide to record this discovery in your father's book of achievements."
+msgstr ""
+
 #: conversationlist_guynmart.json:guynmart_haystack
 msgid "This is a haystack."
 msgstr ""
@@ -23583,6 +24179,7 @@ msgstr ""
 #: conversationlist_guynmart.json:guynmart_key_tower0_door_10
 #: conversationlist_brimhaven.json:brv_employee_key_house
 #: conversationlist_brimhaven.json:brv_brother2_door1
+#: conversationlist_fungi_panic.json:sign_bogsten_nokey
 msgid "The door is locked."
 msgstr ""
 
@@ -24386,6 +24983,7 @@ msgid "DON'T COME ANY CLOSER!"
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_s_hannah_60:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_endquest:0
 msgid "Oops."
 msgstr ""
 
@@ -24439,6 +25037,7 @@ msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_s_hannah_63_3:0
 #: conversationlist_brimhaven_2b.json:hettar_10:0
+#: conversationlist_gison.json:gison_p1_10_0
 msgid "How can I help you?"
 msgstr ""
 
@@ -24945,16 +25544,6 @@ msgstr ""
 msgid "Don't You Dare Defile Her Lovely Name By Using It!"
 msgstr ""
 
-#: conversationlist_guynmart_npc.json:guynmart_steward3_24:0
-#: conversationlist_stoutford_combined.json:berbane_110:0
-#: conversationlist_stoutford_combined.json:blornvale_thorns72_90:0
-#: conversationlist_brimhaven2.json:brv_school_enter_10:0
-#: conversationlist_brimhaven2.json:brv_school_enter_90:0
-#: conversationlist_brimhaven2.json:brv_school_seated_14:0
-#: conversationlist_brimhaven2.json:brv_school_seated_22:0
-msgid "But..."
-msgstr ""
-
 #: conversationlist_guynmart_npc.json:guynmart_steward3_50
 msgid "Olav! Come Here!"
 msgstr ""
@@ -24968,6 +25557,7 @@ msgid "Special exit?"
 msgstr ""
 
 #: conversationlist_guynmart_npc.json:guynmart_steward4_12
+#: conversationlist_fungi_panic.json:zuul_khan3
 msgid "You again!"
 msgstr ""
 
@@ -26451,7 +27041,7 @@ msgid "De-lighted indeed. Might you need anything?"
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_wise_20
-msgid "It happend in the mines of Mount Galmore. Don't ask any more, I do not wish to recall the memories. It was horrible."
+msgid "It happened in the mines of Mount Galmore. Don't ask any more, I do not wish to recall the memories. It was horrible."
 msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_wise_60
@@ -26569,6 +27159,7 @@ msgstr ""
 
 #: conversationlist_guynmart2_npc.json:guynmart_wise_172
 #: conversationlist_brimhaven2.json:brv_teacher_102_10:0
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b:0
 msgid "Eh..."
 msgstr ""
 
@@ -27200,6 +27791,7 @@ msgstr ""
 
 #: conversationlist_stoutford_combined.json:lakecave2_troll_90:0
 #: conversationlist_burhczyd.json:burhczydx_9a_8c:0
+#: conversationlist_fungi_panic.json:zuul_khan3_10:0
 msgid "We'll see."
 msgstr ""
 
@@ -28011,7 +28603,7 @@ msgid "OK. Could you repeat what you said about that other mountain."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:cadoran_4b
-msgid "Follow the path to the west. There are two settlements there, Prim and Blackwater mountain Settlement. There has been a rockfall though, making it very difficult to get to them."
+msgid "Head out of town to the north. There are two settlements there, Prim and Blackwater mountain Settlement. There has been a rockfall though, making it very difficult to get to them."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:cadoran_4b:0
@@ -29283,11 +29875,8 @@ msgid "Would you like a cup of good southern blend?"
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:stn_colonel_32:0
+#: conversationlist_gison.json:nimael_4:0
 msgid "With pleasure."
-msgstr ""
-
-#: conversationlist_stoutford_combined.json:stn_colonel_34
-msgid "Here you are."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:stn_colonel_34:0
@@ -29452,7 +30041,7 @@ msgid "Five?"
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:stn_colonel_82:1
-msgid "Well, It will be interesting."
+msgid "Well, it will be interesting."
 msgstr ""
 
 #: conversationlist_stoutford_combined.json:stn_colonel_84
@@ -30035,6 +30624,10 @@ msgstr ""
 msgid "Now you have got a headache. You really should give up trying to sleep."
 msgstr ""
 
+#: conversationlist_bugfix_0_7_4.json:lookout_up_6
+msgid "You decide to write about this wondrous sight in your father's book of achievements."
+msgstr ""
+
 #: conversationlist_omicronrg9.json:umar_guild_1
 msgid "I see .... So you want to get involved in our Guild?"
 msgstr ""
@@ -30314,7 +30907,7 @@ msgid "Yes, I am. I have no time for jokes!"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:fanamor_guild_7b
-msgid "I need a bandage quickly, or I will never return to the guild house."
+msgid "I need a bandage quickly, or I will never return to the guild house. A priest might help ..."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:fanamor_guild_7b:0
@@ -30819,7 +31412,7 @@ msgid "[Whispering] You fool! Be quiet. Listen to me if you want to save your li
 msgstr ""
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_4b
-msgid "(You tap her on the back of the head with the handle of your weapon, and she falls unconsicious)"
+msgid "(You tap her on the back of the head with the handle of your weapon, and she falls unconscious)"
 msgstr ""
 
 #: conversationlist_omicronrg9.json:ambelie_guild02_4b:0
@@ -30849,9 +31442,9 @@ msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_16
 msgid ""
-"(You put Ambelie, who is still unconsicious, in a chair next to you)\n"
+"(You put Ambelie, who is still unconscious, in a chair next to you)\n"
 "\n"
-"Oh! How how did you get here so fast? I've heard reports of a barricade blocking the way from the Duleian road to Fallhaven."
+"Oh! How did you get here so fast? I've heard reports of a barricade blocking the way from the Duleian road to Fallhaven."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild02_16:0
@@ -32108,7 +32701,7 @@ msgid "I will, no doubt about it."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_31a
-msgid "And last but not least, I have some useful information for you. The way from here to the southeast has been finally been opened, once Crackshot's hideout was discovered."
+msgid "And last but not least, I have some useful information for you. The way from here to the southeast has finally been opened, once Crackshot's hideout was discovered."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_31a:0
@@ -32116,7 +32709,7 @@ msgid "Good, I'm not going to have to take that detour."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_32
-msgid "However, the Feygard presence is still significant. Be cautious with with what you do."
+msgid "However, the Feygard presence is still significant. Be cautious with what you do."
 msgstr ""
 
 #: conversationlist_omicronrg9.json:umar_guild03_32:0
@@ -32318,6 +32911,7 @@ msgid "You need some item that would help you go through there undiscovered."
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:arulirmountain_entrance_1:0
+#: conversationlist_gison.json:gison_cavekey:1
 msgid "Leave"
 msgstr ""
 
@@ -32726,10 +33320,6 @@ msgstr ""
 
 #: conversationlist_arulir_mountain.json:tjure_30_90:0
 msgid "No problem, here, take the gold."
-msgstr ""
-
-#: conversationlist_arulir_mountain.json:tjure_30_90:1
-msgid "Forget it."
 msgstr ""
 
 #: conversationlist_arulir_mountain.json:tjure_30_92
@@ -34693,11 +35283,17 @@ msgstr ""
 msgid ""
 "[Breaks down]\n"
 "\n"
-"I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I did."
+"I was bribed by the people of Loneford to sabotage the dam. Here are some letters I exchanged with them, that prove what I did.\n"
+"\n"
+"[The handwriting looks like that of my brother.]"
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_richman_20:0
 msgid "You were honest to me so I will not kill you, but I will tell the guard captain. (And you can't escape from Brimhaven without me seeing you.)"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_richman_20:1
+msgid "I stopped the two brothers from destroying the dam. Who else could have done it?"
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_flood_0_7
@@ -34763,11 +35359,11 @@ msgid "Hello again. Did you find out who destroyed the dam?"
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_guard_captain_and_rich_man_10
-msgid "[Laughs] You again"
+msgid "[Laughs] You again. Welcome back, foolish child."
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_guard_captain_and_rich_man_10:0
-msgid "Your laughter will die away. The captain is here and now you will get your deserved punishment!"
+msgid "Laugh while you can. The captain is here and now you will get your deserved punishment!"
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_guard_captain_and_rich_man_20
@@ -34779,11 +35375,11 @@ msgid "Let's see who is laughing in the end. The captain came to talk, not arres
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_guard_captain_and_rich_man_40
-msgid "Alkapoan's letters accidently fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. Better you disapear soon or I might find some evidence that you are the evil spy from Loneford."
+msgid "It seems Alkapoan's letters accidentally fell into a fire and I am sure some unknown evil spies from Loneford destroyed the dam. You better disappear soon, or I might find some evidence that you are the evil spy from Loneford."
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_guard_captain_and_rich_man_50
-msgid "Better you disapear soon or I might find some evidence that you are the evil spy from Loneford."
+msgid "You better disappear soon, or I might find some evidence that you are the evil spy from Loneford."
 msgstr ""
 
 #: conversationlist_brimhaven.json:brv_prison_guard_20
@@ -35916,6 +36512,18 @@ msgstr ""
 msgid "(I better leave the Basilisk.)"
 msgstr ""
 
+#: conversationlist_brimhaven.json:brv_flood_key_set3_20
+msgid "You have made it!"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_flood_key_set3_20:0
+msgid "Phew, I thought that would be my end!"
+msgstr ""
+
+#: conversationlist_brimhaven.json:brv_brothers_another_axe_10
+msgid "So lucky! Another small hand axe lies here."
+msgstr ""
+
 #: conversationlist_brimhaven2.json:brv_school_check_duel_14a
 msgid "When the other students see how you killed Golin, a panic breaks out. Screaming, they all run out of the building."
 msgstr ""
@@ -35964,10 +36572,6 @@ msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_school_history_30
 msgid "Just imagine all those mighty churches and splendid palaces! It was a merry time, down under Mt. Galmore, the highest mountain in whole of Dhayavar."
-msgstr ""
-
-#: conversationlist_brimhaven2.json:brv_school_history_30:0
-msgid "Sigh."
 msgstr ""
 
 #: conversationlist_brimhaven2.json:brv_school_history_30:1
@@ -37027,6 +37631,7 @@ msgid ""
 msgstr ""
 
 #: conversationlist_brimhaven2.json:guard_advent_58:0
+#: conversationlist_fungi_panic.json:bogsten_90_40:0
 msgid "What??"
 msgstr ""
 
@@ -37050,10 +37655,6 @@ msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_tavern_west_waitress_100
 msgid "Please go away. I don't want you here in my tavern anymore."
-msgstr ""
-
-#: conversationlist_brimhaven_blackjack.json:brv_zimsko_5
-msgid "You again"
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_10
@@ -37085,12 +37686,12 @@ msgid "I lost all my money gambling and can't afford a beer."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_10_2:0
-msgid "Bad luck"
+msgid "Bad luck."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_10_2:1
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_20_1:1
-msgid "I am out of money"
+msgid "I am out of money."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_10_2:2
@@ -37106,7 +37707,7 @@ msgid "Here is one more beer. [Pay 2 gold]"
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_20_1:2
-msgid "[Lie] I am out of money"
+msgid "[Lie] I am out of money."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_20_1:3
@@ -37139,7 +37740,7 @@ msgid "I lost all my money gambling in the backroom. I think they are cheating."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_30:0
-msgid "Oh, bad luck"
+msgid "Oh, bad luck."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_30:1
@@ -37168,7 +37769,7 @@ msgid ""
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_40:0
-msgid "I did not find anything out yet"
+msgid "I did not find anything out yet."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack.json:brv_zimsko_40:1
@@ -37284,7 +37885,7 @@ msgstr ""
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_17:1
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_18:1
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_19:1
-msgid "I am finished"
+msgid "I am finished."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_3
@@ -37365,7 +37966,7 @@ msgstr ""
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_20:1
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_21:1
-msgid "Of course I am finished"
+msgid "Of course I am finished."
 msgstr ""
 
 #: conversationlist_brimhaven_blackjack_game.json:blackjack_draw_21
@@ -37541,7 +38142,7 @@ msgid "So what.  You said it has been missing for years, so how would you know?"
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:arlish_asd_40
-msgid "You see, this was my father Lawellyn's most prized possesion. He kept it with him always."
+msgid "You see, this was my father Lawellyn's most prized possession. He kept it with him always."
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:arlish_asd_50
@@ -37581,7 +38182,7 @@ msgid "Well, he did have a dagger, but I can't say if the one you had was his if
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_asd_no_info_10
-msgid "No, I am sorry, I don't"
+msgid "No, I am sorry, I don't."
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_tavern1_guest2_asd_10
@@ -37781,7 +38382,7 @@ msgid "No, thanks. I just want Ogea punished."
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_guard_deputy_asd_30
-msgid "That is as good as done"
+msgid "That is as good as done."
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:arlish_asd_140
@@ -37821,7 +38422,7 @@ msgid "I'll bear that in mind."
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_guard_deputy_10:1
-msgid "I have proof that Ogea murdered Lawellyn and stole his prize dagger."
+msgid "I have proof that Ogea murdered Lawellyn and stole his prized dagger."
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_guard_deputy_10:2
@@ -38352,6 +38953,7 @@ msgid "I'll give it to the cat. That should solve the problem!"
 msgstr ""
 
 #: conversationlist_brimhaven_2.json:brv_churchman_trap2:1
+#: conversationlist_fungi_panic.json:brv_churchman_mouse1:1
 msgid "I'll release it outside."
 msgstr ""
 
@@ -38387,6 +38989,10 @@ msgstr ""
 msgid "This looks like a good place to release the mouse."
 msgstr ""
 
+#: conversationlist_brimhaven_2.json:release_mouse1:0
+msgid "[Open the bottle]"
+msgstr ""
+
 #: conversationlist_brimhaven_2.json:release_mouse2
 msgid "Hopefully it will find something to eat other than bell ropes!"
 msgstr ""
@@ -38394,6 +39000,10 @@ msgstr ""
 #: conversationlist_brimhaven_2.json:graveyardday2a
 #: conversationlist_brimhaven_2.json:despawn_fix1
 msgid "The defeat of the undead master seems to have lifted the spell animating the remaining corpses and they return to their graves."
+msgstr ""
+
+#: conversationlist_brimhaven_2.json:release_mouse1a
+msgid "You look after as it disappears quickly."
 msgstr ""
 
 #: conversationlist_brimhaven_2b.json:hettar_1
@@ -38596,6 +39206,2654 @@ msgstr ""
 
 #: conversationlist_brimhaven_2b.json:hettar_dog_50:0
 msgid "Ah, I see. These monstrous bones here on the ground are delicious too."
+msgstr ""
+
+#: conversationlist_achievements.json:passive_achievement_grant_1
+msgid "Reflecting on your journey, you marvel at how you were able to go from a commoner in a small village to a wealthy adventurer. You realize that you've collected 100,000 gold, and decide to record this milestone in Mikhail's book of achievements."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_check_zuulkhan_10
+msgid "You have the impression that Zuul'khan is not dead. He just disappeared into the ground."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_check_zuulkhan_20
+msgid ""
+"You have the impression that Zuul'khan is not dead. He just disappeared into the ground.\n"
+"You should tell Bogsten about this."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup
+msgid "Hmm ... hmm ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup:0
+msgid "Hello, I am ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_10
+msgid "Wise men speak because they have something to say; fools because they have to say something."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_20
+msgid "An empty vessel makes the loudest sound. So they that have the least wit are the greatest babblers."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_30
+msgid "There are two things a person should never be angry at: What they can help, and what they cannot."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_40
+msgid "How could they see anything but the shadows if they were never allowed to move their heads?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_50
+msgid "All is flux, nothing stays still."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_90
+msgid "Leave me now, kid. I'm trying to think, don't confuse me with your presence."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_waitforsoup_90:0
+msgid "OK. I will come back when you have more time."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_0
+msgid "Oh young kid, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_0:0
+#: conversationlist_fungi_panic.json:zuul_khan_10:0
+msgid "What's going on?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_1
+msgid "No. I shouldn't be telling you. It's too dangerous."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_1:0
+msgid "I'm sure I can help."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_1:1
+msgid "I'm way stronger than I look."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_1:2
+msgid "OK. Nevermind."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_2
+msgid "My family has used this place to grow mushrooms for five generations. Our mushrooms are famous from Feygard to Nor City, loved by gourmets and potion makers alike."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_3
+msgid "Last month, I went to Nor City to sell an excellent batch and decided to stay a little longer."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_4
+msgid "You see, my son is studying across the country to become a Shadow priest, and he is currently in the Valanyr temple of the Shadow. I had not seen him for so long, so I decided to visit him."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_5
+msgid "Anyway, when I came back here, I felt something strange had happened. I couldn't tell what, but I knew evil was around as soon as I touched the door knob."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_5:0
+msgid "Dealing with evil is my favorite hobby."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_5:1
+msgid "Get to the point."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_5:2
+msgid "I will never help a worshipper of the Shadow!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_6
+msgid "When I got to my mushroom cave, I was attacked by some sort of giant living mushroom. I've been sick since then, to the point where I'm afraid I won't live long. I've locked all access to my cave to prevent anyone from being hurt."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_6:0
+msgid "You really look bad. How can I help?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_7
+msgid "I know this potion maker in Fallhaven. Could you go ask him for a cure?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_7:0
+msgid "Sure. I'll go there right now."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_7:1
+msgid "You fool! I'm not here to run your errands!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_start_8
+msgid "Thank you! I'll be waiting for you. Be quick!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_10_10
+msgid "Have you got the cure?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_10_10:0
+msgid "Not yet. The potion merchant needs some spore sample to prepare it."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_20_10
+msgid "I'm sorry to have dragged you into this, kid. Take this key. It will open the way to my mushroom cave. You will certainly find what you need."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_20_10:0
+msgid "I will have a look."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_30_10
+msgid "Have you collected the spores already?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_30_10:0
+msgid "Yes. I have them with me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_30_12
+msgid "Please get them for me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_30_20
+msgid "These spores would do. Please go and give them to Fallhaven's potion merchant."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_30_20:0
+#: conversationlist_fungi_panic.json:bogsten_40_10:0
+msgid "I'll hurry."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_40_10
+msgid "Quick, I am dying! The potion maker is the only one who could help me!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_50_10
+msgid "I hope you have good news for me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_50_10:0
+msgid "Yes, I have got a potion for you."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_50_20
+msgid ""
+"Finally!\n"
+"[He pours down the liquid greedily]"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_50_20:0
+msgid "And there goes 150 gold again..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_52_10
+msgid "Aaah. I feel much better. That was neat. You have my everlasting thanks, kid."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_52_10:0
+msgid "I am glad I could help."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_52_10:1
+msgid "I'd prefer to have my 150 gold back."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_52_12
+msgid "No, no, no. The uplifting feeling of saving a life cannot be balanced with gold."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_52_12:0
+msgid "No?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_52_12:1
+msgid "You are right."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_20
+msgid "Now that I am restored again, I should go back to work."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_22
+msgid "I really should."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_24
+msgid "I should..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_26
+msgid "What? ... Ah, yes - work."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_26:0
+msgid "You seem a bit distracted."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_30
+msgid "Indeed. I can't concentrate."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_32
+msgid "There seems to be an evil force near us. Yes, that must be it."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_34
+msgid "I remember my father warned me about this kind of thing before passing away. But I was just a kid and I forgot his advice on how to deal with it."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_34:0
+msgid "Don't worry. I deal with evil every day. Whatever lurks down there, I can handle it."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_34:1
+msgid "How can you forget something that important! I guess I have no choice but to go."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_34:2
+msgid "Stupid old man. You really think I'm here to clean up your own mess!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_40
+msgid "Very good. Please go into my caves and check if everything is right."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_40:0
+msgid "You're getting on my nerves now."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_40:1
+msgid "OK. Down again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_40:2
+msgid "No way! You've bored me more than enough!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_52
+msgid "Don't forget that there are hidden rooms. I gave you my necklace so that you can find them. Wear it down in the caves. Never take it off."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_52:0
+#: conversationlist_fungi_panic.json:bogsten_60_54:0
+msgid "I'm curious what I will find there."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_60_54
+msgid "There are hidden rooms. I'll give you my necklace so that you can find them. Wear it down in the caves. Never take it off."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_10
+msgid "It took you a long time to get back here. What has happened down there?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_10:0
+msgid "I met an old sorcerer named Zuul'khan in the cave."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_20
+msgid "Zuul'khan? Hmm, I think I have heard this name already."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_20:0
+msgid "He told me that your family imprisoned him using an ancient petrifying spell."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_30
+msgid "A petrifying spell? But this has to be renewed every week."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_30:0
+msgid "Exactly. Thanks to your laxity, Zuul'khan got free."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_40
+msgid "And why is this Zuul'khan still running around? What did you do the whole time down there? Go and finish your work!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_40:0
+msgid "What? Do it yourself!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_40:1
+msgid "Do you actually do anything with your own hands?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_70_40:2
+msgid "I already defeated Zuul'khan."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_20
+msgid "So Zuul'khan is dead?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_20:0
+msgid "I don't think so. He just disappeared into the ground."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_30
+msgid ""
+"Disappeared! I hope he doesn't appear here next.\n"
+"Well, as a reward for your efforts, please take this bag of mushrooms to the potion merchant in Fallhaven. I'm sure he'll prepare something good for you."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_40
+msgid "Anyway. The evil force is not gone, so you'll have to go down there again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_50
+msgid "It has moved probably to another place. But that is someone else's problem."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_50:0
+msgid "Honestly now?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_90_54
+msgid "Leave now. I need to rest."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_100_10
+msgid "Hi kid. Nice to meet you again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_100_10:0
+msgid "I've finally defeated Zuul'khan and his giant mushroom. You won't have to worry about them anymore."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_115_10
+msgid "Now what has happened down there?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_115_10:0
+msgid "I met a sorcerer called Zuul'khan. He offered me something of value, so now I'll kill you."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:mushroom_m3_1_chains
+msgid "[You hear a sudden sharp click.] What is this? Help!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:mushroom_m3_1_chains_20
+msgid "The chains have wrapped around your arms. You can not move any more!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:mushroom_m3_1_chains_20:0
+msgid "Why have I touched these cursed chains!?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:mushroom_m3_1_chains_30
+msgid "The chains seem to soften their grip."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:mushroom_m3_1_chains_30:0
+msgid "Oof, at last I can move again! I thought that this was the end."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_10
+msgid "Oh kid, you look like someone nice. I don't want you to be injured because of me. I urge you to leave!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_12
+msgid "Give me your hand! ... No don't! ... Give me ... "
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_14
+msgid "I'm hurt ... I'll hurt ... Never do! ... Help! ... Kill! ... your hand - pleease ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_14:0
+msgid "* Reach out your hand *"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_14:2
+msgid "I better go."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_16
+msgid "No! Don't do me wrong!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_20
+msgid "Hahaha! AHAHAHAHA! I am free again!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_20:1
+msgid "What are you?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_22
+msgid "Be nice, kid."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_22:0
+msgid "OK. Who are you?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_30
+msgid "I am the Archmancer of the underground. Widely known as Master of the Fungi and Commander to anything that crawls."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_32
+msgid "I am the great Zuul'khan!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_32:0
+#: conversationlist_fungi_panic.json:zuul_khan3_blocker_10:0
+#: conversationlist_gison.json:gison_bottle_1_1:0
+#: conversationlist_gison.json:gison_bottle_3_1:0
+#: conversationlist_gison.json:gison_bottle_4_1:0
+#: conversationlist_gison.json:gison_bottle_5_1:0
+#: conversationlist_gison.json:gison_bottle_6_1:0
+msgid "Great."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_34
+msgid "Great and strong, yes."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_34:0
+msgid "Aha."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_40
+msgid "You are the first human I've seen in such a long time."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_42
+msgid "And I am the last human you will ever see."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_42:0
+msgid "You threaten me?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_50
+msgid "You may have a last wish. What do you want?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_50:0
+msgid "Tell me why you are here in Bogsten's caves?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60
+msgid "Bogsten's cave? Oh how I hate that name!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_20
+msgid "It was the Bogstens who imprisoned me here, long years ago. With a petrifying spell. I did nothing evil to them, except ... Well, I did almost nothing evil to them."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_30
+msgid "More than a century ago, I found the way to command the crawling species of the underground and to bend the fungi to my will."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_40
+msgid "I chose this place to practice my arts and prepare an army of Fungi."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_50
+msgid "The Bogstens must have heard about my activities in the caves under their house and became suspicious."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_60
+msgid "Lotho Bogsten sneaked down here and caught me unawares."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_70
+msgid "I didn't expect petrifying. Who would use such a weak spell that has to be renewed every few weeks?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_80
+msgid "I could not move but I noticed everything that was happening around me. Lotho Bogsten visited me regularly and renewed the spell."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_100
+msgid "Finally, after long, long years, Lotho Bogsten must have died. Fortunately, his son is not so dutiful."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_100:0
+msgid "He had children?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_120
+msgid "Indeed he had a son. But that lazybones didn't come as regularly as needed. The spell wore off, and I could move again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_60_140
+msgid "AHAHAHAHA!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70
+msgid "I see that you have their family necklace. So you must die now."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70:0
+msgid "I'll have to thank Bogsten: This sounds like a fun fight."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70:1
+msgid "You shouldn't kill me. I could be of use."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70:2
+msgid "Please. I will crawl before you. Don't hurt me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_82
+msgid "Disgusting. Away with you!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_84
+msgid "Hmm. Maybe."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_10
+msgid "Did you make up your mind at last?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_10:1
+msgid "Let's talk again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_20
+msgid "Go and kill Bogsten up there."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_22
+msgid "Kill Bogsten and bring me his staff as evidence."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_22:1
+msgid "No. I'd rather kill you."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_24
+msgid "Then our little conversation is over now."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_24:1
+msgid "Hm, wait. Let me think again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_24:2
+msgid "I wish we could talk a little more."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_40
+msgid "Ah. You are not as stupid as you look, kid."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_42
+msgid "I'll give you two things."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_44
+msgid "I'll spare your life."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_44:0
+msgid "Generously."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_46
+msgid "And I'll provide you with a permanent immunity to the spore poison."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_46:0
+msgid "Agreed. I'll go upstairs and finish Bogsten."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_46:1
+msgid "Forget it. Attack!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_70_50
+msgid "Do so."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115
+msgid "Is Bogsten dead already?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115:1
+msgid "I have killed him."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_10
+msgid "Bogsten is dead. Finally."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_10:0
+msgid "Yes. Now where is my reward?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_20
+msgid "Give me the staff first."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_20:2
+msgid "No, I have changed my mind. I'll rather keep Bogsten's staff."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_22
+msgid "You won't betray me, you little fool!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_22:0
+msgid "Who is betraying here? Where is my dearly earned reward!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_22:1
+msgid "Little in height - but strong! Attack!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_50
+msgid "Finally I got the staff back!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_115_50:0
+msgid "My reward...?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_150
+msgid "Zuul'khan towers over you and starts muttering strange words."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_150:0
+msgid "I'm feeling dizzy..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_150_10
+msgid "Done. You will never fear any of these fungi spores anymore."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_150_10:0
+msgid "Oh wow."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_150_20
+msgid "Leave me now! I have to regain my practice of spells."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan_155
+msgid "Don't disturb me! I am practicing dangerous spells."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2
+#: conversationlist_fungi_panic.json:zuul_khan9
+msgid "You again! How did you get into here?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2:0
+#: conversationlist_fungi_panic.json:zuul_khan9:0
+msgid "I could ask you the same."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_10
+msgid "Do not disturb me. I have to concentrate in building my fungi army."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_10:0
+msgid "By reading a book? Is reading a book the lazy way to create an army?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_20
+msgid "That did it. Silence now, or ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_20:0
+msgid "Attack?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan3:0
+msgid "Coocoo! Trying to read again?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan3_10
+msgid "Go away you annoying child! I must create the leader for my fungi army!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan4
+msgid "I grow weary of you."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan4_10
+msgid "You interrupt my spells that will make my fungi leader invincible! Ha Ha! So now you must die!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan4_10:0
+msgid "Eh - no, I don't think so."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_10
+msgid "May I finally practice my black magic in peace?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_10:0
+msgid "No, not if I can help it. By the way - your book looks strange."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_20:0
+msgid "It is a cookbook. I see lots of delicious recipes."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_30
+msgid "Oh that. That's a good cover. I got the book from a 'friend'. In between there are recipes of a completely different kind."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_30:0
+msgid "You mean these strange letters next to the recipe of the Delicious Mushroom Soup?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_40
+msgid "Be glad that you can't decipher these letters. They are dangerous."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_42
+msgid "It takes great power to tame these spells. My fungi leader grows in strength every day!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_42:0
+msgid "At school I was good at spelling: A B C ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_90
+msgid "I've had enough of your cheekiness now. These were your last words!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_90:0
+msgid "We'll see..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan1_blocker
+#: conversationlist_fungi_panic.json:zuul_khan2_blocker
+#: conversationlist_fungi_panic.json:zuul_khan3_blocker
+#: conversationlist_fungi_panic.json:zuul_khan4_blocker
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker
+msgid "You shall not pass."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan1_blocker:0
+msgid "Your foul master is gone."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan1_blocker:1
+msgid "[Lie] Your master has told me to go here. Out of my way now!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan1_blocker:2
+msgid "For now."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan1_blocker_10
+#: conversationlist_fungi_panic.json:zuul_khan2_blocker_10
+#: conversationlist_fungi_panic.json:zuul_khan3_blocker_10
+#: conversationlist_fungi_panic.json:zuul_khan4_blocker_10
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker_10
+msgid "The black fog hisses and instantly vanishes."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan1_blocker_10:0
+msgid "Oh, that was easy."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_blocker:0
+msgid "Your foul master is gone again..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_blocker:1
+msgid "I think I have seen you before..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan2_blocker_10:0
+msgid "Yes, now I remember."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan3_blocker:0
+msgid "Your foul master is once more gone..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan4_blocker:0
+msgid "Oh my. How often?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan4_blocker_10:0
+msgid "You could be a little more varied."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker:0
+msgid "Your master is dead. Begone!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker:1
+msgid "Your master is dead forever now. Begone!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker:2
+msgid "Why me? What have I done to deserve this?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker_10:0
+msgid "At last."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker_20
+msgid "No. We were expecting you to say so. We were told not to leave."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker_20:0
+msgid "I need to know what's behind this, but obviously I can't get past that way. I had best try to find another way."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:zuul_khan9_blocker_20:1
+msgid "Well, you are learning."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:boss_fungi_alive
+msgid "You can't examine the chest with the great mushroom on your heels."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:boss_fungi_killed_10
+msgid "On your final blow, the great mushroom explodes. Suddenly, the mushroom pieces spring back to life!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:boss_fungi_killed_20
+msgid "The room is quiet at last."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:boss_fungi_killed_22
+msgid "The giant mushroom is finally destroyed."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued
+msgid "Thank you, thank you!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_10
+msgid "My name is Lediofa. I was travelling with my family to Vilegard. We wanted to visit my uncle."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_20
+msgid "We were attacked by robbers in the forest. I don't know what happened to my family. It was terrible."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_20:0
+msgid "Poor child."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_30
+msgid "I was dragged into this cave."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_40
+msgid "The only thing I saw was a figure clad in black who kept muttering mean sounding words."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_40:0
+msgid "That must have been Zuul'khan."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_50
+msgid "Yes, it was him. I hope you're not one of his friends? Please no!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_50:0
+msgid "Don't panic. I am $playername from Crossglen. Zuul'khan received his just punishment. He can't do anything to you anymore."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_60
+msgid "Oh, how relieved I am to hear that! Thank you again!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_70
+msgid "This black-clad man wanted to feed me to this awful big mushroom. He told me the mushroom still needed to grow much larger, and then it could help him invade the land."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_80
+msgid "I'm glad this nightmare is over now. Thanks to you, $playername."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_80:0
+msgid "Oh, that was nothing."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_80:1
+msgid "I do things like that every other day."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_80:2
+msgid "It was a tough fight indeed."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_90
+msgid "I should go look for my parents - I'm sure they are very worried. Although..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:buceth_story_7_1
+msgid "The boy told me he had some business with a rich man in Brimhaven. Maybe he went there."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:brv_richman_21
+msgid ""
+"I don't know. Maybe it was the deliverer of the letters.\n"
+"\n"
+"[Oh no, it could have been Andor who destroyed the dam!]"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_115_20
+msgid "You...what? After saving me, you would turn against me?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_115_20:0
+msgid "Enough talk, time to die."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:brv_churchman_mouse1
+msgid "What do you intend to do with the mouse?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:brv_churchman_mouse1:0
+msgid "I'll give it to the cat. That should solve the problem."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:sign_wdsetl0_grave3
+msgid "Here lies Hagale. Killed by greedy $playername, just when he wanted to start a new life."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:achieve_road_10
+msgid "This must be the great Duleian Road! I have heard so much of it - and now I am really here!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:chk_wild_berry_50
+msgid "I should better wear my gloves again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_key
+msgid ""
+"Here lie the members of the Bogsten family.\n"
+"May they rest in peace."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_10
+msgid "Bogsten, my dear great-grandchild! After all these years you come to visit me again!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_10:0
+msgid "Sorry, I am not of your family. I am $playername from Crossglen."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_20
+msgid "Really? My eyes don't seem to be as clear as they used to be."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_30
+msgid "Where is this naughty boy? He should have come for cleaning every week."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_30:0
+msgid "He is dead."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_30:1
+msgid "I met him in the house upstairs. He was very ill."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_32
+msgid "Death is not a reason to neglect one's duties!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_34
+msgid "Ill? You mean lazy and sleepy!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_40
+msgid "I never could stand that spoiled kid. He only ever comes to get new gold from the family treasure."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_40:0
+msgid "How ungrateful!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_42
+msgid "Ungrateful indeed. I would rather give our gold to some random beggar than to see it squandered by him."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_50
+msgid "Tell me child, where are you going in the world?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_50:0
+msgid "My father sent me to find my brother Andor. He left some time ago and hasn't come back yet."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_52
+msgid "It really is an honorable goal. I like you, my child. Truly."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_52:0
+msgid "Did you see my brother? He looks a bit like me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_54
+msgid "No, I haven't seen Andor. I hope that you will find him soon and that you can return to your father together."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_54:0
+msgid "My father will be very glad."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_60
+msgid "How touching! I will give you something. You really deserve a little gold."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_60:0
+msgid "Oh, you don't have to!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_60:1
+msgid "At last some gold."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_80
+msgid "Go ye into our family tomb. You may pick something from our treasures."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_90
+msgid "It was a pleasure to meet you. Farewell, kid!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_92
+msgid "Ah, so you found your way downstairs. Smart child, it was a pleasure to meet you. Farewell!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_94
+msgid "So you've chosen my gardening gloves. A wise choice!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_granny_96
+msgid "There used to be also a family-owned cookbook. Unfortunately that has been lost. It contained valuable recipes - the mushroom soup in particular was a dream!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler1
+msgid "Let's have another game - I bid."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler2
+msgid "Let's have another Skat game - Bogal, you bid."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_18
+msgid "18"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_20
+msgid "20"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_22
+msgid "2"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_23
+msgid "0"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_24
+msgid "4"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_24b
+msgid "Ah, good. I already thought you wanted to play Null."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_27
+msgid "7"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_30
+msgid "30"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_33
+msgid "33"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_33b
+msgid "Hey, you've forgotten 30!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_33b_2
+msgid "Nonsense. I've been playing Skat for over 150 years now. I wouldn't make such a silly mistake."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_36
+msgid "36"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_36b
+msgid "Don't you dare play clubs!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_36b_2
+msgid "I'm old enough to decide that on my own.  * giggle *"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_40
+msgid "40"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_40b
+msgid "You already said 30."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_40b_2
+msgid "I said FORTY, you deaf idiot!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_40b_3
+msgid "Who's an idiot??"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_40b_4
+msgid "Both of you. Now go on, Bogal."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_44
+msgid "44"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48
+msgid "48"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b
+msgid ""
+"Why is this kid staring at us?\n"
+"Hey, you! Never seen a Skat game?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b:1
+msgid "Sure. I'm a Skat pro myself."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b:2
+msgid "No. My father always forbade me to gamble."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b_2
+msgid "Oh dear. Go on, Bogal. I don't want to rot here."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b_3
+msgid "Well, whoever would believe that ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_48b_3:0
+msgid "Hee!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50
+msgid "50"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50b
+msgid "50 - still yes?? You must be cheating!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50b_2
+msgid "Cheating - me? Dare to say that again!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50b_3
+msgid "We all know that you always do. Calm down."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50b_4
+msgid "Oooh! If you were not already dead, you would be now!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50b_4:0
+msgid "But gentlemen! It's just a game!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_50b_5
+msgid "Just a game? Get out! Away with you!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_gambler_out
+msgid "OK. It's your game."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_ghost5
+msgid "I must find it ..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave11
+msgid "Here lies Bogal Bogsten, youngest son of Boriel"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave12
+msgid "Here lies Botisto Bogsten, middle son of Boriel"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave13
+msgid "Here lies Bollo Bogsten, oldest son of Boriel"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave14
+msgid "Here lies Boriel Bogsten"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave1
+msgid "In death, I still help mushrooms to grow."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave2
+msgid "Here lies Febalum Bogsten, founder of this mushroom farm."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave3
+msgid "Bogsten is my name, mushrooms are my game."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave4_10
+msgid "Here lies Undina Bogsten, a master of fungiculture."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_grave5
+msgid "I've been planted in the soil, and it's dark. I feel like a mushroom."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw
+msgid "You want to see the dead?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw:1
+msgid "Maybe better not."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1
+msgid "Now what's the magic word? Spell it!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:0
+msgid "A..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:1
+msgid "B..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:2
+msgid "F..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:3
+msgid "N..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:4
+msgid "P..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:5
+msgid "R..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_1:6
+msgid "S..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:0
+msgid ". D"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:2
+msgid ". I"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:3
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:4
+msgid ". L"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:5
+msgid ". M"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:6
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:7
+msgid ". N"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:8
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:9
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:10
+msgid ". O"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_2:11
+msgid ". S"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:0
+msgid ". . C"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:2
+msgid ". . D"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:3
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:4
+msgid ". . E"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:5
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:6
+msgid ". . G"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:7
+msgid ". . K"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:8
+msgid ". . O"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:9
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:10
+msgid ". . U"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:11
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_3:12
+msgid ". . Z"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:1
+msgid ". . . A"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:2
+msgid ". . . E"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:3
+msgid ". . . L"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:4
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:5
+msgid ". . . O"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:6
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:7
+msgid ". . . R"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:8
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:9
+msgid ". . . S"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:10
+msgid ". . . T"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:11
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_4:12
+msgid ". . . Z"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:1
+msgid ". . . . A"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:2
+msgid ". . . . C"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:3
+msgid ". . . . F"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:4
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:5
+msgid ". . . . R"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:6
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:7
+msgid ". . . . S"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:8
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:9
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:10
+msgid ". . . . T"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_5:11
+msgid ". . . . V"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:0
+msgid ". . . . . A"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:2
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:3
+msgid ". . . . . E"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:4
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:5
+msgid ". . . . . F"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:6
+msgid ". . . . . M"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:7
+msgid ". . . . . S"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:8
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_6:9
+msgid ". . . . . Y"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:0
+msgid ". . . . . . C"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:1
+msgid ". . . . . . H"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:2
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:3
+msgid ". . . . . . N"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:4
+msgid ". . . . . . W"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:5
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:6
+msgid ". . . . . . T"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:7
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_7:8
+msgid ". . . . . . U"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_8:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_8:1
+msgid ". . . . . . . N"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_8:2
+msgid ". . . . . . . P"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_8:3
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_8:4
+msgid ". . . . . . . W"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_8:5
+msgid ". . . . . . . Z"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_9:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_9:1
+msgid ". . . . . . . . G"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_9:2
+msgid ". . . . . . . . I"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_9:3
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_9:4
+msgid ". . . . . . . . O"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_9:5
+msgid ". . . . . . . . S"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_a:0
+msgid ". . . . . . . . . D"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_a:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_a:2
+msgid ". . . . . . . . . I"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_a:3
+msgid ". . . . . . . . . K"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x0
+msgid "That doesn't really make sense, don't you think?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x0:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x2:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x3:0
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_1:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_2:0
+msgid "Try again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x0:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x2:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x3:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5:1
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_1:2
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_2:1
+msgid "Sigh. I give up."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x1
+msgid "The tombstone silently glides back into the wall."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x2
+msgid "Andor? Why would we have used the name of your brother here?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x3
+msgid "I used to love this too. But not anymore."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x4
+msgid "Ah - the answer to almost any question, yes. But not to this one - try again."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5:0
+msgid "Pleeease."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_tomb_pw_x5_1:0
+msgid "Will you do it for me?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:grownfood01b
+#: conversationlist_fungi_panic.json:grownfood02b
+#: conversationlist_fungi_panic.json:grownfood03b
+msgid "You find some wild mushrooms!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_panic_potioner_111
+msgid "Well, what did you expect? I make potions, not mushroom stew. If that's what you're after, go look for that Gison fellow south of town."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:guynmart_s_clearing_achievement_grant
+msgid "What a strange little place! You decide to record this in your father's book of achievements."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:beetle_watching_achievement_grant
+msgid "Stumbling across a group of people watching a beetle contest surely counts as one of the most unusual parts of your adventure. You decide to write some notes about this in your father's book of achievements."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:birdwatching_achievement_grant
+msgid "Looking up at the old watchtower, you think back to the time you witnessed a falcon swooping through the air to catch its prey. You decide to write your memories about it in your father's book of achievements."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:arulir_trap_achievement_grant
+msgid "You think back over the number of falling rocks and crumbling floors you've encountered in these treacherous mountains. At least the place is safer for the next adventurer - you fell for every trap! You decide to write about your experiences in your father's book of achievements."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:alaun_return_nimael
+msgid "Yes. Nimael also makes very good soup. Vegetables with forest herbs. If I buy both I hope they will argue less about whose is better."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_10
+msgid "Yes, but it is not as good as mine."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_10:0
+msgid "Your wife disagrees."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_10:1
+#: conversationlist_fungi_panic.json:nimael_arg_10:1
+msgid "If you say so."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_20
+msgid "Well, here is a small taste of mine, and a small taste of hers. I am sure you will agree with me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_20:0
+#: conversationlist_fungi_panic.json:nimael_arg_20:0
+msgid "I think they are both good. One is not better than the other, just different. Different people have different tastes, so perhaps it is better that you offer both, rather than arguing over which is better?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_30
+msgid "For a kid, that's a very insightful comment. I will talk to my wife about how we can better sell both soups to the townsfolk in Fallhaven. Here are a couple of bottles of my soup as thanks."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_arg_30:0
+#: conversationlist_fungi_panic.json:nimael_arg_30:0
+msgid "Glad I could help."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_arg_10
+msgid "Yes. Vegetables with forest herbs. It is even better than my husband's mushroom soup."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_arg_10:0
+msgid "Your husband disagrees. "
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_arg_20
+msgid "Well, here is a small taste of mine, and a small taste of his. I am sure you will agree with me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_arg_30
+msgid "For a kid, that's a very insightful comment. I will talk to my husband about how we can better sell both soups to the townsfolk in Fallhaven. Here are a couple of bottles of my soup as thanks."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_andor
+msgid "No, sorry. I have not seen anyone that looks like you. We get few visitors out here in the woods."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_andor:0
+msgid "OK. Thanks anyway. Let's talk about something else."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_andor:1
+msgid "OK. I need to be going."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_bottle_8_1
+#: conversationlist_gison.json:gison_bottle_1_1
+#: conversationlist_gison.json:gison_bottle_3_1
+#: conversationlist_gison.json:gison_bottle_4_1
+#: conversationlist_gison.json:gison_bottle_5_1
+#: conversationlist_gison.json:gison_bottle_6_1
+msgid "You find an empty bottle."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_b1
+msgid "It's nice to see you again. I have some exciting news to share."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_b2
+msgid ""
+"Thanks to your advice, we have been successful selling more soup to the townsfolk in Fallhaven.\n"
+"We have even cooperated to craft new recipies.\n"
+"We also give free samples of our latest soups to those that buy from us, so they know what is on offer."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:nimael_b2:0
+msgid "I'm glad I could help. You sell more soup, and the people in Fallhaven get more choices. Everyone wins!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bela_trade_1
+msgid "I have a variety of food and drinks."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bela_trade_1:0
+msgid "OK. Please show me."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bela_trade_2
+msgid "I have some new soup now, from Gison and Nimael. It's expensive, but worth the money."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_100
+msgid "I feel a bit ill. Maybe I should rest a bit before I leave."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_100:0
+msgid "That might be the giant mushroom's poison. The potioner in Fallhaven knows the cure."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued_110
+msgid "[Lediofa's eyes widen.] I've been poisoned...? Oh no! I'll seek the potioner right away. Thank you for telling me. I hope we meet again, $playername."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_10
+msgid "I'm sorry that you're ill, girl, but I can't work for free. The price is 150 gold, no less."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_20
+msgid "You greedy swine...Oh! It's $playername! I came here to cure the mushroom poison, but that lousy merchant won't help me until he receives payment. And I have no gold..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_20:0
+msgid "That's no trouble. I can spare 150 gold to help."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_20:1
+msgid "I'm sorry to hear that, but I can't spare the gold to help you right now."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_20:2
+msgid "The potioner is right, you know. Nobody works for free."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_30
+msgid "You've saved me again, $playername. You truly are a hero. If you ever find yourself in Nor City, I'm sure my family would love to meet you. Thank you!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_30:0
+msgid "Take care!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_20_2
+msgid "But what can I do? I don't feel well..."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:fungi_rescued2_1
+msgid "Outrageous! I told you already, I don't have 150 gold!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_thiefboss_40
+msgid "One thing it likes is annoying children, like you. Thank you for volunteering!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_thiefboss_40:0
+msgid "Sorry, I don't think so. I will destroy you and your fungi leader!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_thiefboss_40:1
+msgid "Sorry for disturbing you. I will leave immediately."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_200_10
+msgid "Oh, that's great news! I suppose I can get back to work with the mushrooms, then. Maybe tomorrow, after I've had time to rest."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_200_10:1
+msgid "How can you be so lazy?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:bogsten_200_20
+msgid "When you get to my age, maybe you'll understand that you don't need to rush through life. Now leave me to my rest."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:gison_p1_fail
+msgid "Oh, it's you. Alaun still hasn't come by for his soup. It's a pity that you couldn't help him."
+msgstr ""
+
+#: conversationlist_fungi_panic.json:alaun_complete
+msgid "Ah, my hero returns. Thank you for the soup, it was incredible. What can I help you with today?"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:alaun_fail
+msgid ""
+"You dare show your face in my home again? Out! Now!\n"
+"\n"
+"[Alaun starts throwing things at you again]"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:alaun_bela_soup
+msgid "Ah, my friend! Have you heard the great news? Gison and Nimael have started supplying the tavern here in Fallhaven with their newest soup. It's marvelous!"
+msgstr ""
+
+#: conversationlist_fungi_panic.json:mywildcave_trap32a
+msgid "Oops, there was something sleeping inside."
+msgstr ""
+
+#: conversationlist_gison.json:gison_firsttime
+msgid "Oh hello. What are you doing here? You got lost?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_firsttime_1
+msgid "Just walk around the fence and head to the north. Soon you'll be in Fallhaven."
+msgstr ""
+
+#: conversationlist_gison.json:gison_firsttime_1:0
+msgid "Okay. Thanks for the description."
+msgstr ""
+
+#: conversationlist_gison.json:gison_firsttime_1:1
+msgid "Are you Gison?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10
+msgid "Oh yes, I am Gison. I live in this wood with my wife Nimael. She's over there."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_0:1
+msgid "Alaun sent me to bring him some of your delicious soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_0:3
+msgid "Nevermind. I guess I need to be going."
+msgstr ""
+
+#: conversationlist_gison.json:gison_talk
+msgid "We live here from what the forest gives us. Surely we have to buy some things in Fallhaven, but I prefer the silence of these woods rather than the hectic life in a city."
+msgstr ""
+
+#: conversationlist_gison.json:gison_talk:0
+msgid "What's in the woods here?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_talk_1
+msgid ""
+"Herbs, animals and above all: Mushrooms. \n"
+" If you would like to know more about mushrooms, I suggest you go to Bogsten, east of here. He grows the best mushrooms you ever ate! But well, I don't want to give away any more secrets of my soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_talk_2
+msgid "Next to my passion for mushrooms, we build here and there on our house and try to keep the wild animals out."
+msgstr ""
+
+#: conversationlist_gison.json:gison_talk_2:0
+msgid "I see. Let's talk about something else."
+msgstr ""
+
+#: conversationlist_gison.json:gison_talk_3
+msgid "Well, all right. As you wish."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_1
+msgid "Hahaha. Alaun the old swashbuckler. Could not get enough. I will fix something up for him. Wait here."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_2
+msgid "Gison goes to a big bowl, fills up some of the soup and returns to you."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_3
+msgid ""
+"Here you go.\n"
+"[He gives you a container with the soup.]"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_4
+msgid "Give him my regards and hurry up. He likes his soup hot."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_4:0
+msgid "Alaun will get his soup soon enough."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_10_4:1
+msgid "Yes. I'm on my way."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20
+msgid "Hello you. Did you take the soup to Alaun?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20:0
+msgid "Yes, he was not able to bear it any longer."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20:1
+msgid "No, I still have it with me."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20:2
+msgid "No ... ehm ... Maybe you could give me some more?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20:3
+msgid "Could you make it hot again?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_1
+msgid "Then hurry up. A hungry Alaun is an angry Alaun."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_1:0
+msgid "I'm on the way."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_1:1
+msgid "Yes, yes. He'll get it soon."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_2
+msgid ""
+"Good. Alaun will be very satisfied.\n"
+"You didn't perchance bring the empty bottle back, did you?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_2:0
+msgid ""
+"Yes I have. Here is it.\n"
+"[You give Gison the empty bottle.]"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_2:1
+msgid "No. I forgot it. I'm sorry."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nobottle
+msgid "Oh no, too bad. Please bring me an empty bottle once you've found one."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nobottle:0
+msgid "I will do. Bye"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_3
+msgid "Oh good. Thanks."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_3:0
+msgid "With pleasure. Goodbye."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_3:1
+msgid "I won't do this whole stupid running around again just for an empty bottle. Bye."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_3:2
+msgid "Alaun said that your wife also makes very good soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup
+msgid "Ate it yourself, did you? Haha, I hope it tasted good."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5
+msgid ""
+"No problem, I'll give you more.\n"
+"However, this time you'll have to pay 5 gold for it."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_50:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_500:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_5000:0
+msgid "Let's adjourn it to another day, old man."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5:1
+msgid "Yes, ok. Here are 5 gold pieces."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5go
+#: conversationlist_gison.json:gison_p1_20_nosoup_50go
+#: conversationlist_gison.json:gison_p1_20_nosoup_500go
+msgid ""
+"[Gison gives you a new bottle with hot soup.]\n"
+"Here you go."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5go:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_50go:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_500go:0
+#: conversationlist_gison.json:gison_p1_20_nosoup_5000go:0
+msgid "Thanks. Goodbye."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5go:1
+#: conversationlist_gison.json:gison_p1_20_nosoup_50go:1
+#: conversationlist_gison.json:gison_p1_20_nosoup_500go:1
+#: conversationlist_gison.json:gison_p1_20_nosoup_5000go:1
+msgid "Yum! More soup!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_50
+msgid ""
+"No problem, I'll give you more.\n"
+"However, this time you'll have to pay 50 gold for it."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_50:1
+msgid "Yes, ok. Here are 50 gold pieces."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_500
+msgid ""
+"No problem, I'll give you more.\n"
+"However, this time you'll have to pay 500 gold for it."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_500:1
+msgid "Yes, ok. Here are 500 gold pieces."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5000
+msgid ""
+"No problem, I'll give you more.\n"
+"However, this time you'll have to pay 5000 gold for it."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5000:1
+msgid "Yes, ok. Here are 5000 gold pieces."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_5000go
+msgid ""
+"[Gison gives you a new bottle with hot soup.]\n"
+"Here you go.\n"
+"I can't give you more. Take this one to Alaun now, greedy lad!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_nosoup_endquest
+msgid "I'm sorry for Alaun. I guess he has to get some himself."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_20_warmup
+msgid ""
+"I told you to not linger. But I can make it hot. Give me a moment.\n"
+"[Gison pours the soup back in the bowl and fills the bottle up again with hot soup.]"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30
+msgid "Oh, you are back!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30:0
+msgid "I want to return your bottle."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30:1
+#: conversationlist_gison.json:gison_p1_30:2
+msgid "I just want to say hello."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30:3
+msgid "Alaun told me that your wife also makes very good soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30:4
+msgid "I wanted to ask you about something."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30_1:0
+msgid "I have to go again. Bye."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_30_1:1
+msgid "Alaun said your wife also makes very good soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_40
+msgid "You have to help me."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_40_1
+msgid "Bandits raided my house. They even knocked me and Nimael unconscious."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_40_2
+msgid ""
+"Strangely they only took my old cookbook with them.\n"
+"Please help me get back my book, otherwise I cannot make my delicious mushroom soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_40_2:0
+msgid "A raid for an old cookbook?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p1_40_2:2
+msgid "Search on your own, old man."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10
+msgid "The thieves took away my cookbook with the precious recipe for mushroom soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_3
+msgid "I don't know why they only took the book. Maybe it's because of the one chapter... *brooding*"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_3:0
+msgid "What about that chapter?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_3:1
+msgid "You'll do that. Goodbye."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_4
+msgid "What? Yes, yes, the chapter... It contained several pages with strange letters written between the recipes."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_5
+msgid ""
+"I obtained the book some years ago. It was a present from Bogsten - you know him? - and instantly I took a fancy for these fabulous recipes.\n"
+"Please find it and return it to me."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_5:0
+msgid "What's written in that chapter?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_6
+msgid "That's a good question. I don't know that language, therefore I ignored the pages for ages. Maybe the robbers know what that chapter is about."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_7
+msgid "You want a reward?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_8
+msgid "I don't have that much money. As a simple token of gratitude I can offer to make some soup for you. I don't own very much more."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_8:0
+msgid "I guess it's not worth the trouble. Time to go."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_8:1
+msgid "Sounds fair."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_9
+msgid "Well, will you help me?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_9:0
+msgid "Sure thing. I'll search for your book."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_9:1
+msgid "Find somebody else."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_10
+msgid "Oh, well. I started to believe that I could not trust my knowledge of human nature anymore."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_10_11
+msgid "I really thank you."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_15
+msgid "The robbers came from the south. Maybe you should start your search in that direction. Take care!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_15:0
+msgid "I will. Thank you."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50
+msgid "Did you find my precious cook book?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50:0
+msgid "Yes I have. Look here."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50:1
+msgid "[Lie] I found the robbers, but they had destroyed the book."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_1
+msgid "Is it really true? I can't believe it!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_1:0
+msgid "A sorcerer named Zuul'khan was reciting dark words from it. You were right, the robbers wanted these strange written lines."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_2
+msgid "But you have two similar looking books?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_2:0
+msgid "Yes, the robbers have made a complete copy of the book, just without the spell."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_3
+msgid "Then give me the copy. I don't want to be raided again."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_3:0
+msgid "OK. Then I'll take the version with the spell. I can't read the dark words, but that doesn't bother me."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_50_5
+msgid "Noo!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_62
+msgid "Well, you tried to help. Thank you."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_62_10
+msgid "It's a pity that I can't cook my delicious soup any more."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_70
+msgid "Thank you for your help retrieving my precious cookbook. Would you like some soup as a small reward?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_70:0
+msgid "Oh yes."
+msgstr ""
+
+#: conversationlist_gison.json:gison_p2_70_10
+msgid "Give me 2 of Bogsten's mushrooms and an empty bottle, then I could sell you a portion for only 50 gold."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_1
+msgid "Please help us. We got raided."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_2
+msgid "I don't know exactly. Everything went so fast ... I'm too upset and my head hurts too much."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_3
+msgid "If you want to help us, please talk to Gison."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_3:0
+msgid "OK. Get well."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_busy
+msgid "I'm busy at the moment. Please talk to Gison. He's over there."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_busy:0
+msgid "Alaun told me that you also make very good soup."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_busy:1
+msgid "OK. Bye."
+msgstr ""
+
+#: conversationlist_gison.json:nimael_4
+msgid "Thanks for helping us!"
+msgstr ""
+
+#: conversationlist_gison.json:nimael_4:1
+msgid "I only hope it'll be worth the trouble."
+msgstr ""
+
+#: conversationlist_gison.json:gael_1
+msgid "Shut the door, please!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_2
+msgid "From the outside."
+msgstr ""
+
+#: conversationlist_gison.json:gael_2:0
+msgid "Very friendly."
+msgstr ""
+
+#: conversationlist_gison.json:gael_10
+msgid "No, I am not Gison!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_10_1
+msgid "And no, I have no soup for anyone!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_soup
+msgid "I hate this smell!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_soup_1
+msgid "You have some of that disgusting soup in your bag! I can smell it."
+msgstr ""
+
+#: conversationlist_gison.json:gael_soup_2
+msgid "Out with you!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_bottle
+msgid "I hear those soup bottles clinking in your bag."
+msgstr ""
+
+#: conversationlist_gison.json:gael_bottle_1
+msgid "Even though they are empty, I hate that sound!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_20
+msgid "Hi kid. I am Gael, son of those people in the house over there."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_1
+msgid "I moved out here because I couldn't stand the suffocating smell of mushroom soup anymore. Or vegetable soup, for that matter."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_2
+msgid "I like meat. Wolves, boars, dogs, puppies. Any kind, really."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_3
+msgid "And snakes, of course. They give the finest meat of all."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_4
+msgid "Cooked, grilled, baked, fried, stewed...ahh, snake meat - nothing compares to it!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_4:0
+msgid "Yes, I love it too!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_4:1
+msgid "To each his own, I guess."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_5
+msgid "Now that I mention it: I am running out of meat. I'll have to go out hunting again."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_5:0
+msgid "Would you like me to give you some meat?"
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_5:1
+msgid "Good luck! I am leaving then."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_6:0
+msgid "Oh, I just noticed that I don't have enough meat with me. I will be back soon with 10 pieces of meat, just you wait."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_6:1
+msgid "Here, I have 10 nice pieces of meat for you. I cannot promise that it is all from snakes, though."
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_7
+msgid "Excellent! In return, I can give you this nice little purse, made of the finest snake leather. Look here, isn't it beautiful?"
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_7:0
+msgid "Wow, it is magnificent! Thank you!"
+msgstr ""
+
+#: conversationlist_gison.json:gael_20_8
+msgid "May it serve you well."
+msgstr ""
+
+#: conversationlist_gison.json:gison_cavekey
+msgid "You look at a wall of stones. There's no way through."
+msgstr ""
+
+#: conversationlist_gison.json:gison_cavekey:0
+msgid "Examine it more closely."
+msgstr ""
+
+#: conversationlist_gison.json:gison_cavekey_unlock
+msgid "You examine the wall more closely and discover an entrance hidden beneath moss and leaves."
+msgstr ""
+
+#: conversationlist_gison.json:gison_cavekey_unlock:0
+msgid "The gap is big enough that you could squeeze through it."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup
+msgid "Aaah. Welcome back my friend."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_1
+msgid "Is there anything I can help you with?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_1:0
+msgid "Please give me some more soup."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva
+msgid "I still have some of my delicious soup. How many bottles of soup do you want?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva:0
+msgid "I need soup! At least ten bottles! Quick!!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva:1
+msgid "Give me five bottles."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva:2
+msgid "Just one, please."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva:3
+msgid "I don't have an empty bottle."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva:4
+msgid "I have to get more of Bogsten's mushrooms."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_eva:5
+msgid "I just noticed that my gold fund is low."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_new
+msgid "You brought an empty bottle, Bogsten's mushrooms and the 50 gold. Here it is."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_nonew
+msgid "You don't have the items I need for that exchange. Bring me an empty bottle, two of Bogsten's mushrooms and 50 gold for each portion."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_nonew:0
+msgid "I will be back with those."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_5new
+msgid "You brought all ingredients needed for 5 portions. Here you go."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_5new:0
+msgid "Thanks a lot."
+msgstr ""
+
+#: conversationlist_gison.json:gison_catchsoup_10new
+msgid ""
+"Whoah. You are hungry, aren't you?\n"
+"Here you go."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_10
+msgid "Let's pretend that you have not seen my master over there, practicing dark magic with the old spell in this book we have stolen. Go away!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_10:0
+msgid "Hmm, maybe that is a good idea. I'll tell Gison that you have destroyed the book."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_10:1
+msgid "No way! Attack!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_20
+msgid "We agreed that there was nothing to see here. So get out of here."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_20:0
+msgid "Of course. Sorry, I forgot."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_20:1
+msgid "So what? I have changed my mind. Move aside if you love your life!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_22
+msgid "Hahaha! You are funny. Hahahaha!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thief1_12
+msgid "Do that. And now be gone!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss
+msgid "[muttering ominous words]"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss:0
+msgid "Hi!"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss_10
+msgid "What ...? You again? How did you get in here?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss_10:0
+msgid "I have come to retrieve a book that does not belong to you."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss_20
+msgid "Ha! You made a serious error coming here. I have a use for you though."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss_20:0
+msgid "You want me to help you?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss_30
+msgid "Not exactly. My fungi leader is almost ready. It just needs to be fed some more to grow in strength."
+msgstr ""
+
+#: conversationlist_gison.json:gison_thiefboss_30:0
+msgid "Fed? On what?"
+msgstr ""
+
+#: conversationlist_gison.json:gison_cookbook_n62
+msgid "Unfortunately the case is locked."
+msgstr ""
+
+#: conversationlist_gison.json:mushroomcave_trap
+msgid "A stone beneath your feet moves a bit. Shortly after spearheads spring off the ground."
+msgstr ""
+
+#: conversationlist_gison.json:mushroomcave_trap:0
+msgid "Ouch, that hurts."
+msgstr ""
+
+#: conversationlist_gison.json:mushroomcave_pathblock_1
+msgid "Suddenly the earth shakes, and a part of the wall falls in the corridor directly in front of you."
+msgstr ""
+
+#: conversationlist_gison.json:mushroomcave_pathblock_1:0
+msgid "That was close."
+msgstr ""
+
+#: conversationlist_gison.json:gison_bottle_2_1
+msgid "You find a bottle."
+msgstr ""
+
+#: conversationlist_gison.json:gison_bottle_2_1:0
+msgid "Oh, an empty bottle."
+msgstr ""
+
+#: conversationlist_gison.json:gison_bottle_7_1
+msgid "You find three empty bottles."
+msgstr ""
+
+#: conversationlist_gison.json:gison_bottle_7_1:0
+msgid "Wow - three bottles at once!"
+msgstr ""
+
+#: conversationlist_gison.json:mywildcave_trap21
+msgid "You feel a sudden sharp pain. What might be inside here?"
+msgstr ""
+
+#: conversationlist_gison.json:mywildcave_trap31
+msgid "Oh, what's this? Ouch!"
+msgstr ""
+
+#: conversationlist_gison.json:mywildcave_trap32
+msgid "There is a small hole in the cave wall here."
+msgstr ""
+
+#: conversationlist_gison.json:mywildcave_trap32:0
+msgid "[Reach into the hole.]"
+msgstr ""
+
+#: conversationlist_gison.json:mywildcave_trap32:1
+msgid "[Leave the hole alone.]"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low:0
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low:1
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low:2
+msgid "You got a problem with me?"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low3
+msgid "I know you are illoyal to the Shadow. It would be better if you leave now."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low3:0
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low2:0
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low1:0
+msgid "[Lie] No that's not true."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low3:1
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low2:1
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low1:1
+msgid "Can you still help me?"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low2
+msgid "I have the very strong feeling that you are not following the Shadow."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_low1
+msgid "I have the strong feeling that you are not following the Shadow."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_average
+msgid "Bask in the Shadow, my child."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_high
+msgid "I am happy to see you. May the Shadow always be with you."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_very_high
+msgid "I am very happy to see you. May the Shadow always be with you."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_shadow_score_max
+msgid "Welcome my truest follower of the Shadow."
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_start
+msgid "What can I do for you?"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_start:0
+msgid "What can you tell me about the Shadow?"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_start:1
+msgid "Can you tell me more about the church?"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_start:2
+msgid "Are the Bonemeal potions ready yet?"
+msgstr ""
+
+#: conversationlist_thoronir_faction_check.json:thoronir_start:3
+msgid "I really need your help!"
 msgstr ""
 
 #: itemcategories_1.json:dagger
@@ -41182,15 +44440,12 @@ msgid "A strange looking dagger"
 msgstr ""
 
 #: itemlist_brimhaven.json:strange_dagger:description
-msgid "This dagger has a strange-looking hilt."
+#: itemlist_brimhaven.json:dagger_assassin:description
+msgid "The dagger has an inscription etched into the metal \"The Shadow shall bear no witness to the wielder of this blade\"."
 msgstr ""
 
 #: itemlist_brimhaven.json:dagger_assassin
 msgid "Assassin's blade"
-msgstr ""
-
-#: itemlist_brimhaven.json:dagger_assassin:description
-msgid "It's sharp!"
 msgstr ""
 
 #: itemlist_brimhaven.json:strange_gem
@@ -41293,8 +44548,7 @@ msgid "Lyre"
 msgstr ""
 
 #: itemlist_brimhaven2.json:brv_wh_item_03
-#: monsterlist_brimhaven2.json:brv_wh_item_43
-msgid "yellow boot"
+msgid "Yellow boot"
 msgstr ""
 
 #: itemlist_brimhaven2.json:brv_wh_item_04
@@ -41548,6 +44802,200 @@ msgstr ""
 
 #: itemlist_brimhaven_2b.json:hettar_bone:description
 msgid "Norry's food."
+msgstr ""
+
+#: itemlist_fungi_panic.json:bogsten_key
+msgid "Bogsten's key"
+msgstr ""
+
+#: itemlist_fungi_panic.json:bogsten_key:description
+msgid "The key to Bogsten's backyard."
+msgstr ""
+
+#: itemlist_fungi_panic.json:bogsten_staff
+msgid "Bogsten's staff"
+msgstr ""
+
+#: itemlist_fungi_panic.json:fungi_panic_bag
+msgid "Bag with mushrooms"
+msgstr ""
+
+#: itemlist_fungi_panic.json:fungi_panic_bag:description
+msgid "This bag contains some mushrooms from Bogsten's backyard."
+msgstr ""
+
+#: itemlist_fungi_panic.json:fungi_panic_cure
+msgid "Curative potion against mushroom wounding"
+msgstr ""
+
+#: itemlist_fungi_panic.json:fungi_panic_cure:description
+msgid "Ask your potion maker about risks and side effects."
+msgstr ""
+
+#: itemlist_fungi_panic.json:bogsten_necklace
+msgid "Bogsten's necklace"
+msgstr ""
+
+#: itemlist_fungi_panic.json:bogsten_necklace:description
+msgid "The key to Bogsten's hidden caves."
+msgstr ""
+
+#: itemlist_fungi_panic.json:fungi_panic_spores
+msgid "Spores of the giant mushroom"
+msgstr ""
+
+#: itemlist_fungi_panic.json:mushroom_bogsten
+msgid "Bogsten's mushroom"
+msgstr ""
+
+#: itemlist_fungi_panic.json:liquid_fungi
+msgid "Fungi potion"
+msgstr ""
+
+#: itemlist_fungi_panic.json:liquid_fungi:description
+msgid "One sip will make you grow stronger."
+msgstr ""
+
+#: itemlist_fungi_panic.json:gardener_gloves
+msgid "Gardener's gloves"
+msgstr ""
+
+#: itemlist_fungi_panic.json:gardener_gloves:description
+msgid "Wear these and you'll never starve in the wild"
+msgstr ""
+
+#: itemlist_fungi_panic.json:wild_berry1
+#: monsterlist_fungi_panic.json:wild_berry
+msgid "Wild berries"
+msgstr ""
+
+#: itemlist_fungi_panic.json:wild_berry1a
+msgid "Especially sweet wild berries"
+msgstr ""
+
+#: itemlist_fungi_panic.json:wild_berry2
+#: monsterlist_fungi_panic.json:wild_berry2
+msgid "Ice berries"
+msgstr ""
+
+#: itemlist_fungi_panic.json:wild_berry2a
+msgid "Especially sweet ice berries"
+msgstr ""
+
+#: itemlist_fungi_panic.json:wild_berry3
+msgid "Wild red berries"
+msgstr ""
+
+#: itemlist_fungi_panic.json:wild_berry3a
+msgid "Especially sweet red berries"
+msgstr ""
+
+#: itemlist_fungi_panic.json:nimael_soup
+msgid "Nimael's vegetable soup"
+msgstr ""
+
+#: itemlist_fungi_panic.json:nimael_soup:description
+msgid "A delicious smelling soup, with a strong smell of potent herbs."
+msgstr ""
+
+#: itemlist_fungi_panic.json:soup_forest
+msgid "Gison and Nimael's soup of the forest"
+msgstr ""
+
+#: itemlist_fungi_panic.json:soup_forest:description
+msgid "A delicious soup."
+msgstr ""
+
+#: itemlist_gison.json:gael_purse
+msgid "Snake leather purse"
+msgstr ""
+
+#: itemlist_gison.json:gison_soup
+msgid "Gison's mushroom soup"
+msgstr ""
+
+#: itemlist_gison.json:gison_soup:description
+msgid "A delicious smelling soup."
+msgstr ""
+
+#: itemlist_gison.json:bottle_empty
+msgid "Empty bottle"
+msgstr ""
+
+#: itemlist_gison.json:lithic_scale
+msgid "Lithic scales"
+msgstr ""
+
+#: itemlist_gison.json:lithic_scale:description
+msgid "Brittle scales from the Stoneworm."
+msgstr ""
+
+#: itemlist_gison.json:gison_cookbook
+msgid "Fabulous cookings"
+msgstr ""
+
+#: itemlist_gison.json:gison_cookbook:description
+msgid ""
+"Fabulous recipes gathered by the Bogsten family\n"
+"\n"
+"(1) Ed's pancakes\n"
+"\n"
+"7 oz wheat flour\n"
+"1 packet of baking powder\n"
+"2 oz powdered sugar\n"
+"2 eggs\n"
+"1 quart of milk\n"
+"2 oz butter\n"
+"\n"
+"(2) Parmigiana alle Melanzane\n"
+"\n"
+"Tomato sauce\n"
+"Basil, garlic\n"
+"Extra virgin olive oil\n"
+"Mozzarella, Parmesan aged\n"
+"Eggplant\n"
+"\n"
+"(3) Mushroom soup\n"
+"\n"
+"Fresh Bogsten mushrooms\n"
+"2 pints snake broth\n"
+"3.5 fl oz cream\n"
+"Herbs to taste\n"
+"\n"
+"(4) Onde-onde\n"
+"\n"
+"4 oz rice flour\n"
+"2 oz tapioca flour\n"
+"1.5 oz sugar\n"
+"2.5 fl oz pandan leaf extract\n"
+"1 piece palm sugar, chopped fine\n"
+"Shredded coconut, dried\n"
+"\n"
+"(5) Rabbit stew\n"
+"1 rabbit, cut into pieces\n"
+"1 potato, cubed\n"
+"1 turnip, cubed\n"
+"2 carrots, sliced\n"
+"2 parsnips, sliced\n"
+" 5 oz Bogsten or portobello mushrooms\n"
+"4 cloves garlic, crushed\n"
+"4 fl oz wine\n"
+"Water to cover\n"
+"Salt\n"
+"Pepper\n"
+"1 tsp beef base\n"
+"0.5 cup rosemary, finely chopped\n"
+"0.5 cup thyme, finely chopped\n"
+"Cook slowly, add starch at end to thicken\n"
+""
+msgstr ""
+
+#: itemlist_gison.json:gison_cookbook_2
+msgid "Fabulous cookings (copy)"
+msgstr ""
+
+#: itemlist_gison.json:gison_cookbook_2:description
+msgid "This appears to be a perfect copy of the Fabulous cookings cookbook, only lacking the strange writings at the end."
 msgstr ""
 
 #: monsterlist_crossglen_animals.json:tiny_rat
@@ -41894,6 +45342,7 @@ msgid "Tailor"
 msgstr ""
 
 #: monsterlist_fallhaven_npcs.json:bela
+#: monsterlist_fungi_panic.json:bela_2
 msgid "Bela"
 msgstr ""
 
@@ -44543,7 +47992,7 @@ msgid "Great dark wolf"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:none
-msgid "none"
+msgid "Dummy NPC"
 msgstr ""
 
 #: monsterlist_stoutford_combined.json:erwyn_skel_lute
@@ -44934,6 +48383,10 @@ msgstr ""
 msgid "brv_wh_item_23"
 msgstr ""
 
+#: monsterlist_brimhaven2.json:brv_wh_item_43
+msgid "yellow boot"
+msgstr ""
+
 #: monsterlist_brimhaven2.json:brv_wh_item_04
 msgid "brv_wh_item_04"
 msgstr ""
@@ -45031,6 +48484,137 @@ msgstr ""
 msgid "Wolfhound"
 msgstr ""
 
+#: monsterlist_fungi_panic.json:bogsten
+msgid "Bogsten"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:zuul_khan
+#: monsterlist_fungi_panic.json:zuul_khan2
+#: monsterlist_fungi_panic.json:zuul_khan3
+#: monsterlist_fungi_panic.json:zuul_khan4
+#: monsterlist_fungi_panic.json:zuul_khan9
+#: monsterlist_gison.json:gison_thiefboss
+msgid "Zuul'khan"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:weak_fungi
+msgid "Weak fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:mid_fungi
+msgid "Fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:dangerous_fungi
+msgid "Dangerous fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:weak_fungi_1
+msgid "Angry weak fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:mid_fungi_1
+msgid "Angry fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:dangerous_fungi_1
+msgid "Angry dangerous fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:boss_fungi
+msgid "Great fungi"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:fungi_rescued
+#: monsterlist_fungi_panic.json:fungi_rescued2
+msgid "Lediofa"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:lombric_ball
+#: monsterlist_fungi_panic.json:lombric_ball2
+#: monsterlist_fungi_panic.json:lombric_ball3
+msgid "Lombric ball"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:lombric_beast
+msgid "Lombric beast"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:zuul_khan1_blocker
+#: monsterlist_fungi_panic.json:zuul_khan2_blocker
+#: monsterlist_fungi_panic.json:zuul_khan3_blocker
+#: monsterlist_fungi_panic.json:zuul_khan4_blocker
+#: monsterlist_fungi_panic.json:zuul_khan9_blocker
+msgid "Black fog"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:giant_snake
+msgid "Giant snake"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:wild_berry3
+msgid "Especially sweet berries"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:bogsten_granny
+#: monsterlist_fungi_panic.json:bogsten_granny1
+msgid "Undina Bogsten"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:bogsten_gambler1
+msgid "Bogal"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:bogsten_gambler2
+msgid "Botisto"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:bogsten_gambler3
+msgid "Bollo"
+msgstr ""
+
+#: monsterlist_fungi_panic.json:bogsten_ghost5
+msgid "Confused ghost"
+msgstr ""
+
+#: monsterlist_gison.json:gison
+msgid "Gison"
+msgstr ""
+
+#: monsterlist_gison.json:nimael
+msgid "Nimael"
+msgstr ""
+
+#: monsterlist_gison.json:gael
+msgid "Gael"
+msgstr ""
+
+#: monsterlist_gison.json:small_stone_worm
+msgid "Small stone worm"
+msgstr ""
+
+#: monsterlist_gison.json:stone_worm_2
+msgid "Stone worm"
+msgstr ""
+
+#: monsterlist_gison.json:old_stone_worm
+msgid "Old stone worm"
+msgstr ""
+
+#: monsterlist_gison.json:ancient_stone_worm
+msgid "Ancient stone worm"
+msgstr ""
+
+#: monsterlist_gison.json:angry_stoneworm
+msgid "Angry stone worm"
+msgstr ""
+
+#: monsterlist_gison.json:gison_thief1
+#: monsterlist_gison.json:gison_thief2
+#: monsterlist_gison.json:gison_thief3
+msgid "Thief"
+msgstr ""
+
 #: questlist.json:andor
 msgid "Search for Andor"
 msgstr ""
@@ -45071,6 +48655,14 @@ msgstr ""
 msgid "I heard a story in Loneford, where it seemed like Andor had been in Loneford, and that he might have had something to do with the illness that the people are suffering from there. I am not sure if it actually was Andor. If it was Andor, why would he have made the people of Loneford ill?"
 msgstr ""
 
+#: questlist.json:andor:62
+msgid "Andor might have gone to do some business with a rich man in Brimhaven after he left Loneford."
+msgstr ""
+
+#: questlist.json:andor:65
+msgid "It looks like Andor was involved in the destruction of the Brimhaven dam."
+msgstr ""
+
 #: questlist.json:andor:70
 msgid "I have found the potion-maker Lodar, and heard his story about Andor. Andor went to visit Lodar in his hideaway to get a sample of something called Narwood extract. Lodar happened to notice that there was someone travelling together with Andor, that hid among the trees and did not seem to want Lodar to spot him."
 msgstr ""
@@ -45085,6 +48677,14 @@ msgstr ""
 
 #: questlist.json:andor:80
 msgid "All clues so far as to where Andor went point to Nor City. I should travel to Nor City by following the Duleian road to the southeast and look for more clues there."
+msgstr ""
+
+#: questlist.json:andor:85
+msgid "Andor may have been in Stoutford."
+msgstr ""
+
+#: questlist.json:andor:86
+msgid "Andor had something to do with the demon under the church in Stoutford."
 msgstr ""
 
 #: questlist.json:andor:90
@@ -47694,7 +51294,7 @@ msgid "Rare delicacies"
 msgstr ""
 
 #: questlist_guynmart.json:guynmart_wise:10
-msgid "The old man on the hill top yearned for a meal of bread and cheese together with wine."
+msgid "I met an old man living in seclusion on a hill top. He yearned for a meal of bread and cheese, together with wine."
 msgstr ""
 
 #: questlist_guynmart.json:guynmart_wise:20
@@ -48380,6 +51980,10 @@ msgstr ""
 msgid "The brothers gave me a hand axe that could weaken the dam in a vulnerable place."
 msgstr ""
 
+#: questlist_brimhaven.json:brv_flood:53
+msgid "I took another hand axe. This time I shouldn't lose it."
+msgstr ""
+
 #: questlist_brimhaven.json:brv_flood:54
 msgid "I found the weak spot in the dam and started hacking at the wood."
 msgstr ""
@@ -48551,11 +52155,11 @@ msgid "With the password, I was allowed to enter the back room."
 msgstr ""
 
 #: questlist_brimhaven.json:brv_blackjack:45
-msgid "They trust me and now and are playing for higher amounts"
+msgid "They trust me and now and are playing for higher amounts."
 msgstr ""
 
 #: questlist_brimhaven.json:brv_blackjack:50
-msgid "After I accused the dealer of cheating a tavern brawl started."
+msgid "After I accused the dealer of cheating, a tavern brawl started."
 msgstr ""
 
 #: questlist_brimhaven.json:brv_blackjack:60
@@ -48632,7 +52236,7 @@ msgid "I decided to help Arlish by investigating Lawellyn's disappearance."
 msgstr ""
 
 #: questlist_brimhaven.json:brv_dagger:140
-msgid "In Brimhaven's western tavern, I met a man named Forlin who recommended that I speak to Kizzo in the Loneford tavern."
+msgid "In Brimhaven's eastern tavern, I met a man named Forlin who recommended that I speak to Kizzo in the Loneford tavern."
 msgstr ""
 
 #: questlist_brimhaven.json:brv_dagger:150
@@ -48856,7 +52460,7 @@ msgid "A traveler named Ewmondold had asked me to venture into the Snake Cave to
 msgstr ""
 
 #: questlist_brimhaven_2.json:new_snake_master:10
-msgid "Ewmondold had thanked me for killing the Snake master, and that his way to rule would be free. I should better find him."
+msgid "Ewmondold had thanked me for killing the Snake master, and that his way to rule would be free. I should find him."
 msgstr ""
 
 #: questlist_brimhaven_2.json:new_snake_master:30
@@ -48937,6 +52541,298 @@ msgstr ""
 
 #: questlist_brimhaven_2b.json:hettar_dog:90
 msgid "I explained to Hettar that I killed Norry. Hettar broke down on the floor in agony."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic
+msgid "Fungi panic"
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:10
+msgid "I met old man Bogsten in his cabin. He was sick after encountering a giant mushroom and wanted me to go see the potion merchant in Fallhaven to get a cure."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:20
+msgid "The potion merchant needed four spore samples to prepare the cure. I should go back to see Bogsten."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:30
+msgid "Bogsten gave me the key to his backyard. I should go to the mushroom cave from there and collect the spore samples."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:35
+msgid "I opened Bogsten's backyard door."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:40
+msgid "I showed Bogsten the spores. Now I should go back to see the potion merchant."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:50
+msgid "The potion merchant gave me the cure. I should give it to Bogsten now."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:52
+msgid "Bogsten was cured."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:60
+msgid "Bogsten said evil forces in his cave were preventing him from working. He asked me to check his cave and gave me his necklace."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:70
+msgid "I met an old sorcerer named Zuul'khan in the cave. He told me Bogsten's family imprisoned him using an ancient petrifying spell, but thanks to Bogsten's laxity, he was now free."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:72
+msgid "He wanted me to kill Bogsten and bring him Bogsten's staff."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:80
+msgid "I decided to slay Zuul'khan."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:90
+#: questlist_fungi_panic.json:fungi_panic:145
+msgid "I defeated Zuul'khan, but he was not dead. He disappeared into the ground."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:92
+msgid "I told Bogsten about what happened."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:100
+msgid "Bogsten remembered the petrifying spell. This time he would make sure that Zuul'khan cannot come back. He gave me a bag of mushrooms and told me I should take them to the potion merchant."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:102
+msgid "Zuul'khan seems to have moved away from Bogsten's caves to another hiding place."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:110
+msgid "The potion merchant said that these were very rare mushrooms. He prepared two \"Underground Fighter\" potions for me. He would sell me some more if I came back."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:115
+msgid "Zuul'khan's offer seemed interesting. I have to go kill Bogsten."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:135
+msgid "I decided to keep Bogsten's staff for myself, so I had to kill Zuul'khan."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:150
+msgid "I gave Bogsten's staff to Zuul'khan."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:155
+msgid "He rewarded me with permanent immunity to Spore Infection."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:161
+msgid "I got through the black fog."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:162
+msgid "I got through the black fog again after a fight with Zuul'khan."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:163
+msgid "And a third time."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:164
+msgid "After another fight with Zuul'khan I got through the black fog again."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:169
+msgid "I overpowered Zuul'khan one more time, but this time the black fog wouldn't go away. Obviously I can't get past the fog that way."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:170
+msgid "I defeated Zuul'khan one last time and the black fog was gone for good. I must find and destroy the fungi leader."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:200
+msgid "I defeated the giant mushroom, Zuul'khan's fungi leader."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:210
+msgid "A young girl named Lediofa emerged after my battle with the mushroom. She told me how Zuul'khan captured her as food for the mushroom. She seemed to have been poisoned just like Bogsten, so I directed her to see the Fallhaven potioner."
+msgstr ""
+
+#: questlist_fungi_panic.json:fungi_panic:220
+msgid "I met Lediofa at the potions shop in Fallhaven. She couldn't afford to pay the potioner for a mushroom poison cure, so I gave her the gold she needed. In return, she offered her family's hospitality if I ever come to visit in Nor City."
+msgstr ""
+
+#: questlist_fungi_panic.json:bela_gsnake
+msgid "A giant snake"
+msgstr ""
+
+#: questlist_fungi_panic.json:bela_gsnake:10
+msgid "I heard rumours of a giant snake to the south of Fallhaven."
+msgstr ""
+
+#: questlist_fungi_panic.json:bela_gsnake:90
+msgid "Bela was happy that I freed Fallhaven from the threat of this monstrous snake."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements
+msgid "Unusual experiences and achievements"
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:1
+msgid "Mikhail gave me a book in which I could put down my most unusual experiences and achievements."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:10
+msgid "On the road: My first glimpse of the great Duleian Road!"
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:20
+msgid "Community cleanup: I killed 20 highwaymen."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:30
+msgid "Prospector: I collected at least 100,000 gold."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:40
+msgid "Birdwatching: I spotted a falcon high above the Lake Laeroth watchtower."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:50
+msgid "Lazy day: I spent a while watching a beetle fight."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:60
+msgid "The secret garden: Near Guynmart Castle, I found Rob's secret clearing."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:70
+msgid "Hole in the wall: I discovered a secret room deep in a cave."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:80
+msgid "Tough luck: I must have fallen for every trap in the Arulir mountain. Ouch..."
+msgstr ""
+
+#: questlist_fungi_panic.json:achievements:100
+msgid "Swimming lessons: I swam along a raging river - and lived!"
+msgstr ""
+
+#: questlist_gison.json:gison_soup
+msgid "Delicious soup"
+msgstr ""
+
+#: questlist_gison.json:gison_soup:10
+msgid ""
+"In a hut southwest from Fallhaven I met Alaun.\n"
+"He asked me to bring him some of the delicious soup made by Gison with forest mushrooms.\n"
+"Gison's house lies to the south."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:20
+msgid "I found Gison's house and should deliver the soup to Alaun while it is hot."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:22
+msgid "Gison gave me a new soup for 5 gold."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:24
+msgid "Gison gave me a new soup for 50 gold."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:26
+msgid "Gison gave me a new soup for 500 gold."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:28
+msgid "Gison gave me a new soup for 5000 gold. I should really go to Alaun now."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:30
+msgid ""
+"Alaun received the soup.\n"
+"I should take the empty bottle back to Gison."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:35
+msgid "Alaun told me that Nimael also makes soup."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:40
+msgid "Gison thanked me for bringing the empty bottle back to him."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:50
+msgid ""
+"I spent 5555 gold on buying mushroom soup! Am I crazy? \n"
+"There is no soup left for Alaun now."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:60
+msgid "Gison insisted his soup is better than Nimael's."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:70
+msgid "Nimael insisted her soup is better than Gison's."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:80
+msgid "Gison gave me a taste of both soups."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:90
+msgid "Nimael gave me a taste of both soups."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:100
+msgid "Gison said he would talk to Nimael about selling both soups in Fallhaven."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:110
+msgid "Nimael said she would talk to Gison about selling both soups in Fallhaven."
+msgstr ""
+
+#: questlist_gison.json:gison_soup:120
+msgid "Nimael and Gison have been successful in selling more soup in Fallhaven by cooperating and creating more recipes."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook
+msgid "A raid for a cookbook"
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:10
+msgid "Gison, the man with the mushroom soup in the forest south of Fallhaven, got raided. Only his cookbook was stolen and he asked me to bring it back to him."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:15
+msgid "I agreed to help him."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:20
+msgid "Gison said the thieves came from the south. I should begin my search there."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:30
+msgid "I discovered a hidden cave. The thieves may be hiding there."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:40
+msgid "I found the thieves. Their leader was performing some kind of ritual when I came into the cave."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:60
+msgid "I brought the cookbook back to Gison. The thieves were working for Zuul'khan, the fungi sorcerer. They made a second copy of the book without the strange writing, which Gison gladly accepted. Gison can now cook his mushroom soup again."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:62
+msgid "I told Gison that I found the thieves, but that they had destroyed the cookbook."
+msgstr ""
+
+#: questlist_gison.json:gison_cookbook:70
+msgid "Gison will give me mushroom soup in thanks if I bring him 50 gold, 2 of Bogsten's mushrooms and an empty bottle."
 msgstr ""
 
 #: worldmap.xml:world1:crossglen

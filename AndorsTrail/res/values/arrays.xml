@@ -11,11 +11,11 @@
 	<!-- Order is hardcoded within StartScreenActivity_NewGame-->
 	<string-array name="startscreen_mode_selector">
 		<item>@string/startscreen_mode_unlimited_saves_and_lives</item>
-        <item>@string/startscreen_mode_unlimited_lives</item>
-        <item>@string/startscreen_mode_50_lives</item>
-        <item>@string/startscreen_mode_10_lives</item>
-        <item>@string/startscreen_mode_3_lives</item>
-        <item>@string/startscreen_mode_1_life</item>
+		<item>@string/startscreen_mode_unlimited_lives</item>
+		<item>@string/startscreen_mode_50_lives</item>
+		<item>@string/startscreen_mode_10_lives</item>
+		<item>@string/startscreen_mode_3_lives</item>
+		<item>@string/startscreen_mode_1_life</item>
 	</string-array>
 
 	<!-- Order is hardcoded within HeroInfoActivity_inventory-->
@@ -120,17 +120,17 @@
 		<item>1</item>
 		<item>2</item>
 	</string-array>
-	
-	
+
+
 	<string-array name="preferences_display_scaling_factor">
-        <item>@string/preferences_display_scaling_factor_50_percent</item>
+		<item>@string/preferences_display_scaling_factor_50_percent</item>
 		<item>@string/preferences_display_scaling_factor_75_percent</item>
 		<item>@string/preferences_display_scaling_factor_normal</item>
 		<item>@string/preferences_display_scaling_factor_50_percent_larger</item>
 		<item>@string/preferences_display_scaling_factor_double</item>
 	</string-array>
 	<string-array name="preferences_display_scaling_factor_values">
-        <item>0.5f</item>
+		<item>0.5f</item>
 		<item>0.75f</item>
 		<item>1.0f</item>
 		<item>1.5f</item>
@@ -140,18 +140,18 @@
 	<string-array name="preferences_language">
 		<item>@string/preferences_language_default</item>
 		<item>English</item>
-		<item>čeština (39%)</item>
-		<item>Deutsch (87%)</item>
-		<item>Español (83%)</item>
-		<item>Française (100%)</item>
-		<item>Italiano (100%)</item>
-		<item>Magyar (38%)</item>
-		<item>Polski (87%)</item>
-		<item>Português (96%)</item>
-		<item>Português Brasil (100%)</item>
-		<item>Русский язык (97%)</item>
-		<item>日本人 (100%)</item>
-		<item>中文 (35%)</item>
+		<item>čeština (36%)</item>
+		<item>Deutsch (81%)</item>
+		<item>Español (77%)</item>
+		<item>Française (93%)</item>
+		<item>Italiano (93%)</item>
+		<item>Magyar (35%)</item>
+		<item>Polski (80%)</item>
+		<item>Português (90%)</item>
+		<item>Português Brasil (93%)</item>
+		<item>Русский язык (93%)</item>
+		<item>日本人 (93%)</item>
+		<item>中文 (32%)</item>
 	</string-array>
 
 	<!-- see AndorsTrailApplication.localeForLanguageTag for allowed formats -->
